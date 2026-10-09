@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-09T18:38:10.347Z",
+  "ranAt": "2026-10-09T19:25:19.743Z",
   "requireAi": false,
   "outcomes": [
     {
@@ -48,8 +48,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -101,8 +101,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -154,8 +154,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -207,8 +207,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -260,8 +260,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -313,8 +313,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -366,8 +366,8 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
       "added": [],
@@ -419,10 +419,17 @@
         },
         {
           "gate": "G6",
-          "status": "pending",
-          "detail": "AI review not configured (ANTHROPIC_API_KEY missing)"
+          "status": "pass",
+          "detail": "no new or changed values to review"
         }
       ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "cpi-inflation (states)",
+      "result": "unchanged",
+      "gates": [],
       "added": [],
       "revised": []
     }

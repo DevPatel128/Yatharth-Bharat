@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { dict, isLang, LANGS, pick } from '@/lib/i18n';
-import { REGIONS, getRegion } from '@/lib/data';
+import { dict, fmtNumber, fmtPeriod, isLang, LANGS, pick } from '@/lib/i18n';
+import { DISPLAY_DECIMALS, REGIONS, getRegion, regionalFor } from '@/lib/data';
+import { LineChart } from '@/components/LineChart';
 import { buildMap, MAP_H, MAP_W } from '@/lib/geo';
 import { Bi, anyFallback } from '@/components/Bi';
 import { Disclaimer, HindiPendingNote } from '@/components/Disclaimer';
@@ -25,6 +26,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
   if (!isLang(lang) || !r) notFound();
   const d = dict(lang);
   const { shapes } = buildMap();
+  const series = regionalFor(r.id);
   const s = shapes.find((x) => x.id === r.id);
   const [[x0, y0], [x1, y1]] = s?.bounds ?? [[0, 0], [MAP_W, MAP_H]];
   const padX = (x1 - x0) * 0.15 + 4, padY = (y1 - y0) * 0.15 + 4;
@@ -51,10 +53,31 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
 
       <section className="mt-10" aria-labelledby="data-h">
         <h2 id="data-h" className="text-xl font-semibold">{d.region.dataHeading}</h2>
-        <p className="mt-2 text-ink-muted max-w-2xl">{d.region.noRegionalData} <Link href={`/${lang}/scorecard`}>{d.nav.scorecard}</Link></p>
+        {series.length === 0 && <p className="mt-2 text-ink-muted max-w-2xl">{d.region.noRegionalData} <Link href={`/${lang}/scorecard`}>{d.nav.scorecard}</Link></p>}
+        {series.map(({ indicator, series: s }) => {
+          const last = s.observations.at(-1);
+          const dec = DISPLAY_DECIMALS[indicator.id] ?? 1;
+          const national = indicator.observations.find((o) => o.period === last?.period);
+          const name = pick(indicator.name, lang).text;
+          return (
+            <article key={indicator.id} className="mt-4 max-w-3xl">
+              <h3 className="text-lg font-sans font-semibold"><Link href={`/${lang}/scorecard/${indicator.id}`}>{name}</Link></h3>
+              {last && (
+                <p className="mt-1">
+                  <span className="text-3xl num">{fmtNumber(last.value, lang, dec)}</span>{' '}
+                  <span className="text-sm text-ink-muted">{pick(indicator.unit, lang).text} · {fmtPeriod(last.period, lang)}</span>
+                </p>
+              )}
+              {national && <p className="text-sm text-ink-muted">{d.region.allIndiaSameMonth}: <span className="num">{fmtNumber(national.value, lang, dec)}</span></p>}
+              {s.state !== 'verified' && <p className="text-sm text-sindoor">{d.freshness.stale}</p>}
+              <LineChart points={s.observations} lang={lang} decimals={dec} height={140} unit={`${pick(indicator.unit, lang).text}`}
+                label={d.scorecard.chartAlt(`${name}, ${pick(r.name, lang).text}`, fmtPeriod(s.observations[0]?.period ?? '', lang), fmtPeriod(last?.period ?? '', lang))} />
+            </article>
+          );
+        })}
       </section>
 
-      <ReferenceList evidence={r.evidence} lang={lang} />
+      <ReferenceList evidence={[...r.evidence, ...series.flatMap(({ series: s }) => s.observations.at(-1)?.evidence ?? [])]} lang={lang} />
       <Disclaimer lang={lang} />
     </article>
   );

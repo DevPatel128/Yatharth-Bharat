@@ -1,7 +1,7 @@
 // Published data integrity: these run against the committed records, so a bad data PR fails CI.
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { INDICATORS, REGIONS, DISPLAY_DECIMALS, HEADLINE } from '../src/lib/data.ts';
+import { INDICATORS, REGIONS, DISPLAY_DECIMALS, HEADLINE, REGIONAL } from '../src/lib/data.ts';
 import { SOURCES } from '../src/lib/sources.ts';
 import { g7Legal, g8Hindi } from '../pipeline/gates.ts';
 import { parsePortal } from '../pipeline/portal.ts';
@@ -45,5 +45,20 @@ describe('indicators', () => {
       expect(g7Legal(fields.flatMap((f) => [f.en, f.hi ?? ''])).status, i.id).toBe('pass');
       for (const f of fields) expect(g8Hindi(f.en, f.hi).status, `${i.id}: ${f.en}`).toBe('pass');
     }
+  });
+});
+
+describe('regional series', () => {
+  it('only uses known region ids and the national definition exists', () => {
+    const ids = new Set(REGIONS.map((r) => r.id));
+    for (const r of REGIONAL) {
+      expect(INDICATORS.some((i) => i.id === r.indicatorId), r.indicatorId).toBe(true);
+      for (const k of Object.keys(r.regions)) expect(ids.has(k), k).toBe(true);
+    }
+  });
+  it('state CPI covers all 36 states and UTs, each value with evidence', () => {
+    const cpi = REGIONAL.find((r) => r.indicatorId === 'cpi-inflation')!;
+    expect(Object.keys(cpi.regions)).toHaveLength(36);
+    for (const [k, v] of Object.entries(cpi.regions)) for (const o of v.observations) expect(o.evidence[0].quote, `${k} ${o.period}`).toContain(o.period.slice(0, 4));
   });
 });

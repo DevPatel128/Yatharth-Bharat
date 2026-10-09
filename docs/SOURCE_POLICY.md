@@ -17,7 +17,7 @@ A source is added only as a code change to `src/lib/sources.ts` declaring: publi
 ## Current registry (2026-10-10)
 | Source | Category | Access | Used for |
 |---|---|---|---|
-| MoSPI eSankhyiki API | Indian government | JSON + CSV API | PLFS unemployment, CPI inflation |
+| MoSPI eSankhyiki API | Indian government | JSON + CSV API | PLFS unemployment, CPI inflation (national and all 36 states/UTs) |
 | World Bank WDI API | International | JSON + XML API | GDP growth (interim, D-008), GDP per capita, life expectancy, infant mortality, electricity, internet |
 | IMF DataMapper | International | JSON API | cross-check only (actuals ≤ 2025) |
 | National Portal of India | Indian government | manual capture | state/UT names, status, capitals |
@@ -28,4 +28,5 @@ A source is added only as a code change to `src/lib/sources.ts` declaring: publi
 - MoSPI NAS endpoint returned PostgreSQL errors (`42P01`) for every query on 2026-10-09.
 - MoSPI CPI 2024 endpoint ignores `Format=CSV`; limits differ by parameter combination (100 vs 200).
 - Lok Sabha Hindi state names: stray nukta in "Ladakh", truncated "Delhi", incomplete "Dadra and Nagar Haveli and Daman and Diu".
+- MHA's Hindi site spells Ladakh "लदाख" while Lok Sabha records use "ल़द्दाख": official sources disagree, so neither is published (D-011).
 - National Portal's own Hindi version is machine-translated (stated by the portal); not used.

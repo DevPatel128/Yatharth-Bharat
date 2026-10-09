@@ -100,3 +100,12 @@ export const Region = z.object({
 export type Region = z.infer<typeof Region>;
 
 export const RegionsFile = z.object({ schemaVersion: z.literal(1), regions: z.array(Region) });
+
+/** State/UT-level series of a national indicator (same definition, methodology and source). */
+export const RegionalIndicator = z.object({
+  schemaVersion: z.literal(1),
+  indicatorId: z.string().min(1),
+  lastVerifiedAt: isoDateTime.nullable(),
+  regions: z.record(z.string().regex(/^[a-z0-9-]+$/), z.object({ state: z.enum(['verified', 'stale', 'unavailable']), observations: z.array(Observation) })),
+});
+export type RegionalIndicator = z.infer<typeof RegionalIndicator>;

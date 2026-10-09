@@ -80,12 +80,12 @@ export async function mospiPlfsMonthlyUR(): Promise<DualExtraction> {
  * values (index this month / index 12 months earlier - 1). Agreement within 0.05 points confirms both the
  * published rate and the index it is based on.
  */
-export async function mospiCpiInflation(): Promise<DualExtraction> {
-  const params = { base_year: '2024', series: 'Current', division_code: '0', sector_code: '3', state_code: '1', limit: '100', Format: 'JSON' }; // state_code 1 = All India in the 2024 series (99 in PLFS)
+export async function mospiCpiInflation(stateCode = '1', stateName = 'All India'): Promise<DualExtraction> {
+  const params = { base_year: '2024', series: 'Current', division_code: '0', sector_code: '3', state_code: stateCode, limit: '100', Format: 'JSON' }; // state_code 1 = All India in the 2024 series (99 in PLFS)
   const json = await safeFetch(`https://api.mospi.gov.in/api/cpi/getCPIData?${new URLSearchParams(params)}`, MOSPI);
   const parsed = JSON.parse(json.body.toString('utf8')) as MospiJson;
   if (!Array.isArray(parsed.data) || parsed.error || parsed.statusCode === false) throw new Error(`MoSPI CPI: ${parsed.error ?? parsed.msg ?? 'unexpected response shape'}`);
-  const rows = parsed.data.filter((r) => String(r.state) === 'All India' && String(r.sector) === 'Combined' && String(r.division) === 'CPI (General)');
+  const rows = parsed.data.filter((r) => String(r.state) === stateName && String(r.sector) === 'Combined' && String(r.division) === 'CPI (General)');
   const published = rows.filter((r) => r.inflation !== null && String(r.inflation) !== '').map((r) => ({ period: monthPeriod(String(r.year), String(r.month)), value: num(r.inflation) }));
   const index = new Map(rows.map((r) => [monthPeriod(String(r.year), String(r.month)), num(r.index)]));
   const derived = published.flatMap((p) => {
@@ -93,7 +93,7 @@ export async function mospiCpiInflation(): Promise<DualExtraction> {
     const base = index.get(`${Number(y) - 1}-${m}`), cur = index.get(p.period);
     return base && cur ? [{ period: p.period, value: Math.round((cur / base - 1) * 10000) / 100 }] : [];
   });
-  const locatorFor = (p: Point) => { const [y, m] = p.period.split('-'); return `"year":"${y}","month":"${MONTHS[Number(m) - 1]}","state":"All India","sector":"Combined","division":"CPI (General)"`; };
+  const locatorFor = (p: Point) => { const [y, m] = p.period.split('-'); return `"year":"${y}","month":"${MONTHS[Number(m) - 1]}","state":"${stateName}","sector":"Combined","division":"CPI (General)"`; };
   return {
     a: { points: published, snapshot: json, format: 'json', locatorFor },
     b: { points: derived, snapshot: json, format: 'json', locatorFor },
@@ -133,4 +133,18 @@ export async function imf(code: string, lastActualYear: number): Promise<Point[]
   const series = parsed.values?.[code]?.IND;
   if (!series) throw new Error(`IMF ${code}: no India series in response`);
   return Object.entries(series).filter(([y]) => Number(y) <= lastActualYear).map(([y, v]) => ({ period: y, value: num(v) }));
+}
+
+/** MoSPI CPI (2024 series) state codes, discovered from the API itself: code → state name exactly as served. */
+export async function mospiCpiStates(): Promise<Map<string, string>> {
+  const out = new Map<string, string>();
+  for (let code = 2; code <= 40; code++) {
+    const url = `https://api.mospi.gov.in/api/cpi/getCPIData?${new URLSearchParams({ base_year: '2024', series: 'Current', division_code: '0', sector_code: '3', state_code: String(code), limit: '10', Format: 'JSON' })}`;
+    const r = await safeFetch(url, MOSPI);
+    const parsed = JSON.parse(r.body.toString('utf8')) as MospiJson;
+    const name = parsed.data?.[0]?.state;
+    if (typeof name === 'string') out.set(String(code), name);
+    await new Promise((res) => setTimeout(res, 250)); // be polite to a government server
+  }
+  return out;
 }
