@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/representatives', '/hi/representatives', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });
@@ -75,4 +75,18 @@ test('health endpoint reports real data state', async ({ request }) => {
   const body = await r.json();
   expect(body.regions).toBe(36);
   expect(typeof body.lastVerified).toBe('string');
+});
+
+test('representatives: search filters the table', async ({ page }) => {
+  await page.goto('/en/representatives');
+  const rows = page.locator('tbody tr');
+  expect(await rows.count()).toBeGreaterThan(500);
+  await page.getByLabel('Search by state, constituency or name').fill('Wayanad');
+  await expect(rows).toHaveCount(1);
+});
+
+test('region page lists its MPs and state inflation', async ({ page }) => {
+  await page.goto('/en/states/kerala');
+  await expect(page.getByRole('heading', { name: /Members of Parliament \(Lok Sabha\) from this region \(20\)/ })).toBeVisible();
+  await expect(page.getByText('All India, same month')).toBeVisible();
 });

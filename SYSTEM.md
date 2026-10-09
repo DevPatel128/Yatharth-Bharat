@@ -24,6 +24,8 @@ Browser: server-rendered HTML; client JS only for map interaction, search, langu
 | Observation | inside Indicator | period, value, status, series (base year), evidence[], revisions[] | public |
 | Evidence | inside Observation/Region | sourceId, url, retrievedAt, snapshotSha256, verbatim quote, method | public |
 | Region | `data/records/geo/regions.json` | id (slug), kind (state/UT), name & capital (EN+HI or null), boundaryName, evidence[] | public |
+| RegionalIndicator | `data/records/regional/<id>.json` | indicatorId, regions{id: {state, observations[]}} | public |
+| Legislature | `data/records/people/lok-sabha-18.json` | members[{id, name, party, constituency (EN+HI), regionId, evidence}], noSittingMember[] | public (office facts only) |
 | Run report | `data/runs/latest.{json,md}` | per indicator: result (published/unchanged/held/source-failed), gate results | public |
 
 User tables: **none** (D-004). `src/db.ts` stays the only file allowed to touch `env.DB` when D1 is added.

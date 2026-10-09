@@ -62,3 +62,18 @@ describe('regional series', () => {
     for (const [k, v] of Object.entries(cpi.regions)) for (const o of v.observations) expect(o.evidence[0].quote, `${k} ${o.period}`).toContain(o.period.slice(0, 4));
   });
 });
+
+describe('Lok Sabha members', async () => {
+  const { LOK_SABHA } = await import('../src/lib/data.ts');
+  it('accounts for all 543 seats', () => expect(LOK_SABHA.members.length + LOK_SABHA.noSittingMember.length).toBe(543));
+  it('stores no contact or personal details in evidence', () => {
+    for (const m of LOK_SABHA.members) for (const e of m.evidence) expect(e.quote, m.id).not.toMatch(/Phone|phone|email|Addr|dob|maritalStatus|numberOf/);
+  });
+  it('every member belongs to a known region', () => {
+    const ids = new Set(REGIONS.map((r) => r.id));
+    for (const m of LOK_SABHA.members) expect(ids.has(m.regionId), m.id).toBe(true);
+  });
+  it('member Hindi text passes the Hindi gate', () => {
+    for (const m of LOK_SABHA.members) for (const f of [m.name, m.party, m.constituency]) if (f.hi) expect(g8Hindi(f.en, f.hi).status, `${m.id} ${f.en}`).toBe('pass');
+  });
+});

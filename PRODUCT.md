@@ -16,7 +16,9 @@
 - Stage 0 Foundation — **Done** (local; deploy pending credentials)
 - Stage 1a Map — **Done** (states/UTs; districts Next)
 - Stage 1b Scorecard — **Now** (8 indicators live; 12 categories shown, empty ones say so)
-- 1c Government explained · 1d Who fixes this / constituency · 1e Public money · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
+- 1d Your representatives — **Done (MPs)**: 540 sitting members + 3 seats without a sitting member; MLAs/councillors Next
+- Region pages — **Done**: state CPI inflation for all 36 + MPs per region
+- 1c Government explained · 1d Who fixes this · 1e Public money · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
 - Select & Export (PDF/snippet with citations) — **Later** (data model already has stable ids and evidence for it)
 
 ## Features (acceptance criteria get IDs; PRs deliver IDs)
@@ -42,6 +44,11 @@
 - F3.3 Given an international source, when shown, then it is labelled "not the Government of India". (page)
 - F3.4 Given a revised value, when published, then the earlier value stays visible in "Revisions". (pipeline)
 - F3.5 Given values from different series, when charted, then they are never joined into one line. (LineChart + data.test.ts)
+
+### F5 Representatives — Done (Lok Sabha)
+- F5.1 Given the representatives page, when a user types a state, constituency or name, then the table filters in the browser. (e2e)
+- F5.2 Given a member record, when stored, then it contains no contact or personal details. (data.test.ts)
+- F5.3 Given the nightly run, when more than 10% of members change or seats do not sum to 543, then the update is held. (people.ts)
 
 ### F4 Daily data pipeline — Done (local); scheduled run pending secrets
 - F4.1 Given the daily run, when a source fails, then its last verified record stays and is marked stale, and an issue is opened. (run.ts, workflow)

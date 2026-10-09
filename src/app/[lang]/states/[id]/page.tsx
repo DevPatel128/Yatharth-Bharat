@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { dict, fmtNumber, fmtPeriod, isLang, LANGS, pick } from '@/lib/i18n';
-import { DISPLAY_DECIMALS, REGIONS, getRegion, regionalFor } from '@/lib/data';
+import { DISPLAY_DECIMALS, LOK_SABHA, REGIONS, getRegion, mpsFor, regionalFor } from '@/lib/data';
+import { MemberTable } from '@/components/MemberTable';
 import { LineChart } from '@/components/LineChart';
 import { buildMap, MAP_H, MAP_W } from '@/lib/geo';
 import { Bi, anyFallback } from '@/components/Bi';
@@ -27,6 +28,8 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
   const d = dict(lang);
   const { shapes } = buildMap();
   const series = regionalFor(r.id);
+  const mps = mpsFor(r.id);
+  const vacant = LOK_SABHA.noSittingMember.filter((v) => v.regionId === r.id);
   const s = shapes.find((x) => x.id === r.id);
   const [[x0, y0], [x1, y1]] = s?.bounds ?? [[0, 0], [MAP_W, MAP_H]];
   const padX = (x1 - x0) * 0.15 + 4, padY = (y1 - y0) * 0.15 + 4;
@@ -77,7 +80,17 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
         })}
       </section>
 
-      <ReferenceList evidence={[...r.evidence, ...series.flatMap(({ series: s }) => s.observations.at(-1)?.evidence ?? [])]} lang={lang} />
+      <section className="mt-10" aria-labelledby="mps-h">
+        <h2 id="mps-h" className="text-xl font-semibold">{d.reps.mpsHeading} ({mps.length})</h2>
+        <p className="mt-1 text-sm text-ink-muted max-w-3xl">{d.reps.whatMpDoesBody}</p>
+        <div className="mt-3 max-w-4xl">
+          <MemberTable rows={mps.map((m) => ({ ...m, regionName: '' }))} lang={lang} showState={false} labels={{ constituency: d.reps.constituency, member: d.reps.member, party: d.reps.party, state: d.reps.state }} />
+        </div>
+        {vacant.map((v) => <p key={v.constituency.en} className="mt-2 text-sm text-ink-muted">{pick(v.constituency, lang).text}: {d.reps.noSitting}</p>)}
+        <p className="mt-2 text-sm"><Link href={`/${lang}/representatives`}>{d.nav.reps}</Link></p>
+      </section>
+
+      <ReferenceList evidence={[...r.evidence, ...(mps[0]?.evidence.slice(0, 1) ?? []), ...series.flatMap(({ series: s }) => s.observations.at(-1)?.evidence ?? [])]} lang={lang} />
       <Disclaimer lang={lang} />
     </article>
   );

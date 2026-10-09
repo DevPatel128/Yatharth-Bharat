@@ -33,8 +33,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           set +e
-          npm run data:run
-          echo "code=$?" >> "$GITHUB_OUTPUT"
+          npm run data:run; a=$?
+          node pipeline/people.ts; b=$?
+          echo "code=$(( a > b ? a : b ))" >> "$GITHUB_OUTPUT"
       - name: open or update the data PR
         env:
           GH_TOKEN: ${{ steps.app.outputs.token || github.token }}

@@ -10,6 +10,7 @@
 
 | 2026-10-10 | `/[lang]/states/[id]` | "<state> inflation" | State CPI inflation with All-India comparison |
 | 2026-10-10 | `/sitemap.xml`, `/robots.txt` | discovery | hreflang alternates for EN/HI |
+| 2026-10-10 | `/[lang]/representatives` | "who is my MP", "<constituency> MP" | 540 MPs, searchable, EN/HI |
 
 ## Not done yet
 Open Graph images, JSON-LD (`Dataset`), Search Console. Monthly AEO check (WOLF `research` skill) once the site is live.

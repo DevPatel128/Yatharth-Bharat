@@ -109,3 +109,29 @@ export const RegionalIndicator = z.object({
   regions: z.record(z.string().regex(/^[a-z0-9-]+$/), z.object({ state: z.enum(['verified', 'stale', 'unavailable']), observations: z.array(Observation) })),
 });
 export type RegionalIndicator = z.infer<typeof RegionalIndicator>;
+
+/**
+ * A member of a legislature, limited to fields the official record publishes about the office.
+ * Never phone numbers, addresses, family details or anything evaluative (G7).
+ */
+export const Member = z.object({
+  id: z.string().min(1), // the legislature's own member number
+  name: Bilingual,
+  party: Bilingual,
+  constituency: Bilingual,
+  regionId: z.string().regex(/^[a-z0-9-]+$/),
+  evidence: z.array(Evidence).min(1),
+});
+export type Member = z.infer<typeof Member>;
+
+export const LegislatureFile = z.object({
+  schemaVersion: z.literal(1),
+  house: z.literal('lok-sabha'),
+  term: z.number().int(),
+  lastVerifiedAt: isoDateTime,
+  sourceUrl: httpsUrl,
+  members: z.array(Member),
+  /** Constituencies with no sitting member in the official record on lastVerifiedAt. */
+  noSittingMember: z.array(z.object({ regionId: z.string(), constituency: Bilingual })),
+});
+export type LegislatureFile = z.infer<typeof LegislatureFile>;
