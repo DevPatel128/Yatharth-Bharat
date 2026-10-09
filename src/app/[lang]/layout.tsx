@@ -13,6 +13,8 @@ const plexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: ['400', '500'], var
 const notoSerif = Noto_Serif({ subsets: ['latin'], weight: ['500', '600'], variable: '--font-noto-serif', display: 'swap' });
 const notoSerifDeva = Noto_Serif_Devanagari({ subsets: ['devanagari'], weight: ['500', '600'], variable: '--font-noto-serif-deva', display: 'swap' });
 
+const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
+
 export const dynamicParams = false;
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
@@ -48,6 +50,10 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
         <main id="main" className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6">{children}</main>
         <SiteFooter lang={lang} />
         <Telemetry />
+        {CF_BEACON && (
+          // Cloudflare Web Analytics: cookieless, no personal data (owner choice over PostHog, DECISIONS.md D-009).
+          <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={JSON.stringify({ token: CF_BEACON })} />
+        )}
       </body>
     </html>
   );

@@ -37,7 +37,7 @@ User tables: **none** (D-004). `src/db.ts` stays the only file allowed to touch 
 | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` | GitHub secrets (env `production`) | `wrangler deploy` |
 | `SENTRY_AUTH_TOKEN`, `SENTRY_PROJECT` | GitHub secret / variable | post-deploy error watch |
 | `PROD_URL`, `AUTOPILOT` | GitHub variables | deploy target; `off` stops data runs |
-| `NEXT_PUBLIC_POSTHOG_KEY`, `NEXT_PUBLIC_SENTRY_DSN` | build env | browser analytics/errors (not yet wired: pending keys) |
+| `NEXT_PUBLIC_CF_BEACON_TOKEN`, `NEXT_PUBLIC_SENTRY_DSN` | build env (GitHub variables) | Cloudflare Web Analytics; browser error reports (off until set) |
 
 ## Endpoints
 | Method path | Auth | Input | Limits | Idempotent | Errors |
