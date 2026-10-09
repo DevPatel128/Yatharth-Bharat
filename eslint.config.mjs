@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated: static export, wrangler dev bundles, Playwright output.
+    "out/**",
+    ".wrangler/**",
+    "playwright-report/**",
+    "test-results/**",
   ]),
 ]);
 

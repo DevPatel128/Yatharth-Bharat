@@ -13,7 +13,7 @@ function health(): Response {
   return Response.json({ ok, regions: REGIONS.length, indicators: INDICATORS.length, stale, lastVerified, dataAgeHours: Math.round(ageHours) }, { status: ok ? 200 : 503, headers: { 'cache-control': 'no-store' } });
 }
 
-export default {
+const worker = {
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
     if (url.pathname === '/api/health') return req.method === 'GET' ? health() : new Response('Method Not Allowed', { status: 405, headers: { allow: 'GET' } });
@@ -26,3 +26,5 @@ export default {
     return env.ASSETS.fetch(req);
   },
 };
+
+export default worker;
