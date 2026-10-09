@@ -14,7 +14,7 @@ const path = () => (typeof location === 'undefined' ? '' : location.pathname); /
 
 export function track(event: TrackEvent, props: Props = {}) {
   if (!PH_KEY || typeof window === 'undefined') return;
-  const body = JSON.stringify({ api_key: PH_KEY, event, distinct_id: sessionId, properties: { ...props, $current_url: `${location.origin}${path()}`, $process_person_profile: false, $lib: 'yb-web' } });
+  const body = JSON.stringify({ api_key: PH_KEY, event, distinct_id: sessionId, properties: { ...props, $current_url: `${location.origin}${path()}`, $process_person_profile: false, $lib: 'yb-web', site: 'yatharth-bharat' } });
   const sent = navigator.sendBeacon?.(`${PH_HOST}/i/v0/e/`, new Blob([body], { type: 'application/json' }));
   if (!sent) fetch(`${PH_HOST}/i/v0/e/`, { method: 'POST', body, keepalive: true }).catch(() => {});
 }
