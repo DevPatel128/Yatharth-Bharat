@@ -2,7 +2,7 @@
 
 India, as the official record shows it. A bilingual (English/Hindi), evidence-first public-information site: official statistics and facts about India and its 28 states and 8 Union Territories, every figure linked to its source and passed through an automated verification gate before it appears.
 
-**Status (2026-10-10):** Stage 0 foundation and Stage 1a map are working locally. Eight indicators are live from MoSPI and the World Bank. **Not deployed yet**: it needs Cloudflare credentials. See `PRODUCT.md` for the roadmap.
+**Status (2026-10-10):** Stage 0 foundation and Stage 1a map work. Eight indicators are live from MoSPI and the World Bank. **Preview deployed** at https://yatharth-bharat.dvpatel.workers.dev (manual deploy; CI deploy needs Cloudflare secrets in GitHub). See `PRODUCT.md` for the roadmap.
 
 ## What works
 - Interactive map of India (36 regions, keyboard and screen-reader accessible, shareable `?region=` links, intro animation that respects reduced motion).

@@ -4,7 +4,7 @@
 ## Project
 - **Product:** Yatharth Bharat: bilingual (EN/HI), evidence-first public information about India; every figure linked to its official source and passed through the Brutal Gate.
 - **Mode:** website (static export) + small Worker
-- **Live:** UNKNOWN (not deployed) · **Repo:** UNKNOWN
+- **Live:** https://yatharth-bharat.dvpatel.workers.dev (preview, unannounced; deployed manually 2026-10-10) · **Repo:** https://github.com/DevPatel128/Yatharth-Bharat (private)
 - **Commands:** `npm run dev` · `npm run check` (db scope + typecheck + eslint + lint:slop + vitest + isolation) · `npm run build` · `npm run e2e` (needs build) · `npm run data:run` · `npm run deploy`
 - **Project rules:**
   1. Never invent a fact, number, name, date or translation. Missing data is shown as missing. Unverified Hindi falls back to English.
