@@ -23,7 +23,7 @@ export function MemberSearch({ rows, labels }: { rows: Row[]; labels: { search: 
           <tbody>
             {shown.map((r) => (
               <tr key={r.id} className="border-b border-rule align-top">
-                <th scope="row" className="py-1.5 pr-4 font-normal" lang={r.constLang}>{r.constituency}</th>
+                <th scope="row" className="py-1.5 pr-4 font-normal text-left" lang={r.constLang}>{r.constituency}</th>
                 <td className="py-1.5 pr-4" lang={r.nameLang}>{r.name}</td>
                 <td className="py-1.5 pr-4 text-ink-muted" lang={r.partyLang}>{r.party}</td>
                 <td className="py-1.5 text-ink-muted">{r.state}</td>

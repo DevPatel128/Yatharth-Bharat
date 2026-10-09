@@ -76,7 +76,7 @@ export default async function IndicatorPage({ params }: PageProps<'/[lang]/score
             <tbody>
               {[...obs].reverse().map((o) => (
                 <tr key={o.period} className="border-b border-rule">
-                  <th scope="row" className="py-1.5 pr-4 font-normal">{fmtPeriod(o.period, lang)}</th>
+                  <th scope="row" className="py-1.5 pr-4 font-normal text-left">{fmtPeriod(o.period, lang)}</th>
                   <td className="py-1.5 pr-4 text-right num">{fmtNumber(o.value, lang, dec)}</td>
                   <td className="py-1.5 text-ink-muted">{o.series}</td>
                 </tr>

@@ -20,7 +20,7 @@ export function MemberTable({ rows, lang, labels, showState }: { rows: MemberRow
         <tbody>
           {rows.map((m) => (
             <tr key={m.id} className="border-b border-rule align-top">
-              <th scope="row" className="py-1.5 pr-4 font-normal"><Bi value={m.constituency} lang={lang} /></th>
+              <th scope="row" className="py-1.5 pr-4 font-normal text-left"><Bi value={m.constituency} lang={lang} /></th>
               <td className="py-1.5 pr-4"><Bi value={m.name} lang={lang} /></td>
               <td className="py-1.5 pr-4 text-ink-muted"><Bi value={m.party} lang={lang} /></td>
               {showState && <td className="py-1.5 text-ink-muted">{m.regionName}</td>}
