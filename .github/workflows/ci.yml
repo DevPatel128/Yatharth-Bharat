@@ -74,9 +74,10 @@ jobs:
         with: { node-version: 24, cache: npm }
       - run: npm ci && npm run build
       - run: npx wrangler deploy
-      - name: watch (smoke + 10 min Sentry)
-        run: bash scripts/deploy-watch.sh "$URL" "$GITHUB_SHA" && bash scripts/cf-usage.sh || true
-        env: { SENTRY_AUTH_TOKEN: '${{ secrets.SENTRY_AUTH_TOKEN }}', SENTRY_PROJECT: '${{ vars.SENTRY_PROJECT }}' }
+      - name: smoke test the live site (health reflects real data state)
+        run: |
+          for i in 1 2 3 4 5 6; do curl -fsS --max-time 10 "$URL/api/health" && curl -fsS -o /dev/null --max-time 10 "$URL/en" && exit 0; sleep 10; done
+          exit 1
       - name: rollback on failure
         if: failure()
         run: npx wrangler rollback --message "auto-rollback $GITHUB_SHA" && exit 1

@@ -15,12 +15,12 @@ export function ReferenceList({ evidence, lang }: { evidence: Evidence[]; lang: 
           return (
             <li key={`${e.sourceId}${e.url}`} className="pl-1">
               <p className="font-medium">{s.publisher}</p>
-              <p><a href={e.url} rel="noopener noreferrer" className="break-all" data-track="source_opened" data-track-id={e.sourceId}>{pick(s.name, lang).text}</a></p>
+              <p><a href={e.url} rel="noopener noreferrer" className="break-all">{pick(s.name, lang).text}</a></p>
               <p className="text-sm text-ink-muted">
                 {d.references.retrieved}: {fmtDate(e.retrievedAt, lang)} · {d.references.method[e.method]} · {d.sources.categories[s.category]}
               </p>
               <details className="mt-1 text-sm">
-                <summary className="cursor-pointer text-ink-muted" data-track="evidence_opened" data-track-id={e.sourceId}>{d.references.evidence}</summary>
+                <summary className="cursor-pointer text-ink-muted">{d.references.evidence}</summary>
                 <pre className="mt-2 whitespace-pre-wrap break-all bg-paper-raised border border-rule rounded-[var(--radius-control)] p-3 font-mono text-xs">{e.quote}</pre>
                 <p className="text-xs text-ink-muted mt-1 num">SHA-256 {e.snapshotSha256}</p>
               </details>

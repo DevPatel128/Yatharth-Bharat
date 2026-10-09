@@ -11,8 +11,8 @@ npm run data:run       # live pipeline (local mode: AI gates may be pending)
 
 ## Deploy (Cloudflare Workers + static assets)
 1. One-time: create the Worker by running `npx wrangler deploy` once while logged in (`npx wrangler login`), or let CI do it.
-2. GitHub → Settings → Environments → `production`: secrets `CLOUDFLARE_API_TOKEN` (scopes: Workers Scripts Edit, Account Settings Read), `CLOUDFLARE_ACCOUNT_ID`; variables `PROD_URL`, `SENTRY_PROJECT`.
-3. Push to `main` → `ci.yml` verify → deploy → `deploy-watch.sh` smoke + 10-minute Sentry watch → auto-rollback on failure.
+2. GitHub → Settings → Environments → `production`: secrets `CLOUDFLARE_API_TOKEN` (scopes: Workers Scripts Edit, Account Settings Read), `CLOUDFLARE_ACCOUNT_ID`; variable `PROD_URL`.
+3. Push to `main` → `ci.yml` verify → deploy → live smoke test (`/api/health`, `/en`) → auto-rollback on failure.
 4. Custom domain: Cloudflare dashboard → Workers → yatharth-bharat → Domains & Routes.
 
 ## Daily data update
@@ -35,7 +35,7 @@ Pending for this lane: Constitution of India Hindi text (fixes 3 Hindi state nam
 |---|---|
 | `/api/health` 503 | Check the latest "Data pipeline" issue; a stale source is expected to recover; if all stale, check Actions logs |
 | Data issue opened | Read `data/runs/latest.md`; source down → wait/retry; gate held → investigate the value against the source; never hand-edit records |
-| Sentry spike after deploy | Auto-rollback should have fired; if not, `npx wrangler rollback` |
+| Errors after deploy | Check `npx wrangler tail` / Workers logs; auto-rollback should have fired; if not, `npx wrangler rollback` |
 | MoSPI NAS endpoint recovers | Switch `gdp-growth` primary to MoSPI (D-008) |
 
 ## Incidents

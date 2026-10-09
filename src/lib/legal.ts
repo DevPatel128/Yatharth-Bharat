@@ -18,7 +18,7 @@ export function legal(page: 'privacy' | 'terms' | 'corrections', lang: Lang): Pa
     const draft = `मसौदा, कानूनी समीक्षा लंबित। अंतिम अद्यतन ${LEGAL_UPDATED}।`;
     if (page === 'privacy') return { title: 'गोपनीयता नीति', draft, sections: [
       { h: 'हम क्या एकत्र नहीं करते', p: ['यथार्थ भारत पर कोई खाता नहीं बनता। हम आपका नाम, ईमेल, फ़ोन नंबर, पता या कोई पहचान दस्तावेज़ नहीं मांगते और संग्रहीत नहीं करते।', 'साइट पर खोज आपके ब्राउज़र में ही चलती है; आपके खोज शब्द हमें नहीं भेजे जाते।'] },
-      { h: 'उपयोग के आंकड़े', p: ['साइट यह समझने के लिए कि कौन से पृष्ठ उपयोगी हैं, कुकी-रहित, समेकित उपयोग आंकड़े (जैसे पृष्ठ देखे जाने की संख्या) एकत्र कर सकती है। इनमें आपकी पहचान करने वाली जानकारी नहीं होती और विज्ञापन के लिए इनका उपयोग नहीं होता।', 'त्रुटि निगरानी (Sentry) केवल तकनीकी त्रुटि विवरण प्राप्त करती है, जिनसे व्यक्तिगत जानकारी हटा दी जाती है।'] },
+      { h: 'उपयोग के आंकड़े', p: ['साइट यह समझने के लिए कि कौन से पृष्ठ उपयोगी हैं, Cloudflare Web Analytics के माध्यम से कुकी-रहित, समेकित उपयोग आंकड़े (जैसे पृष्ठ देखे जाने की संख्या) एकत्र कर सकती है। इनमें आपकी पहचान करने वाली जानकारी नहीं होती और विज्ञापन के लिए इनका उपयोग नहीं होता। कोई अन्य विश्लेषण या ट्रैकिंग सेवा उपयोग नहीं की जाती।'] },
       { h: 'भविष्य की सुविधाएं', p: ['यदि हम AI प्रश्न या करियर प्रोफ़ाइल जैसी सुविधाएं जोड़ते हैं, तो यह नीति पहले अद्यतन की जाएगी। करियर प्रोफ़ाइल केवल आपके ब्राउज़र में रहने के लिए बनाई जा रही है। आपके डेटा का उपयोग किसी AI मॉडल को प्रशिक्षित करने के लिए नहीं किया जाएगा।'] },
       { h: 'आपके अधिकार', p: ['डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम, 2023 के अंतर्गत आपके अधिकारों से संबंधित किसी भी प्रश्न या शिकायत के लिए संपर्क करें: ' + c] },
     ] };
@@ -37,7 +37,7 @@ export function legal(page: 'privacy' | 'terms' | 'corrections', lang: Lang): Pa
   const draft = `Draft, pending legal review. Last updated ${LEGAL_UPDATED}.`;
   if (page === 'privacy') return { title: 'Privacy policy', draft, sections: [
     { h: 'What we do not collect', p: ['Yatharth Bharat has no accounts. We do not ask for or store your name, email, phone number, address or any identity document.', 'Search on this site runs in your browser; your search terms are not sent to us.'] },
-    { h: 'Usage statistics', p: ['To learn which pages are useful, the site may collect cookieless, aggregated usage statistics (such as page views). These contain no information that identifies you and are not used for advertising.', 'Error monitoring (Sentry) receives technical error details only, with personal information removed.'] },
+    { h: 'Usage statistics', p: ['To learn which pages are useful, the site may collect cookieless, aggregated usage statistics (such as page views) through Cloudflare Web Analytics. These contain no information that identifies you and are not used for advertising. No other analytics or tracking service is used.'] },
     { h: 'Future features', p: ['If we add features such as AI questions or career profiles, this policy will be updated first. Career profiles are being designed to stay in your browser only. Your data will not be used to train any AI model.'] },
     { h: 'Your rights', p: ['For any question or grievance about your rights under the Digital Personal Data Protection Act, 2023, contact: ' + c] },
   ] };
