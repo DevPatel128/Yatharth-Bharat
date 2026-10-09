@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { track } from '@/lib/telemetry';
 
 export type MapRegion = { id: string; name: string; nameLang: 'en' | 'hi'; kindLabel: string; capital: string | null; capitalLang: 'en' | 'hi' };
 type Shape = { id: string; d: string; bounds: [[number, number], [number, number]] };
@@ -36,6 +37,7 @@ export function IndiaMap({ regions, width, height, lang, labels }: { regions: Re
 
   const select = useCallback((id: string | null) => {
     setSelected(id);
+    if (id) track('region_selected', { id });
     const url = new URL(window.location.href);
     if (id) url.searchParams.set('region', id); else url.searchParams.delete('region');
     window.history.replaceState(null, '', url);

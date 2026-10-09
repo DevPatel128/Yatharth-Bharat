@@ -9,7 +9,7 @@ export function LangSwitch({ lang, label, aria }: { lang: Lang; label: string; a
   const other: Lang = lang === 'en' ? 'hi' : 'en';
   const href = path.replace(/^\/(en|hi)(?=\/|$)/, `/${other}`);
   return (
-    <Link href={href} hrefLang={other} lang={other} aria-label={aria} className="no-underline border border-rule rounded-[var(--radius-control)] px-2 py-0.5 hover:border-ink">
+    <Link href={href} hrefLang={other} lang={other} aria-label={aria} data-track="language_switched" data-track-id={other} className="no-underline border border-rule rounded-[var(--radius-control)] px-2 py-0.5 hover:border-ink">
       {label}
     </Link>
   );

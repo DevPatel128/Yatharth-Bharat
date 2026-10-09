@@ -5,6 +5,7 @@ import '../globals.css';
 import { dict, isLang, LANGS } from '@/lib/i18n';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
+import { Telemetry } from '@/components/Telemetry';
 
 const plexSans = IBM_Plex_Sans({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-plex-sans', display: 'swap' });
 const plexDeva = IBM_Plex_Sans_Devanagari({ subsets: ['devanagari'], weight: ['400', '500', '600'], variable: '--font-plex-deva', display: 'swap' });
@@ -46,6 +47,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
         <SiteHeader lang={lang} />
         <main id="main" className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6">{children}</main>
         <SiteFooter lang={lang} />
+        <Telemetry />
       </body>
     </html>
   );
