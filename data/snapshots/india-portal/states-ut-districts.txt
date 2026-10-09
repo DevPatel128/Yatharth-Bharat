@@ -1,0 +1,262 @@
+# Captured: 2026-10-09, approx. 18:25 UTC, via in-app browser (page renders client-side behind a captcha-protected API; not fetched by the bot)
+# URL: https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts
+# Page footer: Last reviewed and updated on 09 October 2026
+# Content below is the verbatim innerText of the page section, unedited.
+
+India, a union of states, is a Sovereign, Secular, Democratic Republic with a Parliamentary system of Government. The President is the constitutional head of Executive of the Union. In the states, the Governor, as the representative of the President, is the head of Executive. The system of government in states closely resembles that of the Union. There are 28 states and 8 Union territories in the country. Union Territories are administered by the President through an Administrator appointed by him/her. From the largest to the smallest, each State/UT of India has a unique demography, history and culture, dress, festivals, language etc. This section introduces you to the various States/UTs in the Country and urges you to explore their magnificent uniqueness...
+
+States
+AP
+Andhra Pradesh
+
+Capital :
+Amaravati
+
+View Districts
+AR
+Arunachal Pradesh
+
+Capital :
+Itanagar
+
+View Districts
+AS
+Assam
+
+Capital :
+Dispur
+
+View Districts
+BR
+Bihar
+
+Capital :
+Patna
+
+View Districts
+CG
+Chhattisgarh
+
+Capital :
+Raipur
+
+View Districts
+GA
+Goa
+
+Capital :
+Panaji
+
+View Districts
+GJ
+Gujarat
+
+Capital :
+Gandhinagar
+
+View Districts
+HR
+Haryana
+
+Capital :
+Chandigarh
+
+View Districts
+HP
+Himachal Pradesh
+
+Capital :
+Shimla
+
+View Districts
+JH
+Jharkhand
+
+Capital :
+Ranchi
+
+View Districts
+KA
+Karnataka
+
+Capital :
+Bangalore
+
+View Districts
+KL
+Kerala
+
+Capital :
+Thiruvananthapuram
+
+View Districts
+MP
+Madhya Pradesh
+
+Capital :
+Bhopal
+
+View Districts
+MH
+Maharashtra
+
+Capital :
+Mumbai
+
+View Districts
+MN
+Manipur
+
+Capital :
+Imphal
+
+View Districts
+ML
+Meghalaya
+
+Capital :
+Shillong
+
+View Districts
+MZ
+Mizoram
+
+Capital :
+Aizawl
+
+View Districts
+NL
+Nagaland
+
+Capital :
+Kohima
+
+View Districts
+OD
+Odisha
+
+Capital :
+Bhubaneshwar
+
+View Districts
+PB
+Punjab
+
+Capital :
+Chandigarh
+
+View Districts
+RJ
+Rajasthan
+
+Capital :
+Jaipur
+
+View Districts
+SK
+Sikkim
+
+Capital :
+Gangtok
+
+View Districts
+TN
+Tamil Nadu
+
+Capital :
+Chennai
+
+View Districts
+TS
+Telangana
+
+Capital :
+Hyderabad
+
+View Districts
+TR
+Tripura
+
+Capital :
+Agartala
+
+View Districts
+UP
+Uttar Pradesh
+
+Capital :
+Lucknow
+
+View Districts
+UK
+Uttarakhand
+
+Capital :
+Dehradun
+
+View Districts
+WB
+West Bengal
+
+Capital :
+Kolkata
+
+View Districts
+Union Territories (UTs)
+AN
+Andaman and Nicobar Islands (UT)
+
+Capital :
+Sri Vijaya Puram
+
+View Districts
+CH
+Chandigarh (UT)
+
+Capital :
+Chandigarh
+
+View Districts
+ND
+Dadra and Nagar Haveli and Daman and Diu (UT)
+
+Capital :
+Daman
+
+View Districts
+DL
+Delhi (NCT)
+
+Capital :
+Delhi
+
+View Districts
+JK
+Jammu and Kashmir (UT)
+
+Capital :
+Srinagar-S*, Jammu-W*
+
+View Districts
+LD
+Lakshadweep (UT)
+
+Capital :
+Kavaratti
+
+View Districts
+PY
+Puducherry (UT)
+
+Capital :
+Puducherry
+
+View Districts
+LA
+Ladakh (UT)
+
+Capital :
+Leh
+
+View Districts
+

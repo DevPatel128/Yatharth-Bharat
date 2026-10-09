@@ -1,0 +1,66 @@
+# Daily data update at 00:07 IST (18:37 UTC; GitHub cron runs in UTC and an off-the-hour minute avoids the
+# top-of-hour queue). Fetch → Brutal Gate → PR on a data/ branch → CI → auto-merge (owner decision D-005)
+# → deploy via ci.yml. Held or failed sources never publish; they open an issue instead.
+name: data-update
+on:
+  schedule: [{ cron: '37 18 * * *' }]
+  workflow_dispatch:
+permissions: { contents: read }
+concurrency: { group: data-update, cancel-in-progress: false }   # a second run waits; runs are idempotent
+
+jobs:
+  update:
+    if: vars.AUTOPILOT != 'off'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # Only used when no GitHub App is configured (fallback token); the App token carries its own scopes.
+    permissions: { contents: write, pull-requests: write, issues: write }
+    steps:
+      # A GitHub App token is required so the PR triggers CI (PRs made with GITHUB_TOKEN do not).
+      - id: app
+        if: vars.DATA_BOT_APP_ID != ''
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with: { app-id: '${{ vars.DATA_BOT_APP_ID }}', private-key: '${{ secrets.DATA_BOT_PRIVATE_KEY }}' }
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with: { token: '${{ steps.app.outputs.token || github.token }}' }
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with: { node-version: 24, cache: npm }
+      - run: npm ci
+      - name: run pipeline (AI gates required)
+        id: run
+        env:
+          REQUIRE_AI_GATES: 'true'
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set +e
+          npm run data:run
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: open or update the data PR
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token || github.token }}
+          CODE: ${{ steps.run.outputs.code }}
+        run: |
+          git config user.name "yatharth-data-bot"
+          git config user.email "data-bot@users.noreply.github.com"
+          bad=$(git status --porcelain | awk '{print $2}' | grep -vE '^data/(records|runs)/' || true)
+          [ -z "$bad" ] || { echo "pipeline changed non-data paths: $bad"; exit 1; }
+          if git diff --quiet -- data/records; then echo "no record changes"; exit 0; fi
+          branch="data/update-$(date -u +%F)"
+          git switch -C "$branch"
+          git add data/records data/runs
+          git commit -m "data: daily update $(date -u +%F)"
+          git push --force-with-lease origin "$branch"
+          if gh pr view "$branch" >/dev/null 2>&1; then
+            gh pr edit "$branch" --body-file data/runs/latest.md
+          else
+            gh pr create --head "$branch" --base main --title "data: daily update $(date -u +%F)" --body-file data/runs/latest.md --label data
+          fi
+          # Auto-merge only a fully passing run, and only once required CI checks are green (branch protection).
+          if [ "$CODE" = "0" ]; then gh pr merge "$branch" --auto --squash || echo "auto-merge unavailable (enable it in repo settings)"; fi
+      - name: report held or failed sources
+        if: steps.run.outputs.code != '0'
+        env: { GH_TOKEN: '${{ steps.app.outputs.token || github.token }}' }
+        run: |
+          title="Data pipeline: held or failed sources"
+          n=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file data/runs/latest.md; else gh issue create --title "$title" --body-file data/runs/latest.md --label data; fi

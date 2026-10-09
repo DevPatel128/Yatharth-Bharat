@@ -1,0 +1,175 @@
+{
+  "id": "cpi-inflation",
+  "category": "economy",
+  "name": {
+    "en": "Retail inflation (CPI, year-on-year)",
+    "hi": "खुदरा महंगाई (CPI, वार्षिक आधार पर)"
+  },
+  "definition": {
+    "en": "How much the prices of a fixed basket of goods and services bought by households rose compared with the same month a year earlier. All India, rural and urban combined.",
+    "hi": "परिवारों द्वारा खरीदी जाने वाली वस्तुओं और सेवाओं की एक निश्चित टोकरी की कीमतें पिछले वर्ष के उसी महीने की तुलना में कितनी बढ़ीं। अखिल भारत, ग्रामीण और शहरी मिलाकर।"
+  },
+  "unit": {
+    "en": "% change over a year earlier",
+    "hi": "एक वर्ष पहले की तुलना में % परिवर्तन"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "Consumer Price Index, General, base year 2024=100, published monthly by the National Statistics Office, MoSPI. The 2024 series replaced the 2012 series from January 2026.",
+    "hi": "उपभोक्ता मूल्य सूचकांक, सामान्य, आधार वर्ष 2024=100, राष्ट्रीय सांख्यिकी कार्यालय, MoSPI द्वारा मासिक रूप से प्रकाशित। 2024 श्रृंखला ने जनवरी 2026 से 2012 श्रृंखला का स्थान लिया।"
+  },
+  "limitations": {
+    "en": "Values from the 2012=100 series are a different series and are not joined to this line. Latest month is usually provisional and may be revised.",
+    "hi": "2012=100 श्रृंखला के आंकड़े एक अलग श्रृंखला हैं और इस रेखा में नहीं जोड़े गए हैं। नवीनतम महीने का आंकड़ा प्रायः अनंतिम होता है और संशोधित हो सकता है।"
+  },
+  "sourceId": "mospi-api",
+  "observations": [
+    {
+      "period": "2026-01",
+      "value": 2.74,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"January\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"104.45\",\"inflation\":\"2.74\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-02",
+      "value": 3.21,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"February\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"104.57\",\"inflation\":\"3.21\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-03",
+      "value": 3.4,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"March\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"104.84\",\"inflation\":\"3.40\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-04",
+      "value": 3.48,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"April\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"105.12\",\"inflation\":\"3.48\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-05",
+      "value": 3.93,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"May\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"105.91\",\"inflation\":\"3.93\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-06",
+      "value": 4.38,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"June\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"107.00\",\"inflation\":\"4.38\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-07",
+      "value": 4.45,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"July\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"107.95\",\"inflation\":\"4.45\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-08",
+      "value": 4.82,
+      "status": "unknown",
+      "series": "CPI 2024=100",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/cpi/getCPIData?base_year=2024&series=Current&division_code=0&sector_code=3&state_code=1&limit=100&Format=JSON",
+          "retrievedAt": "2026-10-09T18:38:02.136Z",
+          "snapshotSha256": "87f3338edb824a143a5f0be50a82809f0ed9ef8e03e903b6c5db82cae2bc95b0",
+          "quote": "{\"base_year\":\"2024\",\"series\":\"Current\",\"year\":\"2026\",\"month\":\"August\",\"state\":\"All India\",\"sector\":\"Combined\",\"division\":\"CPI (General)\",\"group\":null,\"class\":null,\"sub_class\":null,\"item\":null,\"code\":null,\"index\":\"108.74\",\"inflation\":\"4.82\",\"imputation\":null}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

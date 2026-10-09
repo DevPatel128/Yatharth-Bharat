@@ -6,21 +6,44 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint:slop": "node scripts/lint-slop.ts",
+    "check": "bash scripts/check-db-scope.sh src && tsc --noEmit && eslint && node scripts/lint-slop.ts && vitest run && node --test test/isolation.test.ts",
+    "e2e": "playwright test",
+    "data:run": "node pipeline/run.ts",
+    "data:regions": "node pipeline/regions.ts",
+    "data:geo": "node pipeline/geo.ts",
+    "preview": "next build && wrangler dev",
+    "deploy": "next build && wrangler deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
+    "d3-geo": "^3.1.1",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "topojson-client": "^3.1.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0",
     "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
+    "@types/d3-geo": "^3.1.1",
+    "@types/node": "^24.19.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "mapshaper": "^0.7.81",
     "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "typescript": "^5",
+    "vitest": "^5.0.3",
+    "wrangler": "^4.149.0"
+  },
+  "type": "module"
 }

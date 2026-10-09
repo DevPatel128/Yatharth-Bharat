@@ -1,0 +1,11 @@
+# One grouped PR per ecosystem per month. Major bumps still need their own green CI run before merge.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule: { interval: monthly }
+    groups: { deps: { patterns: ['*'] } }
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: monthly }
+    groups: { actions: { patterns: ['*'] } }

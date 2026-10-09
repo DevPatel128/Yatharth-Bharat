@@ -1,0 +1,571 @@
+{
+  "id": "gdp-per-capita-usd",
+  "category": "international",
+  "name": {
+    "en": "GDP per person (current US dollars)",
+    "hi": "प्रति व्यक्ति GDP (वर्तमान अमेरिकी डॉलर)"
+  },
+  "definition": {
+    "en": "Total value of goods and services produced in a year divided by the population, converted to US dollars at market exchange rates. Useful for international comparison, not for measuring living costs.",
+    "hi": "एक वर्ष में उत्पादित वस्तुओं और सेवाओं का कुल मूल्य जनसंख्या से विभाजित, बाजार विनिमय दर पर अमेरिकी डॉलर में परिवर्तित। यह अंतरराष्ट्रीय तुलना के लिए उपयोगी है, जीवन-यापन की लागत मापने के लिए नहीं।"
+  },
+  "unit": {
+    "en": "US dollars per person",
+    "hi": "अमेरिकी डॉलर प्रति व्यक्ति"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (NY.GDP.PCAP.CD). Cross-checked against IMF World Economic Outlook (NGDPDPC).",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (NY.GDP.PCAP.CD)। IMF विश्व आर्थिक परिदृश्य (NGDPDPC) से मिलान किया गया।"
+  },
+  "limitations": {
+    "en": "Nominal and in dollars: moves with inflation and the rupee exchange rate, so it is not a measure of real growth. Says nothing about how income is distributed.",
+    "hi": "यह नाममात्र और डॉलर में है: महंगाई और रुपये की विनिमय दर के साथ बदलता है, इसलिए यह वास्तविक वृद्धि का माप नहीं है। आय के वितरण के बारे में कुछ नहीं बताता।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1996",
+      "value": 401.047,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":401.046754673579,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 416.228,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":416.228116203753,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 413.631,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":413.630864056851,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 441.928,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":441.927991436397,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 442.75,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":442.750218937263,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 450.358,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":450.357900514128,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 469.15,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":469.149928973927,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 544.143,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":544.143133545002,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 624.259,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":624.258826510066,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 710.488,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":710.488080408949,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 801.668,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":801.668353659022,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 1021.887,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":1021.88707706826,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 992.52,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":992.519584923828,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 1094.95,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":1094.94974598436,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 1347.519,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":1347.51939071367,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 1445.461,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":1445.46127486037,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 1429.322,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":1429.32199520032,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 1432.844,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":1432.84397512195,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 1553.884,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":1553.88396075118,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 1583.998,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":1583.99815907985,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 1707.509,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":1707.50892912243,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 1950.105,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":1950.10468280866,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 1966.255,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":1966.25455171679,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 2041.429,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":2041.42863698585,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 1907.043,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":1907.04251637669,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 2239.614,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":2239.61384367482,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 2279.981,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":2279.98145719369,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 2434.448,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":2434.44826340989,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 2591.992,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":2591.9916607122,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025",
+      "value": 2702.48,
+      "status": "unknown",
+      "series": "World Bank WDI, current US$",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.PCAP.CD?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:09.775Z",
+          "snapshotSha256": "5d0908657bb2e6c9b287380d3e360dead2730c8ec43823f89af2096f46563f4b",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.PCAP.CD\",\"value\":\"GDP per capita (current US$)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2025\",\"value\":2702.47987141553,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

@@ -1,0 +1,571 @@
+{
+  "id": "infant-mortality",
+  "category": "healthcare",
+  "name": {
+    "en": "Infant mortality rate",
+    "hi": "शिशु मृत्यु दर"
+  },
+  "definition": {
+    "en": "Number of babies who die before their first birthday, for every 1,000 babies born alive.",
+    "hi": "प्रति 1,000 जीवित जन्मे शिशुओं में से पहले जन्मदिन से पहले मरने वाले शिशुओं की संख्या।"
+  },
+  "unit": {
+    "en": "deaths per 1,000 live births",
+    "hi": "प्रति 1,000 जीवित जन्म पर मृत्यु"
+  },
+  "direction": "lower",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SP.DYN.IMRT.IN), from the UN Inter-agency Group for Child Mortality Estimation.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SP.DYN.IMRT.IN), संयुक्त राष्ट्र बाल मृत्यु दर अनुमान अंतर-एजेंसी समूह से।"
+  },
+  "limitations": {
+    "en": "Modelled international estimate. India’s official figure comes from the Sample Registration System bulletin and can differ.",
+    "hi": "यह अंतरराष्ट्रीय मॉडल-आधारित अनुमान है। भारत का आधिकारिक आंकड़ा नमूना पंजीकरण प्रणाली बुलेटिन से आता है और भिन्न हो सकता है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1995",
+      "value": 75.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":75.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 73.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":73.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 72.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":72.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 70.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":70.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 68.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":68.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 66.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":66.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 64.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":64.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 62.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":62.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 60.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":60.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 58.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":58.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 56.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":56.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 54.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":54.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 52.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":52.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 50.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":50.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 48.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":48.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 46.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":46.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 44.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":44.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 42.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":42.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 40.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":40.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 38.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":38.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 36.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":36.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 34.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":34.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 32.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":32.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 31.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":31.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 29.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":29.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 28.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":28.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 27,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":27,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 25.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":25.7,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 24.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":24.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 23.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.IMRT.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:17.963Z",
+          "snapshotSha256": "703bff180e1369764eae8d703a2f49443657813ae973a7e3bdf5ff82dc20c709",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.IMRT.IN\",\"value\":\"Mortality rate, infant (per 1,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":23.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

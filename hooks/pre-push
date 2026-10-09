@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Local gate: the same checks as CI, so nothing reaches GitHub red. Install: git config core.hooksPath hooks
+set -e
+bash scripts/check-db-scope.sh src
+npm run --silent check

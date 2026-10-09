@@ -1,0 +1,5 @@
+---
+description: WOLF rules
+alwaysApply: true
+---
+Read and follow `AGENTS.md` (hard rules, coding rules, ship rules). Never use --no-verify, never force-push main, never read .env files, never touch env.DB outside src/db.ts.

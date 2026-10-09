@@ -1,0 +1,571 @@
+{
+  "id": "life-expectancy",
+  "category": "healthcare",
+  "name": {
+    "en": "Life expectancy at birth",
+    "hi": "जन्म के समय जीवन प्रत्याशा"
+  },
+  "definition": {
+    "en": "The average number of years a newborn would live if death rates at each age stayed as they were in that year.",
+    "hi": "यदि हर आयु पर मृत्यु दर उस वर्ष जैसी ही बनी रहे, तो एक नवजात शिशु औसतन कितने वर्ष जीवित रहेगा।"
+  },
+  "unit": {
+    "en": "years",
+    "hi": "वर्ष"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SP.DYN.LE00.IN), derived from UN Population Division estimates.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SP.DYN.LE00.IN), संयुक्त राष्ट्र जनसंख्या प्रभाग के अनुमानों पर आधारित।"
+  },
+  "limitations": {
+    "en": "Modelled international estimate. India’s official life-table estimates come from the Sample Registration System (Office of the Registrar General) and can differ.",
+    "hi": "यह अंतरराष्ट्रीय मॉडल-आधारित अनुमान है। भारत के आधिकारिक जीवन-तालिका अनुमान नमूना पंजीकरण प्रणाली (भारत के महापंजीयक का कार्यालय) से आते हैं और भिन्न हो सकते हैं।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1995",
+      "value": 60.63,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":60.63,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 61.027,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":61.027,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 61.439,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":61.439,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 61.852,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":61.852,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 62.284,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":62.284,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 62.749,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":62.749,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 63.158,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":63.158,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 63.649,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":63.649,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 64.086,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":64.086,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 64.484,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":64.484,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 64.939,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":64.939,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 65.373,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":65.373,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 65.803,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":65.803,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 66.247,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":66.247,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 66.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":66.7,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 67.162,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":67.162,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 67.623,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":67.623,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 68.076,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":68.076,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 68.499,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":68.499,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 68.932,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":68.932,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 69.326,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":69.326,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 69.709,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":69.709,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 70.068,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":70.068,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 70.415,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":70.415,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 70.746,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":70.746,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 70.156,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":70.156,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 67.282,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":67.282,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 71.698,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":71.698,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 72.003,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":72.003,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 72.235,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SP.DYN.LE00.IN?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:16.894Z",
+          "snapshotSha256": "a2ae3e717e68cbc5deda39e4b8efc5dfb61e26b0ff6451a6a8f7f382fc37abe2",
+          "quote": "{\"indicator\":{\"id\":\"SP.DYN.LE00.IN\",\"value\":\"Life expectancy at birth, total (years)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":72.235,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

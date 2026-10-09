@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
+/* Yatharth Bharat design tokens. Civic-editorial: handmade-paper ground, neel ink, sindoor for selection only.
+   Rules (PRODUCT.md, "Visual direction"): no decorative gradients, no glows, radius hierarchy 0/4/8,
+   hairline rules instead of shadows, one easing curve, motion only where it explains something. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --paper: #f6f1e7;
+  --paper-raised: #fbf8f2;
+  --ink: #1f2a44;
+  --ink-muted: #4a5470;
+  --rule: #d9d0bf;
+  --sindoor: #b4472b;
+  --haldi: #9a6b12; /* darkened from #C9932B so text meets 4.5:1 on paper */
+  --peacock: #1d6b6b;
+  --land: #e9e1d1;
+  --land-hover: #ddd2bd;
+  --focus: #1d6b6b;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --t-fast: 160ms;
+  --t-mid: 240ms;
+  --t-slow: 400ms;
+  color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --paper: #14181f;
+    --paper-raised: #1b2029;
+    --ink: #ece6da;
+    --ink-muted: #b3ab9c;
+    --rule: #333a46;
+    --sindoor: #e07a5c;
+    --haldi: #d8a948;
+    --peacock: #5fb3b0;
+    --land: #262c37;
+    --land-hover: #313948;
+    --focus: #5fb3b0;
+    color-scheme: dark;
   }
 }
 
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-rule: var(--rule);
+  --color-sindoor: var(--sindoor);
+  --color-haldi: var(--haldi);
+  --color-peacock: var(--peacock);
+  --color-land: var(--land);
+  --font-sans: var(--font-plex-sans), var(--font-plex-deva), system-ui, sans-serif;
+  --font-serif: var(--font-noto-serif), var(--font-noto-serif-deva), Georgia, serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --radius-control: 4px;
+  --radius-card: 8px;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  font-family: var(--font-sans);
+  font-size: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem); /* 17px floor */
+  line-height: 1.6;
+}
+
+html:lang(hi) body { line-height: 1.75; } /* Devanagari needs room for matras above and below */
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+p { text-wrap: pretty; }
+
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+a { text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 50;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-control);
+}
+.skip-link:focus { top: 1rem; }
+
+/* Map: the India outline draws itself once, then states settle in. Skipped entirely for reduced motion. */
+.map-state {
+  fill: var(--land);
+  stroke: var(--paper);
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+  transition: fill var(--t-fast) var(--ease);
+  cursor: pointer;
+}
+.map-state:hover { fill: var(--land-hover); }
+.map-state[aria-pressed="true"] { fill: var(--sindoor); }
+.map-state:focus, .map-state:focus-visible { outline: none; }
+.map-state:focus-visible { stroke: var(--focus); stroke-width: 2.5; }
+.map-outline {
+  fill: none;
+  stroke: var(--ink);
+  stroke-width: 1;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .map-intro .map-outline {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 1200ms var(--ease) forwards;
+  }
+  .map-intro .map-state {
+    opacity: 0;
+    animation: settle var(--t-slow) var(--ease) forwards;
+    animation-delay: calc(700ms + var(--i) * 18ms);
+  }
+  .chart-line {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw 900ms var(--ease) 150ms forwards;
+  }
+  .reveal { animation: rise var(--t-slow) var(--ease) both; }
+  .map-zoom { transition: transform 600ms var(--ease); }
+}
+
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes settle { to { opacity: 1; } }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+@media print {
+  .no-print { display: none !important; }
+  html, body { background: white; color: black; }
 }

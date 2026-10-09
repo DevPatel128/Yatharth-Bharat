@@ -1,0 +1,571 @@
+{
+  "id": "gdp-growth",
+  "category": "economy",
+  "name": {
+    "en": "Real GDP growth",
+    "hi": "वास्तविक GDP वृद्धि"
+  },
+  "definition": {
+    "en": "How much the total value of goods and services produced in India grew in a year, after removing the effect of price changes.",
+    "hi": "भारत में एक वर्ष में उत्पादित वस्तुओं और सेवाओं का कुल मूल्य, कीमतों में बदलाव का असर हटाने के बाद, कितना बढ़ा।"
+  },
+  "unit": {
+    "en": "% annual change",
+    "hi": "% वार्षिक परिवर्तन"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (NY.GDP.MKTP.KD.ZG), based on national accounts data. Shown because the official MoSPI national accounts API was returning errors when last checked. Cross-checked against the IMF World Economic Outlook.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (NY.GDP.MKTP.KD.ZG), राष्ट्रीय लेखा आंकड़ों पर आधारित। यह इसलिए दिखाया गया है क्योंकि पिछली जांच के समय MoSPI का आधिकारिक राष्ट्रीय लेखा API त्रुटियां दे रहा था। IMF विश्व आर्थिक परिदृश्य से मिलान किया गया।"
+  },
+  "limitations": {
+    "en": "International compilation, not the Government of India release. India reports on a fiscal-year basis (April to March); the year label follows the World Bank convention. May not yet reflect the 2022-23 base-year revision published by MoSPI in February 2026.",
+    "hi": "यह अंतरराष्ट्रीय संकलन है, भारत सरकार की आधिकारिक विज्ञप्ति नहीं। भारत वित्त वर्ष (अप्रैल से मार्च) के आधार पर आंकड़े देता है; वर्ष का लेबल विश्व बैंक की परिपाटी के अनुसार है। हो सकता है इसमें फरवरी 2026 में MoSPI द्वारा जारी 2022-23 आधार वर्ष संशोधन अभी शामिल न हो।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1996",
+      "value": 7.55,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":7.54952224888829,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 4.05,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":4.04982084902483,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 6.184,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":6.18441582080355,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 8.846,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":8.84575556114116,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 3.841,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":3.84099115686554,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 4.824,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":4.82396626397303,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 3.804,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":3.80397532120038,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 7.86,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":7.86038147545045,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 7.923,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":7.92293661307978,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 7.923,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":7.92343062131789,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 8.061,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":8.06073257305057,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 7.661,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":7.66081506510766,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 3.087,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":3.08669805950082,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 7.862,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":7.8618888330338,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 8.498,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":8.49758470165625,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 5.241,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":5.24131620024293,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 5.456,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":5.45638755164772,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 6.386,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":6.38610640091713,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 7.41,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":7.41022760516977,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 7.996,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":7.99625378567987,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 8.256,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":8.25630550176662,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 6.795,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":6.79538341902422,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 6.454,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":6.45385134495295,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 3.871,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":3.87143694070524,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": -5.778,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":-5.77772470687303,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 9.69,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":9.68959249191741,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 7.609,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":7.6093649776932,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 7.21,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":7.210224629335,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 7.099,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":7.09927893176518,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025",
+      "value": 7.567,
+      "status": "unknown",
+      "series": "World Bank WDI, constant prices",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.KD.ZG?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:35:48.665Z",
+          "snapshotSha256": "38c9704a10b838a67a760cda48a856b91d472216a149c3bbebc82807ff946126",
+          "quote": "{\"indicator\":{\"id\":\"NY.GDP.MKTP.KD.ZG\",\"value\":\"GDP growth (annual %)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2025\",\"value\":7.56666179284244,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

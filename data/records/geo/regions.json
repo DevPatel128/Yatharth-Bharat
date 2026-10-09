@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": 1,
+  "regions": [
+    {
+      "id": "andhra-pradesh",
+      "kind": "state",
+      "name": {
+        "en": "Andhra Pradesh",
+        "hi": "आंध्र प्रदेश"
+      },
+      "capital": {
+        "en": "Amaravati",
+        "hi": null
+      },
+      "boundaryName": "Andhra Pradesh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "AP\nAndhra Pradesh\n\nCapital :\nAmaravati",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"आंध्र प्रदेश\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "arunachal-pradesh",
+      "kind": "state",
+      "name": {
+        "en": "Arunachal Pradesh",
+        "hi": "अरुणाचल प्रदेश"
+      },
+      "capital": {
+        "en": "Itanagar",
+        "hi": null
+      },
+      "boundaryName": "Arunachal Pradesh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "AR\nArunachal Pradesh\n\nCapital :\nItanagar",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"अरुणाचल प्रदेश\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "assam",
+      "kind": "state",
+      "name": {
+        "en": "Assam",
+        "hi": "असम"
+      },
+      "capital": {
+        "en": "Dispur",
+        "hi": null
+      },
+      "boundaryName": "Assam",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "AS\nAssam\n\nCapital :\nDispur",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"असम\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "bihar",
+      "kind": "state",
+      "name": {
+        "en": "Bihar",
+        "hi": "बिहार"
+      },
+      "capital": {
+        "en": "Patna",
+        "hi": null
+      },
+      "boundaryName": "Bihar",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "BR\nBihar\n\nCapital :\nPatna",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"बिहार\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "chhattisgarh",
+      "kind": "state",
+      "name": {
+        "en": "Chhattisgarh",
+        "hi": "छत्तीसगढ़"
+      },
+      "capital": {
+        "en": "Raipur",
+        "hi": null
+      },
+      "boundaryName": "Chhattisgarh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "CG\nChhattisgarh\n\nCapital :\nRaipur",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"छत्तीसगढ़\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "goa",
+      "kind": "state",
+      "name": {
+        "en": "Goa",
+        "hi": "गोवा"
+      },
+      "capital": {
+        "en": "Panaji",
+        "hi": null
+      },
+      "boundaryName": "Goa",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "GA\nGoa\n\nCapital :\nPanaji",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"गोवा\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "gujarat",
+      "kind": "state",
+      "name": {
+        "en": "Gujarat",
+        "hi": "गुजरात"
+      },
+      "capital": {
+        "en": "Gandhinagar",
+        "hi": null
+      },
+      "boundaryName": "Gujarat",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "GJ\nGujarat\n\nCapital :\nGandhinagar",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"गुजरात\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "haryana",
+      "kind": "state",
+      "name": {
+        "en": "Haryana",
+        "hi": "हरियाणा"
+      },
+      "capital": {
+        "en": "Chandigarh",
+        "hi": null
+      },
+      "boundaryName": "Haryana",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "HR\nHaryana\n\nCapital :\nChandigarh",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"हरियाणा\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "himachal-pradesh",
+      "kind": "state",
+      "name": {
+        "en": "Himachal Pradesh",
+        "hi": "हिमाचल प्रदेश"
+      },
+      "capital": {
+        "en": "Shimla",
+        "hi": null
+      },
+      "boundaryName": "Himachal Pradesh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "HP\nHimachal Pradesh\n\nCapital :\nShimla",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"हिमाचल प्रदेश\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "jharkhand",
+      "kind": "state",
+      "name": {
+        "en": "Jharkhand",
+        "hi": "झारखंड"
+      },
+      "capital": {
+        "en": "Ranchi",
+        "hi": null
+      },
+      "boundaryName": "Jharkhand",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "JH\nJharkhand\n\nCapital :\nRanchi",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"झारखंड\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "karnataka",
+      "kind": "state",
+      "name": {
+        "en": "Karnataka",
+        "hi": "कर्नाटक"
+      },
+      "capital": {
+        "en": "Bangalore",
+        "hi": null
+      },
+      "boundaryName": "Karnataka",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "KA\nKarnataka\n\nCapital :\nBangalore",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"कर्नाटक\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "kerala",
+      "kind": "state",
+      "name": {
+        "en": "Kerala",
+        "hi": "केरल"
+      },
+      "capital": {
+        "en": "Thiruvananthapuram",
+        "hi": null
+      },
+      "boundaryName": "Kerala",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "KL\nKerala\n\nCapital :\nThiruvananthapuram",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"केरल\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "madhya-pradesh",
+      "kind": "state",
+      "name": {
+        "en": "Madhya Pradesh",
+        "hi": "मध्य प्रदेश"
+      },
+      "capital": {
+        "en": "Bhopal",
+        "hi": null
+      },
+      "boundaryName": "Madhya Pradesh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "MP\nMadhya Pradesh\n\nCapital :\nBhopal",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"मध्‍य प्रदेश\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "maharashtra",
+      "kind": "state",
+      "name": {
+        "en": "Maharashtra",
+        "hi": "महाराष्ट्र"
+      },
+      "capital": {
+        "en": "Mumbai",
+        "hi": null
+      },
+      "boundaryName": "Maharashtra",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "MH\nMaharashtra\n\nCapital :\nMumbai",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"महाराष्‍ट्र\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "manipur",
+      "kind": "state",
+      "name": {
+        "en": "Manipur",
+        "hi": "मणिपुर"
+      },
+      "capital": {
+        "en": "Imphal",
+        "hi": null
+      },
+      "boundaryName": "Manipur",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "MN\nManipur\n\nCapital :\nImphal",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"मणिपुर\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "meghalaya",
+      "kind": "state",
+      "name": {
+        "en": "Meghalaya",
+        "hi": "मेघालय"
+      },
+      "capital": {
+        "en": "Shillong",
+        "hi": null
+      },
+      "boundaryName": "Meghalaya",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "ML\nMeghalaya\n\nCapital :\nShillong",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"मेघालय\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "mizoram",
+      "kind": "state",
+      "name": {
+        "en": "Mizoram",
+        "hi": "मिजोरम"
+      },
+      "capital": {
+        "en": "Aizawl",
+        "hi": null
+      },
+      "boundaryName": "Mizoram",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "MZ\nMizoram\n\nCapital :\nAizawl",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"मिजोरम\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "nagaland",
+      "kind": "state",
+      "name": {
+        "en": "Nagaland",
+        "hi": "नागालैंड"
+      },
+      "capital": {
+        "en": "Kohima",
+        "hi": null
+      },
+      "boundaryName": "Nagaland",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "NL\nNagaland\n\nCapital :\nKohima",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"नागालैंड\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "odisha",
+      "kind": "state",
+      "name": {
+        "en": "Odisha",
+        "hi": "ओडिशा"
+      },
+      "capital": {
+        "en": "Bhubaneshwar",
+        "hi": null
+      },
+      "boundaryName": "Odisha",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "OD\nOdisha\n\nCapital :\nBhubaneshwar",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"ओडिशा\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "punjab",
+      "kind": "state",
+      "name": {
+        "en": "Punjab",
+        "hi": "पंजाब"
+      },
+      "capital": {
+        "en": "Chandigarh",
+        "hi": null
+      },
+      "boundaryName": "Punjab",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "PB\nPunjab\n\nCapital :\nChandigarh",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"पंजाब\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "rajasthan",
+      "kind": "state",
+      "name": {
+        "en": "Rajasthan",
+        "hi": "राजस्थान"
+      },
+      "capital": {
+        "en": "Jaipur",
+        "hi": null
+      },
+      "boundaryName": "Rajasthan",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "RJ\nRajasthan\n\nCapital :\nJaipur",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"राजस्‍थान\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "sikkim",
+      "kind": "state",
+      "name": {
+        "en": "Sikkim",
+        "hi": "सिक्किम"
+      },
+      "capital": {
+        "en": "Gangtok",
+        "hi": null
+      },
+      "boundaryName": "Sikkim",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "SK\nSikkim\n\nCapital :\nGangtok",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"सिक्‍किम\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "tamil-nadu",
+      "kind": "state",
+      "name": {
+        "en": "Tamil Nadu",
+        "hi": "तमिलनाडु"
+      },
+      "capital": {
+        "en": "Chennai",
+        "hi": null
+      },
+      "boundaryName": "Tamil Nadu",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "TN\nTamil Nadu\n\nCapital :\nChennai",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"तमिलनाडु\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "telangana",
+      "kind": "state",
+      "name": {
+        "en": "Telangana",
+        "hi": "तेलंगाना"
+      },
+      "capital": {
+        "en": "Hyderabad",
+        "hi": null
+      },
+      "boundaryName": "Telangana",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "TS\nTelangana\n\nCapital :\nHyderabad",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"तेलंगाना\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "tripura",
+      "kind": "state",
+      "name": {
+        "en": "Tripura",
+        "hi": "त्रिपुरा"
+      },
+      "capital": {
+        "en": "Agartala",
+        "hi": null
+      },
+      "boundaryName": "Tripura",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "TR\nTripura\n\nCapital :\nAgartala",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"त्रिपुरा\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "uttar-pradesh",
+      "kind": "state",
+      "name": {
+        "en": "Uttar Pradesh",
+        "hi": "उत्तर प्रदेश"
+      },
+      "capital": {
+        "en": "Lucknow",
+        "hi": null
+      },
+      "boundaryName": "Uttar Pradesh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "UP\nUttar Pradesh\n\nCapital :\nLucknow",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"उत्तर प्रदेश\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "uttarakhand",
+      "kind": "state",
+      "name": {
+        "en": "Uttarakhand",
+        "hi": "उत्तराखंड"
+      },
+      "capital": {
+        "en": "Dehradun",
+        "hi": null
+      },
+      "boundaryName": "Uttarakhand",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "UK\nUttarakhand\n\nCapital :\nDehradun",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"उत्तराखंड\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "west-bengal",
+      "kind": "state",
+      "name": {
+        "en": "West Bengal",
+        "hi": "पश्चिम बंगाल"
+      },
+      "capital": {
+        "en": "Kolkata",
+        "hi": null
+      },
+      "boundaryName": "West Bengal",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "WB\nWest Bengal\n\nCapital :\nKolkata",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"पश्‍चिम बंगाल\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "andaman-and-nicobar-islands",
+      "kind": "union-territory",
+      "name": {
+        "en": "Andaman and Nicobar Islands",
+        "hi": "अंडमान और निकोबार द्वीपसमूह"
+      },
+      "capital": {
+        "en": "Sri Vijaya Puram",
+        "hi": null
+      },
+      "boundaryName": "Andaman & Nicobar",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "AN\nAndaman and Nicobar Islands (UT)\n\nCapital :\nSri Vijaya Puram",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"अंडमान और निकोबार द्वीपसमूह\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "chandigarh",
+      "kind": "union-territory",
+      "name": {
+        "en": "Chandigarh",
+        "hi": "चंडीगढ़"
+      },
+      "capital": {
+        "en": "Chandigarh",
+        "hi": null
+      },
+      "boundaryName": "Chandigarh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "CH\nChandigarh (UT)\n\nCapital :\nChandigarh",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"चंडीगढ़\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "dadra-and-nagar-haveli-and-daman-and-diu",
+      "kind": "union-territory",
+      "name": {
+        "en": "Dadra and Nagar Haveli and Daman and Diu",
+        "hi": null
+      },
+      "capital": {
+        "en": "Daman",
+        "hi": null
+      },
+      "boundaryName": "Dadra and Nagar Haveli and Daman and Diu",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "ND\nDadra and Nagar Haveli and Daman and Diu (UT)\n\nCapital :\nDaman",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "delhi",
+      "kind": "union-territory",
+      "name": {
+        "en": "Delhi",
+        "hi": null
+      },
+      "capital": {
+        "en": "Delhi",
+        "hi": null
+      },
+      "boundaryName": "Delhi",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "DL\nDelhi (NCT)\n\nCapital :\nDelhi",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "jammu-and-kashmir",
+      "kind": "union-territory",
+      "name": {
+        "en": "Jammu and Kashmir",
+        "hi": "जम्मू और कश्मीर"
+      },
+      "capital": {
+        "en": "Srinagar-S*, Jammu-W*",
+        "hi": null
+      },
+      "boundaryName": "Jammu & Kashmir",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "JK\nJammu and Kashmir (UT)\n\nCapital :\nSrinagar-S*, Jammu-W*",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"जम्‍मू और कश्‍मीर\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "lakshadweep",
+      "kind": "union-territory",
+      "name": {
+        "en": "Lakshadweep",
+        "hi": "लक्षद्वीप"
+      },
+      "capital": {
+        "en": "Kavaratti",
+        "hi": null
+      },
+      "boundaryName": "Lakshadweep",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "LD\nLakshadweep (UT)\n\nCapital :\nKavaratti",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"लक्षद्वीप\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "puducherry",
+      "kind": "union-territory",
+      "name": {
+        "en": "Puducherry",
+        "hi": "पुडुच्चेरी"
+      },
+      "capital": {
+        "en": "Puducherry",
+        "hi": null
+      },
+      "boundaryName": "Puducherry",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "PY\nPuducherry (UT)\n\nCapital :\nPuducherry",
+          "method": "browser-capture"
+        },
+        {
+          "sourceId": "sansad-lok-sabha",
+          "url": "https://sansad.in/api_ls/member?loksabha=18&locale=hi",
+          "retrievedAt": "2026-10-09T18:39:59.110Z",
+          "snapshotSha256": "7d81f87b0254c95854d9be7221239031586b07c2309a4f66c9fca6f45d07703b",
+          "quote": "\"stateName\":\"पुडुच्‍चेरी\"",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "id": "ladakh",
+      "kind": "union-territory",
+      "name": {
+        "en": "Ladakh",
+        "hi": null
+      },
+      "capital": {
+        "en": "Leh",
+        "hi": null
+      },
+      "boundaryName": "Ladakh",
+      "evidence": [
+        {
+          "sourceId": "india-portal",
+          "url": "https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts",
+          "retrievedAt": "2026-10-09T18:25:00Z",
+          "snapshotSha256": "77fbe1261d1098008c7aefc651c186b14f44a66b88baf66cd082949e8a511e4e",
+          "quote": "LA\nLadakh (UT)\n\nCapital :\nLeh",
+          "method": "browser-capture"
+        }
+      ]
+    }
+  ]
+}

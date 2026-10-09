@@ -1,0 +1,86 @@
+// Source registry: the only places the pipeline may fetch from. Adding a source needs a SOURCE_POLICY.md review.
+// Shared by the pipeline (allowlist) and the site (reference lists, attribution page).
+import { Source, type Source as SourceT } from './schema.ts';
+
+const list: SourceT[] = [
+  {
+    id: 'mospi-api',
+    publisher: 'Ministry of Statistics and Programme Implementation (MoSPI), Government of India',
+    name: { en: 'MoSPI eSankhyiki open data API', hi: 'सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय (MoSPI) ई-सांख्यिकी ओपन डेटा API' },
+    category: 'indian-government',
+    homepage: 'https://api.mospi.gov.in',
+    allowedHosts: ['api.mospi.gov.in'],
+    access: 'json-api',
+    updateFrequency: 'monthly',
+    licence: 'Government Open Data Licence – India (attribution required)',
+    limitations: 'Endpoints occasionally return errors or empty results; NAS (GDP) endpoint was failing on 2026-10-09. Server requires legacy TLS renegotiation.',
+  },
+  {
+    id: 'world-bank-api',
+    publisher: 'The World Bank Group',
+    name: { en: 'World Bank World Development Indicators API', hi: 'विश्व बैंक विश्व विकास संकेतक API' },
+    category: 'international-organisation',
+    homepage: 'https://data.worldbank.org',
+    allowedHosts: ['api.worldbank.org'],
+    access: 'json-api',
+    updateFrequency: 'irregular',
+    licence: 'CC BY 4.0',
+    limitations: 'International compilation; may lag or differ from the latest Indian official release. Not an Indian government source.',
+  },
+  {
+    id: 'imf-datamapper',
+    publisher: 'International Monetary Fund',
+    name: { en: 'IMF DataMapper API (World Economic Outlook)', hi: 'अंतरराष्ट्रीय मुद्रा कोष (IMF) डेटामैपर API' },
+    category: 'international-organisation',
+    homepage: 'https://www.imf.org/external/datamapper',
+    allowedHosts: ['www.imf.org'],
+    access: 'json-api',
+    updateFrequency: 'irregular',
+    licence: 'IMF terms of use (attribution required)',
+    limitations: 'Includes IMF staff projections for recent years; used here only as a cross-check, never as the displayed value.',
+  },
+  {
+    id: 'india-portal',
+    publisher: 'National Informatics Centre, Ministry of Electronics and Information Technology, Government of India',
+    name: { en: 'National Portal of India: States/UTs and districts', hi: 'भारत का राष्ट्रीय पोर्टल: राज्य/संघ राज्य क्षेत्र एवं जिले' },
+    category: 'indian-government',
+    homepage: 'https://www.india.gov.in/explore-india/facts-of-india/states-ut-districts',
+    allowedHosts: ['www.india.gov.in'],
+    access: 'manual-download',
+    updateFrequency: 'irregular',
+    licence: 'Government of India website content (attribution required)',
+    limitations: 'Page renders in the browser behind a captcha-protected API, so it is captured manually. Its Hindi version is machine-translated by the portal and is not used.',
+  },
+  {
+    id: 'sansad-lok-sabha',
+    publisher: 'Lok Sabha Secretariat, Parliament of India',
+    name: { en: 'Digital Sansad: Lok Sabha members', hi: 'डिजिटल संसद: लोक सभा सदस्य' },
+    category: 'indian-constitutional-body',
+    homepage: 'https://sansad.in/ls/members',
+    allowedHosts: ['sansad.in'],
+    access: 'json-api',
+    updateFrequency: 'weekly',
+    licence: 'Parliament of India website content (attribution required)',
+    limitations: 'The JSON endpoint is the one the official site itself uses and is not separately documented. Some Hindi state names in it are incomplete or misspelt; those are rejected by the Hindi gate.',
+  },
+  {
+    id: 'datameet-maps',
+    publisher: 'DataMeet India community',
+    name: { en: 'DataMeet India state boundaries', hi: 'डेटामीट भारत राज्य सीमाएँ' },
+    category: 'community-open-data',
+    homepage: 'https://github.com/datameet/maps',
+    allowedHosts: ['github.com', 'raw.githubusercontent.com'],
+    access: 'shapefile',
+    updateFrequency: 'irregular',
+    licence: 'CC BY 4.0',
+    limitations: 'Community dataset used because Survey of India does not publish an openly licensed machine-readable file. External boundary follows the Survey of India depiction (checked: northern extent 37.08°N, Aksai Chin within Ladakh). Simplified for display; not for legal or survey use.',
+  },
+];
+
+export const SOURCES: ReadonlyMap<string, SourceT> = new Map(list.map((s) => [s.id, Source.parse(s)]));
+
+export function getSource(id: string): SourceT {
+  const s = SOURCES.get(id);
+  if (!s) throw new Error(`unknown source ${id}`);
+  return s;
+}

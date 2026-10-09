@@ -1,0 +1,571 @@
+{
+  "id": "electricity-access",
+  "category": "infrastructure",
+  "name": {
+    "en": "Population with access to electricity",
+    "hi": "बिजली तक पहुंच वाली आबादी"
+  },
+  "definition": {
+    "en": "Share of the population living in households that have an electricity connection.",
+    "hi": "उन घरों में रहने वाली आबादी का प्रतिशत, जिनके पास बिजली कनेक्शन है।"
+  },
+  "unit": {
+    "en": "% of population",
+    "hi": "आबादी का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (EG.ELC.ACCS.ZS), compiled from household surveys and national sources.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (EG.ELC.ACCS.ZS), घरेलू सर्वेक्षणों और राष्ट्रीय स्रोतों से संकलित।"
+  },
+  "limitations": {
+    "en": "Measures a connection, not hours of supply or reliability.",
+    "hi": "यह केवल कनेक्शन मापता है, आपूर्ति के घंटे या विश्वसनीयता नहीं।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1995",
+      "value": 51.409,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":51.4087753295898,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 53.004,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":53.0035209655762,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 54.595,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":54.5948638916016,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 56.182,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":56.1821327209473,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 60.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":60.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 60.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":60.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 62,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":62,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 62.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":62.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 65.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":65.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 64.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":64.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 68.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":68.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 67.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":67.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 72.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":72.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 74.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":74.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 75,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":75,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 76.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":76.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 79.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":79.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 79.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":79.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 83.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":83.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 85.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":85.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 88,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":88,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 89.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":89.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 91.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":91.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 95.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":95.7,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 95.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":95.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 96.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":96.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 99.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":99.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 99.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":99.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 99.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":99.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 99.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.ELC.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:18.972Z",
+          "snapshotSha256": "8e88f479da1f087674e266ed59548a7b84a02b4be82efa2aaebf60e84ceec48b",
+          "quote": "{\"indicator\":{\"id\":\"EG.ELC.ACCS.ZS\",\"value\":\"Access to electricity (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":99.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

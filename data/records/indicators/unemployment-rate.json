@@ -1,0 +1,337 @@
+{
+  "id": "unemployment-rate",
+  "category": "employment",
+  "name": {
+    "en": "Unemployment rate (monthly)",
+    "hi": "बेरोज़गारी दर (मासिक)"
+  },
+  "definition": {
+    "en": "Share of people in the labour force (working or looking for work) who did not find work during the reference week. Persons aged 15 and above, rural and urban combined, all India.",
+    "hi": "श्रम बल (काम कर रहे या काम खोज रहे लोग) में से उन लोगों का प्रतिशत, जिन्हें संदर्भ सप्ताह में काम नहीं मिला। 15 वर्ष और उससे अधिक आयु के व्यक्ति, ग्रामीण और शहरी मिलाकर, अखिल भारत।"
+  },
+  "unit": {
+    "en": "% of labour force",
+    "hi": "श्रम बल का %"
+  },
+  "direction": "lower",
+  "geography": "IN",
+  "methodology": {
+    "en": "Periodic Labour Force Survey (PLFS), monthly estimates by current weekly status (CWS), published by the National Statistics Office, MoSPI. Monthly PLFS estimates start in 2025.",
+    "hi": "आवधिक श्रम बल सर्वेक्षण (PLFS) के मासिक अनुमान, वर्तमान साप्ताहिक स्थिति (CWS) के आधार पर, राष्ट्रीय सांख्यिकी कार्यालय, MoSPI द्वारा प्रकाशित। मासिक PLFS अनुमान 2025 से शुरू होते हैं।"
+  },
+  "limitations": {
+    "en": "Survey estimate with sampling error; month-to-month changes of a few tenths of a point may not be meaningful. Not comparable with the older annual PS+SS series.",
+    "hi": "यह सर्वेक्षण-आधारित अनुमान है और इसमें प्रतिदर्श त्रुटि होती है; महीने-दर-महीने कुछ दशमलव अंकों का बदलाव सार्थक नहीं भी हो सकता। पुरानी वार्षिक PS+SS श्रृंखला से तुलनीय नहीं।"
+  },
+  "sourceId": "mospi-api",
+  "observations": [
+    {
+      "period": "2025-04",
+      "value": 5.1,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"April\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.1\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-05",
+      "value": 5.6,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"May\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.6\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-06",
+      "value": 5.6,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"June\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.6\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-07",
+      "value": 5.2,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"July\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.2\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-08",
+      "value": 5.1,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"August\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.1\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-09",
+      "value": 5.2,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"September\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.2\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-10",
+      "value": 5.2,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"October\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.2\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-11",
+      "value": 4.7,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"November\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"4.7\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025-12",
+      "value": 4.8,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2025\",\"month\":\"December\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"4.8\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-01",
+      "value": 5,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"January\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-02",
+      "value": 4.9,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"February\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"4.9\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-03",
+      "value": 5.1,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"March\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.1\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-04",
+      "value": 5.2,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"April\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.2\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-05",
+      "value": 5.5,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"May\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.5\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-06",
+      "value": 5.5,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"June\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.5\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-07",
+      "value": 5.1,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"July\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5.1\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2026-08",
+      "value": 5,
+      "status": "unknown",
+      "series": "PLFS monthly (CWS), from 2025",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/plfs/getData?frequency_code=3&indicator_code=3&state_code=99&gender_code=3&age_code=1&sector_code=3&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-09T18:35:47.896Z",
+          "snapshotSha256": "197f2ab425d19036e58b4fd6a830654b333f17d6cd495e3dfb41d0a992e1c8ee",
+          "quote": "{\"frequency\":\"Monthly\",\"indicator\":\"UR (Unemployment Rate, in per cent)\",\"year\":\"2026\",\"month\":\"August\",\"state\":\"All India\",\"AgeGroup\":\"15 years and above\",\"gender\":\"person\",\"sector\":\"rural + urban\",\"value\":\"5\",\"unit\":\"%\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}

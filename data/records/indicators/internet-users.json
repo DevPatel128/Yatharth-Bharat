@@ -1,0 +1,571 @@
+{
+  "id": "internet-users",
+  "category": "infrastructure",
+  "name": {
+    "en": "Individuals using the internet",
+    "hi": "इंटरनेट का उपयोग करने वाले व्यक्ति"
+  },
+  "definition": {
+    "en": "Share of the population that used the internet from any location in the last three months.",
+    "hi": "आबादी का वह प्रतिशत, जिसने पिछले तीन महीनों में किसी भी स्थान से इंटरनेट का उपयोग किया।"
+  },
+  "unit": {
+    "en": "% of population",
+    "hi": "आबादी का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (IT.NET.USER.ZS), from International Telecommunication Union estimates.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (IT.NET.USER.ZS), अंतरराष्ट्रीय दूरसंचार संघ के अनुमानों से।"
+  },
+  "limitations": {
+    "en": "Estimate; definitions of “use” vary across surveys. TRAI subscription counts measure connections, not people, and are not comparable.",
+    "hi": "यह अनुमान है; अलग-अलग सर्वेक्षणों में “उपयोग” की परिभाषा भिन्न होती है। TRAI के ग्राहक आंकड़े कनेक्शन मापते हैं, व्यक्ति नहीं, इसलिए तुलनीय नहीं हैं।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1996",
+      "value": 0.046,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":0.0463,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 0.071,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":0.0708,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 0.139,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":0.139,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 0.273,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":0.273,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 0.528,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":0.527532449930946,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 0.66,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":0.660146377009928,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 1.538,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":1.53787558175083,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 1.686,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":1.68648997063625,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 1.976,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":1.97613649190559,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 2.388,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":2.388099909,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 2.805,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":2.80549986534254,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 3.95,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":3.95,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 4.38,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":4.38,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 5.12,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":5.12,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 7.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":7.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 10.07,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":10.07,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 11.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":11.10000038,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 12.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":12.30000019,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 13.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":13.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 14.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":14.89999962,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 16.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":16.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 18.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":18.20000076,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 20.081,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":20.0813000379384,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 29.524,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":29.52350044,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 43.405,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":43.40544313,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 49.258,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":49.2580986,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 55.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":55.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 60.252,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":60.25230026,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 64.943,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":64.9434967,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025",
+      "value": 70,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IT.NET.USER.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-09T18:36:20.890Z",
+          "snapshotSha256": "eddbe63051d61fa2415da63902dc96a2838b5683d0e53d2b206e8369e3ced012",
+          "quote": "{\"indicator\":{\"id\":\"IT.NET.USER.ZS\",\"value\":\"Individuals using the Internet (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2025\",\"value\":70,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-09T18:38:10.347Z",
+  "state": "verified"
+}
