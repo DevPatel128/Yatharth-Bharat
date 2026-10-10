@@ -39,7 +39,7 @@
     "@types/topojson-specification": "^1.0.5",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
-    "mapshaper": "^0.7.81",
+    "mapshaper": "^0.7.83",
     "pdfjs-dist": "^6.4.299",
     "tailwindcss": "^4",
     "typescript": "^5",
