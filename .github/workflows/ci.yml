@@ -22,7 +22,9 @@ jobs:
       - run: npm ci
       - run: npx next typegen
       - run: npm run check            # db scope + typecheck + eslint + lint:slop + unit/data/i18n tests + isolation
-      - run: npm run build            # static export; fails on any record that does not parse
+      # Static export; fails on any record that does not parse. One retry: next/font fetches Google Fonts at
+      # build time and a network blip there is not a code failure.
+      - run: npm run build || (sleep 30 && npm run build)
       - name: e2e + accessibility (served by the Worker, as in production)
         run: npx playwright install --with-deps chromium && npm run e2e
       - run: npm audit --audit-level=high --omit=dev
@@ -81,7 +83,7 @@ jobs:
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with: { node-version: 24, cache: npm }
       - if: steps.creds.outputs.ok == 'true'
-        run: npm ci && npm run build
+        run: npm ci && (npm run build || (sleep 30 && npm run build))
       - if: steps.creds.outputs.ok == 'true'
         run: npx wrangler deploy
       - name: smoke test the live site (health reflects real data state)
