@@ -12,7 +12,8 @@ const plexMono = IBM_Plex_Mono({ subsets: ['latin'], weight: ['400', '500'], var
 const notoSerif = Noto_Serif({ subsets: ['latin'], weight: ['500', '600'], variable: '--font-noto-serif', display: 'swap' });
 const notoSerifDeva = Noto_Serif_Devanagari({ subsets: ['devanagari'], weight: ['500', '600'], variable: '--font-noto-serif-deva', display: 'swap' });
 
-const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
+// Site token for Cloudflare Web Analytics. Public by design (it appears in the page source); env overrides it.
+const CF_BEACON = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN || '9c6438789a6040e18e1d1d3f461e4a19';
 
 export const dynamicParams = false;
 export function generateStaticParams() {
