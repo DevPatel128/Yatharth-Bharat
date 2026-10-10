@@ -5,6 +5,7 @@ import { describe, expect, it } from 'vitest';
 import { EXPLAINERS } from '../src/content/explainers.ts';
 import { RESPONSIBILITIES } from '../src/content/who-fixes.ts';
 import { TIMELINE } from '../src/content/timeline.ts';
+import { PORTALS } from '../src/content/portals.ts';
 import { QUESTIONS, Explainer, TimelineEntry } from '../src/lib/schema.ts';
 import { SOURCES } from '../src/lib/sources.ts';
 import { g4Quote, g7Legal, g8Hindi } from '../pipeline/gates.ts';
@@ -75,4 +76,19 @@ describe('constitutional timeline', () => {
       expect(ok, `${t.id} ${t.date}`).toBe(true);
     }
   });
+});
+
+describe('official portals (education and jobs)', () => {
+  it('ids are unique', () => expect(new Set(PORTALS.map((p) => p.id)).size).toBe(PORTALS.length));
+  for (const p of PORTALS) {
+    it(`${p.id}: official HTTPS host, neutral language, Hindi matches`, () => {
+      const u = new URL(p.url);
+      expect(u.protocol).toBe('https:');
+      // Government (.gov.in), academic bodies under the Ministry (.ac.in), and the Ministry's NIRF site.
+      expect(u.hostname, p.url).toMatch(/(\.gov\.in|^nta\.ac\.in|^www\.nirfindia\.org)$/);
+      const texts = [p.name, p.body, p.what];
+      expect(g7Legal(texts.flatMap((t) => [t.en, t.hi ?? ''])).status).toBe('pass');
+      for (const t of texts) expect(g8Hindi(t.en, t.hi).status, t.en).toBe('pass');
+    });
+  }
 });

@@ -65,7 +65,7 @@ function topics(lang: Lang): Topic[] {
     label: `${pick(t.title, lang).text} ${BUDGET.budgetYear}`,
     sub: 'row',
     budget: true,
-    series: t.rows.map((r) => ({
+    series: t.rows.flatMap((r) => [{
       id: r.key,
       label: (r.key.endsWith('-subsidy') ? `${d.money.subsidy}: ` : '') + pick(r.label, lang).text,
       unit: d.money.crore,
@@ -79,7 +79,24 @@ function topics(lang: Lang): Topic[] {
         revisions: [],
         url: r.evidence[0].url,
       })),
-    })),
+    },
+    // Where the Budget prints a row as a share of GDP, that share can be checked too.
+    ...(r.pctGdp ? [{
+      id: `${r.key}-pct-gdp`,
+      label: `${pick(r.label, lang).text} (${d.check.asPctGdp})`,
+      unit: d.check.pctGdpUnit,
+      decimals: 1,
+      href: `/${lang}/money#t-${t.id}`,
+      source: getSource(r.evidence[0].sourceId).publisher,
+      points: t.columns.map((c, i) => ({
+        period: `${c.year}-${c.stage}`,
+        label: `${c.year} ${d.money.stageShort[c.stage]}`,
+        value: r.pctGdp![i] ?? null,
+        revisions: [],
+        url: r.evidence[0].url,
+      })),
+    }] : []),
+    ]),
   }));
   return [...national, ...states, ...budget];
 }

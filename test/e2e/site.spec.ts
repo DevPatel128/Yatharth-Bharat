@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/check', '/hi/check', '/en/history', '/hi/history', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/check', '/hi/check', '/en/education', '/hi/education', '/en/history', '/hi/history', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });
@@ -127,4 +127,10 @@ test('check a figure: compares a stated number, allows rounding, and keeps the c
   await expect(page.getByRole('link', { name: 'See the full record and evidence' })).toHaveAttribute('href', '/en/money#t-summary');
   await page.goto('/hi/check?t=budget-summary&s=total-expenditure&p=2026-27-be&v=60&u=lakh');
   await expect(page.getByText('आधिकारिक आँकड़े से पूर्णांकन की सीमा से अधिक भिन्न है।')).toBeVisible();
+});
+
+test('check a figure: a Budget share of GDP can be checked', async ({ page }) => {
+  // Fiscal deficit 2026-27 BE is printed as 4.3% of GDP.
+  await page.goto('/en/check?t=budget-summary&s=fiscal-deficit-pct-gdp&p=2026-27-be&v=4.3');
+  await expect(page.getByText('Consistent with the official figure, allowing for rounding.')).toBeVisible();
 });

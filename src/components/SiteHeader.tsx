@@ -13,6 +13,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
     ['/who-fixes-this', d.nav.who],
     ['/money', d.nav.money],
     ['/check', d.nav.check],
+    ['/education', d.nav.education],
     ['/world', d.nav.world],
     ['/representatives', d.nav.reps],
     ['/history', d.nav.history],
