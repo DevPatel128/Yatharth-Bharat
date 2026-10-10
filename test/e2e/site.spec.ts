@@ -88,5 +88,5 @@ test('representatives: search filters the table', async ({ page }) => {
 test('region page lists its MPs and state inflation', async ({ page }) => {
   await page.goto('/en/states/kerala');
   await expect(page.getByRole('heading', { name: /Members of Parliament \(Lok Sabha\) from this region \(20\)/ })).toBeVisible();
-  await expect(page.getByText('All India, same period')).toBeVisible();
+  await expect(page.getByText('All India, same period')).toHaveCount(2); // CPI inflation and higher-education GER
 });
