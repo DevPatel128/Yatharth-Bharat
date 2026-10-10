@@ -1,0 +1,15 @@
+name: Bug or accessibility problem
+description: Something on the site does not work
+labels: [bug]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page link }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, description: "And what you expected instead" }
+    validations: { required: true }
+  - type: input
+    id: device
+    attributes: { label: Device and browser, description: "For example: Android phone, Chrome; or Windows laptop, Firefox with NVDA" }

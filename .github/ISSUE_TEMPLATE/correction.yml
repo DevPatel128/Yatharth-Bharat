@@ -1,0 +1,20 @@
+name: Correction
+description: A figure, name or explanation does not match the official source
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page link, description: "The page on Yatharth Bharat where you saw it" }
+    validations: { required: true }
+  - type: textarea
+    id: wrong
+    attributes: { label: What is shown, description: "Copy the value or text exactly as it appears" }
+    validations: { required: true }
+  - type: textarea
+    id: right
+    attributes: { label: What the official source says }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Official source link, description: "Government or international organisation page or file" }
+    validations: { required: true }
