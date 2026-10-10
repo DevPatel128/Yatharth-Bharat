@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/history', '/hi/history', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/check', '/hi/check', '/en/history', '/hi/history', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });
@@ -112,4 +112,19 @@ test('public money: budget tables, the workbook/PDF note and evidence are shown'
   await page.goto('/hi/money');
   await expect(page.getByRole('heading', { level: 1, name: 'सार्वजनिक धन' })).toBeVisible();
   await expect(page.getByRole('rowheader', { name: /राजकोषीय घाटा/ }).first()).toBeVisible();
+});
+
+test('check a figure: compares a stated number, allows rounding, and keeps the check in the address', async ({ page }) => {
+  await page.goto('/en/check');
+  await page.getByLabel('What is the figure about?').selectOption({ label: 'Retail inflation (CPI, year-on-year)' });
+  await page.getByLabel(/Number stated/).fill('1000');
+  await expect(page.getByText('Differs from the official figure by more than rounding.')).toBeVisible();
+  await page.getByLabel(/Number stated/).fill('five');
+  await expect(page.getByText('Type a number, e.g. 5.2')).toBeVisible();
+  // Union Budget 2026-27 total expenditure (BE) is ₹53,47,315 crore; "53.47 lakh crore" is that figure, rounded.
+  await page.goto('/en/check?t=budget-summary&s=total-expenditure&p=2026-27-be&v=53.47&u=lakh');
+  await expect(page.getByText('Consistent with the official figure, allowing for rounding.')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'See the full record and evidence' })).toHaveAttribute('href', '/en/money#t-summary');
+  await page.goto('/hi/check?t=budget-summary&s=total-expenditure&p=2026-27-be&v=60&u=lakh');
+  await expect(page.getByText('आधिकारिक आँकड़े से पूर्णांकन की सीमा से अधिक भिन्न है।')).toBeVisible();
 });
