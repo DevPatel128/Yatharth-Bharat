@@ -7,28 +7,54 @@ import { z } from 'zod';
 
 export type AiTask = 'adversarial-review' | 'hindi-backtranslation' | 'answer';
 
-/** Registry: provider, model, limits. Change models here only. */
-const REGISTRY: Record<AiTask, { provider: 'anthropic'; model: string; maxTokens: number; timeoutMs: number }> = {
-  'adversarial-review': { provider: 'anthropic', model: 'claude-sonnet-5-5', maxTokens: 800, timeoutMs: 60_000 },
-  'hindi-backtranslation': { provider: 'anthropic', model: 'claude-sonnet-5-5', maxTokens: 600, timeoutMs: 60_000 },
-  answer: { provider: 'anthropic', model: 'claude-haiku-5-5', maxTokens: 900, timeoutMs: 30_000 },
+/** Registry: model per task, with its OpenRouter slug, and limits. Change models here only. */
+const REGISTRY: Record<AiTask, { model: string; openrouterModel: string; maxTokens: number; timeoutMs: number }> = {
+  'adversarial-review': { model: 'claude-sonnet-5-5', openrouterModel: 'anthropic/claude-sonnet-5.5', maxTokens: 800, timeoutMs: 60_000 },
+  'hindi-backtranslation': { model: 'claude-sonnet-5-5', openrouterModel: 'anthropic/claude-sonnet-5.5', maxTokens: 600, timeoutMs: 60_000 },
+  answer: { model: 'claude-haiku-5-5', openrouterModel: 'anthropic/claude-haiku-5.5', maxTokens: 900, timeoutMs: 30_000 },
 };
 
 export class AiUnconfigured extends Error {}
 
+/**
+ * Provider choice: Anthropic directly when ANTHROPIC_API_KEY is set, otherwise OpenRouter (same models, routed
+ * only to Anthropic, with prompt logging for training denied). OpenRouter is the starting provider (D-019).
+ */
+export function aiProvider(env: Record<string, string | undefined> = process.env): 'anthropic' | 'openrouter' | null {
+  if (env.ANTHROPIC_API_KEY) return 'anthropic';
+  if (env.OPENROUTER_API_KEY) return 'openrouter';
+  return null;
+}
+
 export async function askAI(task: AiTask, system: string, user: string, env: Record<string, string | undefined> = process.env): Promise<string> {
-  const key = env.ANTHROPIC_API_KEY;
-  if (!key) throw new AiUnconfigured(`ANTHROPIC_API_KEY not set; ${task} cannot run`);
+  const provider = aiProvider(env);
+  if (!provider) throw new AiUnconfigured(`no AI key set (OPENROUTER_API_KEY or ANTHROPIC_API_KEY); ${task} cannot run`);
   const r = REGISTRY[task];
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
+  if (provider === 'anthropic') {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': env.ANTHROPIC_API_KEY!, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+      body: JSON.stringify({ model: r.model, max_tokens: r.maxTokens, system, messages: [{ role: 'user', content: user }] }),
+      signal: AbortSignal.timeout(r.timeoutMs),
+    });
+    if (!res.ok) throw new Error(`AI provider returned HTTP ${res.status}`);
+    const body = (await res.json()) as { content?: { type: string; text?: string }[] };
+    return (body.content ?? []).filter((c) => c.type === 'text').map((c) => c.text ?? '').join('');
+  }
+  const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
     method: 'POST',
-    headers: { 'x-api-key': key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-    body: JSON.stringify({ model: r.model, max_tokens: r.maxTokens, system, messages: [{ role: 'user', content: user }] }),
+    headers: { authorization: `Bearer ${env.OPENROUTER_API_KEY}`, 'content-type': 'application/json', 'x-title': 'Yatharth Bharat' },
+    body: JSON.stringify({
+      model: r.openrouterModel,
+      max_tokens: r.maxTokens,
+      messages: [{ role: 'system', content: system }, { role: 'user', content: user }],
+      provider: { only: ['anthropic'], allow_fallbacks: false, data_collection: 'deny' },
+    }),
     signal: AbortSignal.timeout(r.timeoutMs),
   });
   if (!res.ok) throw new Error(`AI provider returned HTTP ${res.status}`);
-  const body = (await res.json()) as { content?: { type: string; text?: string }[] };
-  return (body.content ?? []).filter((c) => c.type === 'text').map((c) => c.text ?? '').join('');
+  const body = (await res.json()) as { choices?: { message?: { content?: string | null } }[] };
+  return body.choices?.[0]?.message?.content ?? '';
 }
 
 const Verdict = z.object({ ok: z.boolean(), problems: z.array(z.string()).max(10) });

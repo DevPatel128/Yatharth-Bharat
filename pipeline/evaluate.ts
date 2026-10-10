@@ -32,7 +32,7 @@ async function adversarial(def: IndicatorDef, ex: DualExtraction, latest: Point[
     const v = parseVerdict(await askAI('adversarial-review', REVIEW_SYSTEM, `<document>\n${doc}\n</document>\n\n<record>\n${JSON.stringify(record)}\n</record>`));
     return v.ok ? { gate: 'G6', status: 'pass', detail: 'adversarial review found no problem' } : { gate: 'G6', status: 'fail', detail: v.problems.join('; ') };
   } catch (e) {
-    if (e instanceof AiUnconfigured) return pending('G6', 'AI review not configured (ANTHROPIC_API_KEY missing)');
+    if (e instanceof AiUnconfigured) return pending('G6', 'AI review not configured (no OPENROUTER_API_KEY or ANTHROPIC_API_KEY)');
     return { gate: 'G6', status: 'fail', detail: `AI review error: ${(e as Error).message}` };
   }
 }

@@ -16,7 +16,7 @@ npm run data:run       # live pipeline (local mode: AI gates may be pending)
 4. Custom domain: Cloudflare dashboard → Workers → yatharth-bharat → Domains & Routes.
 
 ## Daily data update
-- `data-update.yml` at 18:37 UTC (00:07 IST). Needs: `ANTHROPIC_API_KEY` secret, GitHub App (`DATA_BOT_APP_ID` variable + `DATA_BOT_PRIVATE_KEY` secret) with Contents + Pull requests + Issues read/write, repo setting "Allow auto-merge", branch protection on `main` requiring the `verify` check, label `data`.
+- `data-update.yml` at 18:37 UTC (00:07 IST). Needs: `OPENROUTER_API_KEY` secret (or `ANTHROPIC_API_KEY`, which takes precedence), GitHub App (`DATA_BOT_APP_ID` variable + `DATA_BOT_PRIVATE_KEY` secret) with Contents + Pull requests + Issues read/write, repo setting "Allow auto-merge", branch protection on `main` requiring the `verify` check, label `data`.
 - Kill switch: repository variable `AUTOPILOT=off`.
 - A held or failed source opens/updates the issue "Data pipeline: held or failed sources". The site keeps the last verified value and marks it stale.
 
