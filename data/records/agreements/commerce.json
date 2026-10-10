@@ -1,0 +1,1645 @@
+{
+  "schemaVersion": 1,
+  "lastVerifiedAt": "2026-10-11T00:05:00+05:30",
+  "listUrl": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+  "agreements": [
+    {
+      "id": "text-of-india-eu-fta-4515",
+      "title": "Text of India–EU FTA",
+      "group": "concluded",
+      "listedOn": "2026-09-11",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india_eu_fta",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4515\",\"title\":\"Text of India\\u2013EU FTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "current-engagements-of-india-in-rtas-1483",
+      "title": "Current Engagements of India in RTAs",
+      "group": "concluded",
+      "listedOn": "2026-09-10",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/indias-current-engagements-in-rtas",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1483\",\"title\":\"Current Engagements of India in RTAs\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-afghanistan-pta-1504",
+      "title": "India Afghanistan PTA",
+      "group": "concluded",
+      "listedOn": "2026-09-10",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-afghanistan-pta",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1504\",\"title\":\"India Afghanistan PTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "factsheet-for-india-new-zealand-free-trade-agreement-4789",
+      "title": "Factsheet for India – New Zealand Free Trade Agreement",
+      "group": "concluded",
+      "listedOn": "2026-04-27",
+      "url": "https://www.commerce.gov.in/files/2026-04/final_0.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4789\",\"title\":\"Factsheet for India \\u2013 New Zealand Free Trade Agreement\\t\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-of-india-nz-fta-4724",
+      "title": "Agreement of India-NZ FTA",
+      "group": "concluded",
+      "listedOn": "2026-04-27",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/agreement-of-india-nz-fta",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4724\",\"title\":\"Agreement of India-NZ FTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "signed-agreed-minute-of-03rd-session-of-india-norway-dti-hel-4719",
+      "title": "Signed agreed minute of 03rd Session of India-Norway DTI held on 16.04.2026",
+      "group": "europe-economic",
+      "listedOn": "2026-04-16",
+      "url": "https://www.commerce.gov.in/files/2026-04/minute_of_Session.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4719\",\"title\":\"Signed agreed minute of 03rd Session of India-Norway DTI held on 16.04.2026\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "factsheet-on-conclusion-of-india-eu-free-trade-agreement-4424",
+      "title": "Factsheet on conclusion of India-EU Free Trade Agreement",
+      "group": "concluded",
+      "listedOn": "2026-01-27",
+      "url": "https://www.commerce.gov.in/files/2026-01/Factsheet-on-India-EU-trade-deal-27.1.2026_1.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4424\",\"title\":\"Factsheet on conclusion of India-EU Free Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-india-iran-trade-and-industrial-cooperation-2012-4361",
+      "title": "MoU India-Iran Trade and Industrial cooperation, 2012",
+      "group": "other",
+      "listedOn": "2026-01-16",
+      "url": "https://www.commerce.gov.in/files/2026-01/MoU%20India%20Iran%20Trade%20and%20Industrial%20cooperation.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4361\",\"title\":\"MoU India-Iran Trade  and Industrial cooperation, 2012 \"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "revised-agreement-of-co-operation-between-india-nepal-to-con-4362",
+      "title": "Revised Agreement of Co-operation between India-Nepal to control Unauthorized Trade, 2009",
+      "group": "other",
+      "listedOn": "2026-01-16",
+      "url": "https://www.commerce.gov.in/files/2026-01/Nepal%20unauthorized%20trade%202009.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4362\",\"title\":\"Revised Agreement of  Co-operation between  India-Nepal to control  Unauthorized Trade, 2009\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "fact-sheet-india-and-new-zealand-conclude-free-trade-agreeme-4423",
+      "title": "Fact Sheet-India and New Zealand Conclude Free Trade Agreement",
+      "group": "concluded",
+      "listedOn": "2025-12-22",
+      "url": "https://www.commerce.gov.in/files/2026-01/Fact-Sheet-NZ-FTA-dec-22-for-Website-ver2%20%281%29%20%282%29.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4423\",\"title\":\"Fact Sheet-India and New Zealand Conclude Free Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-oman-comprehensive-economic-partnership-agreement-4287",
+      "title": "India Oman Comprehensive Economic Partnership Agreement",
+      "group": "concluded",
+      "listedOn": "2025-12-20",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-oman-comprehensive-economic-partnership-agreement-old",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4287\",\"title\":\"India Oman Comprehensive Economic Partnership Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-uk-ceta-synopsis-of-key-chapters-3775",
+      "title": "India-UK CETA-Synopsis of Key Chapters",
+      "group": "concluded",
+      "listedOn": "2025-08-06",
+      "url": "https://www.commerce.gov.in/files/2025-08/India-UK%20CETA-Synopsis%20of%20Key%20Chapters.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"3775\",\"title\":\"India-UK CETA-Synopsis of Key Chapters\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-uk-ceta-3625",
+      "title": "India – UK CETA",
+      "group": "concluded",
+      "listedOn": "2025-07-24",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-united-kingdom-comprehensive-economic-and-trade-agreement",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"3625\",\"title\":\"India \\u2013 UK CETA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-efta-tepa-1481",
+      "title": "India-EFTA TEPA",
+      "group": "concluded",
+      "listedOn": "2024-03-10",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-efta-tepa",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1481\",\"title\":\"India-EFTA TEPA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-costa-rica-joint-economic-and-trade-committee-jetco-1560",
+      "title": "India-Costa Rica Joint Economic and Trade Committee (JETCO)",
+      "group": "other",
+      "listedOn": "2023-03-24",
+      "url": "https://www.commerce.gov.in/files/2025-01/13.-India-Costa-Rica-Joint-Economic-and-Trade-Committee-JETCO.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1560\",\"title\":\"India-Costa Rica Joint Economic and Trade Committee (JETCO)\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "ind-aus-ecta-1482",
+      "title": "Ind-Aus-ECTA",
+      "group": "concluded",
+      "listedOn": "2022-06-30",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/ind-aus-ecta",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1482\",\"title\":\"Ind-Aus-ECTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-uae-cepa-1484",
+      "title": "India-UAE CEPA",
+      "group": "concluded",
+      "listedOn": "2022-03-27",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/comprehensive-economic-partnership-agreement-between-the-government-of-the-republic-of-india-and-the-government-of-the-united-arab-emirates-uae",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1484\",\"title\":\"India-UAE CEPA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-mauritius-cecpa-1485",
+      "title": "India-Mauritius CECPA",
+      "group": "concluded",
+      "listedOn": "2021-04-01",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-mauritius-cecpa",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1485\",\"title\":\"India-Mauritius CECPA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-with-argentina-1486",
+      "title": "MoU with Argentina",
+      "group": "concluded",
+      "listedOn": "2021-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_Argentina_english.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1486\",\"title\":\"MoU with Argentina\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-africa-trade-agreement-1497",
+      "title": "India Africa Trade Agreement",
+      "group": "concluded",
+      "listedOn": "2020-02-14",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-africa-trade-agreement",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1497\",\"title\":\"India Africa Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-japan-cepa-1502",
+      "title": "India Japan CEPA",
+      "group": "concluded",
+      "listedOn": "2020-02-14",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-japan-cepa",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1502\",\"title\":\"India Japan CEPA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-cuba-1979-1515",
+      "title": "Trade Agreement with Cuba- 1979",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117630469819252_Trade-Agreement-with-Cuba-1979.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1515\",\"title\":\"Trade Agreement with Cuba- 1979\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-colombia-1970-1514",
+      "title": "Trade Agreement with Colombia- 1970",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117629592334860_Trade-Agreement-with-Colombia-1970.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1514\",\"title\":\"Trade Agreement with Colombia- 1970\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-guatemala-1981-1516",
+      "title": "Trade Agreement with Guatemala- 1981",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117631075903121_Trade-Agreement-with-Guatemala-1981.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1516\",\"title\":\"Trade Agreement with Guatemala- 1981\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "general-trade-agreement-with-peru-1971-1512",
+      "title": "General Trade Agreement with Peru- 1971",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117626601817969_General-Trade-Agreement-with-Peru-1971.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1512\",\"title\":\"General Trade Agreement with Peru- 1971\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-brazil-1968-1518",
+      "title": "Trade Agreement with Brazil- 1968",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117635139914314_Trade-Agreement-with-Brazil-1968.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1518\",\"title\":\"Trade Agreement with Brazil- 1968\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-india-argentina-jtc-1981-1511",
+      "title": "Agreement on India-Argentina JTC- 1981",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117628942479658_Agreement-on-India-Argentina-JTC-1981.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1511\",\"title\":\"Agreement on India-Argentina JTC- 1981\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-of-trade-commerce-and-transit-between-the-governme-1510",
+      "title": "Agreement of Trade, Commerce and Transit between the Government of the Republic of India and the Royal Government of Bhutan",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_636404697883366996_Agreement_between_India_Bhutan_12th_Nov_2016.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1510\",\"title\":\"Agreement of Trade, Commerce and Transit between the Government of the Republic of India and the Royal Government of Bhutan\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-economic-cooperation-between-india-and-finland-1489",
+      "title": "Agreement on Economic Cooperation between India and Finland",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/India-Finland-AGR.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1489\",\"title\":\"Agreement on Economic Cooperation between India and Finland\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "treaty-of-transit-between-india-and-nepal-1509",
+      "title": "Treaty of Transit between India and Nepal",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/TransitTreaty_NEPAL.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1509\",\"title\":\"Treaty of Transit between India and Nepal\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-chile-1956-1519",
+      "title": "Trade Agreement with Chile- 1956",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117635783233640_Trade-Agreement-with-Chile-1956.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1519\",\"title\":\"Trade Agreement with Chile- 1956\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-chile-1960-1520",
+      "title": "Trade Agreement with Chile- 1960",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117636275516575_Trade-Agreement-with-Chile-1960.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1520\",\"title\":\"Trade Agreement with Chile- 1960\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-chile-1972-1513",
+      "title": "Trade Agreement with Chile – 1972",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117623003381423_Trade-Agreement-with-Chile-1972.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1513\",\"title\":\"Trade Agreement with Chile \\u2013 1972\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-with-argentina-1966-1517",
+      "title": "Trade Agreement with Argentina- 1966",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_637117634515656361_Trade-Agreement-with-Argentina-1966.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1517\",\"title\":\"Trade Agreement with Argentina- 1966\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-with-colombia-1487",
+      "title": "MoU with Colombia",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_Colombia_english.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1487\",\"title\":\"MoU with Colombia\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "asia-pacific-trade-agreement-apta-1492",
+      "title": "Asia Pacific Trade Agreement APTA",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/bangkok_agreement.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1492\",\"title\":\"Asia Pacific Trade Agreement APTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-south-asia-free-trade-area-safta-1491",
+      "title": "Agreement on South Asia Free Trade Area SAFTA",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/safta.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1491\",\"title\":\"Agreement on South Asia Free Trade Area SAFTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-saarc-preferential-trading-arrangement-sapta-1490",
+      "title": "Agreement on SAARC Preferential Trading Arrangement (SAPTA)",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement_SAARC_SAPTA%20%281%29.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1490\",\"title\":\"Agreement on SAARC Preferential Trading Arrangement (SAPTA)\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-between-india-and-argentina-1500",
+      "title": "Trade Agreement between India and Argentina",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_636752899695215740_Agreement_India_Argentina.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1500\",\"title\":\"Trade Agreement between India and Argentina\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "expansion-india-chile-pta-1501",
+      "title": "Expansion India-Chile PTA",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_636338205640368585_Expansion_India-Chile_PTA.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1501\",\"title\":\"Expansion India-Chile PTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "saarc-agreement-on-trade-in-services-satis-1508",
+      "title": "SAARC Agreement on Trade in Services SATIS",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/SAARC-Agreement-on-Trade-in-Services-SATS.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1508\",\"title\":\"SAARC Agreement on Trade in Services SATIS\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-ecuador-joint-economic-and-trade-committee-jetco-1503",
+      "title": "India-Ecuador Joint Economic and Trade Committee (JETCO)",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_Ecuador_Joint_Economic_Trade_Committee_JETCO.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1503\",\"title\":\"India-Ecuador Joint Economic and Trade Committee (JETCO)\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-korea-cepa-1505",
+      "title": "India Korea CEPA",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/INDIA-KOREA-CEPA-2009.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1505\",\"title\":\"India Korea CEPA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-nepal-trade-treaty-1506",
+      "title": "India Nepal Trade Treaty",
+      "group": "concluded",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/nepal.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1506\",\"title\":\"India Nepal Trade Treaty\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-and-mode-of-operation-between-india-and-bangladesh-for-e-1548",
+      "title": "MoU and Mode of operation between India and Bangladesh for establishing Border Haats across the border_2010",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-05/MOU_Border_Haats_across_Border_India_and_Bangladesh2010.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1548\",\"title\":\"MoU and Mode of operation between India and Bangladesh for establishing Border Haats across the border_2010\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-economic-cooperation-between-india-and-ecuador-1557",
+      "title": "MoU on Economic Cooperation between India and Ecuador",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_Ecuador.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1557\",\"title\":\"MoU on Economic Cooperation between India and Ecuador\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-economic-cooperation-between-india-and-costa-rica-1556",
+      "title": "Mou on Economic Cooperation between India and Costa Rica",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_Costa_Rica.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1556\",\"title\":\"Mou on Economic Cooperation between India and Costa Rica\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "joint-communique-for-setting-up-the-india-russia-joint-task--1547",
+      "title": "Joint Communique for setting up the India Russia Joint Task Force",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_Russia_Joint_Task_2008.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1547\",\"title\":\"Joint Communique for setting up the India Russia Joint Task Force\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-united-states-commercial-dialogue-1546",
+      "title": "India United States Commercial Dialogue",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_USA_Dialogue.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1546\",\"title\":\"India United States Commercial Dialogue\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-new-zealand-joint-study-report-1545",
+      "title": "India New Zealand Joint Study Report",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_NewZealand_Joint_Study_Report_2009.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1545\",\"title\":\"India New Zealand Joint Study Report\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-mongolia-trade-agreement-1544",
+      "title": "India Mongolia Trade Agreement",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/mongolio.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1544\",\"title\":\"India Mongolia Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-maldives-trade-agreement-1543",
+      "title": "India Maldives Trade Agreement",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/maldives.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1543\",\"title\":\"India Maldives Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-eu-strategic-partnership-joint-action-plan-1541",
+      "title": "India EU Strategic Partnership Joint Action Plan",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_EU_jap.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1541\",\"title\":\"India EU Strategic Partnership Joint Action Plan\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-dpr-korea-trade-agreement-1540",
+      "title": "India DPR Korea Trade Agreement",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1540\",\"title\":\"India DPR Korea Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-ceylon-trade-agreement-1539",
+      "title": "India Ceylon Trade Agreement",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/ceylon.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1539\",\"title\":\"India Ceylon Trade Agreement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-and-australia-joint-free-trade-agreement-feasibility-s-1537",
+      "title": "India and Australia Joint Free Trade Agreement Feasibility Study",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/Final_JSG_Report_as_printed_and_released_4thMay_2010.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1537\",\"title\":\"India and Australia Joint Free Trade Agreement Feasibility Study\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-us-trade-policy-forum-joint-statement-1536",
+      "title": "India US Trade Policy Forum Joint Statement",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/jt_statement_usindia_trade_policy_forum.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1536\",\"title\":\"India US Trade Policy Forum Joint Statement\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "framework-agreeement-with-mercosur-1532",
+      "title": "Framework Agreeement with MERCOSUR",
+      "group": "other",
+      "listedOn": "2020-02-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/Framework_Agreeement_MERCOSUR.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1532\",\"title\":\"Framework Agreeement with MERCOSUR\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "terms-of-reference-of-india-norway-dialogue-on-trade-and-inv-1530",
+      "title": "Terms of Reference of India – Norway Dialogue on Trade and Investment signed on 8.1.2019",
+      "group": "europe-economic",
+      "listedOn": "2019-01-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/Terms-of-Reference-of-India-Norway-Dialogue-on-Trade-and-Investment.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1530\",\"title\":\"Terms of Reference of India \\u2013 Norway Dialogue on Trade and Investment signed on 8.1.2019\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-economic-and-trade-cooperation-signed-between-india-a-1559",
+      "title": "MoU on Economic and Trade Cooperation signed between India and Vietnam",
+      "group": "other",
+      "listedOn": "2018-02-01",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU-on-Economic-and-Trade-Cooperation-signed-between-India-and-Vietnam.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1559\",\"title\":\"MoU on Economic and Trade Cooperation signed between India and Vietnam\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-and-mode-of-operation-between-india-and-bangladesh-for-e-1549",
+      "title": "MoU and Mode of operation between India and Bangladesh for establishing Border Haats across the border_2017",
+      "group": "other",
+      "listedOn": "2017-04-08",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_636295985083746420_MOU_Border_Haats_across_Border_India_and_Bangladesh_8th_April_2017.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1549\",\"title\":\"MoU and Mode of operation between India and Bangladesh for establishing Border Haats across the border_2017\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-between-india-and-croatia-on-economic-cooperation--1521",
+      "title": "Agreement between India and Croatia on Economic Cooperation signed on 14.2.2017",
+      "group": "europe-economic",
+      "listedOn": "2017-02-14",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-between-India-and-Croatia-on-Economic-Cooperation.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1521\",\"title\":\"Agreement between India and Croatia on Economic Cooperation signed on 14.2.2017\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-indo-bangladesh-2015-4360",
+      "title": "Trade Agreement Indo- Bangladesh, 2015",
+      "group": "concluded",
+      "listedOn": "2015-06-06",
+      "url": "https://www.commerce.gov.in/files/2026-01/Trade%20Agreement%20%20Indo-Bangladesh%20%5B2015%5D.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4360\",\"title\":\"Trade Agreement Indo- Bangladesh, 2015 \"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "five-year-development-program-for-economic-and-trade-coopera-1558",
+      "title": "Five-Year Development Program for Economic and Trade Cooperation between the People’s Republic of China and the Republic of India September 18, 2014",
+      "group": "other",
+      "listedOn": "2014-09-18",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_636156057952507552_Five_Year_Development_Plan_Commerce_18_9_2014.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1558\",\"title\":\"Five-Year Development Program for Economic and Trade Cooperation between the People\\u2019s Republic of China and the Republic of India September 18, 2014\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-establishment-of-joint-trade-and-investment-forum-bet-1553",
+      "title": "MoU on Establishment of Joint Trade and Investment Forum between India and Myanmar",
+      "group": "other",
+      "listedOn": "2012-05-28",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU-on-Establishment-of-Joint-Trade-and-Investment-Forum-between-India-and-Myanmar.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1553\",\"title\":\"MoU on Establishment of Joint Trade and Investment Forum between India and Myanmar\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-establishment-of-border-haats-across-the-border-betwe-1552",
+      "title": "MoU on Establishment of Border Haats across the border between India and Myanmar",
+      "group": "other",
+      "listedOn": "2012-05-28",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_on_Estt_of_Border_Haats_with_Myanmar.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1552\",\"title\":\"MoU on Establishment of Border Haats across the border between India and Myanmar\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-malaysia-ceca-1494",
+      "title": "India Malaysia CECA",
+      "group": "concluded",
+      "listedOn": "2011-02-18",
+      "url": "https://www.commerce.gov.in/files/2025-01/title-1-1.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1494\",\"title\":\"India Malaysia CECA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-between-india-and-indonesia-on-the-establishment-of-bien-1550",
+      "title": "MOU between India and Indonesia on the establishment of Biennial Trade Ministers’ Forum",
+      "group": "other",
+      "listedOn": "2011-01-25",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOC_636045264093299512_MoU_India_Indonesia_2011.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1550\",\"title\":\"MOU between India and Indonesia on the establishment of Biennial Trade Ministers\\u2019 Forum\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-implementation-of-india-malaysia-ceca-1495",
+      "title": "Agreement on implementation of India – Malaysia CECA",
+      "group": "concluded",
+      "listedOn": "2010-10-27",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_Malaysia_Agreement_CECA-1-1.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1495\",\"title\":\"Agreement on implementation of India \\u2013 Malaysia CECA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-asean-agreements-1496",
+      "title": "India ASEAN Agreements",
+      "group": "concluded",
+      "listedOn": "2010-10-26",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-asean-agreements",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1496\",\"title\":\"India ASEAN Agreements\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-economic-cooperation-between-india-and-czech-re-1527",
+      "title": "Agreement on Economic Cooperation between India and Czech Republic signed on 9.6.2010",
+      "group": "europe-economic",
+      "listedOn": "2010-06-09",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-on-Economic-Cooperation-between-India-and-Czech-Republic.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1527\",\"title\":\"Agreement on Economic Cooperation between India and Czech Republic signed on 9.6.2010\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-economic-cooperation-between-india-and-finland--1524",
+      "title": "Agreement on Economic Cooperation between India and Finland signed on 26.3.2010",
+      "group": "europe-economic",
+      "listedOn": "2010-03-26",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-on-Economic-Cooperation-between-India-and-Finland.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1524\",\"title\":\"Agreement on Economic Cooperation between India and Finland signed on 26.3.2010\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-between-india-and-viet-nam-on-the-recognition-of-vietnam-1551",
+      "title": "MOU between India and Viet Nam on the recognition of Vietnam as a Full Market Economy",
+      "group": "other",
+      "listedOn": "2009-10-25",
+      "url": "https://www.commerce.gov.in/files/2025-01/MOU_India-Govt_Socialist_Republic_of-_Vietnam.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1551\",\"title\":\"MOU between India and Viet Nam on the recognition of Vietnam as a Full Market Economy\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-indonesia-joint-study-group-report-1542",
+      "title": "India Indonesia Joint Study Group Report",
+      "group": "other",
+      "listedOn": "2009-09-15",
+      "url": "https://www.commerce.gov.in/files/2025-01/India_Indonesia_JSG_Report_2009.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1542\",\"title\":\"India Indonesia Joint Study Group Report\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-establishment-of-joint-trade-committee-with-brunei-1555",
+      "title": "MoU on Establishment of Joint Trade Committee with Brunei",
+      "group": "other",
+      "listedOn": "2008-05-22",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_on_Estt_of_JTC_with_Brunei.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1555\",\"title\":\"MoU on Establishment of Joint Trade Committee with Brunei\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-economic-cooperation-between-india-and-bulgaria-1526",
+      "title": "Agreement on Economic Cooperation between India and Bulgaria signed on 12.9.2007",
+      "group": "europe-economic",
+      "listedOn": "2007-09-12",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-on-Economic-Cooperation-between-India-and-Bulgaria.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1526\",\"title\":\"Agreement on Economic Cooperation between India and Bulgaria signed on 12.9.2007\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-economic-cooperation-between-india-and-romania--1528",
+      "title": "Agreement on Economic Cooperation between India and Romania signed on 23.10.2006",
+      "group": "europe-economic",
+      "listedOn": "2006-10-23",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-on-Economic-Cooperation-between-India-and-Romania.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1528\",\"title\":\"Agreement on Economic Cooperation between India and Romania signed on 23.10.2006\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-trade-and-economic-cooperation-between-india-an-1529",
+      "title": "Agreement on Trade and Economic Cooperation between India and Serbia and Montenegro signed on 7.2.2006",
+      "group": "europe-economic",
+      "listedOn": "2006-02-07",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-on-Trade-and-Economic-Cooperation-between-India-and-Serbia-and-Montenegro.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1529\",\"title\":\"Agreement on Trade and Economic Cooperation between India and Serbia and Montenegro signed on 7.2.2006\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-singapore-ceca-1493",
+      "title": "India Singapore CECA",
+      "group": "concluded",
+      "listedOn": "2005-06-29",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/comprehensive-economic-cooperation-agreement-between-the-republic-of-india-and-the-republic-of-singapore",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1493\",\"title\":\"India Singapore CECA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-chile-pta-1499",
+      "title": "India Chile PTA",
+      "group": "concluded",
+      "listedOn": "2005-01-20",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-chile-pta-preferential-trade-agreement-pta-with-chile",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1499\",\"title\":\"India Chile PTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-between-india-and-united-kingdom-for-establishment-1522",
+      "title": "Agreement between India and United Kingdom for establishment of a Joint Economic and Trade Committee signed on 13.1.2005",
+      "group": "europe-economic",
+      "listedOn": "2005-01-13",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-between-India-and-United-Kingdom-for-establishment-of-a-Joint-Economic-and-Trade-Committee.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1522\",\"title\":\"Agreement between India and United Kingdom for establishment of a Joint Economic and Trade Committee signed on 13.1.2005\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-on-economic-cooperation-between-india-and-slovak-r-1525",
+      "title": "Agreement on Economic Cooperation between India and Slovak Republic signed on 13.12.2004",
+      "group": "europe-economic",
+      "listedOn": "2004-12-13",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-on-Economic-Cooperation-between-India-and-Slovak-Republic.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1525\",\"title\":\"Agreement on Economic Cooperation between India and Slovak Republic signed on 13.12.2004\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "framework-agreement-with-thailand-1535",
+      "title": "Framework Agreement with Thailand",
+      "group": "other",
+      "listedOn": "2003-10-09",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/framework-agreement-with-thailand",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1535\",\"title\":\"Framework Agreement with Thailand\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "mou-on-establishment-of-joint-trade-committee-between-india--1554",
+      "title": "MoU on Establishment of Joint Trade Committee between India and Myanmar",
+      "group": "other",
+      "listedOn": "2003-07-14",
+      "url": "https://www.commerce.gov.in/files/2025-01/MoU_on_Estt_of_JTC_with_Myanmar.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1554\",\"title\":\"MoU on Establishment of Joint Trade Committee between India and Myanmar\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-mercosur-pta-1480",
+      "title": "India-Mercosur PTA",
+      "group": "concluded",
+      "listedOn": "2003-06-17",
+      "url": "https://www.commerce.gov.in/#/india-mercosur-pta",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1480\",\"title\":\"India-Mercosur PTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "trade-agreement-between-india-and-bosnia-and-herzegovina-sig-1531",
+      "title": "Trade Agreement between India and Bosnia and Herzegovina signed on 23.4.2002",
+      "group": "europe-economic",
+      "listedOn": "2002-04-23",
+      "url": "https://www.commerce.gov.in/files/2025-01/Trade-Agreement-between-India-and-Bosnia-and-Herzegovina.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1531\",\"title\":\"Trade Agreement between India and Bosnia and Herzegovina signed on 23.4.2002\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-sri-lanka-fta-1507",
+      "title": "India Sri Lanka FTA",
+      "group": "concluded",
+      "listedOn": "1998-12-20",
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/india-sri-lanka-fta",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1507\",\"title\":\"India Sri Lanka FTA\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "agreement-between-india-and-slovenia-on-trade-and-economic-c-1523",
+      "title": "Agreement between India and Slovenia on Trade and Economic Cooperation signed on 7.12.1993",
+      "group": "europe-economic",
+      "listedOn": "1993-12-07",
+      "url": "https://www.commerce.gov.in/files/2025-01/Agreement-between-India-and-Slovenia-on-Trade-and-Economic-Cooperation.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1523\",\"title\":\"Agreement between India and Slovenia on Trade and Economic Cooperation signed on 7.12.1993\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "india-pakistan-agreement-1975-4359",
+      "title": "India-Pakistan Agreement, 1975",
+      "group": "concluded",
+      "listedOn": "1975-01-23",
+      "url": "https://www.commerce.gov.in/files/2026-01/India%20Pakistan.pdf",
+      "kind": "document",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"4359\",\"title\":\"India-Pakistan  Agreement, 1975 \"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "framework-agreement-with-gcc-states-1534",
+      "title": "Framework Agreement with GCC States",
+      "group": "other",
+      "listedOn": null,
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/framework-agreement-with-gcc-states",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1534\",\"title\":\"Framework Agreement with GCC States\"",
+          "method": "browser-capture"
+        }
+      ]
+    },
+    {
+      "id": "framework-agreement-with-chile-1533",
+      "title": "Framework agreement with Chile",
+      "group": "other",
+      "listedOn": null,
+      "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements/framework-agreement-on-economic-cooperation-with-chile",
+      "kind": "page",
+      "evidence": [
+        {
+          "sourceId": "commerce-trade-agreements",
+          "url": "https://www.commerce.gov.in/#/international-trade/trade-agreements",
+          "retrievedAt": "2026-10-11T00:05:00+05:30",
+          "snapshotSha256": "3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db",
+          "quote": "\"nid\":\"1533\",\"title\":\"Framework agreement with Chile\"",
+          "method": "browser-capture"
+        }
+      ]
+    }
+  ]
+}

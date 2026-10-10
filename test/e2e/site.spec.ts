@@ -156,3 +156,10 @@ test('ask API: rejects wrong method, cross-site posts and bad input', async ({ r
   expect(body.results.length).toBeGreaterThan(0);
   expect(body.results[0].href).toMatch(/^\/hi\//);
 });
+
+test('India and the World: trade agreements listed with the date caveat', async ({ page }) => {
+  await page.goto('/en/world');
+  await expect(page.getByRole('heading', { name: 'Trade agreements' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'India-UAE CEPA' })).toHaveAttribute('href', /^https:\/\/www\.commerce\.gov\.in\//);
+  await expect(page.getByText(/often the date the document was posted/)).toBeVisible();
+});

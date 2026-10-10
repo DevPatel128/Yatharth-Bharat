@@ -216,3 +216,16 @@ export const TimelineEntry = z.object({
   explainer: z.string().optional(),
 });
 export type TimelineEntry = z.infer<typeof TimelineEntry>;
+
+/** India's trade agreements as listed by the Department of Commerce (titles verbatim; dates as the Department lists them). */
+export const Agreement = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: z.string().min(3),
+  group: z.enum(['concluded', 'europe-economic', 'other']),
+  listedOn: isoDate.nullable(),
+  url: httpsUrl,
+  kind: z.enum(['document', 'page']),
+  evidence: z.array(Evidence).min(1),
+});
+export const AgreementsFile = z.object({ schemaVersion: z.literal(1), lastVerifiedAt: isoDateTime, listUrl: httpsUrl, agreements: z.array(Agreement).min(1) });
+export type AgreementsFile = z.infer<typeof AgreementsFile>;

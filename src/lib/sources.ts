@@ -88,6 +88,18 @@ const list: SourceT[] = [
     limitations: 'The site blocks automated access, so files are downloaded by hand and pinned by hash. Budget Estimates are plans, Revised Estimates are mid-year updates and Actuals are final accounts; an allocation is not the same as money released or spent. The Ministry states that where the Excel and PDF versions differ, the PDF is final.',
   },
   {
+    id: 'commerce-trade-agreements',
+    publisher: 'Department of Commerce, Ministry of Commerce and Industry, Government of India',
+    name: { en: 'Trade Agreements (list of agreements and texts)', hi: 'व्यापार समझौते (समझौतों और उनके पाठ की सूची)' },
+    category: 'indian-government',
+    homepage: 'https://www.commerce.gov.in/#/international-trade/trade-agreements',
+    allowedHosts: ['www.commerce.gov.in'],
+    access: 'manual-download',
+    updateFrequency: 'irregular',
+    licence: 'Government of India publication (attribution required)',
+    limitations: 'The site blocks automated clients, so the list is captured in a browser and pinned by hash. Titles are the Department’s own. The date against each entry is the one the Department shows; for older agreements it is often the date the document was posted, not the date it was signed or came into force.',
+  },
+  {
     id: 'institution-website',
     publisher: 'The official website of the institution named in the text',
     name: { en: 'Official institution websites (linked on the page)', hi: 'संस्थाओं की आधिकारिक वेबसाइटें (पृष्ठ पर लिंक)' },

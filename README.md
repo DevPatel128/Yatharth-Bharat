@@ -46,7 +46,7 @@ Yatharth Bharat is a free, bilingual (English and Hindi) public-information site
 | **Check a figure** | Pick an indicator, a state figure or a Budget line, a period, and a number someone stated; see whether it matches the verified figure after rounding, matches an earlier since-revised estimate, or differs, with the source. Checks the number, never the person. Runs in the browser; shareable link | All verified records above |
 | **Education and jobs** | Enrolment, literacy, education spending, unemployment and women's labour participation; higher-education enrolment for every state and UT (alphabetical, not a ranking); 13 official portals for scholarships, study, exams, skills and recruitment, each checked by hand | MoSPI, AISHE, World Bank; official portals linked only |
 | **Ask** | Ask a question in English or Hindi; the site finds matching verified records and, when switched on, an AI model writes a short answer from them. Shown only if every sentence cites a record and every number appears in a cited record; labelled as AI-generated | All verified records above |
-| **India and the World** | 16 years of merchandise trade and India's 38 main trading partners | RBI Direction of Foreign Trade |
+| **India and the World** | 16 years of merchandise trade, India's 38 main trading partners, and 91 trade agreements and related documents as the Department of Commerce lists them | RBI Direction of Foreign Trade; Department of Commerce |
 | **Selection** | Collect figures and explanations, then export as text, Markdown, CSV or PDF with APA, MLA, Chicago and BibTeX citations. Stays in the reader's browser | — |
 | **Sources and method** | Every approved source, its licence and limitations, the checks, and the latest data run | — |
 
@@ -161,6 +161,7 @@ sequenceDiagram
 | National Portal of India | State and UT names, status and capitals | Captured from the page |
 | Legislative Department | Constitution of India, as on 1 May 2026 | PDF, manual inbox |
 | Ministry of Finance | Union Budget 2026-27, Budget at a Glance | PDF + XLSX, manual inbox |
+| Department of Commerce | Trade agreements list | JSON captured in a browser, manual inbox (site blocks automated clients) |
 | DataMeet India (community) | State boundaries for the map, simplified | GeoJSON, pinned commit |
 
 Full list with licences and known limitations: [Sources and method](https://yatharth-bharat.dvpatel.workers.dev/en/sources) and [`docs/SOURCE_POLICY.md`](docs/SOURCE_POLICY.md).
@@ -237,7 +238,8 @@ Built in stages by audience: citizens, then students, then young professionals, 
 - [ ] Wider history timeline (ASI, National Archives)
 - [x] Education and jobs: figures and official portals
 - [ ] Career pathways and India-vs-abroad comparison (profile kept in the browser)
-- [ ] Policies and international agreements
+- [x] Trade agreements (Department of Commerce list)
+- [ ] Policies: what each agreement and scheme covers, from official texts
 - [x] Check a figure (number checker over the verified records)
 - [ ] Claims and evidence (sourced statements)
 - [x] Ask: answers over the verified records, with citations and a number check

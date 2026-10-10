@@ -1,7 +1,8 @@
 // Published data integrity: these run against the committed records, so a bad data PR fails CI.
+import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { INDICATORS, REGIONS, DISPLAY_DECIMALS, HEADLINE, REGIONAL } from '../src/lib/data.ts';
+import { AGREEMENTS, INDICATORS, REGIONS, DISPLAY_DECIMALS, HEADLINE, REGIONAL } from '../src/lib/data.ts';
 import { SOURCES } from '../src/lib/sources.ts';
 import { g7Legal, g8Hindi } from '../pipeline/gates.ts';
 import { parsePortal } from '../pipeline/portal.ts';
@@ -117,5 +118,27 @@ describe('Union Budget', async () => {
   });
   it('Hindi labels pass the Hindi gate', () => {
     for (const t of BUDGET.tables) for (const r of t.rows) if (r.label.hi) expect(g8Hindi(r.label.en, r.label.hi).status, r.key).toBe('pass');
+  });
+});
+
+describe('Trade agreements (Department of Commerce list)', () => {
+  const capture = readFileSync(new URL('../data/manual-inbox/agreements/commerce-trade-agreements.json', import.meta.url));
+  const sha = createHash('sha256').update(capture).digest('hex');
+  it('every record is pinned to the stored capture and its title decodes from the quoted fragment', () => {
+    expect(AGREEMENTS.agreements.length).toBeGreaterThanOrEqual(50);
+    const text = capture.toString('utf8');
+    for (const a of AGREEMENTS.agreements) {
+      const e = a.evidence[0];
+      expect(e.snapshotSha256).toBe(sha);
+      expect(text.includes(e.quote), a.id).toBe(true);
+      expect(JSON.parse(`{${e.quote}}`).title.replace(/\s+/g, ' ').trim()).toBe(a.title);
+    }
+  });
+  it('links stay on the Department of Commerce site', () => {
+    for (const a of AGREEMENTS.agreements) expect(new URL(a.url).hostname, a.url).toBe('www.commerce.gov.in');
+  });
+  it('ids are unique and titles pass the neutral-language lint', () => {
+    expect(new Set(AGREEMENTS.agreements.map((a) => a.id)).size).toBe(AGREEMENTS.agreements.length);
+    expect(g7Legal(AGREEMENTS.agreements.map((a) => a.title)).status).toBe('pass');
   });
 });

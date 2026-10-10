@@ -54,3 +54,10 @@ Pending for this lane: Constitution of India Hindi text (fixes 3 Hindi state nam
 - Abuse: lower the rate limit in `wrangler.jsonc` (`ratelimits`), or add Turnstile.
 - A wrong answer report: the answer is cached for 24 h under `ans:<sha256>`; fix the record or the guard, then delete cached keys with `npx wrangler kv key list --binding ASK_KV --prefix ans:` and `npx wrangler kv key delete`.
 
+## Trade agreements (manual refresh)
+
+1. Open https://www.commerce.gov.in/#/international-trade/trade-agreements in a browser.
+2. In the browser's developer tools (Network tab), save the response of `ministryofcommerce/api/v1/international-trade/trade-agreements` as `data/manual-inbox/agreements/commerce-trade-agreements.json`.
+3. Update the date and SHA-256 in `data/manual-inbox/agreements/SOURCE.txt` and `CAPTURED_AT` in `pipeline/agreements.ts`.
+4. Run `node pipeline/agreements.ts`, then `npm run check`.
+

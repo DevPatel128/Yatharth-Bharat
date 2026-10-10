@@ -1,0 +1,15 @@
+Department of Commerce, Ministry of Commerce and Industry - Trade Agreements list
+
+Page:     https://www.commerce.gov.in/#/international-trade/trade-agreements
+Data:     https://www.commerce.gov.in/ministryofcommerce/api/v1/international-trade/trade-agreements
+          (the JSON the page itself loads; same-origin request from the page)
+Captured: 2026-10-11 00:05 IST, in the Claude desktop built-in browser (browser-capture lane).
+          Non-browser clients get HTTP 403 from the site; the project does not disguise its client
+          (AGENTS.md rule 7), so this list is refreshed by hand.
+File:     commerce-trade-agreements.json
+SHA-256:  3ac9d67b3ec8d99f9c28acd1a126f2c20b3a132b695532b6f59678bc02c3f4db
+Entries:  92 (49 concluded, 12 European economic cooperation, 30 other, 1 uncategorised and ignored)
+
+Not used: "Current Engagements of India in RTAs" sub-page - its entries describe negotiations that
+the main list shows as concluded (e.g. India-EU, India-EFTA), so it is out of date.
+Dates: the date against each entry is the Department's; for older agreements it is often a posting date.

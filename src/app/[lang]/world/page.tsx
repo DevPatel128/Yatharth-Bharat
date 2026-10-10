@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { dict, fmtNumber, isLang } from '@/lib/i18n';
-import { TRADE } from '@/lib/data';
+import { dict, fmtDate, fmtNumber, isLang } from '@/lib/i18n';
+import { AGREEMENTS, TRADE } from '@/lib/data';
 import { LineChart } from '@/components/LineChart';
 import { Disclaimer, HindiPendingNote } from '@/components/Disclaimer';
 import { ReferenceList } from '@/components/ReferenceList';
@@ -66,8 +66,42 @@ export default async function World({ params }: PageProps<'/[lang]/world'>) {
         <HindiPendingNote lang={lang} show={lang === 'hi'} />
       </section>
 
+      <section className="mt-12" aria-labelledby="ag-h">
+        <h2 id="ag-h" className="text-2xl font-semibold">{d.world.agreementsHeading}</h2>
+        <p className="mt-2 max-w-3xl">{d.world.agreementsLede}</p>
+        <p className="mt-2 max-w-3xl text-sm text-ink-muted">{d.world.agreementsDateNote}</p>
+        {(['concluded', 'europe-economic', 'other'] as const).map((g) => {
+          const rows = AGREEMENTS.agreements.filter((a) => a.group === g);
+          return (
+            <details key={g} className="mt-5" open={g === 'concluded'}>
+              <summary className="cursor-pointer text-lg font-semibold">{d.world.agreementGroups[g]} <span className="text-sm font-normal text-ink-muted">({d.world.agreementCount(rows.length)})</span></summary>
+              <div className="mt-2 overflow-x-auto" tabIndex={0} role="region" aria-label={d.world.agreementGroups[g]}>
+                <table className="w-full text-[0.95rem] border-collapse">
+                  <thead>
+                    <tr className="border-b border-ink text-left">
+                      <th scope="col" className="py-1.5 pr-4">{d.world.agreementCols.title}</th>
+                      <th scope="col" className="py-1.5 pl-3 whitespace-nowrap">{d.world.agreementCols.date}</th>
+                      <th scope="col" className="py-1.5 pl-3">{d.world.agreementCols.kind}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {rows.map((a) => (
+                      <tr key={a.id} className="border-b border-rule align-top">
+                        <th scope="row" className="py-1.5 pr-4 text-left font-normal" lang="en"><a href={a.url} rel="noopener noreferrer">{a.title}</a></th>
+                        <td className="py-1.5 pl-3 num whitespace-nowrap">{a.listedOn ? fmtDate(`${a.listedOn}T12:00:00Z`, lang) : '—'}</td>
+                        <td className="py-1.5 pl-3 text-sm text-ink-muted whitespace-nowrap">{d.world.agreementKind[a.kind]}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </details>
+          );
+        })}
+      </section>
+
       <p className="mt-8 text-sm text-ink-muted">{d.world.notYet}</p>
-      <ReferenceList evidence={[...latest.evidence, ...partners[0].evidence.slice(0, 1)]} lang={lang} />
+      <ReferenceList evidence={[...latest.evidence, ...partners[0].evidence.slice(0, 1), AGREEMENTS.agreements[0].evidence[0]]} lang={lang} />
       <Disclaimer lang={lang} />
     </div>
   );

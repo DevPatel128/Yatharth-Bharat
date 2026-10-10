@@ -3,7 +3,7 @@
 // 2. Answer: a model writes a short answer from the top records, citing them by number.
 // 3. Guard: the answer is shown only if every citation points at a supplied record, every number in it appears
 //    in those records, and it passes the neutral-language lint. Otherwise only the matching records are shown.
-import { BUDGET, INDICATORS, LOK_SABHA, REGIONAL, TRADE, getIndicator, getRegion } from './data.ts';
+import { AGREEMENTS, BUDGET, INDICATORS, LOK_SABHA, REGIONAL, TRADE, getIndicator, getRegion } from './data.ts';
 import { EXPLAINERS } from '../content/explainers.ts';
 import { RESPONSIBILITIES } from '../content/who-fixes.ts';
 import { TIMELINE } from '../content/timeline.ts';
@@ -81,6 +81,15 @@ export function corpus(lang: Lang): Doc[] {
       id: `trade:${yr.year}`, title: `${lang === 'hi' ? 'वस्तु व्यापार' : 'Merchandise trade'} ${yr.year}`, href: `/${lang}/world`, source: getSource(yr.evidence[0].sourceId).publisher,
       text: `${lang === 'hi' ? 'भारत का वस्तु व्यापार' : 'India merchandise trade'} ${yr.year} (US$ million): ${lang === 'hi' ? 'निर्यात' : 'exports'} ${n(yr.exports, 0)}; ${lang === 'hi' ? 'आयात' : 'imports'} ${n(yr.imports, 0)}.`,
       terms: 'trade exports imports व्यापार निर्यात आयात',
+    });
+  }
+  for (const a of AGREEMENTS.agreements) {
+    docs.push({
+      id: `agreement:${a.id}`, title: a.title, href: `/${lang}/world#ag-h`, source: 'Department of Commerce, Government of India',
+      text: lang === 'hi'
+        ? `वाणिज्य विभाग की व्यापार समझौतों की सूची में: "${a.title}"${a.listedOn ? `, दिखाई गई तिथि ${a.listedOn}` : ''} (${a.url}).`
+        : `Listed by the Department of Commerce under trade agreements: "${a.title}"${a.listedOn ? `, date shown ${a.listedOn}` : ''} (${a.url}).`,
+      terms: `agreement agreements trade fta समझौता समझौते व्यापार ${a.title}`,
     });
   }
   for (const m of LOK_SABHA.members) {
