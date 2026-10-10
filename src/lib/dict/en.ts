@@ -37,7 +37,7 @@ export const en = {
     close: 'Close',
     dataHeading: 'Data for this region',
     noRegionalData: 'No state-level indicator has passed verification for this region yet. National figures are on the scorecard.',
-    allIndiaSameMonth: 'All India, same month',
+    allIndiaSameMonth: 'All India, same period',
     jkCapitalNote: 'S = summer capital, W = winter capital, as published on the National Portal of India.',
   },
   scorecard: {

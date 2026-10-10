@@ -6,7 +6,7 @@
 2. **Gate** (`pipeline/gates.ts`), all must pass:
    - **G1 Provenance**: allowlisted host, non-empty, expected type; an HTML error page with HTTP 200 fails.
    - **G2 Sanity**: well-formed unique periods, finite values, per-indicator plausible range, minimum count.
-   - **G3 Two readings**: JSON vs CSV (MoSPI PLFS), JSON vs XML (World Bank), or published rate vs rate recomputed from index values (MoSPI CPI, tolerance 0.05). Must agree.
+   - **G3 Two readings**: JSON vs CSV (MoSPI PLFS), JSON vs XML (World Bank), published rate vs rate recomputed from index values (MoSPI CPI, tolerance 0.05), consistency with a separately published table (AISHE GER vs GPI), or annual totals vs a separate monthly table (RBI trade, 1%). Must agree.
    - **G4 Evidence**: the exact record is cut from the snapshot (`pipeline/anchor.ts`), must be unique, must contain the value; stored verbatim with the snapshot hash.
    - **G5 Cross-check**: against the last verified value (`maxRevision` per indicator) and a second independent source where one exists (`tolerance`). A first ingestion with no second source passes only with a documented reason (`noSecondSourceReason`).
    - **G6 Adversarial review**: a separate model reviews snapshot + record and must find no problem. Unconfigured = pending. Production requires it (`REQUIRE_AI_GATES=true`).
@@ -20,6 +20,7 @@
 | Indicator | Range | Max revision | Second source |
 |---|---|---|---|
 | unemployment-rate | 0–30 | 0.5 pp | none (PLFS is the only official monthly survey) |
+| higher-education-ger | 1–100 | 1 pp | none; G3 is a consistency check against AISHE's GPI table |
 | cpi-inflation | −10–25 | 0.3 pp | none (sole publisher); G3 recomputes from index |
 | gdp-growth | −15–20 | 1.5 pp | IMF WEO ±1.5 pp |
 | gdp-per-capita-usd | 50–20,000 | 150 | IMF WEO ±150 |

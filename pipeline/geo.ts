@@ -3,8 +3,7 @@
 // (Survey of India depiction: Ladakh reaches ~37.08°N and includes Aksai Chin to ~80.3°E).
 // Usage: node pipeline/geo.ts   (needs the mapshaper dev dependency)
 import { execFileSync, spawnSync } from 'node:child_process';
-import { mkdtempSync, readFileSync, writeFileSync } from 'node:fs';
-import { tmpdir } from 'node:os';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { RegionsFile } from '../src/lib/schema.ts';
@@ -17,7 +16,9 @@ const FILES: Record<string, string> = {
   'Admin2.dbf': '4ec2f9b83263c85781bc9abf0d281d441b5e02377be124bda6b5d87bd9dc4ccd',
 };
 const ROOT = new URL('../', import.meta.url);
-const dir = mkdtempSync(join(tmpdir(), 'yb-geo-'));
+// Work inside the project folder (owner rule: downloads stay in the project).
+const dir = fileURLToPath(new URL('data/raw/build/datameet-states/', ROOT));
+mkdirSync(dir, { recursive: true });
 
 for (const [f, want] of Object.entries(FILES)) {
   const r = await safeFetch(`https://raw.githubusercontent.com/datameet/maps/${COMMIT}/States/${f}`, { allowedHosts: ['raw.githubusercontent.com'], maxBytes: 40 * 1024 * 1024 });

@@ -2,7 +2,7 @@
 // Hindi text here is authored for this project and passes the deterministic Hindi gate; the model-based
 // back-translation check (G8, AI part) runs when an AI key is configured. See HISTORICAL/AI policies in docs/.
 import type { Indicator } from '../src/lib/schema.ts';
-import { imf, mospiCpiInflation, mospiPlfsMonthlyUR, worldBank, type DualExtraction } from './adapters.ts';
+import { aisheGer, imf, mospiCpiInflation, mospiPlfsMonthlyUR, worldBank, type DualExtraction } from './adapters.ts';
 import type { Point } from './gates.ts';
 
 export type IndicatorDef = Omit<Indicator, 'observations' | 'lastVerifiedAt' | 'state'> & {
@@ -19,6 +19,7 @@ export type IndicatorDef = Omit<Indicator, 'observations' | 'lastVerifiedAt' | '
 
 const MONTH = /^\d{4}-(0[1-9]|1[0-2])$/;
 const YEAR = /^\d{4}$/;
+const FY = /^\d{4}-\d{2}$/;
 // IMF figures after this year include staff projections. Revisit each April/October WEO.
 const IMF_LAST_ACTUAL = 2025;
 
@@ -76,6 +77,33 @@ export const INDICATORS: IndicatorDef[] = [
     maxRevision: 0.3,
     noSecondSourceReason: 'MoSPI is the sole publisher of the official CPI (2024=100).',
     keep: 24,
+  },
+  {
+    id: 'higher-education-ger',
+    category: 'education',
+    name: { en: 'Higher education enrolment (GER, 18–23 years)', hi: 'उच्च शिक्षा में नामांकन (सकल नामांकन अनुपात, 18–23 वर्ष)' },
+    definition: {
+      en: 'Students enrolled in higher education (any age) as a share of the population aged 18 to 23. All social categories, men and women together.',
+      hi: 'उच्च शिक्षा में नामांकित विद्यार्थी (किसी भी आयु के), 18 से 23 वर्ष की आबादी के प्रतिशत के रूप में। सभी सामाजिक वर्ग, पुरुष और महिलाएं मिलाकर।',
+    },
+    unit: { en: '% of population aged 18–23', hi: '18–23 वर्ष की आबादी का %' },
+    direction: 'higher',
+    geography: 'IN',
+    methodology: {
+      en: 'All India Survey on Higher Education (AISHE), Ministry of Education, published through the MoSPI data API. Financial-year academic sessions.',
+      hi: 'उच्च शिक्षा पर अखिल भारतीय सर्वेक्षण (AISHE), शिक्षा मंत्रालय, MoSPI डेटा API के माध्यम से प्रकाशित। वित्त वर्ष के अनुसार शैक्षणिक सत्र।',
+    },
+    limitations: {
+      en: 'A gross ratio counts students of every age, so it can exceed what the 18–23 population alone would give. Latest available year in the API is older than the latest AISHE report may be.',
+      hi: 'सकल अनुपात में हर आयु के विद्यार्थी गिने जाते हैं, इसलिए यह केवल 18–23 आयु वर्ग से बनने वाले अनुपात से अधिक हो सकता है। API में उपलब्ध नवीनतम वर्ष, नवीनतम AISHE रिपोर्ट से पुराना हो सकता है।',
+    },
+    sourceId: 'mospi-api',
+    series: 'AISHE',
+    extract: () => aisheGer('All India'),
+    sanity: { min: 1, max: 100, periodPattern: FY, minPoints: 3 },
+    maxRevision: 1,
+    noSecondSourceReason: 'AISHE is the official survey of higher education; the second reading is a consistency check against its separately published Gender Parity Index.',
+    keep: 20,
   },
   {
     id: 'gdp-growth',

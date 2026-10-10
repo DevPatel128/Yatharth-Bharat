@@ -10,16 +10,18 @@ import lifeExp from '../../data/records/indicators/life-expectancy.json';
 import imr from '../../data/records/indicators/infant-mortality.json';
 import electricity from '../../data/records/indicators/electricity-access.json';
 import internet from '../../data/records/indicators/internet-users.json';
+import ger from '../../data/records/indicators/higher-education-ger.json';
 import cpiStates from '../../data/records/regional/cpi-inflation.json';
+import gerStates from '../../data/records/regional/higher-education-ger.json';
 import lokSabha from '../../data/records/people/lok-sabha-18.json';
 import trade from '../../data/records/world/trade.json';
 
 // Parsing again here means a malformed record fails the build instead of reaching a page.
-export const INDICATORS: IndicatorT[] = [unemployment, cpi, gdpGrowth, gdpPc, lifeExp, imr, electricity, internet].map((j) => Indicator.parse(j));
+export const INDICATORS: IndicatorT[] = [unemployment, cpi, ger, gdpGrowth, gdpPc, lifeExp, imr, electricity, internet].map((j) => Indicator.parse(j));
 export const REGIONS: Region[] = RegionsFile.parse(regionsJson).regions;
 
 /** State/UT-level series, keyed by national indicator id. */
-export const REGIONAL = [RegionalIndicator.parse(cpiStates)];
+export const REGIONAL = [RegionalIndicator.parse(cpiStates), RegionalIndicator.parse(gerStates)];
 export const regionalFor = (regionId: string) =>
   REGIONAL.flatMap((r) => { const s = r.regions[regionId]; const ind = INDICATORS.find((i) => i.id === r.indicatorId); return s && ind ? [{ indicator: ind, series: s }] : []; });
 
@@ -32,7 +34,7 @@ export const getRegion = (id: string) => REGIONS.find((r) => r.id === id);
 
 /** Decimal places to display, matching the precision the source publishes. */
 export const DISPLAY_DECIMALS: Record<string, number> = {
-  'unemployment-rate': 1, 'cpi-inflation': 2, 'gdp-growth': 1, 'gdp-per-capita-usd': 0,
+  'unemployment-rate': 1, 'cpi-inflation': 2, 'higher-education-ger': 1, 'gdp-growth': 1, 'gdp-per-capita-usd': 0,
   'life-expectancy': 1, 'infant-mortality': 1, 'electricity-access': 1, 'internet-users': 1,
 };
 

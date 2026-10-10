@@ -57,3 +57,7 @@ next-env.d.ts
 /data/manual-inbox/**/*.pdf
 /data/manual-inbox/**/*.xlsx
 /data/manual-inbox/**/*.zip
+
+# Raw downloads stay in the project folder but out of git (size); the README explains them
+/data/raw/*
+!/data/raw/README.md

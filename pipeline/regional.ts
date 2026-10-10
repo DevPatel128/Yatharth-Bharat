@@ -2,7 +2,7 @@
 // A state whose series fails is held (its previous verified series stays); other states still publish.
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { RegionalIndicator, RegionsFile, type RegionalIndicator as RegionalT } from '../src/lib/schema.ts';
-import { mospiCpiInflation, mospiCpiStates } from './adapters.ts';
+import { aisheGer, aisheStates, mospiCpiInflation, mospiCpiStates, type DualExtraction } from './adapters.ts';
 import { INDICATORS } from './indicators.ts';
 import { evaluateSeries } from './evaluate.ts';
 import type { Outcome } from './run.ts';
@@ -13,8 +13,20 @@ const path = (id: string) => new URL(`data/records/regional/${id}.json`, ROOT);
 /** Normalise a state name so the API's spelling ("The Dadra And Nagar Haveli And Daman And Diu", "NCT of Delhi") matches ours. */
 export const normName = (s: string) => s.toLowerCase().replace(/&/g, 'and').replace(/^the\s+/, '').replace(/^nct of\s+/, '').replace(/[^a-z]+/g, ' ').trim();
 
-export async function processRegional(now: string): Promise<Outcome> {
-  const id = 'cpi-inflation';
+/** State-level series: how to list the source's states and how to extract one state's series. */
+const SERIES: { id: string; states: () => Promise<Map<string, string>>; extract: (key: string, name: string) => Promise<DualExtraction>; politeMs: number }[] = [
+  { id: 'cpi-inflation', states: mospiCpiStates, extract: (code, name) => mospiCpiInflation(code, name), politeMs: 250 },
+  { id: 'higher-education-ger', states: aisheStates, extract: (_k, name) => aisheGer(name), politeMs: 0 },
+];
+
+export async function processAllRegional(now: string): Promise<Outcome[]> {
+  const out: Outcome[] = [];
+  for (const s of SERIES) out.push(await processRegional(now, s));
+  return out;
+}
+
+async function processRegional(now: string, cfg: (typeof SERIES)[number]): Promise<Outcome> {
+  const id = cfg.id;
   const def = INDICATORS.find((d) => d.id === id);
   if (!def) throw new Error(`regional: no national definition for ${id}`);
   const regions = RegionsFile.parse(JSON.parse(readFileSync(new URL('data/records/geo/regions.json', ROOT), 'utf8'))).regions;
@@ -27,7 +39,7 @@ export async function processRegional(now: string): Promise<Outcome> {
 
   let codes: Map<string, string>;
   try {
-    codes = await mospiCpiStates();
+    codes = await cfg.states();
   } catch (e) {
     for (const k of Object.keys(out.regions)) out.regions[k] = { ...out.regions[k], state: 'stale' };
     writeFileSync(path(id), JSON.stringify(RegionalIndicator.parse(out), null, 2) + '\n');
@@ -41,7 +53,7 @@ export async function processRegional(now: string): Promise<Outcome> {
     const regionId = byName.get(normName(name));
     if (!regionId) continue;
     try {
-      const ex = await mospiCpiInflation(code, name);
+      const ex = await cfg.extract(code, name);
       const r = await evaluateSeries(def, ex, existing.regions[regionId]?.observations ?? [], now, { scope: name, useCross: false });
       if (!r.ok) {
         held++;
@@ -57,7 +69,7 @@ export async function processRegional(now: string): Promise<Outcome> {
       if (out.regions[regionId]) out.regions[regionId] = { ...out.regions[regionId], state: 'stale' };
       notes.push({ gate: 'G1', status: 'fail', detail: `${name}: ${(e as Error).message}` });
     }
-    await new Promise((res) => setTimeout(res, 250));
+    if (cfg.politeMs) await new Promise((res) => setTimeout(res, cfg.politeMs));
   }
   out.lastVerifiedAt = now;
   mkdirSync(new URL('data/records/regional/', ROOT), { recursive: true });

@@ -8,7 +8,7 @@ import { INDICATORS, type IndicatorDef } from './indicators.ts';
 import type { GateResult } from './gates.ts';
 import type { DualExtraction } from './adapters.ts';
 import { evaluateSeries, REQUIRE_AI } from './evaluate.ts';
-import { processRegional } from './regional.ts';
+import { processAllRegional } from './regional.ts';
 
 const ROOT = new URL('../', import.meta.url);
 const recordPath = (id: string) => new URL(`data/records/indicators/${id}.json`, ROOT);
@@ -72,9 +72,10 @@ for (const def of INDICATORS.filter((d) => !only || d.id === only)) {
   console.log(`${o.id}: ${o.result}${o.error ? ` (${o.error})` : ''}`);
 }
 if (!only || only === 'regional') {
-  const o = await processRegional(now);
-  outcomes.push(o);
-  console.log(`${o.id}: ${o.result}${o.error ? ` (${o.error})` : ''} — ${o.added.length} added`);
+  for (const o of await processAllRegional(now)) {
+    outcomes.push(o);
+    console.log(`${o.id}: ${o.result}${o.error ? ` (${o.error})` : ''} — ${o.added.length} added`);
+  }
 }
 writeFileSync(new URL(`data/runs/latest.json`, ROOT), JSON.stringify({ ranAt: now, requireAi: REQUIRE_AI, outcomes }, null, 2) + '\n');
 writeFileSync(new URL(`data/runs/latest.md`, ROOT), report(outcomes, now) + '\n');

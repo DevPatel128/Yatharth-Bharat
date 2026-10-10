@@ -3,6 +3,7 @@
 import { request } from 'node:https';
 import { createHash } from 'node:crypto';
 import { constants } from 'node:crypto';
+import { appendFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 
 export type FetchResult = {
   requestedUrl: string;
@@ -81,6 +82,7 @@ export async function safeFetch(rawUrl: string, opts: FetchOptions): Promise<Fet
       continue;
     }
     if (res.status !== 200) throw new FetchError('http-status', `HTTP ${res.status} from ${url.href}`);
+    keepRaw(url, res.body, String(res.headers['content-type'] ?? ''));
     return {
       requestedUrl: rawUrl,
       finalUrl: url.href,
@@ -95,3 +97,19 @@ export async function safeFetch(rawUrl: string, opts: FetchOptions): Promise<Fet
 }
 
 export const sha256 = (b: Buffer | string) => createHash('sha256').update(b).digest('hex');
+
+// Owner rule: everything downloaded from the internet is saved inside the project folder.
+// Files land in data/raw/<host>/<YYYY-MM-DD>/<sha256-prefix>-<name>, de-duplicated by content hash,
+// and every fetch is listed in data/raw/index.jsonl. data/raw is git-ignored (size); it stays on disk.
+const RAW = new URL('../../data/raw/', import.meta.url);
+function keepRaw(url: URL, body: Buffer, contentType: string) {
+  const hash = createHash('sha256').update(body).digest('hex');
+  const ext = /json/.test(contentType) ? '.json' : /csv/.test(contentType) ? '.csv' : /xml/.test(contentType) ? '.xml' : /pdf/.test(contentType) ? '.pdf' : /html/.test(contentType) ? '.html' : '';
+  const name = (url.pathname.split('/').filter(Boolean).pop() ?? 'index').replace(/[^A-Za-z0-9._-]+/g, '_').slice(0, 80);
+  const day = new Date().toISOString().slice(0, 10);
+  const dir = new URL(`${url.hostname}/${day}/`, RAW);
+  const file = new URL(`${hash.slice(0, 16)}-${name}${name.endsWith(ext) ? '' : ext}`, dir);
+  mkdirSync(dir, { recursive: true });
+  if (!existsSync(file)) writeFileSync(file, body);
+  appendFileSync(new URL('index.jsonl', RAW), JSON.stringify({ at: new Date().toISOString(), url: url.href, sha256: hash, bytes: body.length, file: file.pathname.split('/data/raw/')[1] }) + '\n');
+}

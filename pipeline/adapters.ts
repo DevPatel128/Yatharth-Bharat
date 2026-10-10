@@ -148,3 +148,59 @@ export async function mospiCpiStates(): Promise<Map<string, string>> {
   }
   return out;
 }
+
+/** Fetch every page of a MoSPI endpoint and merge them into one snapshot (pages joined by newlines). */
+async function mospiAllPages(path: string, params: Record<string, string>): Promise<{ snapshot: FetchResult; rows: Record<string, unknown>[] }> {
+  const pages: FetchResult[] = [];
+  const rows: Record<string, unknown>[] = [];
+  for (let page = 1; page <= 60; page++) {
+    const r = await safeFetch(`https://api.mospi.gov.in${path}?${new URLSearchParams({ ...params, limit: '200', page: String(page), Format: 'JSON' })}`, MOSPI);
+    const body = JSON.parse(r.body.toString('utf8')) as MospiJson & { meta_data?: { totalPages?: number } };
+    if (!Array.isArray(body.data) || body.error) throw new Error(`MoSPI ${path}: ${body.error ?? body.msg ?? 'unexpected response shape'}`);
+    pages.push(r);
+    rows.push(...body.data);
+    if (page >= (body.meta_data?.totalPages ?? 1)) break;
+    await new Promise((res) => setTimeout(res, 300));
+  }
+  const body = Buffer.from(pages.map((p) => p.body.toString('utf8')).join('\n'));
+  const { createHash } = await import('node:crypto');
+  return { rows, snapshot: { ...pages[0], requestedUrl: pages[0].requestedUrl.replace(/&page=\d+/, ''), finalUrl: pages[0].finalUrl.replace(/&page=\d+/, ''), body, sha256: createHash('sha256').update(body).digest('hex') } };
+}
+
+let aisheCache: Promise<{ ger: Awaited<ReturnType<typeof mospiAllPages>>; gpi: Awaited<ReturnType<typeof mospiAllPages>> }> | null = null;
+const aisheAll = () => (aisheCache ??= (async () => ({ ger: await mospiAllPages('/api/aishe/getAisheRecords', { indicator_code: '6' }), gpi: await mospiAllPages('/api/aishe/getAisheRecords', { indicator_code: '7' }) }))());
+
+/**
+ * AISHE Gross Enrolment Ratio in higher education (18–23 years), all social categories, both genders.
+ * The endpoint ignores Format=CSV, so the second reading is a consistency check against a separately
+ * published table: female GER / male GER must equal the published Gender Parity Index (±0.02), and the
+ * "both genders" value must lie between the male and female values. Any failure throws (held, reported).
+ */
+export async function aisheGer(stateName = 'All India'): Promise<DualExtraction> {
+  const { ger, gpi } = await aisheAll();
+  // AISHE writes "*" where a value is not reported (e.g. Ladakh before it became a UT). That year is left out;
+  // anything else that is not a number still fails.
+  const reported = (r: Record<string, unknown>) => String(r.value).trim() !== '*';
+  const pick = (g: string) => new Map(ger.rows.filter((r) => r.state === stateName && r.social_category === 'All Categories' && r.gender === g && reported(r)).map((r) => [String(r.year), num(r.value)]));
+  const both = pick('Both'), male = pick('Male'), female = pick('Female');
+  const gpiByYear = new Map(gpi.rows.filter((r) => r.state === stateName && r.social_category === 'All Categories' && reported(r)).map((r) => [String(r.year), num(r.value)]));
+  for (const [y, b] of both) {
+    const m = male.get(y), f = female.get(y), p = gpiByYear.get(y);
+    if (m === undefined || f === undefined || p === undefined) throw new Error(`G3 ${stateName} ${y}: male/female/GPI value missing for consistency check`);
+    if (Math.abs(f / m - p) > 0.02) throw new Error(`G3 ${stateName} ${y}: female/male GER ${(f / m).toFixed(3)} vs published GPI ${p}`);
+    if (b < Math.min(m, f) - 0.5 || b > Math.max(m, f) + 0.5) throw new Error(`G3 ${stateName} ${y}: total GER ${b} outside male ${m} / female ${f}`);
+  }
+  const points = [...both].map(([period, value]) => ({ period, value }));
+  const locatorFor = (p: Point) => `"year":"${p.period}","state":${JSON.stringify(stateName)},"social_category":"All Categories","gender":"Both"`;
+  return {
+    a: { points, snapshot: ger.snapshot, format: 'json', locatorFor },
+    b: { points, snapshot: gpi.snapshot, format: 'json', locatorFor },
+    labelA: 'AISHE GER table', labelB: 'GPI recomputation and bounds check (separate AISHE table)',
+  };
+}
+
+/** State names as served by the AISHE GER table (excluding All India). */
+export async function aisheStates(): Promise<Map<string, string>> {
+  const { ger } = await aisheAll();
+  return new Map([...new Set(ger.rows.map((r) => String(r.state)))].filter((s) => s !== 'All India').map((s) => [s, s]));
+}

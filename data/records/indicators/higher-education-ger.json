@@ -1,0 +1,121 @@
+{
+  "id": "higher-education-ger",
+  "category": "education",
+  "name": {
+    "en": "Higher education enrolment (GER, 18–23 years)",
+    "hi": "उच्च शिक्षा में नामांकन (सकल नामांकन अनुपात, 18–23 वर्ष)"
+  },
+  "definition": {
+    "en": "Students enrolled in higher education (any age) as a share of the population aged 18 to 23. All social categories, men and women together.",
+    "hi": "उच्च शिक्षा में नामांकित विद्यार्थी (किसी भी आयु के), 18 से 23 वर्ष की आबादी के प्रतिशत के रूप में। सभी सामाजिक वर्ग, पुरुष और महिलाएं मिलाकर।"
+  },
+  "unit": {
+    "en": "% of population aged 18–23",
+    "hi": "18–23 वर्ष की आबादी का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "All India Survey on Higher Education (AISHE), Ministry of Education, published through the MoSPI data API. Financial-year academic sessions.",
+    "hi": "उच्च शिक्षा पर अखिल भारतीय सर्वेक्षण (AISHE), शिक्षा मंत्रालय, MoSPI डेटा API के माध्यम से प्रकाशित। वित्त वर्ष के अनुसार शैक्षणिक सत्र।"
+  },
+  "limitations": {
+    "en": "A gross ratio counts students of every age, so it can exceed what the 18–23 population alone would give. Latest available year in the API is older than the latest AISHE report may be.",
+    "hi": "सकल अनुपात में हर आयु के विद्यार्थी गिने जाते हैं, इसलिए यह केवल 18–23 आयु वर्ग से बनने वाले अनुपात से अधिक हो सकता है। API में उपलब्ध नवीनतम वर्ष, नवीनतम AISHE रिपोर्ट से पुराना हो सकता है।"
+  },
+  "sourceId": "mospi-api",
+  "observations": [
+    {
+      "period": "2017-18",
+      "value": 24.56,
+      "status": "unknown",
+      "series": "AISHE",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-10T05:15:06.938Z",
+          "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+          "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"All India\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.56\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018-19",
+      "value": 24.93,
+      "status": "unknown",
+      "series": "AISHE",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-10T05:15:06.938Z",
+          "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+          "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"All India\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.93\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019-20",
+      "value": 25.55,
+      "status": "unknown",
+      "series": "AISHE",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-10T05:15:06.938Z",
+          "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+          "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"All India\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"25.55\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020-21",
+      "value": 27.29,
+      "status": "unknown",
+      "series": "AISHE",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-10T05:15:06.938Z",
+          "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+          "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"All India\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.29\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021-22",
+      "value": 28.4,
+      "status": "unknown",
+      "series": "AISHE",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+          "retrievedAt": "2026-10-10T05:15:06.938Z",
+          "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+          "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"All India\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.40\"}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T05:15:06.159Z",
+  "state": "verified"
+}

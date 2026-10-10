@@ -1,0 +1,3391 @@
+{
+  "schemaVersion": 1,
+  "indicatorId": "higher-education-ger",
+  "lastVerifiedAt": "2026-10-10T05:17:30.093Z",
+  "regions": {
+    "andhra-pradesh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 30.76,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Andhra Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"30.76\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 32.25,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Andhra Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"32.25\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 35.12,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Andhra Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"35.12\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 37.19,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Andhra Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"37.19\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 36.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Andhra Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"36.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "arunachal-pradesh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 27.11,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Arunachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.11\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 26.84,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Arunachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"26.84\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 31.64,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Arunachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"31.64\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 33.74,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Arunachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"33.74\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 36.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Arunachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"36.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "assam": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 17.63,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Assam\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.63\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 17.99,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Assam\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.99\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 16.54,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Assam\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"16.54\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 17.53,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Assam\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.53\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 16.9,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Assam\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"16.90\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "bihar": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 11.36,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Bihar\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"11.36\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 11.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Bihar\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"11.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 12.11,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Bihar\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"12.11\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 15.88,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Bihar\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"15.88\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 17.1,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Bihar\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.10\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "chhattisgarh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 17.65,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Chhattisgarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.65\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 17.89,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Chhattisgarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.89\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 17.75,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Chhattisgarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.75\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 19.63,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Chhattisgarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.63\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 19.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Chhattisgarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "delhi": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 46.68,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Delhi\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"46.68\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 46.94,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Delhi\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"46.94\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 49.02,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Delhi\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"49.02\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 47.56,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Delhi\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"47.56\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 49,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Delhi\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"49.00\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "goa": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 30.02,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Goa\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"30.02\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 32.22,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Goa\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"32.22\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 30.32,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Goa\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"30.32\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 33.79,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Goa\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"33.79\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 35.8,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Goa\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"35.80\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "gujarat": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 19.68,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Gujarat\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.68\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 19.95,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Gujarat\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.95\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 20.79,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Gujarat\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.79\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 22.18,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Gujarat\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.18\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 24,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Gujarat\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.00\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "haryana": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 27.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Haryana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 28.07,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Haryana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.07\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 28.2,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Haryana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.20\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 31.08,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Haryana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"31.08\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 33.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Haryana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"33.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "himachal-pradesh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 36.17,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Himachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"36.17\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 37.47,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Himachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"37.47\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 38.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Himachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"38.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 38.72,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Himachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"38.72\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 43.1,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Himachal Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"43.10\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "jharkhand": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 15.94,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Jharkhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"15.94\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 16.73,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Jharkhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"16.73\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 18.08,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Jharkhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"18.08\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 17.01,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Jharkhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.01\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 18.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Jharkhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"18.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "karnataka": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 27.93,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Karnataka\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.93\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 28.81,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Karnataka\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.81\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 31.96,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Karnataka\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"31.96\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 35.96,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Karnataka\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"35.96\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 36.2,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Karnataka\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"36.20\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "kerala": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 34.02,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Kerala\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.02\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 34.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Kerala\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 35.9,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Kerala\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"35.90\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 43.15,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Kerala\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"43.15\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 41.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Kerala\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"41.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "madhya-pradesh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 20.23,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Madhya Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.23\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 20.49,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Madhya Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.49\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 22.95,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Madhya Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.95\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 27.07,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Madhya Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.07\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 28.9,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Madhya Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.90\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "maharashtra": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 31.35,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Maharashtra\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"31.35\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 32.23,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Maharashtra\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"32.23\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 32.63,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Maharashtra\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"32.63\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 34.92,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Maharashtra\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.92\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 35.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Maharashtra\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"35.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "manipur": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 28.88,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Manipur\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.88\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 30.33,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Manipur\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"30.33\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 34.08,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Manipur\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.08\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 37.75,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Manipur\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"37.75\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 35.4,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Manipur\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"35.40\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "meghalaya": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 22.38,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Meghalaya\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.38\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 23.12,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Meghalaya\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.12\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 23.2,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Meghalaya\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.20\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 25.76,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Meghalaya\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"25.76\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 25.4,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Meghalaya\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"25.40\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "mizoram": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 20.69,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Mizoram\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.69\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 22.94,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Mizoram\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.94\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 23.12,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Mizoram\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.12\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 26.82,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Mizoram\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"26.82\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 32.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Mizoram\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"32.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "nagaland": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 16.2,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Nagaland\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"16.20\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 16.84,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Nagaland\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"16.84\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 16.44,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Nagaland\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"16.44\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 17.26,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Nagaland\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.26\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 18.8,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Nagaland\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"18.80\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "odisha": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 21.05,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Odisha\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"21.05\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 21.08,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Odisha\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"21.08\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 20.53,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Odisha\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.53\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 20.74,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Odisha\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.74\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 22.1,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Odisha\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.10\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "punjab": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 29.21,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Punjab\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"29.21\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 28.31,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Punjab\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.31\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 27.08,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Punjab\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.08\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 26.26,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Punjab\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"26.26\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 27.4,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Punjab\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"27.40\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "rajasthan": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 21.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Rajasthan\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"21.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 22.72,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Rajasthan\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.72\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 23.84,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Rajasthan\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.84\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 26.06,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Rajasthan\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"26.06\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 28.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Rajasthan\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"28.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "sikkim": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 33.71,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Sikkim\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"33.71\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 48.12,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Sikkim\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"48.12\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 66.93,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Sikkim\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"66.93\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 39.91,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Sikkim\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"39.91\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 38.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Sikkim\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"38.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "tamil-nadu": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 46.92,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Tamil Nadu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"46.92\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 47.04,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Tamil Nadu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"47.04\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 49.01,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Tamil Nadu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"49.01\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 46.94,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Tamil Nadu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"46.94\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 47,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Tamil Nadu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"47.00\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "telangana": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 34.44,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Telangana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.44\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 34.89,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Telangana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.89\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 34.26,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Telangana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.26\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 39.12,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Telangana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"39.12\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 40,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Telangana\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"40.00\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "tripura": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 19.2,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Tripura\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.20\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 17.25,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Tripura\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.25\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 17.91,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Tripura\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"17.91\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 19.17,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Tripura\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.17\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 20.7,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Tripura\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.70\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "uttar-pradesh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 23.22,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Uttar Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.22\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 23.04,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Uttar Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.04\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 22.53,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Uttar Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.53\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 23.23,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Uttar Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.23\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 24.1,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Uttar Pradesh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.10\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "uttarakhand": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 32.28,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Uttarakhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"32.28\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 34.54,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Uttarakhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"34.54\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 36.36,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Uttarakhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"36.36\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 45.67,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Uttarakhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"45.67\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 41.8,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Uttarakhand\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"41.80\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "west-bengal": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 19.09,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"West Bengal\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.09\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 19.82,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"West Bengal\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"19.82\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 20.58,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"West Bengal\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"20.58\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 21.26,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"West Bengal\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"21.26\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 26.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"West Bengal\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"26.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "andaman-and-nicobar-islands": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 23.19,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Andaman & Nicobar Islands\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.19\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 24.54,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Andaman & Nicobar Islands\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.54\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 21.05,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Andaman & Nicobar Islands\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"21.05\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 24.26,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Andaman & Nicobar Islands\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.26\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 22.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Andaman & Nicobar Islands\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"22.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "chandigarh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 68.35,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Chandigarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"68.35\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 62.3,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Chandigarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"62.30\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 65.43,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Chandigarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"65.43\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 66.09,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Chandigarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"66.09\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 64.8,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Chandigarh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"64.80\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "dadra-and-nagar-haveli-and-daman-and-diu": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 8.6,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Dadra & Nagar Haveli and Daman & Diu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"8.60\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 8.98,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Dadra & Nagar Haveli and Daman & Diu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"8.98\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 9.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Dadra & Nagar Haveli and Daman & Diu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"9.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 10.38,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Dadra & Nagar Haveli and Daman & Diu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"10.38\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 11.2,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Dadra & Nagar Haveli and Daman & Diu\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"11.20\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "jammu-and-kashmir": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 23.41,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Jammu & Kashmir\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"23.41\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 25.36,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Jammu & Kashmir\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"25.36\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 25.12,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Jammu & Kashmir\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"25.12\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 25.02,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Jammu & Kashmir\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"25.02\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 24.8,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Jammu & Kashmir\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"24.80\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "lakshadweep": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 7.63,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Lakshadweep\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"7.63\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 7.34,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Lakshadweep\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"7.34\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 7.35,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Lakshadweep\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"7.35\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 7.17,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Lakshadweep\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"7.17\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 1.1,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Lakshadweep\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"1.10\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "puducherry": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2017-18",
+          "value": 52.38,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2017-18\",\"state\":\"Puducherry\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"52.38\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2018-19",
+          "value": 54.06,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2018-19\",\"state\":\"Puducherry\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"54.06\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2019-20",
+          "value": 54.64,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Puducherry\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"54.64\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 60.75,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Puducherry\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"60.75\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 61.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:16:04.317Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Puducherry\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"61.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    },
+    "ladakh": {
+      "state": "verified",
+      "observations": [
+        {
+          "period": "2019-20",
+          "value": 7.91,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:17:57.808Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2019-20\",\"state\":\"Ladakh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"7.91\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2020-21",
+          "value": 8.38,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:17:57.808Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2020-21\",\"state\":\"Ladakh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"8.38\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        },
+        {
+          "period": "2021-22",
+          "value": 11.5,
+          "status": "unknown",
+          "series": "AISHE",
+          "publishedAt": null,
+          "evidence": [
+            {
+              "sourceId": "mospi-api",
+              "url": "https://api.mospi.gov.in/api/aishe/getAisheRecords?indicator_code=6&limit=200&Format=JSON",
+              "retrievedAt": "2026-10-10T05:17:57.808Z",
+              "snapshotSha256": "9977286db178734ed4181c79dee2dc9f8e3d22da9ecd99167c70ee90f94d7e2f",
+              "quote": "{\"indicator\":\"Social Group wise Gross Enrolment Ratio (GER)\",\"year\":\"2021-22\",\"state\":\"Ladakh\",\"social_category\":\"All Categories\",\"gender\":\"Both\",\"value\":\"11.50\"}",
+              "method": "pipeline"
+            }
+          ],
+          "revisions": []
+        }
+      ]
+    }
+  }
+}

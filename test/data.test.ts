@@ -56,6 +56,9 @@ describe('regional series', () => {
       for (const k of Object.keys(r.regions)) expect(ids.has(k), k).toBe(true);
     }
   });
+  it('state GER covers all 36 states and UTs', () => {
+    expect(Object.keys(REGIONAL.find((r) => r.indicatorId === 'higher-education-ger')!.regions)).toHaveLength(36);
+  });
   it('state CPI covers all 36 states and UTs, each value with evidence', () => {
     const cpi = REGIONAL.find((r) => r.indicatorId === 'cpi-inflation')!;
     expect(Object.keys(cpi.regions)).toHaveLength(36);
