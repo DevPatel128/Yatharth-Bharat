@@ -1,0 +1,5 @@
+URL: https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf
+Listed on: https://www.legislative.gov.in/documents (Constitution of India, updated 23.12.2025)
+Edition: The Constitution of India [As on 1st May, 2026], diglot (Hindi-English)
+Downloaded: 2026-10-10 in a browser session (the server returns HTTP 403 to the identified pipeline bot)
+SHA-256: 4c8e93689ec245e26db08e22b5ff3ad645c98736f0e5b7c8b6638acd7861f85b

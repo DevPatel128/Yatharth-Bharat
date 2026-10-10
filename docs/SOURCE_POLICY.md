@@ -22,6 +22,7 @@ A source is added only as a code change to `src/lib/sources.ts` declaring: publi
 | IMF DataMapper | International | JSON API | cross-check only (actuals ≤ 2025) |
 | National Portal of India | Indian government | manual capture | state/UT names, status, capitals |
 | Digital Sansad (Lok Sabha) | Parliament | JSON (site's own endpoint) | Hindi state names |
+| Constitution of India (Legislative Department) | Indian government | PDF via manual lane (bot gets 403), hash-pinned | explainer and Who-fixes-this quotes |
 | DataMeet maps | Community | shapefile, pinned commit | state boundaries |
 
 ## Observed source problems (kept as evidence of why the gate exists)

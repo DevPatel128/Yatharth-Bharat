@@ -14,7 +14,7 @@ export function MemberSearch({ rows, labels }: { rows: Row[]; labels: { search: 
       <input id={id} type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={labels.placeholder} maxLength={80} autoComplete="off"
         className="w-full max-w-xl bg-paper-raised border border-rule rounded-[var(--radius-control)] px-3 py-2.5 text-base focus:border-ink" />
       <p className="mt-2 text-sm text-ink-muted" aria-live="polite">{labels.count.replace('{n}', String(shown.length))}</p>
-      <div className="mt-2 overflow-x-auto">
+      <div className="mt-2 overflow-x-auto" tabIndex={0} role="region" aria-label={labels.member}>
         <table className="w-full text-[0.95rem] border-collapse">
           <thead><tr className="border-b border-ink text-left">
             <th scope="col" className="py-1.5 pr-4">{labels.constituency}</th><th scope="col" className="py-1.5 pr-4">{labels.member}</th>

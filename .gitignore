@@ -52,3 +52,8 @@ next-env.d.ts
 
 !.env.example
 /out/
+
+# manual-inbox: keep source notes, not the downloaded files
+/data/manual-inbox/**/*.pdf
+/data/manual-inbox/**/*.xlsx
+/data/manual-inbox/**/*.zip

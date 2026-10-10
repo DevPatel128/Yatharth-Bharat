@@ -7,7 +7,7 @@ export type MemberRow = Member & { regionName: string };
 /** Accessible table of members: constituency, member, party (and state when listing several regions). */
 export function MemberTable({ rows, lang, labels, showState }: { rows: MemberRow[]; lang: Lang; labels: { constituency: string; member: string; party: string; state: string }; showState: boolean }) {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto" tabIndex={0} role="region" aria-label={labels.member}>
       <table className="w-full text-[0.95rem] border-collapse">
         <thead>
           <tr className="border-b border-ink text-left">

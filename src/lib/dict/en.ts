@@ -4,7 +4,7 @@ export const en = {
   tagline: 'India, as the official record shows it.',
   skipToContent: 'Skip to content',
   skipMap: 'Skip the map',
-  nav: { map: 'Map', scorecard: 'Scorecard', reps: 'Representatives', sources: 'Sources & method', language: 'हिंदी' },
+  nav: { map: 'Map', scorecard: 'Scorecard', reps: 'Representatives', gov: 'Government', who: 'Who fixes this?', sources: 'Sources & method', language: 'हिंदी' },
   langSwitchLabel: 'पढ़ें हिंदी में',
   home: {
     lede: 'Official statistics on India and its 28 states and 8 Union Territories. Every figure links to the government or international source it came from. Every figure passes automated checks before it appears here.',
@@ -88,6 +88,28 @@ export const en = {
     notYet: 'Not yet available: MLAs (state assemblies), municipal councillors and PIN-code lookup. There is no single official machine-readable source for them, and PIN codes do not map one-to-one to constituencies. They will be added only from official records.',
     verified: 'Checked against Lok Sabha records on',
     officialList: 'Official Lok Sabha member list',
+  },
+  gov: {
+    title: 'Government explained',
+    lede: 'How Indian government is organised, who does what, and what each office cannot do. Every answer quotes the Constitution or points to the official place to check.',
+    levels: { citizens: 'Your rights', union: 'Union government', state: 'State government', local: 'Local government', judiciary: 'Courts', independent: 'Independent constitutional bodies' },
+    questions: {
+      what: 'What is it?', selection: 'How is it chosen or appointed?', powers: 'What powers does it have?', responsibilities: 'What is it responsible for?',
+      limits: 'What can it not directly control?', law: 'Which law sets it up?', accountability: 'Who holds it to account?', inspect: 'How can citizens check its work?',
+    },
+    quote: 'From the Constitution',
+    officialLinks: 'Official websites',
+    hindiNote: 'हिंदी सारांश इस परियोजना द्वारा लिखा गया है; उद्धरण आधिकारिक अंग्रेज़ी पाठ से हैं।',
+    sourceNote: 'Quotes are from The Constitution of India (as on 1 May 2026), Legislative Department, checked word for word against the official text.',
+    all: 'All explainers',
+  },
+  who: {
+    title: 'Who fixes this?',
+    lede: 'Everyday problems and the level of government the Constitution assigns them to. The Constitution lists what can be given to municipalities and panchayats; each state’s own laws decide what actually is, so the responsible office can differ between states.',
+    levels: { city: 'In a city or town', village: 'In a village', state: 'State', union: 'Union (Central) government', independent: 'Independent body' },
+    raise: 'Where to raise it',
+    basis: 'Constitutional basis',
+    learnMore: 'How this office works',
   },
   freshness: {
     verified: 'Verified',

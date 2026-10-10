@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/representatives', '/hi/representatives', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });

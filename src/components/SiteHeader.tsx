@@ -14,6 +14,8 @@ export function SiteHeader({ lang }: { lang: Lang }) {
         <nav aria-label="Primary" className="flex flex-wrap items-center gap-x-5 gap-y-1 text-[0.95rem]">
           <Link href={`/${lang}`} className="no-underline hover:underline">{d.nav.map}</Link>
           <Link href={`/${lang}/scorecard`} className="no-underline hover:underline">{d.nav.scorecard}</Link>
+          <Link href={`/${lang}/government`} className="no-underline hover:underline">{d.nav.gov}</Link>
+          <Link href={`/${lang}/who-fixes-this`} className="no-underline hover:underline">{d.nav.who}</Link>
           <Link href={`/${lang}/representatives`} className="no-underline hover:underline">{d.nav.reps}</Link>
           <Link href={`/${lang}/sources`} className="no-underline hover:underline">{d.nav.sources}</Link>
           <LangSwitch lang={lang} label={d.nav.language} aria={d.langSwitchLabel} />

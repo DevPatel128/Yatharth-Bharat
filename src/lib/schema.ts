@@ -135,3 +135,26 @@ export const LegislatureFile = z.object({
   noSittingMember: z.array(z.object({ regionId: z.string(), constituency: Bilingual })),
 });
 export type LegislatureFile = z.infer<typeof LegislatureFile>;
+
+/** A statement's support: a verbatim quote from a stored source (checked in CI), or an official link to inspect. */
+export const Citation = z.object({ sourceId: z.string().min(1), ref: z.string().min(1), quote: z.string().min(10).optional() });
+export const QUESTIONS = ['what', 'selection', 'powers', 'responsibilities', 'limits', 'law', 'accountability', 'inspect'] as const;
+export const Explainer = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  level: z.enum(['union', 'state', 'local', 'judiciary', 'independent', 'citizens']),
+  title: Bilingual,
+  summary: Bilingual,
+  answers: z.record(z.enum(QUESTIONS), z.object({ text: Bilingual, cite: z.array(Citation).min(1) })),
+  links: z.array(z.object({ label: Bilingual, url: httpsUrl })).default([]),
+});
+export type Explainer = z.infer<typeof Explainer>;
+
+/** An everyday problem mapped to the level of government the Constitution assigns it to. */
+export const Responsibility = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  issue: Bilingual,
+  levels: z.array(z.object({ where: z.enum(['city', 'village', 'state', 'union', 'independent']), who: Bilingual, cite: Citation })).min(1),
+  where: Bilingual, // where to raise it
+  explainer: z.string().optional(),
+});
+export type Responsibility = z.infer<typeof Responsibility>;

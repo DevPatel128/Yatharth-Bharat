@@ -69,7 +69,7 @@ export default async function IndicatorPage({ params }: PageProps<'/[lang]/score
 
       <section className="mt-8" aria-labelledby="tbl">
         <h2 id="tbl" className="text-lg font-semibold">{d.scorecard.table}</h2>
-        <div className="mt-2 overflow-x-auto">
+        <div className="mt-2 overflow-x-auto" tabIndex={0} role="region" aria-label={name}>
           <table className="w-full text-sm border-collapse">
             <caption className="sr-only">{name}</caption>
             <thead><tr className="border-b border-ink text-left"><th scope="col" className="py-1.5 pr-4">{d.scorecard.period}</th><th scope="col" className="py-1.5 pr-4 text-right">{d.scorecard.value}</th><th scope="col" className="py-1.5">{d.scorecard.series}</th></tr></thead>

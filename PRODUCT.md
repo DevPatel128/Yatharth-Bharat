@@ -18,7 +18,9 @@
 - Stage 1b Scorecard — **Now** (8 indicators live; 12 categories shown, empty ones say so)
 - 1d Your representatives — **Done (MPs)**: 540 sitting members + 3 seats without a sitting member; MLAs/councillors Next
 - Region pages — **Done**: state CPI inflation for all 36 + MPs per region
-- 1c Government explained · 1d Who fixes this · 1e Public money · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
+- 1c Government explained — **Done**: 13 institutions × 8 questions, every answer cited (verbatim Constitution quotes checked in CI)
+- 1d Who fixes this — **Done**: 14 everyday problems mapped to Constitution lists/schedules, with where to raise them
+- 1e Public money · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
 - Select & Export (PDF/snippet with citations) — **Later** (data model already has stable ids and evidence for it)
 
 ## Features (acceptance criteria get IDs; PRs deliver IDs)
