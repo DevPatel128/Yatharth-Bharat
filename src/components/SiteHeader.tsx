@@ -20,6 +20,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
           <Link href={`/${lang}/money`} className="no-underline hover:underline">{d.nav.money}</Link>
           <Link href={`/${lang}/world`} className="no-underline hover:underline">{d.nav.world}</Link>
           <Link href={`/${lang}/representatives`} className="no-underline hover:underline">{d.nav.reps}</Link>
+          <Link href={`/${lang}/history`} className="no-underline hover:underline">{d.nav.history}</Link>
           <Link href={`/${lang}/sources`} className="no-underline hover:underline">{d.nav.sources}</Link>
           <SelectionLink lang={lang} label={d.sel.nav} />
           <LangSwitch lang={lang} label={d.nav.language} aria={d.langSwitchLabel} />

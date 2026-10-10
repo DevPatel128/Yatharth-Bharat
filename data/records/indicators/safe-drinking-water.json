@@ -1,0 +1,481 @@
+{
+  "id": "safe-drinking-water",
+  "category": "infrastructure",
+  "name": {
+    "en": "Safely managed drinking water",
+    "hi": "सुरक्षित रूप से प्रबंधित पेयजल"
+  },
+  "definition": {
+    "en": "Share of the population using an improved water source that is on the premises, available when needed and free from contamination.",
+    "hi": "आबादी का वह प्रतिशत, जो ऐसे बेहतर जल स्रोत का उपयोग करती है जो परिसर में हो, जरूरत पर उपलब्ध हो और संदूषण से मुक्त हो।"
+  },
+  "unit": {
+    "en": "% of population",
+    "hi": "आबादी का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SH.H2O.SMDW.ZS), from the WHO/UNICEF Joint Monitoring Programme.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SH.H2O.SMDW.ZS), WHO/UNICEF संयुक्त निगरानी कार्यक्रम से।"
+  },
+  "limitations": {
+    "en": "An international estimate with a strict definition. It is not the same as the share of rural households with a tap connection reported by the Jal Jeevan Mission.",
+    "hi": "सख्त परिभाषा वाला अंतरराष्ट्रीय अनुमान। यह जल जीवन मिशन द्वारा बताए गए नल कनेक्शन वाले ग्रामीण घरों के प्रतिशत के समान नहीं है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "2000",
+      "value": 37.64,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":37.6400057360068,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 39.103,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":39.1028624674025,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 40.609,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":40.6085464510428,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 42.127,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":42.1267048046039,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 43.657,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":43.657414461879,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 45.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":45.1996271683436,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 46.753,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":46.7534238129321,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 48.319,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":48.3188378954124,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 49.896,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":49.8955302994742,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 51.483,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":51.4825314020622,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 53.08,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":53.0798644691443,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 54.688,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":54.6875065992042,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 56.308,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":56.3075690119533,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 57.939,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":57.9390790581161,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 59.582,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":59.5816046729688,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 61.234,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":61.2343987010564,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 62.897,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":62.8967025513523,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 64.568,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":64.567945966321,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 66.247,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":66.2471046550041,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 67.933,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":67.9333667144175,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 69.626,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":69.6259050057647,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 71.324,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":71.3240226487586,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 73.027,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":73.0266809621397,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 74.733,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":74.7331217386926,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 76.442,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.H2O.SMDW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:46.491Z",
+          "snapshotSha256": "b40bba685eea73c68c6cbab1ee6110f7df751d8f0a2befe530f3f769d2edc87d",
+          "quote": "{\"indicator\":{\"id\":\"SH.H2O.SMDW.ZS\",\"value\":\"People using safely managed drinking water services (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":76.4421942140842,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

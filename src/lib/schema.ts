@@ -205,3 +205,14 @@ export const BudgetFile = z.object({
 });
 export type BudgetFile = z.infer<typeof BudgetFile>;
 export type BudgetTable = z.infer<typeof BudgetTable>;
+
+/** A dated event in India's constitutional history, quoted from the official text (checked in CI). */
+export const TimelineEntry = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  date: isoDate,
+  title: Bilingual,
+  summary: Bilingual,
+  cite: z.array(Citation).min(1),
+  explainer: z.string().optional(),
+});
+export type TimelineEntry = z.infer<typeof TimelineEntry>;

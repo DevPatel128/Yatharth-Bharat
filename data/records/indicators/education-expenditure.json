@@ -1,0 +1,427 @@
+{
+  "id": "education-expenditure",
+  "category": "education",
+  "name": {
+    "en": "Government spending on education",
+    "hi": "शिक्षा पर सरकारी खर्च"
+  },
+  "definition": {
+    "en": "Spending on education by the Union, state and local governments, as a share of GDP.",
+    "hi": "केंद्र, राज्य और स्थानीय सरकारों द्वारा शिक्षा पर खर्च, जीडीपी के प्रतिशत के रूप में।"
+  },
+  "unit": {
+    "en": "% of GDP",
+    "hi": "जीडीपी का %"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SE.XPD.TOTL.GD.ZS), from the UNESCO Institute for Statistics, based on the Ministry of Education’s Analysis of Budgeted Expenditure.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SE.XPD.TOTL.GD.ZS), यूनेस्को सांख्यिकी संस्थान से, शिक्षा मंत्रालय के बजटीय व्यय विश्लेषण पर आधारित।"
+  },
+  "limitations": {
+    "en": "Covers government spending only, not what families spend on private schooling and coaching.",
+    "hi": "इसमें केवल सरकारी खर्च शामिल है, निजी स्कूलों और कोचिंग पर परिवारों का खर्च नहीं।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1997",
+      "value": 3.361,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":3.36137008666992,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 3.573,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":3.57257008552551,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 4.415,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":4.41538000106812,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 4.325,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":4.32480001449585,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 3.613,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":3.61342000961304,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 3.353,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":3.35254001617432,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 3.189,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":3.18876004219055,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 3.143,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":3.14284992218018,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 3.278,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":3.27824997901917,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 3.378,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":3.377690076828,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 3.796,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":3.79618000984192,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 3.868,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":3.8675000667572,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 3.845,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":3.84467005729675,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 3.899,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":3.89878023242693,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 4.115,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":4.1145601272583,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 4.254,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":4.25406980514526,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 4.305,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":4.30543994903565,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 4.364,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":4.36374998092651,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 3.897,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":3.89732003211975,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 4.293,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":4.29335021972656,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 4.629,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":4.62949991226196,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 4.099,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.XPD.TOTL.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:07.704Z",
+          "snapshotSha256": "cc1bbc5e079bd5caa87c2715d7f1bcd216582d7825fde4249700fb8b6c8286c0",
+          "quote": "{\"indicator\":{\"id\":\"SE.XPD.TOTL.GD.ZS\",\"value\":\"Government expenditure on education, total (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":4.09865814174589,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

@@ -1,0 +1,463 @@
+{
+  "id": "health-expenditure",
+  "category": "healthcare",
+  "name": {
+    "en": "Current health expenditure",
+    "hi": "वर्तमान स्वास्थ्य व्यय"
+  },
+  "definition": {
+    "en": "All current spending on health in India, by government, households, employers and others, as a share of GDP.",
+    "hi": "भारत में स्वास्थ्य पर सभी वर्तमान खर्च, सरकार, परिवारों, नियोक्ताओं और अन्य द्वारा, जीडीपी के प्रतिशत के रूप में।"
+  },
+  "unit": {
+    "en": "% of GDP",
+    "hi": "जीडीपी का %"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SH.XPD.CHEX.GD.ZS), from the WHO Global Health Expenditure Database.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SH.XPD.CHEX.GD.ZS), WHO वैश्विक स्वास्थ्य व्यय डेटाबेस से।"
+  },
+  "limitations": {
+    "en": "Includes private and out-of-pocket spending, not only government spending. India’s own National Health Accounts estimates are published by the Ministry of Health and can differ.",
+    "hi": "इसमें निजी और जेब से किया गया खर्च भी शामिल है, केवल सरकारी खर्च नहीं। भारत के राष्ट्रीय स्वास्थ्य लेखा अनुमान स्वास्थ्य मंत्रालय प्रकाशित करता है और वे भिन्न हो सकते हैं।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "2000",
+      "value": 4.106,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":4.10568476,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 4.338,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":4.33754253,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 4.315,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":4.31453371,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 4.079,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":4.07877731,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 4.027,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":4.02679491,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 3.855,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":3.85508275,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 3.669,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":3.66901541,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 3.581,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":3.58103991,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 3.589,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":3.58856082,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 3.546,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":3.54637694,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 3.336,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":3.33625913,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 3.246,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":3.24634218,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 3.329,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":3.32935286,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 3.749,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":3.74944186,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 3.62,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":3.61956549,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 3.596,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":3.59565973,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 3.504,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":3.50430417,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 2.936,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":2.93597651,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 2.858,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":2.8584938,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 2.953,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":2.95299792,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 3.341,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":3.34146094,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 3.347,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":3.34680939,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 3.396,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":3.39623499,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 3.339,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.XPD.CHEX.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:28.749Z",
+          "snapshotSha256": "9d96ec01b5cd0790268518c69b05a0fe2f2eb3ed21b3aa1aa989e96325153c23",
+          "quote": "{\"indicator\":{\"id\":\"SH.XPD.CHEX.GD.ZS\",\"value\":\"Current health expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":3.33944035,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

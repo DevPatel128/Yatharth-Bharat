@@ -7,6 +7,8 @@ Please report security problems **privately**, not in a public issue:
 1. Open https://github.com/DevPatel128/Yatharth-Bharat/security/advisories/new
 2. Describe the problem, the affected page or file, and how to reproduce it.
 
+If you cannot use GitHub, email vroelabs@gmail.com with "Security" in the subject.
+
 You will get an acknowledgement within 7 days. Please give us a reasonable time to fix the problem before you disclose it publicly.
 
 ## Scope

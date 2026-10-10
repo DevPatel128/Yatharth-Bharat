@@ -148,6 +148,7 @@ const SPECS: Spec[] = [
     { key: 'finance-commission', en: /^III\. Finance Commission Grants$/, level: 0 },
     { key: 'urban-local-bodies', en: /^1\. Grants for Urban Local bodies \(Basic Component \)$/, level: 1 },
     { key: 'rural-local-bodies', en: /^4\. Grants for Rural local bodies$/, level: 1 },
+    { key: 'disaster-response', en: /^5\. Grants-in-Aid for State Disaster Response Fund$/, level: 1 },
     { key: 'other-transfers', en: /^IV\. Total Transfer to States/, level: 0 },
     { key: 'css-revenue', en: /^1\. Under Centrally Sponsored Schemes \(Revenue\)$/, level: 1 },
     { key: 'delhi-puducherry', en: /^V\. Total Transfer to Delhi and Puducherry$/, level: 0 },

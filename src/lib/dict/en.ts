@@ -4,7 +4,7 @@ export const en = {
   tagline: 'India, as the official record shows it.',
   skipToContent: 'Skip to content',
   skipMap: 'Skip the map',
-  nav: { map: 'Map', scorecard: 'Scorecard', reps: 'Representatives', gov: 'Government', who: 'Who fixes this?', world: 'India and the World', money: 'Public money', sources: 'Sources & method', language: 'हिंदी' },
+  nav: { map: 'Map', scorecard: 'Scorecard', reps: 'Representatives', gov: 'Government', who: 'Who fixes this?', world: 'India and the World', money: 'Public money', history: 'History', sources: 'Sources & method', language: 'हिंदी' },
   langSwitchLabel: 'पढ़ें हिंदी में',
   home: {
     lede: 'Official statistics on India and its 28 states and 8 Union Territories. Every figure links to the government or international source it came from. Every figure passes automated checks before it appears here.',
@@ -152,6 +152,13 @@ export const en = {
     gdp: (y: string, v: string) => `GDP for ${y} as estimated in the budget: ₹${v} crore.`,
     englishNotes: '',
     notYet: 'Coming from official sources: state budgets, scheme-wise outlays, and how much was actually released and spent.',
+  },
+  history: {
+    title: 'Constitutional history',
+    lede: 'How the Constitution of India has changed, from its adoption in 1949 to today. Each entry quotes the official text of the Constitution (as on 1 May 2026), and the dates are the ones printed in it.',
+    fromText: 'From the Constitution',
+    learnMore: 'How this works today',
+    scope: 'This timeline covers constitutional milestones only. Wider history (ancient, medieval and the freedom struggle) depends on sources about which historians disagree; it will be added with those disagreements shown.',
   },
   sel: {
     add: 'Add to selection', added: 'In selection (remove)', nav: 'Selection',

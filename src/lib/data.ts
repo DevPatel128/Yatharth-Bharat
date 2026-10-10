@@ -11,6 +11,22 @@ import imr from '../../data/records/indicators/infant-mortality.json';
 import electricity from '../../data/records/indicators/electricity-access.json';
 import internet from '../../data/records/indicators/internet-users.json';
 import ger from '../../data/records/indicators/higher-education-ger.json';
+import co2PerCapita from '../../data/records/indicators/co2-per-capita.json';
+import renewableEnergyShare from '../../data/records/indicators/renewable-energy-share.json';
+import forestArea from '../../data/records/indicators/forest-area.json';
+import pm25Exposure from '../../data/records/indicators/pm25-exposure.json';
+import cleanCooking from '../../data/records/indicators/clean-cooking.json';
+import safeDrinkingWater from '../../data/records/indicators/safe-drinking-water.json';
+import healthExpenditure from '../../data/records/indicators/health-expenditure.json';
+import maternalMortality from '../../data/records/indicators/maternal-mortality.json';
+import povertyThreeDollars from '../../data/records/indicators/poverty-3-dollars.json';
+import giniIndex from '../../data/records/indicators/gini-index.json';
+import homicideRate from '../../data/records/indicators/homicide-rate.json';
+import rdExpenditure from '../../data/records/indicators/rd-expenditure.json';
+import residentPatents from '../../data/records/indicators/resident-patents.json';
+import adultLiteracy from '../../data/records/indicators/adult-literacy.json';
+import educationExpenditure from '../../data/records/indicators/education-expenditure.json';
+import femaleLabourParticipation from '../../data/records/indicators/female-labour-participation.json';
 import cpiStates from '../../data/records/regional/cpi-inflation.json';
 import gerStates from '../../data/records/regional/higher-education-ger.json';
 import lokSabha from '../../data/records/people/lok-sabha-18.json';
@@ -18,7 +34,7 @@ import trade from '../../data/records/world/trade.json';
 import budget from '../../data/records/budget/union-2026-27.json';
 
 // Parsing again here means a malformed record fails the build instead of reaching a page.
-export const INDICATORS: IndicatorT[] = [unemployment, cpi, ger, gdpGrowth, gdpPc, lifeExp, imr, electricity, internet].map((j) => Indicator.parse(j));
+export const INDICATORS: IndicatorT[] = [unemployment, cpi, ger, gdpGrowth, gdpPc, lifeExp, imr, electricity, internet, co2PerCapita, renewableEnergyShare, forestArea, pm25Exposure, cleanCooking, safeDrinkingWater, healthExpenditure, maternalMortality, povertyThreeDollars, giniIndex, homicideRate, rdExpenditure, residentPatents, adultLiteracy, educationExpenditure, femaleLabourParticipation].map((j) => Indicator.parse(j));
 export const REGIONS: Region[] = RegionsFile.parse(regionsJson).regions;
 
 /** State/UT-level series, keyed by national indicator id. */
@@ -38,6 +54,7 @@ export const getRegion = (id: string) => REGIONS.find((r) => r.id === id);
 export const DISPLAY_DECIMALS: Record<string, number> = {
   'unemployment-rate': 1, 'cpi-inflation': 2, 'higher-education-ger': 1, 'gdp-growth': 1, 'gdp-per-capita-usd': 0,
   'life-expectancy': 1, 'infant-mortality': 1, 'electricity-access': 1, 'internet-users': 1,
+  'co2-per-capita': 2, 'renewable-energy-share': 1, 'forest-area': 1, 'pm25-exposure': 1, 'clean-cooking': 0, 'safe-drinking-water': 1, 'health-expenditure': 2, 'maternal-mortality': 0, 'poverty-3-dollars': 1, 'gini-index': 1, 'homicide-rate': 2, 'rd-expenditure': 2, 'resident-patents': 0, 'adult-literacy': 1, 'education-expenditure': 2, 'female-labour-participation': 1,
 };
 
 /** Home page shows these four: one each for prices, jobs, growth and health. */

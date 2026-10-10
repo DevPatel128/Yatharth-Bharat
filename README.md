@@ -37,10 +37,11 @@ Yatharth Bharat is a free, bilingual (English and Hindi) public-information site
 |---|---|---|
 | **Map** | All 36 states and Union Territories. Keyboard and screen-reader accessible, shareable `?region=` links, intro animation that respects reduced motion | DataMeet boundaries (CC BY 4.0); names and capitals from the National Portal of India |
 | **State and UT pages** | Monthly retail inflation and higher-education enrolment for each region next to the All-India figure; the region's Lok Sabha members | MoSPI (CPI 2024=100), AISHE, Lok Sabha |
-| **Scorecard** | 9 national indicators in 12 categories, each with definition, method, limitations, series, full table, revisions and verbatim evidence. No combined score | MoSPI, World Bank (labelled international), IMF as cross-check |
+| **Scorecard** | 25 national indicators across 12 categories (economy, environment, health, education, poverty, safety, innovation and more), each with definition, method, limitations, series, full table, revisions and verbatim evidence. No combined score | MoSPI, World Bank (labelled international), IMF as cross-check |
 | **Government explained** | 13 institutions (Parliament, President, courts, Election Commission, CAG, panchayats, municipalities and more), each answering the same 8 questions | Constitution of India (as on 1 May 2026), quoted word for word |
 | **Who fixes this?** | 14 everyday problems mapped to the level of government responsible, and where to raise them | Seventh, Eleventh and Twelfth Schedules; CPGRAMS; RTI Online |
 | **Representatives** | All 543 Lok Sabha seats: members' names (English and official Hindi), party and constituency. Office facts only, no contact details | Digital Sansad (Lok Sabha) |
+| **Constitutional timeline** | 18 dated milestones from adoption (1949) to the 106th Amendment coming into force (2026), each quoting the Constitution's own text and linking to its explainer | Constitution of India (as on 1 May 2026) |
 | **Public money** | Union Budget 2026-27: receipts, spending by type and by major item, deficits and how they are financed, transfers to states; what Budget Estimates, Revised Estimates and Actuals mean | Ministry of Finance, Budget at a Glance (PDF and Excel, read twice and cross-checked) |
 | **India and the World** | 16 years of merchandise trade and India's 38 main trading partners | RBI Direction of Foreign Trade |
 | **Selection** | Collect figures and explanations, then export as text, Markdown, CSV or PDF with APA, MLA, Chicago and BibTeX citations. Stays in the reader's browser | — |
@@ -151,7 +152,7 @@ sequenceDiagram
 | Publisher | Used for | Access |
 |---|---|---|
 | Ministry of Statistics and Programme Implementation (MoSPI) | CPI inflation (national and state), unemployment (PLFS), AISHE enrolment, RBI trade tables | eSankhyiki JSON API |
-| World Bank | GDP growth, GDP per capita, life expectancy, infant mortality, internet use, electricity access | API v2 (JSON + XML) |
+| World Bank | GDP growth, GDP per capita, life expectancy, infant mortality, internet use, electricity access; emissions, renewables, forest, air quality, water, cooking fuel, health and education spending, poverty, inequality, literacy, women's labour participation, R&D, patents, homicide rate (labelled international) | API v2 (JSON + XML) |
 | International Monetary Fund | Cross-check for GDP growth | DataMapper API |
 | Lok Sabha (Digital Sansad) | Members of the 18th Lok Sabha, English and Hindi | Public JSON |
 | National Portal of India | State and UT names, status and capitals | Captured from the page |
@@ -228,8 +229,9 @@ Built in stages by audience: citizens, then students, then young professionals, 
 
 - [x] Map, state pages, scorecard, Government explained, Who fixes this?, Lok Sabha members, trade, Select & Export
 - [x] Public money (Union Budget 2026-27)
-- [ ] Environment and energy indicators
-- [ ] History timeline (ASI, National Archives)
+- [x] Environment, energy, health, poverty, innovation and safety indicators (16 more World Bank series)
+- [x] Constitutional timeline
+- [ ] Wider history timeline (ASI, National Archives)
 - [ ] Education, careers and scholarships; India-vs-abroad comparison (profile kept in the browser)
 - [ ] Policies and international agreements
 - [ ] Claims and evidence
@@ -241,7 +243,8 @@ Built in stages by audience: citizens, then students, then young professionals, 
 - **Corrections:** if a figure looks wrong, open an issue with the page link and the official source for the correct value. See the [corrections policy](https://yatharth-bharat.dvpatel.workers.dev/en/corrections).
 - **Contributing:** see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - **Data** stays under its publishers' licences (listed on the Sources page). **Map:** DataMeet India community, CC BY 4.0, simplified; India's external boundary as depicted by the Survey of India; not for legal or survey use.
-- **Code licence:** not yet chosen; until a `LICENSE` file is added, all rights are reserved.
+- **Code licence:** [MIT](LICENSE). The licence covers the code only; data stays under its publishers' licences.
+- **Contact:** vroelabs@gmail.com
 
 ---
 

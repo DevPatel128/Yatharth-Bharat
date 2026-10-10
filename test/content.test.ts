@@ -4,7 +4,8 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { EXPLAINERS } from '../src/content/explainers.ts';
 import { RESPONSIBILITIES } from '../src/content/who-fixes.ts';
-import { QUESTIONS, Explainer } from '../src/lib/schema.ts';
+import { TIMELINE } from '../src/content/timeline.ts';
+import { QUESTIONS, Explainer, TimelineEntry } from '../src/lib/schema.ts';
 import { SOURCES } from '../src/lib/sources.ts';
 import { g4Quote, g7Legal, g8Hindi } from '../pipeline/gates.ts';
 
@@ -47,6 +48,31 @@ describe('who fixes this', () => {
       const texts = [r.issue, r.where, ...r.levels.map((l) => l.who)];
       expect(g7Legal(texts.flatMap((t) => [t.en, t.hi ?? ''])).status, r.id).toBe('pass');
       for (const t of texts) expect(g8Hindi(t.en, t.hi).status, t.en).toBe('pass');
+    }
+  });
+});
+
+describe('constitutional timeline', () => {
+  it('entries parse, ids are unique, dates are in order', () => {
+    for (const t of TIMELINE) TimelineEntry.parse(t);
+    expect(new Set(TIMELINE.map((t) => t.id)).size).toBe(TIMELINE.length);
+    expect(TIMELINE.map((t) => t.date)).toEqual([...TIMELINE.map((t) => t.date)].sort());
+  });
+  for (const t of TIMELINE) {
+    it(`${t.id}: every quote is verbatim in the official text; text is neutral and Hindi well-formed`, () => {
+      for (const c of t.cite) expect(g4Quote(c.quote!, COI).status, `${t.id} ${c.ref}: "${c.quote}"`).toBe('pass');
+      expect(g7Legal([t.title.en, t.title.hi ?? '', t.summary.en, t.summary.hi ?? '']).status).toBe('pass');
+      for (const x of [t.title, t.summary]) expect(g8Hindi(x.en, x.hi).status, x.en).toBe('pass');
+      if (t.explainer) expect(EXPLAINERS.some((e) => e.id === t.explainer), t.explainer).toBe(true);
+    });
+  }
+  it('each entry date matches a "w.e.f." date or a date written in its quotes', () => {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    for (const t of TIMELINE) {
+      const [y, m, d] = t.date.split('-').map(Number);
+      const q = t.cite.map((c) => c.quote).join(' ');
+      const ok = q.includes(`w.e.f. ${d}-${m}-${y}`) || q.includes(`${months[m - 1]}, ${y}`) || q.includes(`${d}th ${months[m - 1]}, ${y}`);
+      expect(ok, `${t.id} ${t.date}`).toBe(true);
     }
   });
 });

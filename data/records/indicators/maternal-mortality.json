@@ -1,0 +1,571 @@
+{
+  "id": "maternal-mortality",
+  "category": "healthcare",
+  "name": {
+    "en": "Maternal mortality ratio",
+    "hi": "मातृ मृत्यु अनुपात"
+  },
+  "definition": {
+    "en": "Women who die from pregnancy-related causes during pregnancy or within 42 days after it, per 100,000 live births.",
+    "hi": "गर्भावस्था के दौरान या उसके 42 दिनों के भीतर गर्भावस्था से जुड़े कारणों से मरने वाली महिलाएं, प्रति 100,000 जीवित जन्म।"
+  },
+  "unit": {
+    "en": "deaths per 100,000 live births",
+    "hi": "मौतें प्रति 100,000 जीवित जन्म"
+  },
+  "direction": "lower",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SH.STA.MMRT), from the UN Maternal Mortality Estimation Inter-Agency Group (modelled estimate).",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SH.STA.MMRT), संयुक्त राष्ट्र मातृ मृत्यु दर आकलन अंतर-एजेंसी समूह से (मॉडल आधारित अनुमान)।"
+  },
+  "limitations": {
+    "en": "A modelled international estimate. India’s official figure comes from the Sample Registration System of the Registrar General and is published for three-year periods.",
+    "hi": "मॉडल आधारित अंतरराष्ट्रीय अनुमान। भारत का आधिकारिक आंकड़ा महापंजीयक की नमूना पंजीकरण प्रणाली से आता है और तीन वर्ष की अवधि के लिए प्रकाशित होता है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1994",
+      "value": 451,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1994\",\"value\":451,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1995",
+      "value": 437,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":437,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 422,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":422,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 407,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":407,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 393,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":393,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 378,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":378,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 362,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":362,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 349,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":349,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 330,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":330,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 313,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":313,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 296,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":296,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 277,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":277,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 258,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":258,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 240,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":240,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 223,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":223,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 205,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":205,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 188,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":188,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 173,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":173,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 160,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":160,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 148,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":148,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 137,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":137,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 129,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":129,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 121,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":121,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 113,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":113,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 107,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":107,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 101,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":101,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 101,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":101,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 155,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":155,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 90,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":90,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 80,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SH.STA.MMRT?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:37.688Z",
+          "snapshotSha256": "4487acc70ecdf6f38fe40f756490ce3a8d60e93d850ff45577598c0f75e85778",
+          "quote": "{\"indicator\":{\"id\":\"SH.STA.MMRT\",\"value\":\"Maternal mortality ratio (modeled estimate, per 100,000 live births)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":80,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

@@ -1,0 +1,571 @@
+{
+  "id": "co2-per-capita",
+  "category": "environment",
+  "name": {
+    "en": "Carbon dioxide emissions per person",
+    "hi": "प्रति व्यक्ति कार्बन डाइऑक्साइड उत्सर्जन"
+  },
+  "definition": {
+    "en": "Carbon dioxide emitted in India in a year, divided by the population, excluding land use and forestry.",
+    "hi": "एक वर्ष में भारत में उत्सर्जित कार्बन डाइऑक्साइड, जनसंख्या से विभाजित, भूमि उपयोग और वानिकी को छोड़कर।"
+  },
+  "unit": {
+    "en": "tonnes of CO2 per person",
+    "hi": "टन CO2 प्रति व्यक्ति"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (EN.GHG.CO2.PC.CE.AR5), from the EDGAR emissions database of the European Commission.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (EN.GHG.CO2.PC.CE.AR5), यूरोपीय आयोग के EDGAR उत्सर्जन डेटाबेस से।"
+  },
+  "limitations": {
+    "en": "Covers carbon dioxide only, not other greenhouse gases, and counts emissions where goods are produced, not where they are consumed. India’s official inventory is reported to the UN climate convention every few years and can differ.",
+    "hi": "इसमें केवल कार्बन डाइऑक्साइड शामिल है, अन्य ग्रीनहाउस गैसें नहीं, और उत्सर्जन वहां गिना जाता है जहां वस्तुएं बनती हैं, जहां उपयोग होती हैं वहां नहीं। भारत की आधिकारिक सूची कुछ वर्षों में संयुक्त राष्ट्र जलवायु सम्मेलन को दी जाती है और भिन्न हो सकती है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1995",
+      "value": 0.829,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":0.829370336496271,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 0.851,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":0.850777408846526,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 0.878,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":0.878441939789039,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 0.884,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":0.884093818156602,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 0.926,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":0.926189927757172,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 0.942,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":0.942309744278839,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 0.94,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":0.939789720011458,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 0.958,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":0.957620477500199,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 0.97,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":0.969744882653011,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 1.028,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":1.02822643182898,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 1.055,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":1.05460489385527,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 1.108,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":1.10810989189174,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 1.189,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":1.18862350046436,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 1.258,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":1.25815998206335,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 1.323,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":1.32284533301467,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 1.391,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":1.39129863287623,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 1.463,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":1.46337391608571,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 1.576,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":1.57607553513255,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 1.599,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":1.59945855716817,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 1.705,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":1.70517686000076,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 1.716,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":1.71550269097521,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 1.72,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":1.7202923565219,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 1.795,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":1.79545339877531,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 1.86,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":1.85989309419052,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 1.837,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":1.83688223212799,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 1.68,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":1.68040016064392,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 1.837,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":1.83702951699406,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 1.969,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":1.96929618962877,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 2.096,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":2.09622858892568,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 2.174,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.GHG.CO2.PC.CE.AR5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:22:35.656Z",
+          "snapshotSha256": "7a7421a3295193de9a27d5ba1c828fcc9f917bdc84f3c463d2b40d582e59c467",
+          "quote": "{\"indicator\":{\"id\":\"EN.GHG.CO2.PC.CE.AR5\",\"value\":\"Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e\\/capita)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":2.17365173535787,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

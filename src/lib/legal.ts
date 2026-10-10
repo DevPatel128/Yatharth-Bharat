@@ -3,7 +3,7 @@
 import type { Lang } from './schema.ts';
 
 /** Grievance / corrections contact. Set before launch; pages say so while it is null. */
-export const CONTACT_EMAIL: string | null = null;
+export const CONTACT_EMAIL: string | null = 'vroelabs@gmail.com';
 export const LEGAL_UPDATED = '2026-10-10';
 
 type Section = { h: string; p: string[] };

@@ -1,7 +1,7 @@
 // Builders that turn records into selection items. Server-side; the result is passed to SelectButton.
 import { dict, fmtNumber, fmtPeriod, pick, type Lang } from './i18n.ts';
 import { getSource } from './sources.ts';
-import type { BudgetFile, BudgetTable, Evidence, Explainer, Indicator, Observation, Responsibility } from './schema.ts';
+import type { BudgetFile, BudgetTable, Evidence, Explainer, Indicator, Observation, Responsibility, TimelineEntry } from './schema.ts';
 import type { SelItem, SelSource } from './selection.ts';
 
 type Item = Omit<SelItem, 'page' | 'addedAt'>;
@@ -60,5 +60,17 @@ export function budgetItem(b: BudgetFile, t: BudgetTable, lang: Lang): Item {
     lines: [`${d.money.crore}.`, ...t.rows.filter((r) => r.discrepancy).map((r) => `${d.money.note}: ${r.label.en}: ${r.discrepancy}`)],
     table: { head, rows: t.rows.map((r) => [pick(r.label, lang).text, ...r.values.map((v) => (v === null ? d.money.notApplicable : v))]) },
     sources: [src(t.rows[0].evidence[0])],
+  };
+}
+
+export function timelineItem(t: TimelineEntry, lang: Lang): Item {
+  const d = dict(lang);
+  const coi = getSource('constitution');
+  return {
+    id: `history:${t.id}`,
+    title: `${t.date}: ${pick(t.title, lang).text}`,
+    kind: d.history.title,
+    lines: [pick(t.summary, lang).text, ...t.cite.map((c) => `${c.ref}: “${c.quote}”`)],
+    sources: [{ publisher: coi.publisher, title: coi.name.en, url: coi.homepage, retrieved: '2026-10-10', ref: t.cite.map((c) => c.ref).join('; ') }],
   };
 }

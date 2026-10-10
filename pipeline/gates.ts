@@ -108,12 +108,18 @@ export const BANNED_TERMS = [
   'incompetent', 'failed', 'failure', 'disaster', 'shameful', 'propaganda', 'puppet', 'mafia',
   'भ्रष्ट', 'घोटाला', 'धोखा', 'गद्दार', 'झूठा', 'नाकाम', 'विफल', 'शर्मनाक',
 ];
+/**
+ * Official proper names that contain a banned word but state no judgement (e.g. a fund named in the Budget).
+ * They are removed before the lint runs; the banned words stay banned everywhere else.
+ */
+export const OFFICIAL_NAMES = ['state disaster response fund', 'state disaster mitigation fund', 'national disaster response fund', 'disaster management'];
 export const HYPE_TERMS = ['unlock', 'empower', 'seamless', 'revolutioni', 'cutting-edge', 'ai-powered', 'supercharge', 'game-changer', "in today's world"];
 
 /** G7 Legal-safety lint: no evaluative or accusatory language in published text. */
 export function g7Legal(texts: string[]): GateResult {
   for (const t of texts) {
-    const lower = t.toLowerCase();
+    let lower = t.toLowerCase();
+    for (const n of OFFICIAL_NAMES) lower = lower.split(n).join(' ');
     for (const w of [...BANNED_TERMS, ...HYPE_TERMS]) {
       // Whole words only: "scam" must not match "scampi". Devanagari matras count as letters (\p{M}).
       const re = new RegExp(`(^|[^\\p{L}\\p{M}])${w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![\\p{L}\\p{M}])`, 'iu');

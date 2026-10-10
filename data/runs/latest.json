@@ -1,7 +1,1332 @@
 {
-  "ranAt": "2026-10-10T05:17:30.093Z",
+  "ranAt": "2026-10-10T18:02:07.472Z",
   "requireAi": false,
   "outcomes": [
+    {
+      "id": "unemployment-rate",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.mospi.gov.in, 3953 bytes, application/json; charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.mospi.gov.in, 1999 bytes, text/csv; charset=UTF-8"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "17 observations, all within [0, 30]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "MoSPI PLFS JSON vs MoSPI PLFS CSV: 17 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "cpi-inflation",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.mospi.gov.in, 5290 bytes, application/json; charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.mospi.gov.in, 5290 bytes, application/json; charset=utf-8"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "8 observations, all within [-10, 25]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "MoSPI CPI published rate vs rate recomputed from MoSPI index values: 8 observations agree within 0.05 across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "higher-education-ger",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.mospi.gov.in, 279665 bytes, application/json; charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.mospi.gov.in, 83306 bytes, application/json; charset=utf-8"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "5 observations, all within [1, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "AISHE GER table vs GPI recomputation and bounds check (separate AISHE table): 5 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "gdp-growth",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14072 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19159 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [-15, 20]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 65 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit; 30 periods agree with IMF WEO (NGDP_RPCH)"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "gdp-per-capita-usd",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14342 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19442 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [50, 20000]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 66 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit; 30 periods agree with IMF WEO (NGDPDPC)"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "life-expectancy",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14406 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19493 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [30, 90]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 65 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "infant-mortality",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14753 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19840 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [1, 200]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 65 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "electricity-access",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14336 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 18994 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 32 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "internet-users",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 15044 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19741 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 35 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "co2-per-capita",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 17744 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 22635 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 20]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 55 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "renewable-energy-share",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 16054 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 20712 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 32 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "forest-area",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 13969 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 18666 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 35 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "pm25-exposure",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 16934 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 21618 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 300]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 34 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "clean-cooking",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 16146 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 20713 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "25 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 25 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "safe-drinking-water",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 16560 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 21127 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "25 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 25 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "health-expenditure",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14491 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19045 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "24 observations, all within [0, 20]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 24 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "maternal-mortality",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 15957 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 20706 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 1500]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 39 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "poverty-3-dollars",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 15930 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 20289 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "9 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 9 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "gini-index",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 12168 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 16527 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "9 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 9 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "homicide-rate",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 14870 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19541 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 50]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 33 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "rd-expenditure",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 15081 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 19648 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "25 observations, all within [0, 10]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 25 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "resident-patents",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 13499 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 18313 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 1000000]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 44 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "adult-literacy",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 15692 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 20116 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "14 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 14 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "education-expenditure",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 15664 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 20192 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "22 observations, all within [0, 15]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 22 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
+    {
+      "id": "female-labour-participation",
+      "result": "unchanged",
+      "gates": [
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 18246 bytes, application/json;charset=utf-8"
+        },
+        {
+          "gate": "G1",
+          "status": "pass",
+          "detail": "api.worldbank.org, 22956 bytes, text/xml"
+        },
+        {
+          "gate": "G2",
+          "status": "pass",
+          "detail": "30 observations, all within [0, 100]"
+        },
+        {
+          "gate": "G3",
+          "status": "pass",
+          "detail": "World Bank JSON vs World Bank XML: 36 observations identical across both extractions"
+        },
+        {
+          "gate": "G4",
+          "status": "pass",
+          "detail": "0 new or changed values anchored in the snapshot"
+        },
+        {
+          "gate": "G5",
+          "status": "pass",
+          "detail": "revisions within limit"
+        },
+        {
+          "gate": "G7",
+          "status": "pass",
+          "detail": "10 text fields clean"
+        },
+        {
+          "gate": "G8",
+          "status": "pass",
+          "detail": "deterministic Hindi checks passed for all fields"
+        },
+        {
+          "gate": "G6",
+          "status": "pass",
+          "detail": "no new or changed values to review"
+        }
+      ],
+      "added": [],
+      "revised": []
+    },
     {
       "id": "cpi-inflation (states)",
       "result": "unchanged",
@@ -11,19 +1336,9 @@
     },
     {
       "id": "higher-education-ger (states)",
-      "result": "published",
-      "gates": [
-        {
-          "gate": "G6",
-          "status": "pending",
-          "detail": "Ladakh: AI review not configured (ANTHROPIC_API_KEY missing) (all states)"
-        }
-      ],
-      "added": [
-        "ladakh:2019-20",
-        "ladakh:2020-21",
-        "ladakh:2021-22"
-      ],
+      "result": "unchanged",
+      "gates": [],
+      "added": [],
       "revised": []
     }
   ]

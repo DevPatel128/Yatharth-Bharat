@@ -1,0 +1,571 @@
+{
+  "id": "pm25-exposure",
+  "category": "environment",
+  "name": {
+    "en": "Fine particle (PM2.5) air pollution",
+    "hi": "सूक्ष्म कण (PM2.5) वायु प्रदूषण"
+  },
+  "definition": {
+    "en": "Average yearly concentration of fine particles (2.5 micrometres or smaller) in the air people breathe, weighted by where people live.",
+    "hi": "लोगों द्वारा सांस ली जाने वाली हवा में सूक्ष्म कणों (2.5 माइक्रोमीटर या उससे छोटे) की औसत वार्षिक सांद्रता, लोगों के निवास स्थान के अनुसार भारित।"
+  },
+  "unit": {
+    "en": "micrograms per cubic metre",
+    "hi": "माइक्रोग्राम प्रति घन मीटर"
+  },
+  "direction": "lower",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (EN.ATM.PM25.MC.M3), from satellite and ground-monitor estimates compiled for the Global Burden of Disease study.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (EN.ATM.PM25.MC.M3), वैश्विक रोग भार अध्ययन के लिए संकलित उपग्रह और जमीनी निगरानी अनुमानों से।"
+  },
+  "limitations": {
+    "en": "A national, population-weighted average; it hides large differences between cities and seasons. India’s national ambient standard for PM2.5 is 40 micrograms per cubic metre a year (Central Pollution Control Board).",
+    "hi": "यह राष्ट्रीय, जनसंख्या-भारित औसत है; इसमें शहरों और मौसमों के बीच बड़े अंतर छिप जाते हैं। PM2.5 के लिए भारत का राष्ट्रीय परिवेशी मानक 40 माइक्रोग्राम प्रति घन मीटर प्रति वर्ष है (केंद्रीय प्रदूषण नियंत्रण बोर्ड)।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1994",
+      "value": 50.034,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1994\",\"value\":50.0341215074474,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1995",
+      "value": 48.004,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":48.0040000846993,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 49.946,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":49.9460733196973,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 49.902,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":49.9020492258223,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 49.858,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":49.8580251319472,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 49.814,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":49.8140010380722,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 50.763,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":50.7630256086335,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 50.454,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":50.4537854823933,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 51.254,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":51.2544544512511,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 52.515,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":52.5149836233186,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 50.845,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":50.8446162251344,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 51.337,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":51.3369278641143,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 49.255,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":49.2546056005498,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 49.451,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":49.4513350486064,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 51.266,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":51.2664820637014,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 52.263,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":52.2626731220367,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 51.719,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":51.7188200456979,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 55.026,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":55.0258281992835,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 53.02,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":53.0196291324327,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 52.269,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":52.2693789873114,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 51.687,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":51.6872206933655,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 51.436,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":51.4355933740253,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 54.422,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":54.4218755239322,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 55.172,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":55.1724251484484,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 56.68,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":56.6795240921875,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 53.598,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":53.5981486621548,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 52.193,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":52.1933674059995,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 55.623,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":55.6234726382873,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 50.658,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":50.6577446303517,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 54.052,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EN.ATM.PM25.MC.M3?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:37.240Z",
+          "snapshotSha256": "db3c379f2d41a369e0ba3660de9a414530a51ce308b1380339962703fd89fc8c",
+          "quote": "{\"indicator\":{\"id\":\"EN.ATM.PM25.MC.M3\",\"value\":\"PM2.5 air pollution, mean annual exposure (micrograms per cubic meter)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":54.0522242217331,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

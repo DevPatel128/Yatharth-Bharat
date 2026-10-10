@@ -1,0 +1,283 @@
+{
+  "id": "adult-literacy",
+  "category": "education",
+  "name": {
+    "en": "Adult literacy rate",
+    "hi": "वयस्क साक्षरता दर"
+  },
+  "definition": {
+    "en": "Share of people aged 15 and over who can read and write a short simple statement about their everyday life.",
+    "hi": "15 वर्ष और उससे अधिक आयु के लोगों का वह प्रतिशत, जो अपने दैनिक जीवन के बारे में एक छोटा सरल वाक्य पढ़ और लिख सकते हैं।"
+  },
+  "unit": {
+    "en": "% of people aged 15+",
+    "hi": "15+ आयु के लोगों का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SE.ADT.LITR.ZS), from the UNESCO Institute for Statistics, based on Indian census and survey data.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SE.ADT.LITR.ZS), यूनेस्को सांख्यिकी संस्थान से, भारतीय जनगणना और सर्वेक्षण आंकड़ों पर आधारित।"
+  },
+  "limitations": {
+    "en": "Available only for some years. Self-reported literacy in surveys is not a test of reading ability.",
+    "hi": "केवल कुछ वर्षों के लिए उपलब्ध। सर्वेक्षणों में स्वयं बताई गई साक्षरता पढ़ने की क्षमता की परीक्षा नहीं है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1981",
+      "value": 40.76,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1981\",\"value\":40.7599983215332,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1991",
+      "value": 48.22,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1991\",\"value\":48.2200012207031,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 61.01,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":61.0099983215332,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 62.75,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":62.75,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 68.326,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":68.325817300837,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 69.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":69.3000030517578,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 69.828,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":69.8279300354369,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 73.688,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":73.6883524760717,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 74.894,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":74.8938629973395,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 75.527,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":75.5270629470344,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 76.06,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":76.0596617430205,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 76.32,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":76.3199996948242,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 81.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":81.6999969482422,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 78.163,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SE.ADT.LITR.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:03.571Z",
+          "snapshotSha256": "6b614ac0cf04b5925c209c0bb1dabd71bf4928963937430e48ef362eb4167cbb",
+          "quote": "{\"indicator\":{\"id\":\"SE.ADT.LITR.ZS\",\"value\":\"Literacy rate, adult total (% of people ages 15 and above)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":78.1625330351403,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

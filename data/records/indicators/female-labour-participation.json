@@ -1,0 +1,571 @@
+{
+  "id": "female-labour-participation",
+  "category": "employment",
+  "name": {
+    "en": "Women’s labour force participation",
+    "hi": "महिला श्रम बल भागीदारी"
+  },
+  "definition": {
+    "en": "Share of women aged 15 and over who are working or looking for work.",
+    "hi": "15 वर्ष और उससे अधिक आयु की महिलाओं का वह प्रतिशत, जो काम कर रही हैं या काम खोज रही हैं।"
+  },
+  "unit": {
+    "en": "% of women aged 15+",
+    "hi": "15+ आयु की महिलाओं का %"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SL.TLF.CACT.FE.ZS), from International Labour Organization modelled estimates.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SL.TLF.CACT.FE.ZS), अंतरराष्ट्रीय श्रम संगठन के मॉडल आधारित अनुमानों से।"
+  },
+  "limitations": {
+    "en": "A modelled international estimate. India’s official figure comes from the Periodic Labour Force Survey (MoSPI), which uses its own definitions and can be markedly different.",
+    "hi": "मॉडल आधारित अंतरराष्ट्रीय अनुमान। भारत का आधिकारिक आंकड़ा आवधिक श्रम बल सर्वेक्षण (MoSPI) से आता है, जिसकी अपनी परिभाषाएं हैं और जो काफी भिन्न हो सकता है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1996",
+      "value": 31.934,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":31.934,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 32.542,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":32.542,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 33.157,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":33.157,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 33.775,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":33.775,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 34.397,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":34.397,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 34.483,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":34.483,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 34.57,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":34.57,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 34.66,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":34.66,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 34.753,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":34.753,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 34.852,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":34.852,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 33.499,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":33.499,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 32.179,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":32.179,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 30.892,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":30.892,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 29.641,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":29.641,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 28.425,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":28.425,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 27.583,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":27.583,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 26.764,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":26.764,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 26.669,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":26.669,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 26.607,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":26.607,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 26.582,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":26.582,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 26.575,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":26.575,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 26.578,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":26.578,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 26.568,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":26.568,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 26.539,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":26.539,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 25.998,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":25.998,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 27.724,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":27.724,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 29.348,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":29.348,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 30.984,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":30.984,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 32.415,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":32.415,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2025",
+      "value": 32.425,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SL.TLF.CACT.FE.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:44.158Z",
+          "snapshotSha256": "ff20d81efec68456c0d0d3817b63fc8eea31d14f5bf1a237f6bbaa8af8c51480",
+          "quote": "{\"indicator\":{\"id\":\"SL.TLF.CACT.FE.ZS\",\"value\":\"Labor force participation rate, female (% of female population ages 15+) (modeled ILO estimate)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2025\",\"value\":32.425,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

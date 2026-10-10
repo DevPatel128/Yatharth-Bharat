@@ -1,0 +1,571 @@
+{
+  "id": "renewable-energy-share",
+  "category": "environment",
+  "name": {
+    "en": "Renewable energy in final energy use",
+    "hi": "अंतिम ऊर्जा उपयोग में नवीकरणीय ऊर्जा"
+  },
+  "definition": {
+    "en": "Share of all energy finally consumed (by homes, industry, transport) that comes from renewable sources, including traditional biomass such as firewood.",
+    "hi": "कुल अंतिम ऊर्जा खपत (घरों, उद्योग, परिवहन द्वारा) का वह प्रतिशत, जो नवीकरणीय स्रोतों से आता है, जिसमें लकड़ी जैसा पारंपरिक बायोमास भी शामिल है।"
+  },
+  "unit": {
+    "en": "% of final energy consumption",
+    "hi": "अंतिम ऊर्जा खपत का %"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (EG.FEC.RNEW.ZS), from International Energy Agency and UN energy statistics.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (EG.FEC.RNEW.ZS), अंतरराष्ट्रीय ऊर्जा एजेंसी और संयुक्त राष्ट्र ऊर्जा आंकड़ों से।"
+  },
+  "limitations": {
+    "en": "Includes firewood and dung cakes used for cooking, so a falling share can reflect households moving to LPG rather than less solar or wind power. Not the same as the share of renewables in electricity generation.",
+    "hi": "इसमें खाना पकाने के लिए उपयोग होने वाली लकड़ी और उपले शामिल हैं, इसलिए हिस्सा घटने का कारण घरों का एलपीजी अपनाना हो सकता है, सौर या पवन ऊर्जा का कम होना नहीं। यह बिजली उत्पादन में नवीकरणीय ऊर्जा के हिस्से के समान नहीं है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1992",
+      "value": 51.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1992\",\"value\":51.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1993",
+      "value": 51.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1993\",\"value\":51.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1994",
+      "value": 50.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1994\",\"value\":50.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1995",
+      "value": 49.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":49.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 49.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":49.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 47.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":47.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 48,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":48,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 47.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":47.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 46.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":46.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 47.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":47.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 45.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":45.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 45.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":45.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 44.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":44.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 44.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":44.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 43.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":43.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 41.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":41.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 39.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":39.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 37.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":37.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 36.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":36.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 35,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":35,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 34.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":34.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 34.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":34.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 33.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":33.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 33.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":33.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 33,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":33,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 32.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":32.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 32.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":32.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 33.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":33.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 36.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":36.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 34.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.FEC.RNEW.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:26:57.023Z",
+          "snapshotSha256": "56846b58eedc425204735c31454f1c521f26e50cc7a5a2141e4a57eaf0e843ba",
+          "quote": "{\"indicator\":{\"id\":\"EG.FEC.RNEW.ZS\",\"value\":\"Renewable energy consumption (% of total final energy consumption)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":34.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

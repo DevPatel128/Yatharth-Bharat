@@ -2324,6 +2324,29 @@
           ]
         },
         {
+          "key": "disaster-response",
+          "label": {
+            "en": "5. Grants-in-Aid for State Disaster Response Fund",
+            "hi": "5. राज्य आपदा मोचन निधि के लिए सहायता अनुदान"
+          },
+          "level": 1,
+          "values": [
+            20264,
+            24257,
+            22574
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "5. Grants-in-Aid for State Disaster Response Fund 20264 24257 22574",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
           "key": "other-transfers",
           "label": {
             "en": "IV. Total Transfer to States [Other than (I)+(II)+(III)]",

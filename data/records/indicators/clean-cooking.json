@@ -1,0 +1,481 @@
+{
+  "id": "clean-cooking",
+  "category": "wellbeing",
+  "name": {
+    "en": "Access to clean cooking fuels",
+    "hi": "स्वच्छ खाना पकाने के ईंधन तक पहुंच"
+  },
+  "definition": {
+    "en": "Share of the population that mainly cooks with clean fuels and technologies such as LPG, natural gas, electricity or biogas.",
+    "hi": "आबादी का वह प्रतिशत, जो मुख्य रूप से एलपीजी, प्राकृतिक गैस, बिजली या बायोगैस जैसे स्वच्छ ईंधन और तकनीकों से खाना पकाता है।"
+  },
+  "unit": {
+    "en": "% of population",
+    "hi": "आबादी का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (EG.CFT.ACCS.ZS), from World Health Organization household energy estimates.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (EG.CFT.ACCS.ZS), विश्व स्वास्थ्य संगठन के घरेलू ऊर्जा अनुमानों से।"
+  },
+  "limitations": {
+    "en": "Modelled from household surveys. Having an LPG connection is not the same as using it for all cooking.",
+    "hi": "घरेलू सर्वेक्षणों से मॉडल किया गया अनुमान। एलपीजी कनेक्शन होना और सारा खाना उसी से पकाना एक बात नहीं है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "2000",
+      "value": 22,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":22,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 24,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":24,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 25,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":25,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 26,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":26,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 27,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":27,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 28,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":28,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 29,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":29,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 30,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":30,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 31,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":31,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 32,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":32,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 34,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":34,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 36,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":36,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 39,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":39,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 42,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":42,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 46,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":46,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 49,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":49,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 53,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":53,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 57,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":57,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 61,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":61,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 64,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":64,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 68,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":68,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 71,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":71,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 75,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":75,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 78,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":78,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 81,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/EG.CFT.ACCS.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:39.339Z",
+          "snapshotSha256": "6ae3da07f023567b0890030630f13b48ffb629b009463391b33bd93732df8a12",
+          "quote": "{\"indicator\":{\"id\":\"EG.CFT.ACCS.ZS\",\"value\":\"Access to clean fuels and technologies for cooking (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":81,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

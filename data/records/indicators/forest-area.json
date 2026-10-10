@@ -1,0 +1,571 @@
+{
+  "id": "forest-area",
+  "category": "environment",
+  "name": {
+    "en": "Forest area",
+    "hi": "वन क्षेत्र"
+  },
+  "definition": {
+    "en": "Land under natural or planted trees at least 5 metres high, as a share of total land area.",
+    "hi": "कम से कम 5 मीटर ऊंचे प्राकृतिक या लगाए गए पेड़ों वाली भूमि, कुल भूमि क्षेत्र के प्रतिशत के रूप में।"
+  },
+  "unit": {
+    "en": "% of land area",
+    "hi": "भूमि क्षेत्र का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (AG.LND.FRST.ZS), from the UN Food and Agriculture Organization Global Forest Resources Assessment.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (AG.LND.FRST.ZS), संयुक्त राष्ट्र खाद्य और कृषि संगठन के वैश्विक वन संसाधन आकलन से।"
+  },
+  "limitations": {
+    "en": "Uses the FAO definition. The Forest Survey of India’s State of Forest Report uses satellite-based forest and tree cover and gives different figures.",
+    "hi": "इसमें FAO की परिभाषा उपयोग होती है। भारतीय वन सर्वेक्षण की वन स्थिति रिपोर्ट उपग्रह-आधारित वन और वृक्ष आवरण का उपयोग करती है और अलग आंकड़े देती है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1995",
+      "value": 22.119,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":22.1191716641049,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 22.242,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":22.2420363313478,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 22.365,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":22.3649009985907,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 22.488,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":22.4877656658337,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 22.611,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":22.6106303330766,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 22.733,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":22.7334950003195,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 22.798,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":22.7975675957473,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 22.862,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":22.8616401911751,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 22.926,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":22.9257127866029,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 22.99,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":22.9897853820307,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 23.054,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":23.0538579774586,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 23.118,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":23.1179305728864,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 23.182,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":23.1820031683142,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 23.246,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":23.246075763742,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 23.31,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":23.3101483591698,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 23.374,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":23.3742209545976,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 23.464,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":23.4638216864714,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 23.553,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":23.5534224183453,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 23.643,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":23.6430231502191,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 23.733,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":23.732623882093,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 23.822,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":23.8222246139668,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 23.922,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":23.9218482505323,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 24.021,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":24.0214718870977,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 24.121,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":24.1210955236631,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 24.221,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":24.2207191602286,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 24.32,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":24.320342796794,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 24.349,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":24.3492679579845,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 24.378,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":24.378193119175,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 24.407,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":24.4071182803655,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 24.436,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/AG.LND.FRST.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:23:33.225Z",
+          "snapshotSha256": "a3f438860ff2230bbcbec48a0d38f7d070263edee680ca9597453329309faecd",
+          "quote": "{\"indicator\":{\"id\":\"AG.LND.FRST.ZS\",\"value\":\"Forest area (% of land area)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":24.436043441556,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

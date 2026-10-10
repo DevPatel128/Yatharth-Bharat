@@ -1,0 +1,571 @@
+{
+  "id": "resident-patents",
+  "category": "innovation-industry",
+  "name": {
+    "en": "Patent applications by residents",
+    "hi": "निवासियों द्वारा पेटेंट आवेदन"
+  },
+  "definition": {
+    "en": "Patent applications filed in India by people and organisations resident in India in a year.",
+    "hi": "एक वर्ष में भारत में रहने वाले व्यक्तियों और संगठनों द्वारा भारत में दायर पेटेंट आवेदन।"
+  },
+  "unit": {
+    "en": "applications",
+    "hi": "आवेदन"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (IP.PAT.RESD), from the World Intellectual Property Organization, based on the Indian Patent Office.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (IP.PAT.RESD), विश्व बौद्धिक संपदा संगठन से, भारतीय पेटेंट कार्यालय के आधार पर।"
+  },
+  "limitations": {
+    "en": "Counts applications, not patents granted, and says nothing about their value or use.",
+    "hi": "यह आवेदन गिनता है, स्वीकृत पेटेंट नहीं, और उनके मूल्य या उपयोग के बारे में कुछ नहीं बताता।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1995",
+      "value": 1545,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":1545,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 1661,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":1661,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 1926,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":1926,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 2247,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":2247,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 2206,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":2206,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 2206,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":2206,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 2379,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":2379,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 2693,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":2693,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 3425,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":3425,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 4014,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":4014,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 4721,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":4721,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 5686,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":5686,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 6296,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":6296,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 6425,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":6425,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 7262,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":7262,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 8853,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":8853,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 8841,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":8841,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 9553,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":9553,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 10669,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":10669,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 12040,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":12040,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 12579,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":12579,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 13199,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":13199,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 14961,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":14961,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 16289,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":16289,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 19454,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":19454,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 23141,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":23141,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 26267,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":26267,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 38551,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":38551,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 49860,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":49860,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2024",
+      "value": 63217,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/IP.PAT.RESD?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:25:01.576Z",
+          "snapshotSha256": "e1a32164a515185cb478ae72ecdc28709378df8d2686ff59b34b4c38d53ed1de",
+          "quote": "{\"indicator\":{\"id\":\"IP.PAT.RESD\",\"value\":\"Patent applications, residents\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2024\",\"value\":63217,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

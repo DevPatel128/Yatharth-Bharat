@@ -9,4 +9,4 @@ Baseline: WOLF `SECURITY.md` (OWASP Top 10:2025, API Top 10:2023). Project speci
 - **Least privilege:** data bot limited to `data/` (CI `data-scope` job); `.github/`, wrangler config, `src/db.ts` and dependencies are protected paths (merge needs the owner). Kill switch `AUTOPILOT=off`.
 - **Secrets:** CI secrets only; nothing in the static bundle; `.env*`/`.dev.vars` git-ignored and blocked by the WOLF guard hook.
 - **Edge (to configure on deploy):** Cloudflare WAF managed rules; rate limit `/api/*` (e.g. 60 req/min/IP) and stricter for the future AI endpoint (e.g. 10/min/IP plus daily cap) with Turnstile. Exact free-plan availability of rate-limiting rules is UNVERIFIED; check in the dashboard.
-- **Responsible disclosure:** GitHub private vulnerability reporting (root `SECURITY.md`).
+- **Responsible disclosure:** GitHub private vulnerability reporting (root `SECURITY.md`), or vroelabs@gmail.com.

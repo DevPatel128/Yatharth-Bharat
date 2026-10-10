@@ -1,0 +1,193 @@
+{
+  "id": "gini-index",
+  "category": "poverty-inequality",
+  "name": {
+    "en": "Gini index of consumption",
+    "hi": "उपभोग का गिनी सूचकांक"
+  },
+  "definition": {
+    "en": "How unequally household consumption is spread: 0 means everyone consumes the same, 100 means one person consumes everything.",
+    "hi": "घरेलू उपभोग कितना असमान रूप से बंटा है: 0 का अर्थ है सभी समान उपभोग करते हैं, 100 का अर्थ है एक ही व्यक्ति सब कुछ उपभोग करता है।"
+  },
+  "unit": {
+    "en": "index (0 to 100)",
+    "hi": "सूचकांक (0 से 100)"
+  },
+  "direction": "neutral",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SI.POV.GINI), from the World Bank Poverty and Inequality Platform.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SI.POV.GINI), विश्व बैंक गरीबी और असमानता मंच से।"
+  },
+  "limitations": {
+    "en": "Measures consumption, not income or wealth, which are usually far more unequal. Not comparable with income-based Gini figures for other countries.",
+    "hi": "यह उपभोग मापता है, आय या संपत्ति नहीं, जो आमतौर पर कहीं अधिक असमान होती हैं। अन्य देशों के आय-आधारित गिनी आंकड़ों से तुलनीय नहीं।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1977",
+      "value": 29.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1977\",\"value\":29.7,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1983",
+      "value": 27.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1983\",\"value\":27.2,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1987",
+      "value": 27.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1987\",\"value\":27.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1993",
+      "value": 26.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1993\",\"value\":26.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 27.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":27.7,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 27.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":27.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 28.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":28.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 25.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":25.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 23,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.GINI?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:50.706Z",
+          "snapshotSha256": "8be13d1724b991f2ed93d284457cc711c6490c8aac8c4c270ba619d1a8b57399",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.GINI\",\"value\":\"Gini index\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":23,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

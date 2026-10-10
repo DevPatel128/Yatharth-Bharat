@@ -1,0 +1,481 @@
+{
+  "id": "rd-expenditure",
+  "category": "innovation-industry",
+  "name": {
+    "en": "Research and development spending",
+    "hi": "अनुसंधान और विकास पर खर्च"
+  },
+  "definition": {
+    "en": "Spending on research and development by government, business, universities and non-profits, as a share of GDP.",
+    "hi": "सरकार, व्यवसायों, विश्वविद्यालयों और गैर-लाभकारी संस्थाओं द्वारा अनुसंधान और विकास पर खर्च, जीडीपी के प्रतिशत के रूप में।"
+  },
+  "unit": {
+    "en": "% of GDP",
+    "hi": "जीडीपी का %"
+  },
+  "direction": "higher",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (GB.XPD.RSDV.GD.ZS), from the UNESCO Institute for Statistics, based on Department of Science and Technology surveys.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (GB.XPD.RSDV.GD.ZS), यूनेस्को सांख्यिकी संस्थान से, विज्ञान और प्रौद्योगिकी विभाग के सर्वेक्षणों पर आधारित।"
+  },
+  "limitations": {
+    "en": "Published with a delay of several years. Business research spending is harder to measure than government spending.",
+    "hi": "कई वर्षों की देरी से प्रकाशित। व्यवसायों का अनुसंधान खर्च सरकारी खर्च की तुलना में मापना कठिन है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1996",
+      "value": 0.639,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":0.63905,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 0.687,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":0.68669,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 0.704,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":0.70378,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 0.724,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":0.72413,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 0.757,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":0.75699,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 0.736,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":0.73591,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 0.726,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":0.72567,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 0.719,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":0.71929,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 0.757,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":0.7569,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 0.824,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":0.82411,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 0.805,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":0.80473,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 0.805,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":0.80507,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 0.859,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":0.85876,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 0.833,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":0.83314,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 0.788,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":0.78849,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 0.755,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":0.75502,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 0.744,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":0.74399,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 0.706,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":0.70642,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 0.702,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":0.70158,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 0.693,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":0.6931,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 0.67,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":0.66984,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 0.666,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":0.66603,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 0.66,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":0.66001,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 0.659,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":0.65942,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 0.646,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/GB.XPD.RSDV.GD.ZS?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:57.583Z",
+          "snapshotSha256": "2131f033dab383700d0296ba05520755fdd272a9ce652f9c896f0861823e5e5d",
+          "quote": "{\"indicator\":{\"id\":\"GB.XPD.RSDV.GD.ZS\",\"value\":\"Research and development expenditure (% of GDP)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":0.64558,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":2}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

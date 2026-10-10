@@ -58,6 +58,8 @@ describe('G7 neutral language', () => {
   it('fails accusatory Hindi', () => expect(g7Legal(['यह योजना एक घोटाला है']).status).toBe('fail'));
   it('fails promotional hype', () => expect(g7Legal(['Unlock insights seamlessly']).status).toBe('fail'));
   it('does not flag words that merely contain a banned term', () => expect(g7Legal(['Scampi exports']).status).toBe('pass'));
+  it('allows an official fund name that contains a banned word', () => expect(g7Legal(['5. Grants-in-Aid for State Disaster Response Fund']).status).toBe('pass'));
+  it('still fails the banned word outside the official name', () => expect(g7Legal(['The flood response was a disaster']).status).toBe('fail'));
 });
 
 describe('G8 Hindi', () => {

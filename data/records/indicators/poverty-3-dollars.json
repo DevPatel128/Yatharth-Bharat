@@ -1,0 +1,193 @@
+{
+  "id": "poverty-3-dollars",
+  "category": "poverty-inequality",
+  "name": {
+    "en": "Extreme poverty (US$3.00 a day)",
+    "hi": "अत्यधिक गरीबी (प्रतिदिन 3.00 अमेरिकी डॉलर)"
+  },
+  "definition": {
+    "en": "Share of the population living on less than US$3.00 a day, adjusted for differences in prices between countries (2021 purchasing power parity).",
+    "hi": "आबादी का वह प्रतिशत, जो प्रतिदिन 3.00 अमेरिकी डॉलर से कम पर जीवन यापन करती है, देशों के बीच कीमतों के अंतर के लिए समायोजित (2021 क्रय शक्ति समता)।"
+  },
+  "unit": {
+    "en": "% of population",
+    "hi": "आबादी का %"
+  },
+  "direction": "lower",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (SI.POV.DDAY), from the World Bank Poverty and Inequality Platform, based on household consumption surveys.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (SI.POV.DDAY), विश्व बैंक गरीबी और असमानता मंच से, घरेलू उपभोग सर्वेक्षणों के आधार पर।"
+  },
+  "limitations": {
+    "en": "Available only for years with a household consumption survey; the survey method changed in 2022-23, so values before and after are not strictly comparable. India has no current official poverty line.",
+    "hi": "केवल उन वर्षों के लिए उपलब्ध, जिनमें घरेलू उपभोग सर्वेक्षण हुआ; 2022-23 में सर्वेक्षण पद्धति बदली, इसलिए पहले और बाद के मान पूरी तरह तुलनीय नहीं हैं। भारत में वर्तमान में कोई आधिकारिक गरीबी रेखा नहीं है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1977",
+      "value": 59.7,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1977\",\"value\":59.7,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1983",
+      "value": 50.9,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1983\",\"value\":50.9,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1987",
+      "value": 51.8,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1987\",\"value\":51.8,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1993",
+      "value": 47.5,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1993\",\"value\":47.5,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 46.4,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":46.4,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 34.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":34.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 27.1,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":27.1,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 5.3,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":5.3,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2023",
+      "value": 2.6,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/SI.POV.DDAY?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:39.174Z",
+          "snapshotSha256": "0871af7324ec911cbf054c6eef2595fc11a1ce83c0f2a0273fbce2c612bd8aef",
+          "quote": "{\"indicator\":{\"id\":\"SI.POV.DDAY\",\"value\":\"Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2023\",\"value\":2.6,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":1}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}

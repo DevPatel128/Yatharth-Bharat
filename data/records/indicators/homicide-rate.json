@@ -1,0 +1,571 @@
+{
+  "id": "homicide-rate",
+  "category": "public-safety-justice",
+  "name": {
+    "en": "Intentional homicides",
+    "hi": "जानबूझकर की गई हत्याएं"
+  },
+  "definition": {
+    "en": "Unlawful deaths deliberately inflicted on a person, per 100,000 people, as recorded by police.",
+    "hi": "किसी व्यक्ति की जानबूझकर की गई गैरकानूनी मौतें, प्रति 100,000 लोग, पुलिस रिकॉर्ड के अनुसार।"
+  },
+  "unit": {
+    "en": "per 100,000 people",
+    "hi": "प्रति 100,000 लोग"
+  },
+  "direction": "lower",
+  "geography": "IN",
+  "methodology": {
+    "en": "World Bank World Development Indicators (VC.IHR.PSRC.P5), from the UN Office on Drugs and Crime, based on National Crime Records Bureau data.",
+    "hi": "विश्व बैंक विश्व विकास संकेतक (VC.IHR.PSRC.P5), संयुक्त राष्ट्र ड्रग्स और अपराध कार्यालय से, राष्ट्रीय अपराध रिकॉर्ड ब्यूरो के आंकड़ों पर आधारित।"
+  },
+  "limitations": {
+    "en": "Based on cases recorded by police; recording practices differ between states and over time. The National Crime Records Bureau’s annual Crime in India report is the primary source.",
+    "hi": "पुलिस द्वारा दर्ज मामलों पर आधारित; दर्ज करने की प्रथाएं राज्यों और समय के साथ बदलती हैं। राष्ट्रीय अपराध रिकॉर्ड ब्यूरो की वार्षिक रिपोर्ट \"भारत में अपराध\" प्राथमिक स्रोत है।"
+  },
+  "sourceId": "world-bank-api",
+  "observations": [
+    {
+      "period": "1993",
+      "value": 5.2,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1993\",\"value\":5.19965773114987,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1994",
+      "value": 5.042,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1994\",\"value\":5.04248055851768,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1995",
+      "value": 4.83,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1995\",\"value\":4.83036026191718,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1996",
+      "value": 4.789,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1996\",\"value\":4.7885099027111,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1997",
+      "value": 4.746,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1997\",\"value\":4.74591109090452,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1998",
+      "value": 4.839,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1998\",\"value\":4.83888188255162,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "1999",
+      "value": 4.602,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"1999\",\"value\":4.60217795989072,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2000",
+      "value": 4.553,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2000\",\"value\":4.55297901231507,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2001",
+      "value": 4.307,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2001\",\"value\":4.30652763410509,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2002",
+      "value": 4.167,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2002\",\"value\":4.16690817646815,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2003",
+      "value": 3.969,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2003\",\"value\":3.96945564811633,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2004",
+      "value": 4.092,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2004\",\"value\":4.09246015023157,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2005",
+      "value": 3.905,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2005\",\"value\":3.9054234629053,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2006",
+      "value": 3.833,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2006\",\"value\":3.83338811896998,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2007",
+      "value": 3.81,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2007\",\"value\":3.80976850285027,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2008",
+      "value": 3.808,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2008\",\"value\":3.80808186808269,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2009",
+      "value": 3.739,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2009\",\"value\":3.7391329622536,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2010",
+      "value": 3.736,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2010\",\"value\":3.73628378136533,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2011",
+      "value": 3.777,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2011\",\"value\":3.77728016164146,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2012",
+      "value": 3.713,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2012\",\"value\":3.71306379435684,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2013",
+      "value": 3.54,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2013\",\"value\":3.54043488192346,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2014",
+      "value": 3.609,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2014\",\"value\":3.60868879736221,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2015",
+      "value": 3.341,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2015\",\"value\":3.341278725169,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2016",
+      "value": 3.149,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2016\",\"value\":3.14894003612781,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2017",
+      "value": 3.077,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2017\",\"value\":3.07665739913599,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2018",
+      "value": 3.03,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2018\",\"value\":3.0299149142336,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2019",
+      "value": 2.95,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2019\",\"value\":2.94997162020176,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2020",
+      "value": 2.935,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2020\",\"value\":2.93529734667461,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2021",
+      "value": 2.922,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2021\",\"value\":2.92249230234054,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    },
+    {
+      "period": "2022",
+      "value": 2.815,
+      "status": "unknown",
+      "series": "World Bank WDI",
+      "publishedAt": null,
+      "evidence": [
+        {
+          "sourceId": "world-bank-api",
+          "url": "https://api.worldbank.org/v2/country/IND/indicator/VC.IHR.PSRC.P5?per_page=100&format=json",
+          "retrievedAt": "2026-10-10T07:24:55.356Z",
+          "snapshotSha256": "2ebddfe788108a120cfd1bf42c8270b7ee9b52d102210315befe043f68e0e94e",
+          "quote": "{\"indicator\":{\"id\":\"VC.IHR.PSRC.P5\",\"value\":\"Intentional homicides (per 100,000 people)\"},\"country\":{\"id\":\"IN\",\"value\":\"India\"},\"countryiso3code\":\"IND\",\"date\":\"2022\",\"value\":2.81530423021647,\"unit\":\"\",\"obs_status\":\"\",\"decimal\":0}",
+          "method": "pipeline"
+        }
+      ],
+      "revisions": []
+    }
+  ],
+  "lastVerifiedAt": "2026-10-10T18:02:07.472Z",
+  "state": "verified"
+}
