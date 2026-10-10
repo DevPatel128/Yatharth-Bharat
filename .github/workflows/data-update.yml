@@ -11,7 +11,7 @@ concurrency: { group: data-update, cancel-in-progress: false }   # a second run 
 jobs:
   update:
     if: vars.AUTOPILOT != 'off'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     # Only used when no GitHub App is configured (fallback token); the App token carries its own scopes.
     permissions: { contents: write, pull-requests: write, issues: write }

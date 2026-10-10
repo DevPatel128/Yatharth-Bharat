@@ -10,7 +10,7 @@ concurrency: { group: 'ci-${{ github.ref }}', cancel-in-progress: true }
 jobs:
   verify:
     if: github.event_name != 'schedule'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions: { contents: read, pull-requests: read }   # gitleaks lists PR commits
     timeout-minutes: 20
     steps:
@@ -31,7 +31,7 @@ jobs:
   gate:
     # Data-bot PRs are exempt from the code PR template; they are gated by data/ path checks instead.
     if: github.event_name == 'pull_request' && !startsWith(github.head_ref, 'data/')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions: { contents: read, pull-requests: read, actions: read }
     env: { GH_TOKEN: '${{ github.token }}' }
     steps:
@@ -49,7 +49,7 @@ jobs:
   data-scope:
     # The data bot may change data only. Any other path in a data/ branch fails, so it can never ship code.
     if: github.event_name == 'pull_request' && startsWith(github.head_ref, 'data/')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with: { fetch-depth: 0 }
@@ -61,7 +61,7 @@ jobs:
   deploy:
     needs: verify
     if: github.event_name == 'push' && needs.verify.result == 'success' && vars.PROD_URL != ''
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment: production
     timeout-minutes: 20
     env:
@@ -94,6 +94,6 @@ jobs:
 
   uptime:
     if: github.event_name == 'schedule' && vars.PROD_URL != ''
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - run: curl -fsS --max-time 10 "${{ vars.PROD_URL }}/api/health"
