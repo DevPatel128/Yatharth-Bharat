@@ -170,3 +170,38 @@ export const TradeFile = z.object({
   crossCheck: z.object({ year: z.string(), monthlySumExports: z.number(), monthlySumImports: z.number(), tolerancePct: z.number() }),
 });
 export type TradeFile = z.infer<typeof TradeFile>;
+
+/** Union Budget "Budget at a Glance" tables (Ministry of Finance). Values in ₹ crore as published. */
+export const BudgetColumn = z.object({ year: z.string().regex(/^\d{4}-\d{2}$/), stage: z.enum(['actual', 'be', 're']) });
+export const BudgetRow = z.object({
+  key: z.string().regex(/^[a-z0-9-]+$/),
+  label: Bilingual,
+  level: z.number().int().min(0).max(2),
+  values: z.array(z.number().nullable()),
+  pctGdp: z.array(z.number().nullable()).optional(),
+  footnote: z.string().optional(),
+  /** Set when the workbook and the PDF disagree and the PDF value was kept because it satisfies the table's own arithmetic. */
+  discrepancy: z.string().optional(),
+  evidence: z.array(Evidence).min(1),
+});
+export const BudgetTable = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: Bilingual,
+  doc: z.string().regex(/^bag\d$/),
+  columns: z.array(BudgetColumn).min(1),
+  rows: z.array(BudgetRow).min(1),
+  footnotes: z.record(z.string(), z.string()).default({}),
+});
+export const BudgetFile = z.object({
+  schemaVersion: z.literal(1),
+  budgetYear: z.string().regex(/^\d{4}-\d{2}$/),
+  unit: z.literal('₹ crore'),
+  lastVerifiedAt: isoDateTime,
+  gdpEstimate: z.object({ year: z.string(), value: z.number().positive(), quote: z.string() }),
+  tables: z.array(BudgetTable).min(1),
+  /** Arithmetic identities checked across and within tables (G5). Every entry passed, or the file was not written. */
+  checks: z.array(z.object({ name: z.string(), maxDiff: z.number() })),
+  aiReview: z.enum(['pass', 'pending']),
+});
+export type BudgetFile = z.infer<typeof BudgetFile>;
+export type BudgetTable = z.infer<typeof BudgetTable>;

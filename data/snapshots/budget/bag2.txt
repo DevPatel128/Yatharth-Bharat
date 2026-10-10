@@ -1,0 +1,194 @@
+4
+घाटे का सार Deficit Statistics
+(₹ करोड़) (In ₹ crore)
+2024-2025
+वास्तववक
+Actuals
+2025-2026
+बजट
+अनुमान
+Budget
+Estimates
+2025-2026
+संशोवित
+अनुमान
+Revised
+Estimates
+2026-2027
+बजट
+अनुमान
+Budget
+Estimates
+1. राजकोषीय घाटा 1. Fiscal Deficit 1574431 1568936 1558492 1695768
+(4.8) (4.4) (4.4) (4.3)
+2. राजस्व घाटा 2. Revenue Deficit 564296 523846 526764 592344
+(1.7) (1.5) (1.5) (1.5)
+3. प्र िावी राजस्व घाटा 3. Effective Revenue Deficit 291640 96654 218613 99642
+(0.9) (0.3) (0.6) (0.3)
+4. प्र ाथवमक घाटा 4. Primary Deficit 458856 292598 284154 291796
+(1.4) (0.8) (0.8) (0.7)
+कोष्ठ क में पदये गए आंकड़ें जीडीिी के प्र पतित के रू ि में हैं।
+Figures in parentheses are as a percentage of GDP
+राजकोषीय घाटा ववत्त पोषण के स्र ोत Sources of Financing Fiscal Deficit
+(₹
+करोड़ ) (In ₹ crore)
+2024-2025
+वास्तववक
+Actuals
+2025-2026
+बजट
+अनुमान
+Budget
+Estimates
+2025-2026
+संशोवित
+अनुमान
+Revised
+Estimates
+2026-2027
+बजट
+अनुमान
+Budget
+Estimates
+1. ऋण प्र ावियां (वनवल) 1. Debt Receipts (Net) 1573823 1566452 1512770 1663066
+i. बाजार उिार (सरकारी प्र
+वतिवत) *
+i. Market Borrowings
+(G-sec) *
+1074512 1153834 1040439 1173210
+ii. अल्पकालीन उिार
+(राजकोषीय ह ंडी आवद)
+ii. Short term
+Borrowing (T-Bill
+etc.)
+-160154 0 0 130000
+iii.अल् प बचतों की तुलना मेंप्र
+वतिवतयां
+iii. Securities against
+Small Savings
+429502 343382 372192 386772
+iv.राज्य िववष्य वनवियां iv. State Provident
+Funds
+3999 5000 3800 3500
+v. अन् य प्र ावियां (आंतररक
+ऋण वनवि और लोक
+लेखा)
+v. Other Receipts
+(Internal Debts and
+Public Account)
+178692 40746 75877 (-)45801
+vi.ववदेशी ऋण vi. External Debt 47271 23490 20462 15385
+2. नकद शेष में आहरण द्व ारा
+कमी
+2. Draw Down of Cash
+Balance *
+608 2484 45722 32702
+कुल जोड़
+(राजकोषीय घाटा)
+Grand Total
+(Fiscal Deficit)
+1574431 1568936 1558492 1695768
+* रापि िुि: खरीद और पस् वपचंग प्र चालि को हिाकर है।
+* The amounts are net of Buyback and Switching operations.
+--- page
+5
+न
+घाटे की प्र वृवत्त यां (जीडीिी का %)
+DEFICIT TRENDS (% of GDP)
+ऋण की प्र वृवत्त यां (जीडीिी का %)
+TRENDS IN DEBT (% of GDP)
+3.5% 3.4%
+4.6%
+9.2%
+6.7% 6.5%
+5.5%
+4.8%
+4.4% 4.3%
+2.6% 2.4%
+3.3%
+7.3%
+4.4% 4.0%
+2.5%
+1.7% 1.5% 1.5%1.5% 1.4%
+2.4%
+6.1%
+3.3%
+2.8%
+1.5%
+0.9% 0.6% 0.3%
+0.4% 0.4% 1.6%
+5.7%
+3.3% 3.0%
+2.0%
+1.4% 0.8% 0.7%
+0.0%
+0.5%
+1.0%
+1.5%
+2.0%
+2.5%
+3.0%
+3.5%
+4.0%
+4.5%
+5.0%
+5.5%
+6.0%
+6.5%
+7.0%
+7.5%
+8.0%
+8.5%
+9.0%
+9.5%
+2017-18
+2018-19
+2019-20
+2020-21
+2021-22
+2022-23
+2023-24
+2024-25
+2025-26 RE
+2026-27 BE
+Fiscal Deficit
+Revenue Deficit
+Effective Revenue Deficit
+Primary Deficit
+48.2% 48.1%
+50.7%
+60.7%
+57.4% 56.6% 56.4%
+55.3% 55.2% 54.7%
+48.9% 49.3%
+52.3%
+61.4%
+58.8% 58.1%
+57.0% 56.2% 56.1% 55.6%
+45.0%
+47.0%
+49.0%
+51.0%
+53.0%
+55.0%
+57.0%
+59.0%
+61.0%
+63.0%
+2017-18
+2018-19
+2019-20
+2020-21
+2021-22
+2022-23
+2023-24
+2024-25
+2025-26 RE
+2026-27 BE
+Debt as per Statement of Liabilities
+Debt as defined in the FRBM Act
+Note: Debt as defined in the FRBM Act includes external debt valued at current exchange rate, and liabilites on account of extra budgetary resources
+as reported in Statement 27 of Expenditure Profile.
+(Receipt Budget)
+पिप्िणी : एफआरबीएम अपधपियम में ऋण की िररभार्ष ा में वतषमाि पवपिमय दर िर मूल् यांपकत पवदेिी ऋण और अपतररक्त बजिीय संसाधि के कारण हुई देयताएं
+िापमल है जैसा पक व् यय की रू िरेखा के पववरण 27 में ररिोिष पकया गया है।

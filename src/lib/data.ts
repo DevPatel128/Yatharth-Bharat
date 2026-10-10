@@ -1,6 +1,6 @@
 // Verified records, read at build time. The data bot changes only the JSON files; adding an indicator is a code
 // change (pipeline/indicators.ts + the import below), reviewed like any other code.
-import { Indicator, LegislatureFile, TradeFile, RegionalIndicator, RegionsFile, type Indicator as IndicatorT, type Region } from './schema.ts';
+import { BudgetFile, Indicator, LegislatureFile, TradeFile, RegionalIndicator, RegionsFile, type Indicator as IndicatorT, type Region } from './schema.ts';
 import regionsJson from '../../data/records/geo/regions.json';
 import unemployment from '../../data/records/indicators/unemployment-rate.json';
 import cpi from '../../data/records/indicators/cpi-inflation.json';
@@ -15,6 +15,7 @@ import cpiStates from '../../data/records/regional/cpi-inflation.json';
 import gerStates from '../../data/records/regional/higher-education-ger.json';
 import lokSabha from '../../data/records/people/lok-sabha-18.json';
 import trade from '../../data/records/world/trade.json';
+import budget from '../../data/records/budget/union-2026-27.json';
 
 // Parsing again here means a malformed record fails the build instead of reaching a page.
 export const INDICATORS: IndicatorT[] = [unemployment, cpi, ger, gdpGrowth, gdpPc, lifeExp, imr, electricity, internet].map((j) => Indicator.parse(j));
@@ -26,6 +27,7 @@ export const regionalFor = (regionId: string) =>
   REGIONAL.flatMap((r) => { const s = r.regions[regionId]; const ind = INDICATORS.find((i) => i.id === r.indicatorId); return s && ind ? [{ indicator: ind, series: s }] : []; });
 
 export const TRADE = TradeFile.parse(trade);
+export const BUDGET = BudgetFile.parse(budget);
 export const LOK_SABHA = LegislatureFile.parse(lokSabha);
 export const mpsFor = (regionId: string) => LOK_SABHA.members.filter((m) => m.regionId === regionId).sort((a, b) => a.constituency.en.localeCompare(b.constituency.en));
 

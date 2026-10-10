@@ -57,7 +57,14 @@ next-env.d.ts
 /data/manual-inbox/**/*.pdf
 /data/manual-inbox/**/*.xlsx
 /data/manual-inbox/**/*.zip
+# Budget at a Glance is small (under 3 MB) and kept in git so CI can re-verify it and run the AI review
+!/data/manual-inbox/budget/*.pdf
+!/data/manual-inbox/budget/*.xlsx
 
 # Raw downloads stay in the project folder but out of git (size); the README explains them
 /data/raw/*
 !/data/raw/README.md
+
+# Browser-pane downloads land in the project root; official copies live in data/manual-inbox/
+/*.pdf
+/*.xlsx

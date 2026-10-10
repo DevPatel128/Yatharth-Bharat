@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });
@@ -100,4 +100,16 @@ test('select and export: add an indicator, see it in the selection with sources 
   await expect(page.getByText('api.mospi.gov.in', { exact: false }).first()).toBeVisible();
   await page.getByText('Citations', { exact: true }).click();
   await expect(page.getByText(/@misc\{/)).toBeVisible();
+});
+
+test('public money: budget tables, the workbook/PDF note and evidence are shown', async ({ page }) => {
+  await page.goto('/en/money');
+  await expect(page.getByRole('heading', { level: 1, name: 'Public money' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Budget at a glance' })).toBeVisible();
+  await expect(page.getByRole('rowheader', { name: /17\. Fiscal Deficit/ })).toBeVisible();
+  await expect(page.getByText(/the PDF, which the Ministry treats as final, shows 3036619/)).toBeVisible();
+  await expect(page.getByText(/An allocation is not the same as money released or spent/)).toBeVisible();
+  await page.goto('/hi/money');
+  await expect(page.getByRole('heading', { level: 1, name: 'सार्वजनिक धन' })).toBeVisible();
+  await expect(page.getByRole('rowheader', { name: /राजकोषीय घाटा/ }).first()).toBeVisible();
 });

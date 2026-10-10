@@ -76,6 +76,18 @@ const list: SourceT[] = [
     limitations: 'English text is extracted from the official PDF; the Hindi half of the diglot edition does not extract reliably, so Hindi explainers are summaries and quote the English text. The printed text of article 124 still contains words inserted by the Ninety-ninth Amendment, which the Supreme Court struck down in 2015.',
   },
   {
+    id: 'union-budget',
+    publisher: 'Ministry of Finance, Government of India',
+    name: { en: 'Union Budget 2026-27: Budget at a Glance', hi: 'केंद्रीय बजट 2026-27: बजट का सार' },
+    category: 'indian-government',
+    homepage: 'https://www.indiabudget.gov.in/',
+    allowedHosts: ['www.indiabudget.gov.in'],
+    access: 'manual-download',
+    updateFrequency: 'annual',
+    licence: 'Government of India publication (attribution required)',
+    limitations: 'The site blocks automated access, so files are downloaded by hand and pinned by hash. Budget Estimates are plans, Revised Estimates are mid-year updates and Actuals are final accounts; an allocation is not the same as money released or spent. The Ministry states that where the Excel and PDF versions differ, the PDF is final.',
+  },
+  {
     id: 'institution-website',
     publisher: 'The official website of the institution named in the text',
     name: { en: 'Official institution websites (linked on the page)', hi: 'संस्थाओं की आधिकारिक वेबसाइटें (पृष्ठ पर लिंक)' },

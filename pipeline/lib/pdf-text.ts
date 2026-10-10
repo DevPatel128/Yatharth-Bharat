@@ -3,7 +3,7 @@
 import { getDocument } from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 export async function pdfText(data: Uint8Array, maxPages = 2000): Promise<{ pages: string[] }> {
-  const doc = await getDocument({ data, disableFontFace: true, useSystemFonts: false }).promise;
+  const doc = await getDocument({ data, disableFontFace: true, useSystemFonts: false, verbosity: 0 }).promise;
   if (doc.numPages > maxPages) throw new Error(`PDF has ${doc.numPages} pages (limit ${maxPages})`);
   const pages: string[] = [];
   for (let i = 1; i <= doc.numPages; i++) {

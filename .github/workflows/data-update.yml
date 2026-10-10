@@ -37,7 +37,8 @@ jobs:
           npm run data:run; a=$?
           node pipeline/people.ts; b=$?
           node pipeline/trade.ts; c=$?
-          m=$(( a > b ? a : b )); m=$(( m > c ? m : c ))
+          node pipeline/budget.ts; d=$?
+          m=$(( a > b ? a : b )); m=$(( m > c ? m : c )); m=$(( m > d ? m : d ))
           echo "code=$m" >> "$GITHUB_OUTPUT"
       - name: open or update the data PR
         env:

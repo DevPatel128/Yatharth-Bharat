@@ -92,3 +92,30 @@ describe('trade', async () => {
     for (const p of TRADE.partners) for (const e of p.evidence) expect(e.quote, p.country).toContain(JSON.stringify(p.country));
   });
 });
+
+describe('Union Budget', async () => {
+  const { BUDGET } = await import('../src/lib/data.ts');
+  const snap = (doc: string) => readFileSync(new URL(`../data/snapshots/budget/${doc}.txt`, import.meta.url), 'utf8');
+  const row = (t: string, k: string) => BUDGET.tables.find((x) => x.id === t)!.rows.find((r) => r.key === k)!.values;
+  it('every row quote is found verbatim in the stored PDF text and contains its values', () => {
+    for (const t of BUDGET.tables) for (const r of t.rows) {
+      const q = r.evidence[0].quote;
+      expect(snap(t.doc), `${t.id}/${r.key}`).toContain(q);
+      for (const v of r.values) if (v !== null) expect(q.replace('(-)', '-'), `${t.id}/${r.key}`).toContain(String(v));
+    }
+  });
+  it('rows have one value per column', () => {
+    for (const t of BUDGET.tables) for (const r of t.rows) expect(r.values.length, `${t.id}/${r.key}`).toBe(t.columns.length);
+  });
+  it('receipts equal expenditure, and the fiscal deficit equals its financing', () => {
+    expect(row('summary', 'total-receipts')).toEqual(row('summary', 'total-expenditure'));
+    expect(row('deficit-financing', 'total')).toEqual(row('summary', 'fiscal-deficit'));
+  });
+  it('every recorded check passed within its tolerance', () => {
+    expect(BUDGET.checks.length).toBeGreaterThanOrEqual(30);
+    for (const c of BUDGET.checks) expect(c.maxDiff, c.name).toBeLessThanOrEqual(10);
+  });
+  it('Hindi labels pass the Hindi gate', () => {
+    for (const t of BUDGET.tables) for (const r of t.rows) if (r.label.hi) expect(g8Hindi(r.label.en, r.label.hi).status, r.key).toBe('pass');
+  });
+});

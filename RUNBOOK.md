@@ -40,3 +40,9 @@ Pending for this lane: Constitution of India Hindi text (fixes 3 Hindi state nam
 
 ## Incidents
 `detect → assess → contain → fix → verify → communicate → learn` → entry in `MISTAKES.md`. A confirmed wrong published value is corrected through the pipeline and noted on the corrections page.
+
+## New Union Budget (each February)
+1. Download Budget at a Glance (`bag1`, `bag2`, `bag3`, `bag5`, `bag6` PDFs and `budget_at_a_glance.xlsx`) from indiabudget.gov.in in a normal browser into `data/manual-inbox/budget/`.
+2. Update `SOURCE.txt` with the URLs, date and SHA-256 of each file (`shasum -a 256 data/manual-inbox/budget/*`).
+3. Set `BUDGET_YEAR` and the column definitions in `pipeline/budget.ts`, then run `node pipeline/budget.ts`. Any check that fails stops the run with the reason.
+4. Point `src/lib/data.ts` at the new record file and run `npm run check && npm run build && npm run e2e`.

@@ -1,7 +1,7 @@
 // Builders that turn records into selection items. Server-side; the result is passed to SelectButton.
 import { dict, fmtNumber, fmtPeriod, pick, type Lang } from './i18n.ts';
 import { getSource } from './sources.ts';
-import type { Evidence, Explainer, Indicator, Observation, Responsibility } from './schema.ts';
+import type { BudgetFile, BudgetTable, Evidence, Explainer, Indicator, Observation, Responsibility } from './schema.ts';
 import type { SelItem, SelSource } from './selection.ts';
 
 type Item = Omit<SelItem, 'page' | 'addedAt'>;
@@ -47,5 +47,18 @@ export function responsibilityItem(r: Responsibility, lang: Lang): Item {
     kind: d.who.title,
     lines: [...r.levels.map((l) => `${d.who.levels[l.where]}: ${pick(l.who, lang).text} (${l.cite.ref}: “${l.cite.quote}”)`), `${d.who.raise}: ${pick(r.where, lang).text}`],
     sources: r.levels.map((l) => ({ publisher: coi.publisher, title: coi.name.en, url: coi.homepage, retrieved: '2026-10-10', ref: l.cite.ref })),
+  };
+}
+
+export function budgetItem(b: BudgetFile, t: BudgetTable, lang: Lang): Item {
+  const d = dict(lang);
+  const head = [d.money.row, ...t.columns.map((c) => `${c.year} ${d.money.stageShort[c.stage]}`)];
+  return {
+    id: `budget:${b.budgetYear}:${t.id}`,
+    title: `${pick(t.title, lang).text} (${d.money.subtitle(b.budgetYear)})`,
+    kind: d.money.title,
+    lines: [`${d.money.crore}.`, ...t.rows.filter((r) => r.discrepancy).map((r) => `${d.money.note}: ${r.label.en}: ${r.discrepancy}`)],
+    table: { head, rows: t.rows.map((r) => [pick(r.label, lang).text, ...r.values.map((v) => (v === null ? d.money.notApplicable : v))]) },
+    sources: [src(t.rows[0].evidence[0])],
   };
 }

@@ -41,6 +41,7 @@ Yatharth Bharat is a free, bilingual (English and Hindi) public-information site
 | **Government explained** | 13 institutions (Parliament, President, courts, Election Commission, CAG, panchayats, municipalities and more), each answering the same 8 questions | Constitution of India (as on 1 May 2026), quoted word for word |
 | **Who fixes this?** | 14 everyday problems mapped to the level of government responsible, and where to raise them | Seventh, Eleventh and Twelfth Schedules; CPGRAMS; RTI Online |
 | **Representatives** | All 543 Lok Sabha seats: members' names (English and official Hindi), party and constituency. Office facts only, no contact details | Digital Sansad (Lok Sabha) |
+| **Public money** | Union Budget 2026-27: receipts, spending by type and by major item, deficits and how they are financed, transfers to states; what Budget Estimates, Revised Estimates and Actuals mean | Ministry of Finance, Budget at a Glance (PDF and Excel, read twice and cross-checked) |
 | **India and the World** | 16 years of merchandise trade and India's 38 main trading partners | RBI Direction of Foreign Trade |
 | **Selection** | Collect figures and explanations, then export as text, Markdown, CSV or PDF with APA, MLA, Chicago and BibTeX citations. Stays in the reader's browser | — |
 | **Sources and method** | Every approved source, its licence and limitations, the checks, and the latest data run | — |
@@ -226,7 +227,7 @@ Report a vulnerability privately: see [`SECURITY.md`](SECURITY.md).
 Built in stages by audience: citizens, then students, then young professionals, then journalists, researchers and teachers.
 
 - [x] Map, state pages, scorecard, Government explained, Who fixes this?, Lok Sabha members, trade, Select & Export
-- [ ] Public money (Union Budget 2026-27)
+- [x] Public money (Union Budget 2026-27)
 - [ ] Environment and energy indicators
 - [ ] History timeline (ASI, National Archives)
 - [ ] Education, careers and scholarships; India-vs-abroad comparison (profile kept in the browser)

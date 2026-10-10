@@ -1,0 +1,2549 @@
+{
+  "schemaVersion": 1,
+  "budgetYear": "2026-27",
+  "unit": "₹ crore",
+  "lastVerifiedAt": "2026-10-10T06:15:11.349Z",
+  "gdpEstimate": {
+    "year": "2026-27",
+    "value": 39300393,
+    "quote": "The GDP for FY 2026-27 is estimated at ₹393,00,393 crore"
+  },
+  "tables": [
+    {
+      "id": "summary",
+      "title": {
+        "en": "Budget at a glance",
+        "hi": "बजट का सार"
+      },
+      "doc": "bag1",
+      "columns": [
+        {
+          "year": "2024-25",
+          "stage": "actual"
+        },
+        {
+          "year": "2025-26",
+          "stage": "be"
+        },
+        {
+          "year": "2025-26",
+          "stage": "re"
+        },
+        {
+          "year": "2026-27",
+          "stage": "be"
+        }
+      ],
+      "rows": [
+        {
+          "key": "revenue-receipts",
+          "label": {
+            "en": "1. Revenue Receipts",
+            "hi": "1. राजस्व प्राप्तियां"
+          },
+          "level": 0,
+          "values": [
+            3036619,
+            3420409,
+            3342323,
+            3533150
+          ],
+          "discrepancy": "The Excel workbook shows 3036613 for 2024-25 Actuals; the PDF, which the Ministry treats as final, shows 3036619.",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "1. Revenue Receipts 3036619 3420409 3342323 3533150",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "tax-revenue-net",
+          "label": {
+            "en": "2. Tax Revenue (Net to Centre)",
+            "hi": "2. कर राजस्व (केंद्र को निवल)"
+          },
+          "level": 1,
+          "values": [
+            2500039,
+            2837409,
+            2674661,
+            2866922
+          ],
+          "footnote": "1",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "Centre) 1 2500039 2837409 2674661 2866922",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "non-tax-revenue",
+          "label": {
+            "en": "3. Non Tax Revenue",
+            "hi": "3. कर भिन्न राजस्व"
+          },
+          "level": 1,
+          "values": [
+            536580,
+            583000,
+            667662,
+            666228
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "3. Non Tax Revenue 536580 583000 667662 666228",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "capital-receipts",
+          "label": {
+            "en": "4. Capital Receipts",
+            "hi": "4. पूंजी प्राप्तियां"
+          },
+          "level": 0,
+          "values": [
+            1616249,
+            1644936,
+            1622519,
+            1814165
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "4. Capital Receipts 1616249 1644936 1622519 1814165",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "recovery-of-loans",
+          "label": {
+            "en": "5. Recovery of Loans",
+            "hi": "5. ऋणों की वसूली"
+          },
+          "level": 1,
+          "values": [
+            24617,
+            29000,
+            30190,
+            38397
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "5. Recovery of Loans 24617 29000 30190 38397",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-receipts",
+          "label": {
+            "en": "6. Other Receipts",
+            "hi": "6. अन्य प्राप्तियां"
+          },
+          "level": 1,
+          "values": [
+            17202,
+            47000,
+            33837,
+            80000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "6. Other Receipts 17202 47000 33837 80000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "borrowings",
+          "label": {
+            "en": "7. Borrowings and Other Liabilities",
+            "hi": "7. उधार और अन्य देयताएं"
+          },
+          "level": 1,
+          "values": [
+            1574431,
+            1568936,
+            1558492,
+            1695768
+          ],
+          "footnote": "2",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "1574431 1568936 1558492 1695768",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total-receipts",
+          "label": {
+            "en": "8. Total Receipts (1+4)",
+            "hi": "8. कुल प्राप्तियां (1+4)"
+          },
+          "level": 0,
+          "values": [
+            4652867,
+            5065345,
+            4964842,
+            5347315
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "(1+4) 8. Total Receipts (1+4) 4652867 5065345 4964842 5347315",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total-expenditure",
+          "label": {
+            "en": "9. Total Expenditure (10+13)",
+            "hi": "9. कुल व्यय (10+13)"
+          },
+          "level": 0,
+          "values": [
+            4652867,
+            5065345,
+            4964842,
+            5347315
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "4652867 5065345 4964842 5347315",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "revenue-account",
+          "label": {
+            "en": "10. On Revenue Account",
+            "hi": "10. राजस्व खाते पर"
+          },
+          "level": 1,
+          "values": [
+            3600914,
+            3944255,
+            3869087,
+            4125494
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "10. On Revenue Account 3600914 3944255 3869087 4125494",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "interest",
+          "label": {
+            "en": "11. Interest Payments",
+            "hi": "11. ब्याज भुगतान"
+          },
+          "level": 2,
+          "values": [
+            1115575,
+            1276338,
+            1274338,
+            1403972
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "11. Interest Payments 1115575 1276338 1274338 1403972",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "grants-capital-assets",
+          "label": {
+            "en": "12. Grants in Aid for creation of capital assests",
+            "hi": "12. पूंजी परिसंपत्तियों के सृजन हेतु सहायता अनुदान"
+          },
+          "level": 2,
+          "values": [
+            272656,
+            427192,
+            308151,
+            492702
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "272656 427192 308151 492702",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "capital-account",
+          "label": {
+            "en": "13. On Capital Account",
+            "hi": "13. पूंजी खाते पर"
+          },
+          "level": 1,
+          "values": [
+            1051953,
+            1121090,
+            1095755,
+            1221821
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "13. On Capital Account 1051953 1121090 1095755 1221821",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "effective-capex",
+          "label": {
+            "en": "14. Effective Capital Expenditure (12+13)",
+            "hi": "14. प्रभावी पूंजी व्यय (12+13)"
+          },
+          "level": 0,
+          "values": [
+            1324609,
+            1548282,
+            1403906,
+            1714523
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "1324609 1548282 1403906 1714523",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "revenue-deficit",
+          "label": {
+            "en": "15. Revenue Deficit (10-1)",
+            "hi": "15. राजस्व घाटा (10-1)"
+          },
+          "level": 0,
+          "values": [
+            564296,
+            523846,
+            526764,
+            592344
+          ],
+          "pctGdp": [
+            1.7,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "(10-1) 15. Revenue Deficit (10-1) 564296\n(1.7)\n523846\n(1.5)\n526764\n(1.5)\n592344\n(1.5)",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "effective-revenue-deficit",
+          "label": {
+            "en": "16. Effective Revenue Deficit (15-12)",
+            "hi": "16. प्रभावी राजस्व घाटा (15-12)"
+          },
+          "level": 0,
+          "values": [
+            291640,
+            96654,
+            218613,
+            99642
+          ],
+          "pctGdp": [
+            0.9,
+            0.3,
+            0.6,
+            0.3
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "291640\n(0.9)\n96654\n(0.3)\n218613\n(0.6)\n99642\n(0.3)",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "fiscal-deficit",
+          "label": {
+            "en": "17. Fiscal Deficit [9-(1+5+6)]",
+            "hi": "17. राजकोषीय घाटा [9-(1+5+6)]"
+          },
+          "level": 0,
+          "values": [
+            1574431,
+            1568936,
+            1558492,
+            1695768
+          ],
+          "pctGdp": [
+            4.8,
+            4.4,
+            4.4,
+            4.3
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "1574431\n(4.8)\n1568936\n(4.4)\n1558492\n(4.4)\n1695768\n(4.3)",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "primary-deficit",
+          "label": {
+            "en": "18. Primary Deficit (17-11)",
+            "hi": "18. प्राथमिक घाटा (17-11)"
+          },
+          "level": 0,
+          "values": [
+            458856,
+            292598,
+            284154,
+            291796
+          ],
+          "pctGdp": [
+            1.4,
+            0.8,
+            0.8,
+            0.7
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf",
+              "retrievedAt": "2026-10-10T06:15:11.349Z",
+              "snapshotSha256": "9b6e8f27d7f8b980e029e15bb43b93b80e89b88f825cd662e4d2b32ee2803d53",
+              "quote": "458856\n(1.4)\n292598\n(0.8)\n284154\n(0.8)\n291796\n(0.7)",
+              "method": "manual-download"
+            }
+          ]
+        }
+      ],
+      "footnotes": {
+        "1": "RE 2025-26 is adjusted by ₹9,084 crore on account of net amount receivable by Centre from the States for prior years.",
+        "2": "Includes drawdown of Cash Balance."
+      }
+    },
+    {
+      "id": "receipts",
+      "title": {
+        "en": "Where the money comes from",
+        "hi": "पैसा कहां से आता है"
+      },
+      "doc": "bag5",
+      "columns": [
+        {
+          "year": "2024-25",
+          "stage": "actual"
+        },
+        {
+          "year": "2025-26",
+          "stage": "be"
+        },
+        {
+          "year": "2025-26",
+          "stage": "re"
+        },
+        {
+          "year": "2026-27",
+          "stage": "be"
+        }
+      ],
+      "rows": [
+        {
+          "key": "gross-tax",
+          "label": {
+            "en": "Gross Tax Revenue",
+            "hi": "सकल कर राजस्व"
+          },
+          "level": 0,
+          "values": [
+            3796382,
+            4270233,
+            4077772,
+            4404086
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "Gross Tax Revenue 3796382 4270233 4077772 4404086",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "corporation-tax",
+          "label": {
+            "en": "a. Corporation Tax",
+            "hi": "क. निगम कर"
+          },
+          "level": 1,
+          "values": [
+            986767,
+            1082000,
+            1109000,
+            1231000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "a. Corporation Tax 986767 1082000 1109000 1231000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "income-tax",
+          "label": {
+            "en": "b. Taxes on Income",
+            "hi": "ख. आय पर कर"
+          },
+          "level": 1,
+          "values": [
+            1235171,
+            1438000,
+            1312000,
+            1466000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "b. Taxes on Income 1235171 1438000 1312000 1466000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "customs",
+          "label": {
+            "en": "c. Customs",
+            "hi": "ग. सीमा शुल्क"
+          },
+          "level": 1,
+          "values": [
+            233201,
+            240000,
+            258290,
+            271200
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "c. Customs 233201 240000 258290 271200",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "excise",
+          "label": {
+            "en": "d. Union Excise Duties",
+            "hi": "घ. केन्द्रीय उत्पाद शुल्क"
+          },
+          "level": 1,
+          "values": [
+            300253,
+            317000,
+            336550,
+            388910
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "300253 317000 336550 388910",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "gst",
+          "label": {
+            "en": "e. GST",
+            "hi": "ङ. जीएसटी"
+          },
+          "level": 1,
+          "values": [
+            1027041,
+            1178000,
+            1046480,
+            1019020
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "e. GST 1027041 1178000 1046480 1019020",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "ut-taxes",
+          "label": {
+            "en": "f. Taxes of Union Territories",
+            "hi": "च. संघ राज्य क्षेत्रों पर कर"
+          },
+          "level": 1,
+          "values": [
+            9527,
+            10133,
+            9622,
+            10256
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "9527 10133 9622 10256",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-taxes",
+          "label": {
+            "en": "g. Other Taxes",
+            "hi": "छ. अन्य कर"
+          },
+          "level": 1,
+          "values": [
+            4422,
+            5100,
+            5830,
+            17700
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "g. Other Taxes 4422 5100 5830 17700",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "less-nccd",
+          "label": {
+            "en": "Less - NCCD transferred to the NCCF/NDRF",
+            "hi": "घटाइए - राष्ट्रीय आपदा आकस्मिकता निधि/राष्ट्रीय आपदा अनुक्रिया निधि को अंतरित एनसीसीडी"
+          },
+          "level": 1,
+          "values": [
+            9458,
+            10380,
+            10140,
+            10910
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "9458 10380 10140 10910",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "less-states-share",
+          "label": {
+            "en": "Less - State's share",
+            "hi": "घटाइए - राज्यों का हिस्सा"
+          },
+          "level": 1,
+          "values": [
+            1286885,
+            1422444,
+            1392971,
+            1526255
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "Less - State's share 1286885 1422444 1392971 1526255",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "net-tax",
+          "label": {
+            "en": "1a Centre's Net Tax Revenue",
+            "hi": "1क केन्द्र का निवल कर राजस्व"
+          },
+          "level": 0,
+          "values": [
+            2500039,
+            2837409,
+            2674661,
+            2866922
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "2500039 2837409 2674661 2866922",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "non-tax",
+          "label": {
+            "en": "2. Non-Tax Revenue",
+            "hi": "2. कर-भिन्न राजस्व"
+          },
+          "level": 0,
+          "values": [
+            536580,
+            583000,
+            667662,
+            666228
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "2. Non-Tax Revenue 536580 583000 667662 666228",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "interest-receipts",
+          "label": {
+            "en": "Interest receipts",
+            "hi": "ब्याज प्राप्तियां"
+          },
+          "level": 1,
+          "values": [
+            40435,
+            47738,
+            40165,
+            41763
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "Interest receipts 40435 47738 40165 41763",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "dividends",
+          "label": {
+            "en": "Dividends and Profits",
+            "hi": "लाभांश और लाभ"
+          },
+          "level": 1,
+          "values": [
+            308424,
+            325000,
+            375590,
+            391000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "Dividends and Profits 308424 325000 375590 391000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "external-grants",
+          "label": {
+            "en": "External Grants",
+            "hi": "विदेशी अनुदान"
+          },
+          "level": 1,
+          "values": [
+            687,
+            1175,
+            1639,
+            2327
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "External Grants 687 1175 1639 2327",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-non-tax",
+          "label": {
+            "en": "Other Non Tax Revenue",
+            "hi": "अन्य कर-भिन्न राजस्व"
+          },
+          "level": 1,
+          "values": [
+            184206,
+            205668,
+            248461,
+            229373
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "184206 205668 248461 229373",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "ut-receipts",
+          "label": {
+            "en": "Receipts of Union Territories",
+            "hi": "संघ राज्य क्षेत्रों की प्राप्तियां"
+          },
+          "level": 1,
+          "values": [
+            2828,
+            3419,
+            1807,
+            1765
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "2828 3419 1807 1765",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total-revenue",
+          "label": {
+            "en": "Total- Revenue Receipts (1a + 2)",
+            "hi": "कुल राजस्व प्राप्तियां (1क+2)"
+          },
+          "level": 0,
+          "values": [
+            3036619,
+            3420409,
+            3342323,
+            3533150
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "3036619 3420409 3342323 3533150",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "non-debt-capital",
+          "label": {
+            "en": "A. Non-debt Receipts",
+            "hi": "क. ऋण-भिन्न प्राप्तियां"
+          },
+          "level": 1,
+          "values": [
+            41818,
+            76000,
+            64027,
+            118397
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "A. Non-debt Receipts@ 41818 76000 64027 118397",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "debt-receipts",
+          "label": {
+            "en": "B. Debt Receipts",
+            "hi": "ख. ऋण प्राप्तियां"
+          },
+          "level": 1,
+          "values": [
+            1573823,
+            1566452,
+            1512770,
+            1663066
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "* B. Debt Receipts*# 1573823 1566452 1512770 1663066",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total-capital",
+          "label": {
+            "en": "Total Capital Receipts (A+B)",
+            "hi": "जोड़ पूंजीगत प्राप्तियां (क + ख)"
+          },
+          "level": 0,
+          "values": [
+            1615641,
+            1642452,
+            1576797,
+            1781463
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "(A+B) 1615641 1642452 1576797 1781463",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "cash-drawdown",
+          "label": {
+            "en": "4. Draw-Down of Cash Balance",
+            "hi": "4. नकदी शेष का कम आहरण"
+          },
+          "level": 0,
+          "values": [
+            608,
+            2484,
+            45722,
+            32702
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "608 2484 45722 32702",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total",
+          "label": {
+            "en": "Total Receipts (1a+2+3+4)",
+            "hi": "जोड़ प्राप्तियां (1क+2+3+4)"
+          },
+          "level": 0,
+          "values": [
+            4652867,
+            5065345,
+            4964842,
+            5347315
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag5.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.239Z",
+              "snapshotSha256": "b43b43b3275af2d064168451a7fe67b1535afae4c6dcd9c9772e8782f7ae858c",
+              "quote": "+2+3) Total Receipts (1a+2+3+4) 4652867 5065345 4964842 5347315",
+              "method": "manual-download"
+            }
+          ]
+        }
+      ],
+      "footnotes": {}
+    },
+    {
+      "id": "expenditure-type",
+      "title": {
+        "en": "Spending by type",
+        "hi": "व्यय का प्रकार"
+      },
+      "doc": "bag6",
+      "columns": [
+        {
+          "year": "2024-25",
+          "stage": "actual"
+        },
+        {
+          "year": "2025-26",
+          "stage": "be"
+        },
+        {
+          "year": "2025-26",
+          "stage": "re"
+        },
+        {
+          "year": "2026-27",
+          "stage": "be"
+        }
+      ],
+      "rows": [
+        {
+          "key": "establishment",
+          "label": {
+            "en": "I Establishment Expenditure",
+            "hi": "I स्थापना व्यय"
+          },
+          "level": 0,
+          "values": [
+            829423,
+            868096,
+            782701,
+            824114
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "I Establishment Expenditure 829423 868096 782701 824114",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "central-sector-schemes",
+          "label": {
+            "en": "II Central Sector Schemes/Projects",
+            "hi": "II केंद्रीय क्षेत्र की योजनाएं/परियोजनाएं"
+          },
+          "level": 0,
+          "values": [
+            1494392,
+            1621899,
+            1637156,
+            1771928
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "1494392 1621899 1637156 1771928",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-central",
+          "label": {
+            "en": "III Other Central Sector Expenditure",
+            "hi": "III केंद्रीय क्षेत्र का अन्य व्यय"
+          },
+          "level": 0,
+          "values": [
+            1420966,
+            1526008,
+            1699445,
+            1761387
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "1420966 1526008 1699445 1761387",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "interest",
+          "label": {
+            "en": "of which Interest Payments",
+            "hi": "जिसमें से ब्याज भुगतान"
+          },
+          "level": 1,
+          "values": [
+            1115575,
+            1276338,
+            1274338,
+            1403972
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "of which Interest Payments 1115575 1276338 1274338 1403972",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "centrally-sponsored",
+          "label": {
+            "en": "IV Centrally Sponsored Schemes",
+            "hi": "IV केंद्रीय प्रायोजित योजनाएं"
+          },
+          "level": 0,
+          "values": [
+            402368,
+            541850,
+            420078,
+            548798
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "402368 541850 420078 548798",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "finance-commission",
+          "label": {
+            "en": "V Finance Commission Grants",
+            "hi": "V वित्त आयोग के अनुदान"
+          },
+          "level": 0,
+          "values": [
+            120858,
+            132767,
+            152953,
+            129397
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "V Finance Commission Grants 120858 132767 152953 129397",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-transfers",
+          "label": {
+            "en": "VI Other Grants/Loans/Transfers",
+            "hi": "VI अन्य अनुदान/ऋण/अंतरण"
+          },
+          "level": 0,
+          "values": [
+            384860,
+            374725,
+            272510,
+            311691
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "384860 374725 272510 311691",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total",
+          "label": {
+            "en": "Grand Total",
+            "hi": "कुल जोड़"
+          },
+          "level": 0,
+          "values": [
+            4652867,
+            5065345,
+            4964842,
+            5347315
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Grand Total 4652867 5065345 4964842 5347315",
+              "method": "manual-download"
+            }
+          ]
+        }
+      ],
+      "footnotes": {}
+    },
+    {
+      "id": "expenditure-major",
+      "title": {
+        "en": "Spending on major items",
+        "hi": "प्रमुख मदों पर व्यय"
+      },
+      "doc": "bag6",
+      "columns": [
+        {
+          "year": "2024-25",
+          "stage": "actual"
+        },
+        {
+          "year": "2025-26",
+          "stage": "be"
+        },
+        {
+          "year": "2025-26",
+          "stage": "re"
+        },
+        {
+          "year": "2026-27",
+          "stage": "be"
+        }
+      ],
+      "rows": [
+        {
+          "key": "pension",
+          "label": {
+            "en": "Pension",
+            "hi": "पेंशन"
+          },
+          "level": 0,
+          "values": [
+            273772,
+            276618,
+            286641,
+            296214
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Pension 273772 276618 286641 296214",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "defence",
+          "label": {
+            "en": "Defence",
+            "hi": "रक्षा"
+          },
+          "level": 0,
+          "values": [
+            450733,
+            491732,
+            567855,
+            594585
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Defence 450733 491732 567855 594585",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "fertiliser-subsidy",
+          "label": {
+            "en": "Fertiliser",
+            "hi": "उर्वरक"
+          },
+          "level": 1,
+          "values": [
+            170683,
+            167887,
+            186460,
+            170781
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Fertiliser 170683 167887 186460 170781",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "food-subsidy",
+          "label": {
+            "en": "Food",
+            "hi": "खाद्य"
+          },
+          "level": 1,
+          "values": [
+            199867,
+            203420,
+            228154,
+            227629
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Food 199867 203420 228154 227629",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "petroleum-subsidy",
+          "label": {
+            "en": "Petroleum",
+            "hi": "पेट्रोलियम"
+          },
+          "level": 1,
+          "values": [
+            14479,
+            12100,
+            15121,
+            12085
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Petroleum 14479 12100 15121 12085",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "agriculture",
+          "label": {
+            "en": "Agriculture and Allied Activities",
+            "hi": "कृषि और संबंद्ध कार्यकलाप"
+          },
+          "level": 0,
+          "values": [
+            154610,
+            158838,
+            151853,
+            162671
+          ],
+          "footnote": "1",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "1 Agriculture and Allied Activities1 154610 158838 151853 162671",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "commerce-industry",
+          "label": {
+            "en": "Commerce and Industry",
+            "hi": "वाणिज्‍य और उद्योग"
+          },
+          "level": 0,
+          "values": [
+            44446,
+            65553,
+            52324,
+            70296
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Commerce and Industry 44446 65553 52324 70296",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "north-east",
+          "label": {
+            "en": "Development of North East",
+            "hi": "पूर्वोत्‍तर का विकास"
+          },
+          "level": 0,
+          "values": [
+            3371,
+            5915,
+            4479,
+            6812
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Development of North East 3371 5915 4479 6812",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "education",
+          "label": {
+            "en": "Education",
+            "hi": "शिक्षा"
+          },
+          "level": 0,
+          "values": [
+            110736,
+            128650,
+            121949,
+            139289
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Education 110736 128650 121949 139289",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "energy",
+          "label": {
+            "en": "Energy",
+            "hi": "ऊर्जा"
+          },
+          "level": 0,
+          "values": [
+            66052,
+            80174,
+            86471,
+            109029
+          ],
+          "footnote": "2",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "2 Energy2 66052 80174 86471 109029",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "external-affairs",
+          "label": {
+            "en": "External Affairs",
+            "hi": "विदेश"
+          },
+          "level": 0,
+          "values": [
+            25512,
+            20517,
+            21743,
+            22119
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "External Affairs 25512 20517 21743 22119",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "finance",
+          "label": {
+            "en": "Finance",
+            "hi": "वित्‍त"
+          },
+          "level": 0,
+          "values": [
+            58217,
+            62924,
+            112175,
+            20649
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Finance 58217 62924 112175 20649",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "health",
+          "label": {
+            "en": "Health",
+            "hi": "स्‍वास्‍थ्‍य"
+          },
+          "level": 0,
+          "values": [
+            88353,
+            98311,
+            94625,
+            104599
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Health 88353 98311 94625 104599",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "home-affairs",
+          "label": {
+            "en": "Home Affairs (including Union Territories)",
+            "hi": "गृह (संघ राज्य क्षेत्र सहित)"
+          },
+          "level": 0,
+          "values": [
+            224585,
+            233211,
+            241485,
+            255234
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": ") Home Affairs (including Union Territories) 224585 233211 241485 255234",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "interest",
+          "label": {
+            "en": "Interest",
+            "hi": "ब्‍याज"
+          },
+          "level": 0,
+          "values": [
+            1115575,
+            1276338,
+            1274338,
+            1403972
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Interest 1115575 1276338 1274338 1403972",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "it-telecom",
+          "label": {
+            "en": "IT and Telecom",
+            "hi": "आईटी और दूरसंचार"
+          },
+          "level": 0,
+          "values": [
+            117163,
+            86898,
+            53946,
+            74560
+          ],
+          "footnote": "3",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "3 IT and Telecom3 117163 86898 53946 74560",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "rural-development",
+          "label": {
+            "en": "Rural Development",
+            "hi": "ग्रामीण विकास"
+          },
+          "level": 0,
+          "values": [
+            206010,
+            265817,
+            212750,
+            273108
+          ],
+          "footnote": "4",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "4 Rural Development4 206010 265817 212750 273108",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "scientific",
+          "label": {
+            "en": "Scientific Departments",
+            "hi": "वैज्ञानिक विभाग"
+          },
+          "level": 0,
+          "values": [
+            27518,
+            55679,
+            37014,
+            55756
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Scientific Departments 27518 55679 37014 55756",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "social-welfare",
+          "label": {
+            "en": "Social Welfare",
+            "hi": "सामाजिक कल्‍याण"
+          },
+          "level": 0,
+          "values": [
+            45804,
+            60052,
+            50053,
+            62362
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Social Welfare 45804 60052 50053 62362",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "tax-administration",
+          "label": {
+            "en": "Tax Administration",
+            "hi": "कर प्रशासन"
+          },
+          "level": 0,
+          "values": [
+            202772,
+            186632,
+            74540,
+            45500
+          ],
+          "footnote": "5",
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "5 Tax Administration5 202772 186632 74540 45500",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "transport",
+          "label": {
+            "en": "Transport",
+            "hi": "परिवहन"
+          },
+          "level": 0,
+          "values": [
+            560162,
+            548649,
+            547563,
+            598520
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Transport 560162 548649 547563 598520",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "urban-development",
+          "label": {
+            "en": "Urban Development",
+            "hi": "शहरी विकास"
+          },
+          "level": 0,
+          "values": [
+            53255,
+            96777,
+            57204,
+            85522
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Urban Development 53255 96777 57204 85522",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "others",
+          "label": {
+            "en": "Others",
+            "hi": "अन्‍य"
+          },
+          "level": 0,
+          "values": [
+            439193,
+            482654,
+            486100,
+            556021
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Others 439193 482654 486100 556021",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total",
+          "label": {
+            "en": "Grand Total",
+            "hi": "कुल जोड़"
+          },
+          "level": 0,
+          "values": [
+            4652867,
+            5065345,
+            4964842,
+            5347315
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag6.pdf",
+              "retrievedAt": "2026-10-10T06:55:37.244Z",
+              "snapshotSha256": "97f5ee35b39ce4ec4fdb2be36bf34cef9c1e50957c9bf822974f2ce469070d2b",
+              "quote": "Grand Total 4652867 5065345 4964842 5347315",
+              "method": "manual-download"
+            }
+          ]
+        }
+      ],
+      "footnotes": {
+        "1": "The estimate of programme expenditure was ₹171437 crore in BE 2025-26, out of which ₹158838 crore was estimated to be financed from CFI and balance",
+        "2": "The estimate of programme expenditure was ₹81174 crore in BE 2025-26, out of which ₹80174 crore was estimated to be financed from CFI and balance ₹1000",
+        "3": "The estimate of programme expenditure was ₹95298 crore in BE 2025-26, out of which ₹86898 crore was estimated to be financed from CFI and balance ₹8400",
+        "4": "The estimate of programme expenditure was ₹266817 crore in BE 2025-26, out of which ₹265817 crore was estimated to be financed from CFI and balance",
+        "5": "BE 2026-27 onwards “Transfers to the GST compensation fund” component has been changed to reflect the phasing out of the GST Compensation Cess."
+      }
+    },
+    {
+      "id": "deficit-financing",
+      "title": {
+        "en": "How the fiscal deficit is financed",
+        "hi": "राजकोषीय घाटे का वित्तपोषण"
+      },
+      "doc": "bag2",
+      "columns": [
+        {
+          "year": "2024-25",
+          "stage": "actual"
+        },
+        {
+          "year": "2025-26",
+          "stage": "be"
+        },
+        {
+          "year": "2025-26",
+          "stage": "re"
+        },
+        {
+          "year": "2026-27",
+          "stage": "be"
+        }
+      ],
+      "rows": [
+        {
+          "key": "debt-net",
+          "label": {
+            "en": "1. Debt Receipts (Net)",
+            "hi": "1. ऋण प्राप्तियां (निवल)"
+          },
+          "level": 0,
+          "values": [
+            1573823,
+            1566452,
+            1512770,
+            1663066
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": ") 1. Debt Receipts (Net) 1573823 1566452 1512770 1663066",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "market-borrowings",
+          "label": {
+            "en": "i. Market Borrowings (G-sec)",
+            "hi": "i. बाजार उधार (सरकारी प्रतिभूति)"
+          },
+          "level": 1,
+          "values": [
+            1074512,
+            1153834,
+            1040439,
+            1173210
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "1074512 1153834 1040439 1173210",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "short-term",
+          "label": {
+            "en": "ii. Short term Borrowing (T-Bills etc.)",
+            "hi": "ii. अल्पकालीन उधार (राजकोषीय हुंडी आदि)"
+          },
+          "level": 1,
+          "values": [
+            -160154,
+            0,
+            0,
+            130000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "-160154 0 0 130000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "small-savings",
+          "label": {
+            "en": "iii. Securities against Small Savings",
+            "hi": "iii. अल्प बचतों की तुलना में प्रतिभूतियां"
+          },
+          "level": 1,
+          "values": [
+            429502,
+            343382,
+            372192,
+            386772
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "429502 343382 372192 386772",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "state-pf",
+          "label": {
+            "en": "iv. State Provident Funds",
+            "hi": "iv. राज्य भविष्य निधियां"
+          },
+          "level": 1,
+          "values": [
+            3999,
+            5000,
+            3800,
+            3500
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "3999 5000 3800 3500",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-debt",
+          "label": {
+            "en": "v. Other Receipts (Internal Debts and Public Account)",
+            "hi": "v. अन्य प्राप्तियां (आंतरिक ऋण निधि और लोक लेखा)"
+          },
+          "level": 1,
+          "values": [
+            178692,
+            40746,
+            75877,
+            -45801
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "178692 40746 75877 (-)45801",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "external-debt",
+          "label": {
+            "en": "vi. External Debt",
+            "hi": "vi. विदेशी ऋण"
+          },
+          "level": 1,
+          "values": [
+            47271,
+            23490,
+            20462,
+            15385
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "vi. External Debt 47271 23490 20462 15385",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "cash-drawdown",
+          "label": {
+            "en": "2. Draw Down of Cash Balance",
+            "hi": "2. नकद शेष में आहरण द्वारा कमी"
+          },
+          "level": 0,
+          "values": [
+            608,
+            2484,
+            45722,
+            32702
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "608 2484 45722 32702",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total",
+          "label": {
+            "en": "Grand Total (Fiscal Deficit)",
+            "hi": "कुल जोड़ (राजकोषीय घाटा)"
+          },
+          "level": 0,
+          "values": [
+            1574431,
+            1568936,
+            1558492,
+            1695768
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag2.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.956Z",
+              "snapshotSha256": "fb6613c724e19a5e374ec96ba74da6f16cc4829942293661e1bbbeeb6f0b23f6",
+              "quote": "1574431 1568936 1558492 1695768",
+              "method": "manual-download"
+            }
+          ]
+        }
+      ],
+      "footnotes": {}
+    },
+    {
+      "id": "transfers",
+      "title": {
+        "en": "Transfers to states and Union Territories with a legislature",
+        "hi": "राज्यों और विधान मंडल वाले संघ राज्य क्षेत्रों को अंतरण"
+      },
+      "doc": "bag3",
+      "columns": [
+        {
+          "year": "2024-25",
+          "stage": "actual"
+        },
+        {
+          "year": "2025-26",
+          "stage": "re"
+        },
+        {
+          "year": "2026-27",
+          "stage": "be"
+        }
+      ],
+      "rows": [
+        {
+          "key": "devolution",
+          "label": {
+            "en": "I. Devolution of States share in taxes",
+            "hi": "I. करों में राज्यों के हिस्से का अंतरण"
+          },
+          "level": 0,
+          "values": [
+            1286885,
+            1392971,
+            1526255
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "I. Devolution of States share in taxes 1286885 1392971 1526255",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "important-items",
+          "label": {
+            "en": "II. Some Important Items of Transfer",
+            "hi": "II. अंतरण की कुछ महत्वपूर्ण मदें"
+          },
+          "level": 0,
+          "values": [
+            202664,
+            230144,
+            279110
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "II. Some Important Items of Transfer 202664 230144 279110",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "capex-loans",
+          "label": {
+            "en": "6. Special Assistance as Loan to States for Capital Investment",
+            "hi": "6. पूंजीगत निवेश हेतु राज्यों को ऋण के रुप में विशेष सहायता"
+          },
+          "level": 1,
+          "values": [
+            149484,
+            144000,
+            185000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "149484 144000 185000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "finance-commission",
+          "label": {
+            "en": "III. Finance Commission Grants",
+            "hi": "III. वित्त आयोग के अनुदान"
+          },
+          "level": 0,
+          "values": [
+            120858,
+            152953,
+            129397
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "III. Finance Commission Grants 120858 152953 129397",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "urban-local-bodies",
+          "label": {
+            "en": "1. Grants for Urban Local bodies (Basic Component)",
+            "hi": "1. शहरी स्थानीय निकायों के लिए अनुदान-मूल निकाय"
+          },
+          "level": 1,
+          "values": [
+            19260,
+            26023,
+            37272
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "19260 26023 37272",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "rural-local-bodies",
+          "label": {
+            "en": "4. Grants for Rural local bodies",
+            "hi": "4. ग्रामीण स्थानीय निकायों के लिए अनुदान"
+          },
+          "level": 1,
+          "values": [
+            41262,
+            54314,
+            55909
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "4. Grants for Rural local bodies 41262 54314 55909",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "other-transfers",
+          "label": {
+            "en": "IV. Total Transfer to States [Other than (I)+(II)+(III)]",
+            "hi": "IV. राज्यों को कुल अंतरण [(I)+(II)+(III) के इतर]"
+          },
+          "level": 0,
+          "values": [
+            555100,
+            498159,
+            609008
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "555100 498159 609008",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "css-revenue",
+          "label": {
+            "en": "1. Under Centrally Sponsored Schemes (Revenue)",
+            "hi": "1. केन्द्र द्वारा प्रायोजित स्कीमों के अंतर्गत (राजस्व)"
+          },
+          "level": 1,
+          "values": [
+            382336,
+            399854,
+            520333
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": ") 1. Under Centrally Sponsored Schemes (Revenue) 382336 399854 520333",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "delhi-puducherry",
+          "label": {
+            "en": "V. Total Transfer to Delhi and Puducherry",
+            "hi": "V. दिल्ली और पुडुचेरी को कुल अंतरण"
+          },
+          "level": 0,
+          "values": [
+            60007,
+            61917,
+            77000
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "V. Total Transfer to Delhi and Puducherry 60007 61917 77000",
+              "method": "manual-download"
+            }
+          ]
+        },
+        {
+          "key": "total",
+          "label": {
+            "en": "Total Transfer to States/UTs",
+            "hi": "राज्यों /संघ राज्य क्षेत्रों को कुल अंतरण"
+          },
+          "level": 0,
+          "values": [
+            2225513,
+            2336144,
+            2620769
+          ],
+          "evidence": [
+            {
+              "sourceId": "union-budget",
+              "url": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag3.pdf",
+              "retrievedAt": "2026-10-10T06:30:18.963Z",
+              "snapshotSha256": "13c40c0c1d02e8e2e785b4a0fc7cbdb72b9e5d14937df77e4f6c360fcf3bcf24",
+              "quote": "Total Transfer to States/UTs 2225513 2336144 2620769",
+              "method": "manual-download"
+            }
+          ]
+        }
+      ],
+      "footnotes": {}
+    }
+  ],
+  "checks": [
+    {
+      "name": "Total receipts = revenue + capital receipts",
+      "maxDiff": 1
+    },
+    {
+      "name": "Total expenditure = revenue + capital account",
+      "maxDiff": 0
+    },
+    {
+      "name": "Total receipts = total expenditure",
+      "maxDiff": 0
+    },
+    {
+      "name": "Revenue receipts = net tax + non-tax revenue",
+      "maxDiff": 0
+    },
+    {
+      "name": "Capital receipts = loans recovered + other + borrowings",
+      "maxDiff": 1
+    },
+    {
+      "name": "Effective capital expenditure = items 12 + 13",
+      "maxDiff": 0
+    },
+    {
+      "name": "Revenue deficit = item 10 - item 1",
+      "maxDiff": 1
+    },
+    {
+      "name": "Effective revenue deficit = item 15 - item 12",
+      "maxDiff": 0
+    },
+    {
+      "name": "Fiscal deficit = item 9 - (1 + 5 + 6)",
+      "maxDiff": 2
+    },
+    {
+      "name": "Primary deficit = item 17 - item 11",
+      "maxDiff": 0
+    },
+    {
+      "name": "Gross tax = sum of taxes",
+      "maxDiff": 0
+    },
+    {
+      "name": "Net tax = gross tax - NCCD - states share",
+      "maxDiff": 1
+    },
+    {
+      "name": "Non-tax revenue = sum of its items",
+      "maxDiff": 0
+    },
+    {
+      "name": "Revenue receipts (receipts table) = net tax + non-tax",
+      "maxDiff": 0
+    },
+    {
+      "name": "Capital receipts = non-debt + debt",
+      "maxDiff": 0
+    },
+    {
+      "name": "Total receipts = revenue + capital + cash drawdown",
+      "maxDiff": 1
+    },
+    {
+      "name": "Receipts table total = summary total receipts",
+      "maxDiff": 0
+    },
+    {
+      "name": "Receipts table net tax = summary item 2",
+      "maxDiff": 0
+    },
+    {
+      "name": "Receipts table revenue receipts = summary item 1",
+      "maxDiff": 0
+    },
+    {
+      "name": "Spending by type sums to grand total",
+      "maxDiff": 1
+    },
+    {
+      "name": "Spending by type total = summary total expenditure",
+      "maxDiff": 0
+    },
+    {
+      "name": "Interest (spending by type) = summary item 11",
+      "maxDiff": 0
+    },
+    {
+      "name": "Major items sum to grand total",
+      "maxDiff": 2
+    },
+    {
+      "name": "Major items total = summary total expenditure",
+      "maxDiff": 0
+    },
+    {
+      "name": "Interest (major items) = summary item 11",
+      "maxDiff": 0
+    },
+    {
+      "name": "Net debt receipts = sum of sources",
+      "maxDiff": 1
+    },
+    {
+      "name": "Financing total = debt + cash drawdown",
+      "maxDiff": 0
+    },
+    {
+      "name": "Financing total = summary fiscal deficit",
+      "maxDiff": 0
+    },
+    {
+      "name": "Transfers total = I + II + III + IV + V",
+      "maxDiff": 1
+    },
+    {
+      "name": "Devolution (transfers) = states share (receipts)",
+      "maxDiff": 0
+    },
+    {
+      "name": "% of GDP (2026-27 BE) matches the stated GDP estimate",
+      "maxDiff": 0
+    }
+  ],
+  "aiReview": "pending"
+}
