@@ -4,7 +4,7 @@ import type { Lang } from './schema.ts';
 
 /** Grievance / corrections contact. Set before launch; pages say so while it is null. */
 export const CONTACT_EMAIL: string | null = 'vroelabs@gmail.com';
-export const LEGAL_UPDATED = '2026-10-10';
+export const LEGAL_UPDATED = '2026-10-11';
 
 type Section = { h: string; p: string[] };
 type Page = { title: string; draft: string; sections: Section[] };
@@ -17,9 +17,14 @@ export function legal(page: 'privacy' | 'terms' | 'corrections', lang: Lang): Pa
   if (lang === 'hi') {
     const draft = `मसौदा, कानूनी समीक्षा लंबित। अंतिम अद्यतन ${LEGAL_UPDATED}।`;
     if (page === 'privacy') return { title: 'गोपनीयता नीति', draft, sections: [
-      { h: 'हम क्या एकत्र नहीं करते', p: ['यथार्थ भारत पर कोई खाता नहीं बनता। हम आपका नाम, ईमेल, फ़ोन नंबर, पता या कोई पहचान दस्तावेज़ नहीं मांगते और संग्रहीत नहीं करते।', 'साइट पर खोज आपके ब्राउज़र में ही चलती है; आपके खोज शब्द हमें नहीं भेजे जाते।'] },
+      { h: 'हम क्या एकत्र नहीं करते', p: ['यथार्थ भारत पर कोई खाता नहीं बनता। हम आपका नाम, ईमेल, फ़ोन नंबर, पता या कोई पहचान दस्तावेज़ नहीं मांगते और संग्रहीत नहीं करते।', 'मुख्य पृष्ठ की खोज और "आँकड़े की जांच" आपके ब्राउज़र में ही चलते हैं; आपके खोज शब्द हमें नहीं भेजे जाते। "पूछें" पृष्ठ अलग है; नीचे देखें।'] },
       { h: 'उपयोग के आंकड़े', p: ['साइट यह समझने के लिए कि कौन से पृष्ठ उपयोगी हैं, Cloudflare Web Analytics के माध्यम से कुकी-रहित, समेकित उपयोग आंकड़े (जैसे पृष्ठ देखे जाने की संख्या) एकत्र कर सकती है। इनमें आपकी पहचान करने वाली जानकारी नहीं होती और विज्ञापन के लिए इनका उपयोग नहीं होता। कोई अन्य विश्लेषण या ट्रैकिंग सेवा उपयोग नहीं की जाती।'] },
-      { h: 'भविष्य की सुविधाएं', p: ['यदि हम AI प्रश्न या करियर प्रोफ़ाइल जैसी सुविधाएं जोड़ते हैं, तो यह नीति पहले अद्यतन की जाएगी। करियर प्रोफ़ाइल केवल आपके ब्राउज़र में रहने के लिए बनाई जा रही है। आपके डेटा का उपयोग किसी AI मॉडल को प्रशिक्षित करने के लिए नहीं किया जाएगा।'] },
+      { h: '"पूछें" पृष्ठ पर प्रश्न', p: [
+        'जब आप "पूछें" का उपयोग करते हैं, तो आपका प्रश्न इस साइट के सर्वर पर भेजा जाता है, जो इस साइट पर मिलते-जुलते रिकॉर्ड खोजता है। यदि लिखित उत्तर चालू हैं, तो प्रश्न और वे रिकॉर्ड छोटा उत्तर लिखने के लिए एक AI मॉडल (Anthropic का Claude, OpenRouter के माध्यम से, जिसमें रूटिंग केवल Anthropic तक सीमित है और प्रश्नों पर प्रशिक्षण देने वाले प्रदाता बाहर रखे गए हैं) को भेजे जाते हैं।',
+        'आपका प्रश्न आपके IP पते या आपकी पहचान बताने वाली किसी अन्य जानकारी के साथ संग्रहीत नहीं किया जाता, और लॉग में नहीं लिखा जाता। दोहराए गए प्रश्नों का जल्दी उत्तर देने के लिए, कोई उत्तर प्रश्न के एकतरफ़ा हैश के अंतर्गत अधिकतम 24 घंटे तक रखा जा सकता है। आपके IP पते का उपयोग, हैश रूप में, केवल प्रश्नों की संख्या की अल्पकालिक सीमा के लिए होता है।',
+        'प्रश्न में कोई व्यक्तिगत जानकारी न लिखें। आपके प्रश्नों का उपयोग किसी AI मॉडल को प्रशिक्षित करने के लिए नहीं किया जाएगा।',
+      ] },
+      { h: 'भविष्य की सुविधाएं', p: ['यदि हम करियर प्रोफ़ाइल जैसी सुविधाएं जोड़ते हैं, तो यह नीति पहले अद्यतन की जाएगी। करियर प्रोफ़ाइल केवल आपके ब्राउज़र में रहने के लिए बनाई जा रही है।'] },
       { h: 'आपके अधिकार', p: ['डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम, 2023 के अंतर्गत आपके अधिकारों से संबंधित किसी भी प्रश्न या शिकायत के लिए संपर्क करें: ' + c] },
     ] };
     if (page === 'terms') return { title: 'उपयोग की शर्तें', draft, sections: [
@@ -36,9 +41,14 @@ export function legal(page: 'privacy' | 'terms' | 'corrections', lang: Lang): Pa
   }
   const draft = `Draft, pending legal review. Last updated ${LEGAL_UPDATED}.`;
   if (page === 'privacy') return { title: 'Privacy policy', draft, sections: [
-    { h: 'What we do not collect', p: ['Yatharth Bharat has no accounts. We do not ask for or store your name, email, phone number, address or any identity document.', 'Search on this site runs in your browser; your search terms are not sent to us.'] },
+    { h: 'What we do not collect', p: ['Yatharth Bharat has no accounts. We do not ask for or store your name, email, phone number, address or any identity document.', 'The home-page search and Check a figure run in your browser; what you type there is not sent to us. The Ask page is different; see below.'] },
     { h: 'Usage statistics', p: ['To learn which pages are useful, the site may collect cookieless, aggregated usage statistics (such as page views) through Cloudflare Web Analytics. These contain no information that identifies you and are not used for advertising. No other analytics or tracking service is used.'] },
-    { h: 'Future features', p: ['If we add features such as AI questions or career profiles, this policy will be updated first. Career profiles are being designed to stay in your browser only. Your data will not be used to train any AI model.'] },
+    { h: 'Questions on the Ask page', p: [
+      'When you use Ask, your question is sent to this site’s server, which finds matching records on this site. If written answers are switched on, the question and those records are sent to an AI model (Anthropic’s Claude, reached through OpenRouter with routing limited to Anthropic and providers that train on prompts excluded) to write a short answer.',
+      'Your question is not stored with your IP address or anything else that identifies you, and it is not written to logs. To answer repeated questions quickly, an answer may be kept for up to 24 hours under a one-way hash of the question. Your IP address is used, in hashed form, only for a short-term limit on the number of questions.',
+      'Do not type personal information into the question box. Your questions will not be used to train any AI model.',
+    ] },
+    { h: 'Future features', p: ['If we add features such as career profiles, this policy will be updated first. Career profiles are being designed to stay in your browser only.'] },
     { h: 'Your rights', p: ['For any question or grievance about your rights under the Digital Personal Data Protection Act, 2023, contact: ' + c] },
   ] };
   if (page === 'terms') return { title: 'Terms of use', draft, sections: [

@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/check', '/hi/check', '/en/education', '/hi/education', '/en/history', '/hi/history', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/money', '/hi/money', '/en/check', '/hi/check', '/en/education', '/hi/education', '/en/ask', '/hi/ask', '/en/history', '/hi/history', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });
@@ -133,4 +133,26 @@ test('check a figure: a Budget share of GDP can be checked', async ({ page }) =>
   // Fiscal deficit 2026-27 BE is printed as 4.3% of GDP.
   await page.goto('/en/check?t=budget-summary&s=fiscal-deficit-pct-gdp&p=2026-27-be&v=4.3');
   await expect(page.getByText('Consistent with the official figure, allowing for rounding.')).toBeVisible();
+});
+
+test('ask: matching records are listed (written answers off without a key)', async ({ page }) => {
+  await page.goto('/en/ask');
+  await page.getByLabel('Your question').fill('Who is the MP of Varanasi?');
+  await page.getByRole('button', { name: 'Ask' }).click();
+  await expect(page.getByRole('heading', { name: 'Matching records on this site' })).toBeVisible();
+  await expect(page.getByRole('link', { name: /^Varanasi: / })).toBeVisible();
+  await expect(page.getByText('Written answers are not switched on yet.')).toBeVisible();
+});
+
+test('ask API: rejects wrong method, cross-site posts and bad input', async ({ request, baseURL }) => {
+  expect((await request.get('/api/ask')).status()).toBe(405);
+  expect((await request.post('/api/ask', { headers: { origin: 'https://evil.example', 'content-type': 'application/json' }, data: { q: 'gdp', lang: 'en' } })).status()).toBe(403);
+  expect((await request.post('/api/ask', { headers: { 'content-type': 'text/plain' }, data: 'gdp' })).status()).toBe(415);
+  expect((await request.post('/api/ask', { headers: { 'content-type': 'application/json' }, data: { q: 'x', lang: 'en' } })).status()).toBe(400);
+  expect((await request.post('/api/ask', { headers: { 'content-type': 'application/json' }, data: { q: 'gdp growth', lang: 'fr' } })).status()).toBe(400);
+  const ok = await request.post('/api/ask', { headers: { origin: baseURL!, 'content-type': 'application/json' }, data: { q: 'GDP growth', lang: 'hi' } });
+  expect(ok.status()).toBe(200);
+  const body = await ok.json();
+  expect(body.results.length).toBeGreaterThan(0);
+  expect(body.results[0].href).toMatch(/^\/hi\//);
 });

@@ -12,6 +12,11 @@
     "run_worker_first": ["/", "/api/*"]
   },
   "observability": { "enabled": true },
+  // Ask (AI answers): per-visitor rate limit and a daily cap on model calls. The model key is a Worker secret
+  // (OPENROUTER_API_KEY or ANTHROPIC_API_KEY) set by the owner with `npx wrangler secret put`.
+  "ratelimits": [{ "name": "ASK_LIMIT", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } }],
+  "kv_namespaces": [{ "binding": "ASK_KV", "id": "672d9eacf04045d5b09616b122e5d623" }],
+  "vars": { "ASK_DAILY_CAP": "300" },
   "workers_dev": true,
   "preview_urls": true
 }

@@ -46,3 +46,11 @@ Pending for this lane: Constitution of India Hindi text (fixes 3 Hindi state nam
 2. Update `SOURCE.txt` with the URLs, date and SHA-256 of each file (`shasum -a 256 data/manual-inbox/budget/*`).
 3. Set `BUDGET_YEAR` and the column definitions in `pipeline/budget.ts`, then run `node pipeline/budget.ts`. Any check that fails stops the run with the reason.
 4. Point `src/lib/data.ts` at the new record file and run `npm run check && npm run build && npm run e2e`.
+
+## Ask (AI answers)
+
+- Switch on written answers: `npx wrangler secret put OPENROUTER_API_KEY` (paste the key when asked). Switch off: `npx wrangler secret delete OPENROUTER_API_KEY`. The page keeps working as a record search either way.
+- Spend bound: `ASK_DAILY_CAP` in `wrangler.jsonc` (model calls per UTC day, default 300). Today's count is the KV key `cap:YYYY-MM-DD` in the `ASK_KV` namespace.
+- Abuse: lower the rate limit in `wrangler.jsonc` (`ratelimits`), or add Turnstile.
+- A wrong answer report: the answer is cached for 24 h under `ans:<sha256>`; fix the record or the guard, then delete cached keys with `npx wrangler kv key list --binding ASK_KV --prefix ans:` and `npx wrangler kv key delete`.
+

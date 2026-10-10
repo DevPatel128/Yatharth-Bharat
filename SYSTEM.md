@@ -35,6 +35,8 @@ User tables: **none** (D-004). `src/db.ts` stays the only file allowed to touch 
 | Name | Where | Purpose |
 |---|---|---|
 | `OPENROUTER_API_KEY` (or `ANTHROPIC_API_KEY`) | GitHub secret | G6 adversarial review, G8 back-translation (pipeline only; never in the browser) |
+| `OPENROUTER_API_KEY` (or `ANTHROPIC_API_KEY`) | Worker secret (`npx wrangler secret put`) | Written answers on `/ask`; without it `/ask` lists matching records only |
+| `ASK_LIMIT`, `ASK_KV`, `ASK_DAILY_CAP` | `wrangler.jsonc` bindings/vars | Ask rate limit (5/min per hashed IP), daily model-call cap and 24 h answer cache |
 | `REQUIRE_AI_GATES` | workflow env | `true` in the scheduled run: nothing publishes until AI gates have run |
 | `DATA_BOT_APP_ID` / `DATA_BOT_PRIVATE_KEY` | GitHub variable / secret | GitHub App token so data PRs trigger CI |
 | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` | GitHub secrets (env `production`) | `wrangler deploy` |

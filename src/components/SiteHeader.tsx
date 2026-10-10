@@ -17,6 +17,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
     ['/world', d.nav.world],
     ['/representatives', d.nav.reps],
     ['/history', d.nav.history],
+    ['/ask', d.nav.ask],
     ['/sources', d.nav.sources],
   ];
   const items = (cls: string) => links.map(([href, label]) => <Link key={href} href={`/${lang}${href}`} className={cls}>{label}</Link>);
