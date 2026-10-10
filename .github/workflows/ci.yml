@@ -69,17 +69,27 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       URL: ${{ vars.PROD_URL }}
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+      - name: deploy credentials present?
+        id: creds
+        run: |
+          if [ -n "$CLOUDFLARE_API_TOKEN" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"
+          else echo "::warning::CLOUDFLARE_API_TOKEN secret not set; skipping deploy (RUNBOOK.md, Deploy)"; fi
+      - if: steps.creds.outputs.ok == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - if: steps.creds.outputs.ok == 'true'
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with: { node-version: 24, cache: npm }
-      - run: npm ci && npm run build
-      - run: npx wrangler deploy
+      - if: steps.creds.outputs.ok == 'true'
+        run: npm ci && npm run build
+      - if: steps.creds.outputs.ok == 'true'
+        run: npx wrangler deploy
       - name: smoke test the live site (health reflects real data state)
+        if: steps.creds.outputs.ok == 'true'
         run: |
           for i in 1 2 3 4 5 6; do curl -fsS --max-time 10 "$URL/api/health" && curl -fsS -o /dev/null --max-time 10 "$URL/en" && exit 0; sleep 10; done
           exit 1
       - name: rollback on failure
-        if: failure()
+        if: failure() && steps.creds.outputs.ok == 'true'
         run: npx wrangler rollback --message "auto-rollback $GITHUB_SHA" && exit 1
 
   uptime:

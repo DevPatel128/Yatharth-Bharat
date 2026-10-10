@@ -1,0 +1,2 @@
+# Cloudflare Web Analytics beacon token: public by design (sent to every visitor). Not a secret.
+d59d9daf8f257144cd6a99eb6fb4521a9d708400:src/app/[lang]/layout.tsx:generic-api-key:16
