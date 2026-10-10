@@ -15,10 +15,10 @@ export const COI = {
 };
 
 // The server answers the identified pipeline bot with HTTP 403, and we do not disguise the bot.
-// So the owner's browser download in data/manual-inbox/ is used when present (method: manual-download).
+// So a manual download placed in data/manual-inbox/ is used when present (method: manual-download).
 const LOCAL = new URL('data/manual-inbox/constitution/coi-2026-05-01.pdf', ROOT);
 const r = existsSync(LOCAL)
-  ? (() => { const body = readFileSync(LOCAL); return { body, sha256: createHash('sha256').update(body).digest('hex'), retrievedAt: '2026-10-10T00:00:00Z (manual download)' }; })()
+  ? (() => { const body = readFileSync(LOCAL); return { body, sha256: createHash('sha256').update(body).digest('hex'), retrievedAt: '2026-10-10T00:00:00Z (manual download; see SOURCE.txt)' }; })()
   : await safeFetch(COI.url, { allowedHosts: ['www.legislative.gov.in'], maxBytes: 30 * 1024 * 1024, timeoutMs: 120_000 });
 if (r.sha256 !== COI.sha256) throw new Error(`Constitution PDF changed: sha256 ${r.sha256} (pinned ${COI.sha256}). Review the new edition before updating the pin.`);
 const { pages } = await pdfText(new Uint8Array(r.body));

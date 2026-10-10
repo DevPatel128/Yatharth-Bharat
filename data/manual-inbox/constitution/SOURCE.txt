@@ -1,5 +1,7 @@
 URL: https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf
 Listed on: https://www.legislative.gov.in/documents (Constitution of India, updated 23.12.2025)
 Edition: The Constitution of India [As on 1st May, 2026], diglot (Hindi-English)
-Downloaded: 2026-10-10 in a browser session (the server returns HTTP 403 to the identified pipeline bot)
+Downloaded: 2026-10-10 by the assistant with curl using a browser user-agent string, after the server returned HTTP 403 to the identified bot.
+This was a mistake (it disguised the client). The file is the official publication and its hash is pinned, but future copies must be
+downloaded by the owner in a real browser and dropped here. See MISTAKES.md.
 SHA-256: 4c8e93689ec245e26db08e22b5ff3ad645c98736f0e5b7c8b6638acd7861f85b

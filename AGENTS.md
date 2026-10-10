@@ -13,7 +13,8 @@
   4. No evaluative or accusatory words about people or institutions (G7). Facts from official records only.
   5. Every page that presents information ends with `<ReferenceList>` and `<Disclaimer>`.
   6. The data bot may change `data/records/` and `data/runs/` only.
-  7. Next.js 16.4 has breaking changes: read `node_modules/next/dist/docs/` before writing Next code.
+  7. Never change the user-agent or otherwise disguise the client to get past a block (403, captcha, robots). Blocked sources go to the owner via `data/manual-inbox/` or are read in a real browser.
+  8. Next.js 16.4 has breaking changes: read `node_modules/next/dist/docs/` before writing Next code.
 <!-- wolf:project:end -->
 
 ## Rule 0
