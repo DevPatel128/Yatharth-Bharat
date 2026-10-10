@@ -20,7 +20,9 @@
 - Region pages — **Done**: state CPI inflation for all 36 + MPs per region
 - 1c Government explained — **Done**: 13 institutions × 8 questions, every answer cited (verbatim Constitution quotes checked in CI)
 - 1d Who fixes this — **Done**: 14 everyday problems mapped to Constitution lists/schedules, with where to raise them
-- 1e Public money · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
+- India and the World — **Now**: merchandise trade (16 years, 38 partners, cross-checked); FDI, energy, services, agreements Next
+- 1e Public money — **Blocked on owner downloads** (Budget at a Glance files; site blocks bots)
+- 1e Public money (rest) · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
 - Select & Export (PDF/snippet with citations) — **Later** (data model already has stable ids and evidence for it)
 
 ## Features (acceptance criteria get IDs; PRs deliver IDs)

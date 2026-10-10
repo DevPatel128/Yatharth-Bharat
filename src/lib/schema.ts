@@ -158,3 +158,15 @@ export const Responsibility = z.object({
   explainer: z.string().optional(),
 });
 export type Responsibility = z.infer<typeof Responsibility>;
+
+/** India's merchandise trade by year and partner (RBI, via MoSPI). Values in US$ million as published. */
+export const TradeFile = z.object({
+  schemaVersion: z.literal(1),
+  unit: z.literal('US$ million'),
+  lastVerifiedAt: isoDateTime,
+  totals: z.array(z.object({ year: z.string().regex(/^\d{4}-\d{2}$/), exports: z.number().positive(), imports: z.number().positive(), evidence: z.array(Evidence).min(2) })),
+  latestYear: z.string(),
+  partners: z.array(z.object({ country: z.string().min(1), group: z.string().min(1), exports: z.number().nonnegative().nullable(), imports: z.number().nonnegative().nullable(), evidence: z.array(Evidence).min(1) })),
+  crossCheck: z.object({ year: z.string(), monthlySumExports: z.number(), monthlySumImports: z.number(), tolerancePct: z.number() }),
+});
+export type TradeFile = z.infer<typeof TradeFile>;

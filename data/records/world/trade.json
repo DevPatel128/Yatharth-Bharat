@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "unit": "US$ million",
+  "lastVerifiedAt": "2026-10-10T05:10:40.680Z",
+  "totals": [
+    {
+      "year": "2009-10",
+      "exports": 178751.4,
+      "imports": 288372.9,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2009-10\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"178751.40\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2009-10\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"288372.90\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2010-11",
+      "exports": 251136.2,
+      "imports": 369769.11,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2010-11\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"251136.20\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2010-11\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"369769.11\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2011-12",
+      "exports": 305963.88,
+      "imports": 489319.49,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2011-12\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"305963.88\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2011-12\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"489319.49\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2012-13",
+      "exports": 300400.7,
+      "imports": 490736.7,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2012-13\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"300400.70\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2012-13\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"490736.70\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2013-14",
+      "exports": 314415.73,
+      "imports": 450213.63,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2013-14\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"314415.73\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2013-14\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"450213.63\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2014-15",
+      "exports": 310352.01,
+      "imports": 448033.41,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2014-15\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"310352.01\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2014-15\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"448033.41\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2015-16",
+      "exports": 262291.09,
+      "imports": 381007.76,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2015-16\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"262291.09\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2015-16\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"381007.76\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2016-17",
+      "exports": 275852.43,
+      "imports": 384357.03,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2016-17\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"275852.43\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2016-17\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"384357.03\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2017-18",
+      "exports": 303526.2,
+      "imports": 465581,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2017-18\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"303526.20\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2017-18\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"465581.00\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2018-19",
+      "exports": 330078.09,
+      "imports": 514078.42,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2018-19\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"330078.09\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2018-19\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"514078.42\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2019-20",
+      "exports": 313361.04,
+      "imports": 474709.28,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2019-20\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"313361.04\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2019-20\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"474709.28\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2020-21",
+      "exports": 291808.48,
+      "imports": 394435.88,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2020-21\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"291808.48\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2020-21\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"394435.88\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2021-22",
+      "exports": 422004.4,
+      "imports": 613052.05,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2021-22\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"422004.40\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2021-22\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"613052.05\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2022-23",
+      "exports": 451070,
+      "imports": 715968.9,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2022-23\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"451070.00\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2022-23\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"715968.90\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2023-24",
+      "exports": 437072.03,
+      "imports": 678214.77,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2023-24\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"437072.03\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2023-24\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"678214.77\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "year": "2024-25",
+      "exports": 437511.75,
+      "imports": 721320.47,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Export\",\"value\":\"437511.75\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Total\",\"country_sub_group\":null,\"countries\":null,\"trade\":\"Import\",\"value\":\"721320.47\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    }
+  ],
+  "latestYear": "2024-25",
+  "partners": [
+    {
+      "country": "USA",
+      "group": "OECD Countries",
+      "exports": 86510.82,
+      "imports": 45694.74,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"North America\",\"countries\":\"USA\",\"trade\":\"Export\",\"value\":\"86510.82\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"North America\",\"countries\":\"USA\",\"trade\":\"Import\",\"value\":\"45694.74\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "People's Republic of China",
+      "group": "Asia",
+      "exports": 14252.1,
+      "imports": 113456.63,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"People's Republic of China\",\"trade\":\"Export\",\"value\":\"14252.10\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"People's Republic of China\",\"trade\":\"Import\",\"value\":\"113456.63\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "U A E",
+      "group": "O P E C",
+      "exports": 36636.22,
+      "imports": 63422.96,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"U A E\",\"trade\":\"Export\",\"value\":\"36636.22\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"U A E\",\"trade\":\"Import\",\"value\":\"63422.96\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Russia",
+      "group": "Eastern Europe",
+      "exports": 4880.83,
+      "imports": 63843.56,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Eastern Europe\",\"country_sub_group\":\"Other European Countries\",\"countries\":\"Russia\",\"trade\":\"Export\",\"value\":\"4880.83\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Eastern Europe\",\"country_sub_group\":\"Other European Countries\",\"countries\":\"Russia\",\"trade\":\"Import\",\"value\":\"63843.56\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "group": "O P E C",
+      "exports": 11756.23,
+      "imports": 30121.4,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Saudi Arabia\",\"trade\":\"Export\",\"value\":\"11756.23\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Saudi Arabia\",\"trade\":\"Import\",\"value\":\"30121.40\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Singapore",
+      "group": "Asia",
+      "exports": 12975.39,
+      "imports": 21290.14,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Singapore\",\"trade\":\"Export\",\"value\":\"12975.39\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Singapore\",\"trade\":\"Import\",\"value\":\"21290.14\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Iraq",
+      "group": "O P E C",
+      "exports": 3272.45,
+      "imports": 28891.2,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Iraq\",\"trade\":\"Export\",\"value\":\"3272.45\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Iraq\",\"trade\":\"Import\",\"value\":\"28891.20\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "group": "OECD Countries",
+      "exports": 10536.17,
+      "imports": 18984.3,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Germany\",\"trade\":\"Export\",\"value\":\"10536.17\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Germany\",\"trade\":\"Import\",\"value\":\"18984.30\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "group": "Asia",
+      "exports": 5379.59,
+      "imports": 22778.45,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Indonesia\",\"trade\":\"Export\",\"value\":\"5379.59\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Indonesia\",\"trade\":\"Import\",\"value\":\"22778.45\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Netherlands",
+      "group": "OECD Countries",
+      "exports": 22760.62,
+      "imports": 5017.67,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Netherlands\",\"trade\":\"Export\",\"value\":\"22760.62\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Netherlands\",\"trade\":\"Import\",\"value\":\"5017.67\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "South Korea",
+      "group": "Asia",
+      "exports": 5819.53,
+      "imports": 21072.21,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"South Korea\",\"trade\":\"Export\",\"value\":\"5819.53\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"South Korea\",\"trade\":\"Import\",\"value\":\"21072.21\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Hong Kong",
+      "group": "Asia",
+      "exports": 6066.64,
+      "imports": 19751.31,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Hong Kong\",\"trade\":\"Export\",\"value\":\"6066.64\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Hong Kong\",\"trade\":\"Import\",\"value\":\"19751.31\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "group": "OECD Countries",
+      "exports": 6249.09,
+      "imports": 18919.1,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Asia and Oceania\",\"countries\":\"Japan\",\"trade\":\"Export\",\"value\":\"6249.09\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Asia and Oceania\",\"countries\":\"Japan\",\"trade\":\"Import\",\"value\":\"18919.10\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Australia",
+      "group": "OECD Countries",
+      "exports": 8578.84,
+      "imports": 15527.14,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Asia and Oceania\",\"countries\":\"Australia\",\"trade\":\"Export\",\"value\":\"8578.84\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Asia and Oceania\",\"countries\":\"Australia\",\"trade\":\"Import\",\"value\":\"15527.14\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Switzerland",
+      "group": "OECD Countries",
+      "exports": 1474.96,
+      "imports": 21803.8,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Other O E C D Countries\",\"countries\":\"Switzerland\",\"trade\":\"Export\",\"value\":\"1474.96\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Other O E C D Countries\",\"countries\":\"Switzerland\",\"trade\":\"Import\",\"value\":\"21803.80\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "UK",
+      "group": "OECD Countries",
+      "exports": 14549.71,
+      "imports": 8606.87,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Other O E C D Countries\",\"countries\":\"UK\",\"trade\":\"Import\",\"value\":\"8606.87\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=9&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.653Z",
+          "snapshotSha256": "a8a32d7eaa7c623d84432f8f7c0954da8529e44cc72234afa85967cfdebaf81d",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"Other O E C D Countries\",\"countries\":\"UK\",\"trade\":\"Export\",\"value\":\"14549.71\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "group": "Asia",
+      "exports": 7316.4,
+      "imports": 12539.87,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Malaysia\",\"trade\":\"Export\",\"value\":\"7316.40\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Malaysia\",\"trade\":\"Import\",\"value\":\"12539.87\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "group": "Asia",
+      "exports": 4812.53,
+      "imports": 14267.93,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Thailand\",\"trade\":\"Export\",\"value\":\"4812.53\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=5&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:42.739Z",
+          "snapshotSha256": "e03ac7f127f5e325bc4b3e000c11386276bdc6db48014d4556be5497c2a89805",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"Other Asian Countries\",\"countries\":\"Thailand\",\"trade\":\"Import\",\"value\":\"14267.93\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "South Africa",
+      "group": "Africa",
+      "exports": 7461.81,
+      "imports": 10548.61,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"South Africa\",\"trade\":\"Export\",\"value\":\"7461.81\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"South Africa\",\"trade\":\"Import\",\"value\":\"10548.61\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "group": "OECD Countries",
+      "exports": 7959.9,
+      "imports": 7259.16,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"France\",\"trade\":\"Export\",\"value\":\"7959.90\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"France\",\"trade\":\"Import\",\"value\":\"7259.16\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "group": "OECD Countries",
+      "exports": 7727.26,
+      "imports": 6027.19,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Italy\",\"trade\":\"Export\",\"value\":\"7727.26\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Italy\",\"trade\":\"Import\",\"value\":\"6027.19\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "group": "Asia",
+      "exports": 11455.99,
+      "imports": 2005.43,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Bangladesh\",\"trade\":\"Export\",\"value\":\"11455.99\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Bangladesh\",\"trade\":\"Import\",\"value\":\"2005.43\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "group": "OECD Countries",
+      "exports": 6320.1,
+      "imports": 6595.4,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Belgium\",\"trade\":\"Export\",\"value\":\"6320.10\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=1&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:40.680Z",
+          "snapshotSha256": "58d9c2daf131a5bf77a7ea5615bde2f4555df4ecbd544e33b9ccc8f275a6aa21",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"European Union\",\"countries\":\"Belgium\",\"trade\":\"Import\",\"value\":\"6595.40\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Kuwait",
+      "group": "O P E C",
+      "exports": 1934.72,
+      "imports": 8285.74,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Kuwait\",\"trade\":\"Export\",\"value\":\"1934.72\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Kuwait\",\"trade\":\"Import\",\"value\":\"8285.74\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Canada",
+      "group": "OECD Countries",
+      "exports": 4221.99,
+      "imports": 4448.65,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"North America\",\"countries\":\"Canada\",\"trade\":\"Export\",\"value\":\"4221.99\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=2&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.237Z",
+          "snapshotSha256": "56a954de66ae712c81ccd807a4cd95420f77824f359215559782766307c34310",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"OECD Countries\",\"country_sub_group\":\"North America\",\"countries\":\"Canada\",\"trade\":\"Import\",\"value\":\"4448.65\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "group": "Africa",
+      "exports": 4788.32,
+      "imports": 3850.64,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Tanzania\",\"trade\":\"Export\",\"value\":\"4788.32\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Tanzania\",\"trade\":\"Import\",\"value\":\"3850.64\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Nepal",
+      "group": "Asia",
+      "exports": 7334.87,
+      "imports": 1201.48,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Nepal\",\"trade\":\"Export\",\"value\":\"7334.87\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Nepal\",\"trade\":\"Import\",\"value\":\"1201.48\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Sri Lanka",
+      "group": "Asia",
+      "exports": 4550.7,
+      "imports": 1303.03,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Sri Lanka\",\"trade\":\"Export\",\"value\":\"4550.70\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Sri Lanka\",\"trade\":\"Import\",\"value\":\"1303.03\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Egypt Arab Republic",
+      "group": "Africa",
+      "exports": 3411.36,
+      "imports": 1328.6,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Egypt Arab Republic\",\"trade\":\"Export\",\"value\":\"3411.36\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Egypt Arab Republic\",\"trade\":\"Import\",\"value\":\"1328.60\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Kenya",
+      "group": "Africa",
+      "exports": 3133.69,
+      "imports": 318.74,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Kenya\",\"trade\":\"Export\",\"value\":\"3133.69\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Kenya\",\"trade\":\"Import\",\"value\":\"318.74\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Bhutan",
+      "group": "Asia",
+      "exports": 1263.83,
+      "imports": 513.44,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Bhutan\",\"trade\":\"Export\",\"value\":\"1263.83\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Bhutan\",\"trade\":\"Import\",\"value\":\"513.44\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Iran",
+      "group": "O P E C",
+      "exports": 1241.15,
+      "imports": 441.86,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Iran\",\"trade\":\"Export\",\"value\":\"1241.15\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=8&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:44.206Z",
+          "snapshotSha256": "9108b95b658f16370d4cfd357816b448dfc64d57d7d19116a1dd9510a82c9511",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"O P E C\",\"country_sub_group\":\"Other OPEC Countries\",\"countries\":\"Iran\",\"trade\":\"Import\",\"value\":\"441.86\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Benin",
+      "group": "Africa",
+      "exports": 1194.98,
+      "imports": 130.51,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Benin\",\"trade\":\"Export\",\"value\":\"1194.98\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Benin\",\"trade\":\"Import\",\"value\":\"130.51\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Sudan",
+      "group": "Africa",
+      "exports": 589.03,
+      "imports": 427.55,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Sudan\",\"trade\":\"Export\",\"value\":\"589.03\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Sudan\",\"trade\":\"Import\",\"value\":\"427.55\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Afghanistan",
+      "group": "Asia",
+      "exports": 318.91,
+      "imports": 689.81,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Afghanistan\",\"trade\":\"Export\",\"value\":\"318.91\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Afghanistan\",\"trade\":\"Import\",\"value\":\"689.81\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Maldives",
+      "group": "Asia",
+      "exports": 560.87,
+      "imports": 118.83,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Maldives\",\"trade\":\"Export\",\"value\":\"560.87\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Maldives\",\"trade\":\"Import\",\"value\":\"118.83\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "group": "Asia",
+      "exports": 557.78,
+      "imports": 0.46,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Pakistan\",\"trade\":\"Export\",\"value\":\"557.78\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=3&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:41.723Z",
+          "snapshotSha256": "02a279fff5572532778c8812b31e5ff6377a4eccf1ad82a843d0f2c6c3079053",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Asia\",\"country_sub_group\":\"S A A R C\",\"countries\":\"Pakistan\",\"trade\":\"Import\",\"value\":\"0.46\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    },
+    {
+      "country": "Zambia",
+      "group": "Africa",
+      "exports": 212.56,
+      "imports": 167,
+      "evidence": [
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Zambia\",\"trade\":\"Export\",\"value\":\"212.56\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        },
+        {
+          "sourceId": "mospi-api",
+          "url": "https://api.mospi.gov.in/api/rbi/getRbiRecords?sub_indicator_code=11&limit=200&page=7&Format=JSON",
+          "retrievedAt": "2026-10-10T05:10:43.784Z",
+          "snapshotSha256": "2cee55f7f6b859c5a38413276cd9328bb6c9e105e1a8ba53f1d49e9b410d94be",
+          "quote": "{\"indicator\":\"Direction of Foreign Trade ‑ US Dollars\",\"year\":\"2024-25\",\"country_group\":\"Africa\",\"country_sub_group\":\"Other African Countries\",\"countries\":\"Zambia\",\"trade\":\"Import\",\"value\":\"167.00\",\"unit\":\"US $ Millions\"}",
+          "method": "pipeline"
+        }
+      ]
+    }
+  ],
+  "crossCheck": {
+    "year": "2024-25",
+    "monthlySumExports": 437415.89,
+    "monthlySumImports": 720241.27,
+    "tolerancePct": 1
+  }
+}

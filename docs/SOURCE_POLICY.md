@@ -17,13 +17,15 @@ A source is added only as a code change to `src/lib/sources.ts` declaring: publi
 ## Current registry (2026-10-10)
 | Source | Category | Access | Used for |
 |---|---|---|---|
-| MoSPI eSankhyiki API | Indian government | JSON + CSV API | PLFS unemployment, CPI inflation (national and all 36 states/UTs) |
+| MoSPI eSankhyiki API | Indian government | JSON + CSV API | PLFS unemployment, CPI inflation (national and all 36 states/UTs), RBI trade tables |
 | World Bank WDI API | International | JSON + XML API | GDP growth (interim, D-008), GDP per capita, life expectancy, infant mortality, electricity, internet |
 | IMF DataMapper | International | JSON API | cross-check only (actuals ≤ 2025) |
 | National Portal of India | Indian government | manual capture | state/UT names, status, capitals |
 | Digital Sansad (Lok Sabha) | Parliament | JSON (site's own endpoint) | Hindi state names |
 | Constitution of India (Legislative Department) | Indian government | PDF via manual lane (bot gets 403), hash-pinned | explainer and Who-fixes-this quotes |
 | DataMeet maps | Community | shapefile, pinned commit | state boundaries |
+
+- Union Budget portal (indiabudget.gov.in) returns HTTP 403 to the identified pipeline bot; budget files come via the manual lane only.
 
 ## Observed source problems (kept as evidence of why the gate exists)
 - MoSPI NAS endpoint returned PostgreSQL errors (`42P01`) for every query on 2026-10-09.

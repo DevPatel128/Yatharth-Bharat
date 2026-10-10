@@ -6,7 +6,7 @@ import type { Observation } from '@/lib/schema';
  * so small changes are not exaggerated without the reader seeing the scale. Values from different series
  * are drawn as separate lines, never joined.
  */
-export function LineChart({ points, lang, decimals, unit, label, height = 180 }: { points: Observation[]; lang: Lang; decimals: number; unit: string; label: string; height?: number }) {
+export function LineChart({ points, lang, decimals, unit, label, height = 180 }: { points: Pick<Observation, 'period' | 'value' | 'series'>[]; lang: Lang; decimals: number; unit: string; label: string; height?: number }) {
   if (points.length < 2) return null;
   const W = 640, H = height, L = 48, R = 12, T = 12, B = 28;
   const vals = points.map((p) => p.value);

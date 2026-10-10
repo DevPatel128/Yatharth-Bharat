@@ -4,7 +4,7 @@ export const en = {
   tagline: 'India, as the official record shows it.',
   skipToContent: 'Skip to content',
   skipMap: 'Skip the map',
-  nav: { map: 'Map', scorecard: 'Scorecard', reps: 'Representatives', gov: 'Government', who: 'Who fixes this?', sources: 'Sources & method', language: 'हिंदी' },
+  nav: { map: 'Map', scorecard: 'Scorecard', reps: 'Representatives', gov: 'Government', who: 'Who fixes this?', world: 'India and the World', sources: 'Sources & method', language: 'हिंदी' },
   langSwitchLabel: 'पढ़ें हिंदी में',
   home: {
     lede: 'Official statistics on India and its 28 states and 8 Union Territories. Every figure links to the government or international source it came from. Every figure passes automated checks before it appears here.',
@@ -110,6 +110,18 @@ export const en = {
     raise: 'Where to raise it',
     basis: 'Constitutional basis',
     learnMore: 'How this office works',
+  },
+  world: {
+    title: 'India and the World',
+    lede: 'India’s trade in goods with the rest of the world, from Reserve Bank of India statistics. Figures are for financial years (April to March).',
+    tradeHeading: 'Merchandise trade',
+    exports: 'Exports', imports: 'Imports', balance: 'Trade balance (exports minus imports)', year: 'Year', partner: 'Partner', group: 'Group',
+    unitBn: 'US$ billion (converted from US$ million as published)',
+    partnersHeading: (y: string) => `Main trading partners, ${y}`,
+    partnersNote: 'Only the countries RBI lists individually in this table are shown; smaller partners are counted in regional totals.',
+    limits: 'Goods only: trade in services (IT, travel, finance) is not included. A trade deficit is not in itself good or bad; it reflects what a country buys and sells, including energy imports.',
+    check: (y: string, e: string, i: string) => `Check: RBI’s separate monthly oil and non-oil trade table adds up to US$ ${e} billion of exports and US$ ${i} billion of imports for ${y}, within 1% of the annual totals.`,
+    notYet: 'Coming from official sources: foreign investment, energy imports, services trade, international agreements.',
   },
   freshness: {
     verified: 'Verified',

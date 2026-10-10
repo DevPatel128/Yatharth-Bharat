@@ -16,6 +16,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
           <Link href={`/${lang}/scorecard`} className="no-underline hover:underline">{d.nav.scorecard}</Link>
           <Link href={`/${lang}/government`} className="no-underline hover:underline">{d.nav.gov}</Link>
           <Link href={`/${lang}/who-fixes-this`} className="no-underline hover:underline">{d.nav.who}</Link>
+          <Link href={`/${lang}/world`} className="no-underline hover:underline">{d.nav.world}</Link>
           <Link href={`/${lang}/representatives`} className="no-underline hover:underline">{d.nav.reps}</Link>
           <Link href={`/${lang}/sources`} className="no-underline hover:underline">{d.nav.sources}</Link>
           <LangSwitch lang={lang} label={d.nav.language} aria={d.langSwitchLabel} />

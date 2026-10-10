@@ -35,7 +35,9 @@ jobs:
           set +e
           npm run data:run; a=$?
           node pipeline/people.ts; b=$?
-          echo "code=$(( a > b ? a : b ))" >> "$GITHUB_OUTPUT"
+          node pipeline/trade.ts; c=$?
+          m=$(( a > b ? a : b )); m=$(( m > c ? m : c ))
+          echo "code=$m" >> "$GITHUB_OUTPUT"
       - name: open or update the data PR
         env:
           GH_TOKEN: ${{ steps.app.outputs.token || github.token }}

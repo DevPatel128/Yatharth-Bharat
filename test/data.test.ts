@@ -77,3 +77,15 @@ describe('Lok Sabha members', async () => {
     for (const m of LOK_SABHA.members) for (const f of [m.name, m.party, m.constituency]) if (f.hi) expect(g8Hindi(f.en, f.hi).status, `${m.id} ${f.en}`).toBe('pass');
   });
 });
+
+describe('trade', async () => {
+  const { TRADE } = await import('../src/lib/data.ts');
+  it('latest totals agree with the independent monthly table within tolerance', () => {
+    const t = TRADE.totals.find((x) => x.year === TRADE.crossCheck.year)!;
+    expect(Math.abs(t.exports - TRADE.crossCheck.monthlySumExports) / t.exports * 100).toBeLessThanOrEqual(TRADE.crossCheck.tolerancePct);
+    expect(Math.abs(t.imports - TRADE.crossCheck.monthlySumImports) / t.imports * 100).toBeLessThanOrEqual(TRADE.crossCheck.tolerancePct);
+  });
+  it('every partner value is quoted from its record', () => {
+    for (const p of TRADE.partners) for (const e of p.evidence) expect(e.quote, p.country).toContain(JSON.stringify(p.country));
+  });
+});
