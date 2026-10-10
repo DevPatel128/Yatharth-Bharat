@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { dict, type Lang } from '@/lib/i18n';
 import { LangSwitch } from './LangSwitch';
+import { SelectionLink } from './SelectionLink';
 
 export function SiteHeader({ lang }: { lang: Lang }) {
   const d = dict(lang);
@@ -19,6 +20,7 @@ export function SiteHeader({ lang }: { lang: Lang }) {
           <Link href={`/${lang}/world`} className="no-underline hover:underline">{d.nav.world}</Link>
           <Link href={`/${lang}/representatives`} className="no-underline hover:underline">{d.nav.reps}</Link>
           <Link href={`/${lang}/sources`} className="no-underline hover:underline">{d.nav.sources}</Link>
+          <SelectionLink lang={lang} label={d.sel.nav} />
           <LangSwitch lang={lang} label={d.nav.language} aria={d.langSwitchLabel} />
         </nav>
       </div>

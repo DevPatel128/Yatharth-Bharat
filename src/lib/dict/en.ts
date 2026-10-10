@@ -123,6 +123,14 @@ export const en = {
     check: (y: string, e: string, i: string) => `Check: RBI’s separate monthly oil and non-oil trade table adds up to US$ ${e} billion of exports and US$ ${i} billion of imports for ${y}, within 1% of the annual totals.`,
     notYet: 'Coming from official sources: foreign investment, energy imports, services trade, international agreements.',
   },
+  sel: {
+    add: 'Add to selection', added: 'In selection (remove)', nav: 'Selection',
+    title: 'Your selection',
+    lede: 'Items you collected for research. They are stored only in this browser. Export them with their sources and citations.',
+    empty: 'Nothing selected yet. Use “Add to selection” on indicators, region figures, explainers and other pages.',
+    copyText: 'Copy as text', copyMd: 'Copy as Markdown', csv: 'Download CSV (tables)', pdf: 'Print or save as PDF', clear: 'Clear selection', remove: 'Remove',
+    copied: 'Copied to clipboard.', citations: 'Citations', sources: 'Sources', page: 'Page on this site',
+  },
   freshness: {
     verified: 'Verified',
     stale: 'Stale: the source could not be re-checked',

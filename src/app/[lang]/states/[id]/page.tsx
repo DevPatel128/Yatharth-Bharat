@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { dict, fmtNumber, fmtPeriod, isLang, LANGS, pick } from '@/lib/i18n';
 import { DISPLAY_DECIMALS, LOK_SABHA, REGIONS, getRegion, mpsFor, regionalFor } from '@/lib/data';
 import { MemberTable } from '@/components/MemberTable';
+import { SelectButton } from '@/components/SelectButton';
+import { indicatorItem } from '@/lib/sel-items';
 import { LineChart } from '@/components/LineChart';
 import { buildMap, MAP_H, MAP_W } from '@/lib/geo';
 import { Bi, anyFallback } from '@/components/Bi';
@@ -73,6 +75,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
               )}
               {national && <p className="text-sm text-ink-muted">{d.region.allIndiaSameMonth}: <span className="num">{fmtNumber(national.value, lang, dec)}</span></p>}
               {s.state !== 'verified' && <p className="text-sm text-sindoor">{d.freshness.stale}</p>}
+              <div className="mt-2"><SelectButton item={indicatorItem(indicator, s.observations, lang, dec, r.name.en)} labels={{ add: d.sel.add, added: d.sel.added }} /></div>
               <LineChart points={s.observations} lang={lang} decimals={dec} height={140} unit={`${pick(indicator.unit, lang).text}`}
                 label={d.scorecard.chartAlt(`${name}, ${pick(r.name, lang).text}`, fmtPeriod(s.observations[0]?.period ?? '', lang), fmtPeriod(last?.period ?? '', lang))} />
             </article>

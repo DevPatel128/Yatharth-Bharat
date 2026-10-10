@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 
-const PAGES = ['/en', '/hi', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
+const PAGES = ['/en', '/hi', '/en/selection', '/en/representatives', '/hi/representatives', '/en/government', '/hi/government/parliament', '/en/who-fixes-this', '/hi/who-fixes-this', '/en/world', '/hi/world', '/en/scorecard', '/hi/scorecard/cpi-inflation', '/en/states/kerala', '/hi/states/ladakh', '/en/sources', '/hi/privacy'];
 
 test('root redirects by browser language', async ({ browser }) => {
   const hi = await browser.newContext({ locale: 'hi-IN', extraHTTPHeaders: { 'accept-language': 'hi-IN,hi;q=0.9' } });
@@ -89,4 +89,15 @@ test('region page lists its MPs and state inflation', async ({ page }) => {
   await page.goto('/en/states/kerala');
   await expect(page.getByRole('heading', { name: /Members of Parliament \(Lok Sabha\) from this region \(20\)/ })).toBeVisible();
   await expect(page.getByText('All India, same period')).toHaveCount(2); // CPI inflation and higher-education GER
+});
+
+test('select and export: add an indicator, see it in the selection with sources and citations', async ({ page }) => {
+  await page.goto('/en/scorecard/cpi-inflation');
+  await page.getByRole('button', { name: /Add to selection/ }).click();
+  await expect(page.getByRole('link', { name: /Selection \(1\)/ })).toBeVisible();
+  await page.goto('/en/selection');
+  await expect(page.getByRole('heading', { name: /Retail inflation/ })).toBeVisible();
+  await expect(page.getByText('api.mospi.gov.in', { exact: false }).first()).toBeVisible();
+  await page.getByText('Citations', { exact: true }).click();
+  await expect(page.getByText(/@misc\{/)).toBeVisible();
 });

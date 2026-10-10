@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { dict, isLang, pick } from '@/lib/i18n';
 import { RESPONSIBILITIES } from '@/content/who-fixes';
 import { Cite } from '@/components/Cite';
+import { SelectButton } from '@/components/SelectButton';
+import { responsibilityItem } from '@/lib/sel-items';
 import { Disclaimer } from '@/components/Disclaimer';
 
 export async function generateMetadata({ params }: PageProps<'/[lang]/who-fixes-this'>): Promise<Metadata> {
@@ -25,7 +27,10 @@ export default async function WhoFixes({ params }: PageProps<'/[lang]/who-fixes-
       <div className="mt-8 space-y-6">
         {RESPONSIBILITIES.map((r) => (
           <section key={r.id} id={r.id} aria-labelledby={`h-${r.id}`} className="border-t border-rule pt-5 scroll-mt-4">
-            <h2 id={`h-${r.id}`} className="text-2xl font-semibold">{pick(r.issue, lang).text}</h2>
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 id={`h-${r.id}`} className="text-2xl font-semibold">{pick(r.issue, lang).text}</h2>
+              <SelectButton item={responsibilityItem(r, lang)} labels={{ add: d.sel.add, added: d.sel.added }} />
+            </div>
             <ul className="mt-3 space-y-4">
               {r.levels.map((l) => (
                 <li key={l.where + l.cite.ref}>

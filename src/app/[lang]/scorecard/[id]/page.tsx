@@ -6,6 +6,8 @@ import { DISPLAY_DECIMALS, INDICATORS, getIndicator } from '@/lib/data';
 import { getSource } from '@/lib/sources';
 import { Bi } from '@/components/Bi';
 import { Freshness } from '@/components/Freshness';
+import { SelectButton } from '@/components/SelectButton';
+import { indicatorItem } from '@/lib/sel-items';
 import { LineChart } from '@/components/LineChart';
 import { Disclaimer } from '@/components/Disclaimer';
 import { ReferenceList } from '@/components/ReferenceList';
@@ -40,6 +42,7 @@ export default async function IndicatorPage({ params }: PageProps<'/[lang]/score
       <p className="mt-4 text-sm uppercase tracking-wide text-ink-muted">{d.scorecard.categories[ind.category]}</p>
       <h1 className="text-4xl font-semibold mt-1"><Bi value={ind.name} lang={lang} /></h1>
       <Freshness indicator={ind} lang={lang} />
+      <div className="mt-2"><SelectButton item={indicatorItem(ind, obs, lang, dec, 'All India')} labels={{ add: d.sel.add, added: d.sel.added }} /></div>
       {src.category === 'international-organisation' && <p className="mt-2 text-sm text-haldi font-medium">{d.scorecard.internationalSource}</p>}
 
       {last && (

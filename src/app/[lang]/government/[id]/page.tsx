@@ -5,6 +5,8 @@ import { dict, isLang, LANGS, pick } from '@/lib/i18n';
 import { EXPLAINERS } from '@/content/explainers';
 import { QUESTIONS } from '@/lib/schema';
 import { Cite } from '@/components/Cite';
+import { SelectButton } from '@/components/SelectButton';
+import { explainerItem } from '@/lib/sel-items';
 import { Disclaimer } from '@/components/Disclaimer';
 
 export const dynamicParams = false;
@@ -30,6 +32,7 @@ export default async function ExplainerPage({ params }: PageProps<'/[lang]/gover
       <h1 className="text-4xl font-semibold mt-1">{pick(e.title, lang).text}</h1>
       <p className="mt-3 text-lg">{pick(e.summary, lang).text}</p>
       {lang === 'hi' && <p className="mt-3 text-sm text-ink-muted">{d.gov.hindiNote}</p>}
+      <div className="mt-3"><SelectButton item={explainerItem(e, lang)} labels={{ add: d.sel.add, added: d.sel.added }} /></div>
       <dl className="mt-8 space-y-7">
         {QUESTIONS.map((q) => (
           <div key={q}>

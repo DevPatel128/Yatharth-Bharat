@@ -23,7 +23,7 @@
 - India and the World — **Now**: merchandise trade (16 years, 38 partners, cross-checked); FDI, energy, services, agreements Next
 - 1e Public money — **Blocked on owner downloads** (Budget at a Glance files; site blocks bots)
 - 1e Public money (rest) · 1f AI search · 2 Students · 3 Young professionals · 4 Researchers — **Next/Later**
-- Select & Export (PDF/snippet with citations) — **Later** (data model already has stable ids and evidence for it)
+- Select & Export — **Done**: add indicators, state figures, explainers and Who-fixes items; copy as text/Markdown, CSV (formula-escaped), print/PDF, APA/MLA/Chicago/BibTeX; browser-only storage
 
 ## Features (acceptance criteria get IDs; PRs deliver IDs)
 ### F1 Foundation — Done

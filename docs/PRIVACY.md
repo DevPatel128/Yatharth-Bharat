@@ -1,6 +1,6 @@
 # Privacy
 
-- No accounts, no forms, no cookies set by the site today. Search runs in the browser.
+- No accounts, no forms, no cookies set by the site today. Search runs in the browser. The research selection is kept in your browser's local storage only and is never sent to us.
 - Analytics: Cloudflare Web Analytics only (cookieless, no personal data, page-level), when its beacon token is set (D-010). No PostHog, no Sentry, no other third-party scripts.
 - Errors: Cloudflare Workers observability logs for the Worker only; no browser error reporting.
 - Retention: as set by Cloudflare Web Analytics and Workers logs (Cloudflare defaults).
