@@ -1,6 +1,7 @@
 // G1 transport: fetch only from allowlisted HTTPS hosts, follow redirects only inside the allowlist,
 // cap size and time, and hash the exact bytes received. Certificates are always verified.
 import { request } from 'node:https';
+import { rootCertificates } from 'node:tls';
 import { createHash } from 'node:crypto';
 import { constants } from 'node:crypto';
 import { appendFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
@@ -30,6 +31,13 @@ export type FetchOptions = {
   timeoutMs?: number;
   /** Some government servers still need legacy TLS renegotiation. This never disables certificate checks. */
   legacyTlsRenegotiation?: boolean;
+  /** Extra trusted root certificates (PEM), added to Node's built-in roots, never replacing them. */
+  extraCa?: string[];
+  /**
+   * Session cookies for sites whose public download links need one (e.g. a CSRF token tied to a session).
+   * Cookies the server sets are stored here and sent back on later requests to the same host.
+   */
+  cookieJar?: Map<string, string>;
 };
 
 const UA = 'YatharthBharatBot/0.1 (+public-interest data verification; respects robots and rate limits)';
@@ -39,16 +47,21 @@ export function assertAllowed(url: URL, allowedHosts: string[]) {
   if (!allowedHosts.includes(url.hostname)) throw new FetchError('host-not-allowed', `host ${url.hostname} is not on the source allowlist`);
 }
 
-function once(url: URL, o: Required<Omit<FetchOptions, 'allowedHosts'>>): Promise<{ status: number; headers: Record<string, string | string[] | undefined>; body: Buffer }> {
+function once(url: URL, o: Required<Omit<FetchOptions, 'allowedHosts' | 'cookieJar'>> & { cookieJar?: Map<string, string> }): Promise<{ status: number; headers: Record<string, string | string[] | undefined>; body: Buffer }> {
   return new Promise((resolve, reject) => {
     const req = request(
       url,
       {
         method: 'GET',
-        headers: { 'user-agent': UA, accept: 'application/json, text/csv, text/xml, text/html;q=0.5' },
+        headers: {
+          'user-agent': UA,
+          accept: 'application/json, application/geo+json, text/csv, text/xml, text/html;q=0.5',
+          ...(o.cookieJar?.size ? { cookie: [...o.cookieJar].map(([k, v]) => `${k}=${v}`).join('; ') } : {}),
+        },
         timeout: o.timeoutMs,
         rejectUnauthorized: true,
         secureOptions: o.legacyTlsRenegotiation ? constants.SSL_OP_LEGACY_SERVER_CONNECT : undefined,
+        ca: o.extraCa.length ? [...rootCertificates, ...o.extraCa] : undefined,
       },
       (res) => {
         const chunks: Buffer[] = [];
@@ -72,11 +85,19 @@ function once(url: URL, o: Required<Omit<FetchOptions, 'allowedHosts'>>): Promis
 }
 
 export async function safeFetch(rawUrl: string, opts: FetchOptions): Promise<FetchResult> {
-  const o = { maxBytes: 20 * 1024 * 1024, timeoutMs: 45_000, legacyTlsRenegotiation: false, ...opts };
+  const o = { maxBytes: 20 * 1024 * 1024, timeoutMs: 45_000, legacyTlsRenegotiation: false, extraCa: [] as string[], ...opts };
   let url = new URL(rawUrl);
   for (let hop = 0; hop <= 3; hop++) {
     assertAllowed(url, o.allowedHosts);
     const res = await once(url, o);
+    if (o.cookieJar) {
+      const set = res.headers['set-cookie'];
+      for (const c of Array.isArray(set) ? set : set ? [set] : []) {
+        const [pair] = c.split(';');
+        const i = pair.indexOf('=');
+        if (i > 0) o.cookieJar.set(pair.slice(0, i).trim(), pair.slice(i + 1).trim());
+      }
+    }
     if (res.status >= 300 && res.status < 400 && res.headers.location) {
       url = new URL(String(res.headers.location), url);
       continue;

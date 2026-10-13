@@ -11,6 +11,10 @@ import { buildMap, MAP_H, MAP_W } from '@/lib/geo';
 import { Bi, anyFallback } from '@/components/Bi';
 import { Disclaimer, HindiPendingNote } from '@/components/Disclaimer';
 import { ReferenceList } from '@/components/ReferenceList';
+import { citiesOf, districtsOf, nicEvidence } from '@/lib/districts';
+import { stateMap } from '@/lib/geo-local';
+import { PlaceMap } from '@/components/PlaceMap';
+import { Search, type SearchItem } from '@/components/Search';
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -35,6 +39,15 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
   const s = shapes.find((x) => x.id === r.id);
   const [[x0, y0], [x1, y1]] = s?.bounds ?? [[0, 0], [MAP_W, MAP_H]];
   const padX = (x1 - x0) * 0.15 + 4, padY = (y1 - y0) * 0.15 + 4;
+  const districts = districtsOf(r.id);
+  const cities = citiesOf(r.id);
+  const p = d.places;
+  const placeNames = Object.fromEntries([...districts.map((x) => [x.id, x.name.en]), ...cities.map((c) => [c.id, c.name])]);
+  const places: SearchItem[] = [
+    ...districts.map((x) => ({ href: `/${lang}/states/${r.id}/${x.id}`, title: x.name.en, kind: p.district, terms: x.name.en.toLowerCase() })),
+    ...cities.map((c) => ({ href: `/${lang}/states/${r.id}/${c.district.id}/${c.id}`, title: c.name, kind: `${p.city} · ${c.district.name.en}`, terms: c.name.toLowerCase() })),
+    ...districts.flatMap((x) => x.blocks.map((b) => ({ href: `/${lang}/states/${r.id}/${x.id}#blocks-h`, title: b.name, kind: `${p.legendBlock} · ${x.name.en}`, terms: b.name.toLowerCase() }))),
+  ];
 
   return (
     <article className="pt-8">
@@ -55,6 +68,46 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
           {s && <path d={s.d} fill="var(--sindoor)" stroke="var(--ink)" strokeWidth="1" vectorEffect="non-scaling-stroke" />}
         </svg>
       </header>
+
+      {districts.length > 0 && (
+        <section className="mt-10" aria-labelledby="places-h">
+          <h2 id="places-h" className="text-2xl font-semibold">{p.heading}</h2>
+          <p className="mt-1 text-ink-muted max-w-3xl">{p.lede(districts.length, cities.length)}</p>
+          <div className="mt-4 max-w-xl">
+            <Search items={places} label={d.home.findLabel} placeholder={d.home.findPlaceholder} noResults={d.home.noResults} />
+          </div>
+          <div className="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] items-start">
+            <PlaceMap
+              map={stateMap(r.id)} names={placeNames} label={p.mapLabel(pick(r.name, lang).text)} showLabels={districts.length <= 40}
+              districtHref={(x) => `/${lang}/states/${r.id}/${x}`}
+              cityHref={(c) => `/${lang}/states/${r.id}/${cities.find((x) => x.id === c)?.district.id ?? ''}/${c}`}
+              legend={{ district: p.legendDistrict, city: p.legendCity, block: p.legendBlock }}
+            />
+            <div className="overflow-x-auto max-h-[78vh] overflow-y-auto" tabIndex={0} role="region" aria-label={p.districtsHeading}>
+              <table className="w-full text-[0.95rem] border-collapse">
+                <thead className="sticky top-0 bg-paper">
+                  <tr className="border-b border-ink text-left">
+                    <th scope="col" className="py-1.5 pr-3">{p.colDistrict}</th>
+                    <th scope="col" className="py-1.5 pl-2 text-right">{p.colBlocks}</th>
+                    <th scope="col" className="py-1.5 pl-2 text-right">{p.colCities}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {districts.map((x) => (
+                    <tr key={x.id} className="border-b border-rule">
+                      <th scope="row" className="py-1.5 pr-3 text-left font-normal"><a href={`/${lang}/states/${r.id}/${x.id}`} lang="en">{x.name.en}</a></th>
+                      <td className="py-1.5 pl-2 text-right num">{x.blocks.length}</td>
+                      <td className="py-1.5 pl-2 text-right num">{x.cities.length}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <p className="mt-3 text-sm text-ink-muted max-w-3xl">{p.sourceNote}</p>
+          {lang === 'hi' && <p className="mt-1 text-sm text-ink-muted">{p.englishNames}</p>}
+        </section>
+      )}
 
       <section className="mt-10" aria-labelledby="data-h">
         <h2 id="data-h" className="text-xl font-semibold">{d.region.dataHeading}</h2>
@@ -93,7 +146,7 @@ export default async function RegionPage({ params }: PageProps<'/[lang]/states/[
         <p className="mt-2 text-sm"><Link href={`/${lang}/representatives`}>{d.nav.reps}</Link></p>
       </section>
 
-      <ReferenceList evidence={[...r.evidence, ...(mps[0]?.evidence.slice(0, 1) ?? []), ...series.flatMap(({ series: s }) => s.observations.at(-1)?.evidence ?? [])]} lang={lang} />
+      <ReferenceList evidence={[...r.evidence, ...(districts.length ? [nicEvidence('districts')] : []), ...(mps[0]?.evidence.slice(0, 1) ?? []), ...series.flatMap(({ series: s }) => s.observations.at(-1)?.evidence ?? [])]} lang={lang} />
       <Disclaimer lang={lang} />
     </article>
   );

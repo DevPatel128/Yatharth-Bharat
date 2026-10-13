@@ -5,7 +5,7 @@
 [![ci](https://github.com/DevPatel128/Yatharth-Bharat/actions/workflows/ci.yml/badge.svg)](https://github.com/DevPatel128/Yatharth-Bharat/actions/workflows/ci.yml)
 [![data-update](https://github.com/DevPatel128/Yatharth-Bharat/actions/workflows/data-update.yml/badge.svg)](https://github.com/DevPatel128/Yatharth-Bharat/actions/workflows/data-update.yml)
 
-Live preview: **https://yatharth-bharat.dvpatel.workers.dev**
+**Status: offline.** Removed from Cloudflare on 2026-10-13 to reduce load; runs on localhost for demos. See [docs/CLOUDFLARE_DECOMMISSION.md](docs/CLOUDFLARE_DECOMMISSION.md) for what happened, why, and how to restore.
 
 Yatharth Bharat is a free, bilingual (English and Hindi) public-information site about India and its 28 states and 8 Union Territories. It publishes only what official sources publish. Every figure links to the government or international source it came from, keeps the exact words or numbers from that source as evidence, and passes an automated verification gate before it appears.
 

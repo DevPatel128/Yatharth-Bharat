@@ -4,6 +4,7 @@ import { dict, isLang, pick } from '@/lib/i18n';
 import { HEADLINE, INDICATORS, REGIONS, getIndicator } from '@/lib/data';
 import { MAP_H, MAP_W } from '@/lib/geo';
 import { IndiaMap, type MapRegion } from '@/components/IndiaMap';
+import { citiesOf, districtsOf } from '@/lib/districts';
 import { Search, type SearchItem } from '@/components/Search';
 import { IndicatorCard } from '@/components/IndicatorCard';
 import { Disclaimer, HindiPendingNote } from '@/components/Disclaimer';
@@ -15,7 +16,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   const d = dict(lang);
   const regions: Record<string, MapRegion> = Object.fromEntries(REGIONS.map((r) => {
     const n = pick(r.name, lang), c = r.capital ? pick(r.capital, lang) : null;
-    return [r.id, { id: r.id, name: n.text, nameLang: n.fallback ? 'en' : lang, kindLabel: r.kind === 'state' ? d.region.state : d.region.ut, capital: c?.text ?? null, capitalLang: c?.fallback ? 'en' : lang }];
+    return [r.id, { id: r.id, name: n.text, nameLang: n.fallback ? 'en' : lang, kindLabel: r.kind === 'state' ? d.region.state : d.region.ut, capital: c?.text ?? null, capitalLang: c?.fallback ? 'en' : lang, places: d.home.placesCount(districtsOf(r.id).length, citiesOf(r.id).length) }];
   }));
   const searchItems: SearchItem[] = [
     ...REGIONS.map((r) => ({ href: `/${lang}/states/${r.id}`, title: pick(r.name, lang).text, kind: r.kind === 'state' ? d.region.state : d.region.ut, terms: `${r.name.en} ${r.name.hi ?? ''}`.toLowerCase() })),

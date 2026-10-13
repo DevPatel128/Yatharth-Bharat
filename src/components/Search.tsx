@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 import { useId, useMemo, useState } from 'react';
 
 export type SearchItem = { href: string; title: string; kind: string; terms: string };
@@ -33,10 +32,11 @@ export function Search({ items, label, placeholder, noResults }: { items: Search
             <ul className="mt-2 border border-rule rounded-[var(--radius-control)] bg-paper-raised divide-y divide-rule">
               {results.map((r) => (
                 <li key={r.href}>
-                  <Link href={r.href} className="flex justify-between gap-4 px-3 py-2 no-underline hover:bg-paper">
+                  {/* Plain links: district and city pages are static HTML without client-navigation data. */}
+                  <a href={r.href} className="flex justify-between gap-4 px-3 py-2 no-underline hover:bg-paper">
                     <span>{r.title}</span>
                     <span className="text-sm text-ink-muted">{r.kind}</span>
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-export type MapRegion = { id: string; name: string; nameLang: 'en' | 'hi'; kindLabel: string; capital: string | null; capitalLang: 'en' | 'hi' };
+export type MapRegion = { id: string; name: string; nameLang: 'en' | 'hi'; kindLabel: string; capital: string | null; capitalLang: 'en' | 'hi'; places: string };
 type Shape = { id: string; d: string; bounds: [[number, number], [number, number]] };
 type Labels = { hint: string; capital: string; viewDetails: string; close: string; back: string; skipMap: string };
 
@@ -89,6 +89,7 @@ export function IndiaMap({ regions, width, height, lang, labels }: { regions: Re
             <p className="text-xs uppercase tracking-wide text-ink-muted">{r.kindLabel}</p>
             <h3 className="text-2xl font-semibold mt-1" lang={r.nameLang}>{r.name}</h3>
             {r.capital && <p className="mt-2"><span className="text-ink-muted">{labels.capital}: </span><span lang={r.capitalLang}>{r.capital}</span></p>}
+            {r.places && <p className="mt-1 text-sm text-ink-muted">{r.places}</p>}
             <div className="mt-3 flex gap-4 text-sm">
               <Link href={`/${lang}/states/${r.id}`} className="font-medium">{labels.viewDetails}</Link>
               <button type="button" onClick={() => select(null)} className="underline text-ink-muted">{labels.back}</button>

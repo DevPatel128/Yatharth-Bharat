@@ -229,3 +229,52 @@ export const Agreement = z.object({
 });
 export const AgreementsFile = z.object({ schemaVersion: z.literal(1), lastVerifiedAt: isoDateTime, listUrl: httpsUrl, agreements: z.array(Agreement).min(1) });
 export type AgreementsFile = z.infer<typeof AgreementsFile>;
+
+/** Districts with the blocks and cities inside them (NIC Bharat Maps; LGD-coded). Geometry lives in data/geo/. */
+export const District = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  lgd: z.number().int().positive().nullable(),
+  name: Bilingual,
+  regionId: z.string().regex(/^[a-z0-9-]+$/),
+  areaKm2: z.number().nonnegative(),
+  centre: z.tuple([z.number(), z.number()]),
+  blocks: z.array(z.object({ id: z.string().regex(/^[a-z0-9-]+$/), name: z.string(), lgd: z.number().int().positive().nullable() })),
+  cities: z.array(z.object({ id: z.string().regex(/^[a-z0-9-]+$/), name: z.string().min(1), kind: z.string().nullable(), main: z.string().regex(/^[a-z0-9-]+$/), alsoIn: z.array(z.string().regex(/^[a-z0-9-]+$/)), wards: z.number().int().nonnegative(), areaKm2: z.number().nonnegative() })),
+});
+export type District = z.infer<typeof District>;
+export const DistrictsFile = z.object({
+  schemaVersion: z.literal(1),
+  lastVerifiedAt: isoDateTime,
+  sources: z.object({ districts: httpsUrl, blocks: httpsUrl, cities: httpsUrl, wards: httpsUrl }),
+  snapshotSha256: z.string().regex(/^[a-f0-9]{64}$/),
+  districts: z.array(District).min(1),
+});
+export type DistrictsFile = z.infer<typeof DistrictsFile>;
+
+/** Members elected at each legislative assembly's latest general election (ECI statistical reports). */
+export const AssemblyMember = z.object({
+  ac: z.number().int().positive(),
+  constituency: z.string().min(1),
+  name: z.string().min(1),
+  party: z.string().min(1),
+  partyName: z.string().nullable(),
+  votes: z.number().int().nonnegative().nullable(),
+  margin: z.number().int().nonnegative().nullable(),
+  districts: z.array(z.string().regex(/^[a-z0-9-]+$/)),
+  quote: z.string().min(1),
+});
+export const AssembliesFile = z.object({
+  schemaVersion: z.literal(1),
+  lastVerifiedAt: isoDateTime,
+  legislatures: z.array(z.object({
+    regionId: z.string().regex(/^[a-z0-9-]+$/),
+    election: z.object({ title: z.string().min(1), year: z.number().int() }),
+    reportUrl: httpsUrl,
+    seats: z.number().int().positive(),
+    districtsMapped: z.boolean(),
+    members: z.array(AssemblyMember).min(1),
+    evidence: z.array(Evidence).min(2),
+  })),
+  unavailable: z.record(z.string(), z.string()),
+});
+export type AssembliesFile = z.infer<typeof AssembliesFile>;
